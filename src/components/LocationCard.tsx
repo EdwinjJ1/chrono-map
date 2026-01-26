@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, MapPin, Clock, Film, ExternalLink, ChevronRight } from "lucide-react";
+import { X, MapPin, Clock, Film, ExternalLink, ChevronRight, History, Camera } from "lucide-react";
 import { Location, locationTypes } from "@/data/locations";
 
 interface LocationCardProps {
@@ -11,9 +13,13 @@ interface LocationCardProps {
 }
 
 export default function LocationCard({ location, onClose, isOpen }: LocationCardProps) {
+  const [showHistorical, setShowHistorical] = useState(false);
+
   if (!location) return null;
 
   const typeInfo = locationTypes[location.type];
+  const hasImage = location.modernImage || location.historicalImage;
+  const hasBothImages = location.modernImage && location.historicalImage;
 
   return (
     <AnimatePresence>
@@ -39,11 +45,68 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
             <div className="h-full glass flex flex-col shadow-2xl lg:rounded-2xl">
               {/* Header Image/Gradient */}
               <div
-                className="relative h-48 sm:h-56 flex-shrink-0"
+                className="relative h-48 sm:h-56 flex-shrink-0 overflow-hidden"
                 style={{
-                  background: `linear-gradient(135deg, ${typeInfo.color}dd, ${typeInfo.color}99)`,
+                  background: !hasImage ? `linear-gradient(135deg, ${typeInfo.color}dd, ${typeInfo.color}99)` : undefined,
                 }}
               >
+                {/* Image Display */}
+                {hasImage && (
+                  <div className="absolute inset-0">
+                    <AnimatePresence mode="wait">
+                      <motion.div
+                        key={showHistorical ? "historical" : "modern"}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute inset-0"
+                      >
+                        <Image
+                          src={showHistorical && location.historicalImage ? location.historicalImage : (location.modernImage || location.historicalImage || "")}
+                          alt={`${showHistorical ? "Historical" : "Modern"} ${location.name}`}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 400px"
+                        />
+                        {/* Overlay gradient for text readability */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                      </motion.div>
+                    </AnimatePresence>
+
+                    {/* Historical/Modern Toggle */}
+                    {hasBothImages && (
+                      <div className="absolute top-14 left-4 z-10">
+                        <button
+                          onClick={() => setShowHistorical(!showHistorical)}
+                          className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-sm text-white text-sm font-medium hover:bg-black/60 transition-colors cursor-pointer"
+                        >
+                          {showHistorical ? (
+                            <>
+                              <Camera className="w-4 h-4" />
+                              <span>View Modern</span>
+                            </>
+                          ) : (
+                            <>
+                              <History className="w-4 h-4" />
+                              <span>View Historical</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Image label */}
+                    {hasBothImages && (
+                      <div className="absolute top-14 right-4 z-10">
+                        <span className="px-2 py-1 rounded bg-black/40 backdrop-blur-sm text-white text-xs">
+                          {showHistorical ? "Historical" : "Present Day"}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                )}
+
                 {/* Close Button */}
                 <button
                   onClick={onClose}
