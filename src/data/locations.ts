@@ -173,6 +173,7 @@ export const locations: Location[] = [
     description: "A convict architect designed a prison to cage his own kind.",
     fullDescription: "Francis Greenway was a convicted forger transported to Australia, but Governor Macquarie gave him a second chance—designing this barracks to house his fellow convicts from 1819-1848. Nearly 1,000 men lived here in overcrowded wards, sleeping in hammocks so tight you could reach out and touch your neighbor, their days beginning at 5 AM with a tolling bell. Convicts escaped anyway—one caught in the Hunter Valley was hanged with his entire gang—proving that even Greenway's 'delicate balance of freedom and restraint' couldn't contain desperate men.",
     modernImage: "/images/locations/hyde-park-barracks.jpg",
+    historicalImage: "/images/locations/historical/hyde-park-barracks-historical.jpg",
     facts: [
       "Designed by convict architect Francis Greenway",
       "Housed over 50,000 British convicts between 1819-1848",
@@ -196,6 +197,7 @@ export const locations: Location[] = [
     description: "Fire destroyed the mother church; sixty years later, she rose again.",
     fullDescription: "On the night of June 29, 1865, fire consumed the original St Mary's Cathedral—the building slowly constructed between 1821-1835 on land granted by Governor Macquarie. The bells survived the flames intact, but everything else was lost, requiring a complete rebuild that began in 1866 and wasn't truly finished until the 1920s. Architect William Wardell's Gothic Revival vision required over sixty years to complete—a sandstone phoenix that took two generations to build, rising from ashes to dominate Sydney's skyline with 75-meter spires.",
     modernImage: "/images/locations/st-marys-cathedral.jpg",
+    historicalImage: "/images/locations/historical/st-marys-cathedral-historical.jpg",
     facts: [
       "Australia's oldest Catholic church (foundation laid 1821)",
       "Built from local sandstone in Gothic Revival style",
@@ -219,6 +221,7 @@ export const locations: Location[] = [
     description: "Where a rotting corpse became Sydney's first tourist attraction.",
     fullDescription: "The island was nicknamed 'Pinchgut' by convicts because they were marooned here with nothing but bread and water—hunger was the point. In 1796, Irish convict Francis Morgan murdered a man in Sydney and paid the ultimate price: he was hanged on Pinchgut and gibbeted, his rotting corpse displayed in a cage as a warning to others. Morgan's body became Sydney's first tourist attraction, with curious visitors rowing out to stare at the grim spectacle that haunted the harbour for months. Today, the 1 PM cannon still fires daily—a much friendlier reminder of the island's dark past.",
     modernImage: "/images/locations/fort-denison.jpg",
+    historicalImage: "/images/locations/historical/fort-denison-historical.jpg",
     facts: [
       "Originally a rocky island called 'Pinchgut' by convicts",
       "Only Martello tower ever built in Australia",
@@ -242,6 +245,7 @@ export const locations: Location[] = [
     description: "Where smugglers and customs officers played an endless cat-and-mouse game.",
     fullDescription: "Since 1800, 'tide waiters' boarded ships to tally cargoes while 'landing waiters' patrolled the wharves—both trying to intercept smuggling and contraband. A notorious smuggling incident in Pittwater in 1824 became the 'final straw' that led to construction of this customs station in 1842. Every incoming ship had to correctly describe its cargo—or face the diligent Customs officials whose job was to outsmart smugglers who grew increasingly clever at hiding their illicit goods. Today, you can stand on the glass floor and see a 1:500 model of Sydney beneath your feet.",
     modernImage: "/images/locations/customs-house.jpg",
+    historicalImage: "/images/locations/historical/customs-house-historical.jpg",
     facts: [
       "Served as Customs Service headquarters for 145 years",
       "Features a 1:500 scale model of Sydney in the floor",
@@ -287,6 +291,7 @@ export const locations: Location[] = [
     description: "From horse thief to Sydney Harbour's boat superintendent.",
     fullDescription: "John Cadman was convicted of stealing a horse in 1797 and sentenced to transportation for life, arriving in Sydney aboard the Barwell in 1798. Yet he transformed himself completely, becoming the Superintendent of Government Boats at Sydney Harbour and living in this cottage from 1827-1845. Cadman's remarkable rise from convict to trusted official overseeing all government maritime traffic exemplifies the unexpected second chances Australia offered to those who could adapt and survive. He went from stolen horses to controlling the harbour.",
     modernImage: "/images/locations/cadmans-cottage.jpg",
+    historicalImage: "/images/locations/historical/cadmans-cottage-historical.jpg",
     facts: [
       "Sydney's oldest surviving residential building (1816)",
       "Named after John Cadman, a convict who became government coxswain",
@@ -310,6 +315,7 @@ export const locations: Location[] = [
     description: "A 25-year battle through solid rock—convicts lost, explosives won.",
     fullDescription: "Starting in 1843, convicts from Hyde Park Barracks were set to work hand-chipping a road through massive sandstone cliffs to connect The Rocks with Millers Point. The work proved so difficult that they abandoned it. Sydney City Council finally took over in 1859, blasting through the stubborn rock with explosives in what was called a 'mammoth undertaking' that wasn't fully completed until 1868. The cut stands as testament to the brutal reality of colonial engineering: when human strength failed against stone, they turned to gunpowder.",
     modernImage: "/images/locations/argyle-cut.jpg",
+    historicalImage: "/images/locations/historical/argyle-cut-historical.jpg",
     facts: [
       "Carved by hand by convicts using picks and chisels",
       "Construction took 25 years (1843-1868)",
@@ -449,6 +455,7 @@ export const locations: Location[] = [
     description: "A pipe organ with 8,700 pipes that fills the entire hall.",
     fullDescription: "Sydney Town Hall has been the city's civic headquarters since 1889, built in grand Victorian Second Empire style from local sandstone. But the real showstopper is inside: the Centennial Hall houses one of the world's largest pipe organs, with over 8,700 pipes. The instrument is so massive it fills the entire space. Free lunchtime concerts let anyone walk in and hear this musical monster in action—a beautiful sound in a beautiful room, and it won't cost you a cent.",
     modernImage: "/images/locations/town-hall.jpg",
+    historicalImage: "/images/locations/historical/town-hall-historical.jpg",
     facts: [
       "Built in Victorian Second Empire style from local sandstone",
       "Houses one of the world's largest pipe organs (8,700+ pipes)",
@@ -497,6 +504,7 @@ export const locations: Location[] = [
     description: "From industrial wasteland to entertainment paradise in one year.",
     fullDescription: "In 1988, Australia celebrated its bicentenary by transforming this derelict industrial waterfront into a glittering entertainment precinct. What was once a container port and railway yards became Darling Harbour—home to SEA LIFE Aquarium, WILD LIFE Sydney Zoo, and the Australian National Maritime Museum. Hollywood noticed too: Mighty Morphin Power Rangers filmed here. But remember looking at those stunning waterfront restaurants and think: fifty years ago, this was where trucks unloaded cargo, not where tourists sipped cocktails.",
     modernImage: "/images/locations/darling-harbour.jpg",
+    historicalImage: "/images/locations/historical/darling-harbour-historical.jpg",
     facts: [
       "Featured in Mighty Morphin Power Rangers (1995)",
       "Transformed from industrial wharves for 1988 Bicentenary",
@@ -521,6 +529,7 @@ export const locations: Location[] = [
     description: "A fascist on horseback hijacked the bridge opening with a sword.",
     fullDescription: "On March 19, 1932, as Premier Jack Lang prepared to officially open the bridge, Francis de Groot—a member of the ultra-right-wing New Guard—galloped forward on horseback and slashed the ceremonial ribbon with a cavalry sword before the Premier could cut it. De Groot was wearing full military uniform for his dramatic protest against the state government. Sixteen workers died during the bridge's construction, but de Groot's theatrical act stole the headlines. Today, you can climb the bridge for $174—or remember the day a man with a sword stole the show.",
     modernImage: "/images/locations/harbour-bridge.jpg",
+    historicalImage: "/images/locations/historical/harbour-bridge-historical.jpg",
     facts: [
       "World's largest steel arch bridge (503m span)",
       "Construction took 8 years, opening in 1932",
@@ -545,6 +554,7 @@ export const locations: Location[] = [
     description: "The world's oldest surf lifesavers battle deadly rips to save lives.",
     fullDescription: "Bondi's surf lifesaving club, founded in 1906, is the oldest in the world—created because the ocean here is beautiful but dangerous. Rip currents have claimed many lives over the decades, which is why the volunteer lifesavers in their iconic red and yellow caps are genuine heroes, not just TV stars. The Bondi Rescue show made them famous worldwide, but the real drama happens when someone gets caught in a rip and the siren sounds. The coastal walk to Coogee offers spectacular cliff views, but remember: this isn't just a pretty beach—it's wild nature that demands respect.",
     modernImage: "/images/locations/bondi-beach.jpg",
+    historicalImage: "/images/locations/historical/bondi-beach-historical.jpg",
     facts: [
       "World's oldest surf lifesaving club (1906)",
       "Featured in Bondi Rescue TV series (2006-2021)",
