@@ -9,7 +9,8 @@
     "features": "功能特色",
     "about": "关于我们",
     "startExploring": "开始探索",
-    "toggleMenu": "切换菜单"
+    "toggleMenu": "切换菜单",
+    "brandSubtitle": "悉尼层次"
   },
   "hero": {
     "badge": "探索悉尼的隐秘故事",
@@ -58,6 +59,7 @@
   },
   "footer": {
     "brandTagline": "穿越时空探索悉尼的隐秘故事。每个地方都有故事要讲述。",
+    "brandSubtitle": "悉尼层次",
     "explore": "探索",
     "about": "关于",
     "legal": "法律信息",
@@ -78,6 +80,11 @@
       "termsOfService": "服务条款",
       "cookiePolicy": "Cookie 政策"
     },
+    "social": {
+      "twitter": "推特",
+      "github": "GitHub",
+      "email": "电子邮箱"
+    },
     "allRightsReserved": "保留所有权利。",
     "madeWithPassion": "于澳大利亚悉尼，用心打造"
   },
@@ -91,11 +98,31 @@
     "historicLocations": "处历史地点",
     "yearsOfHistory": "年历史",
     "filmLocations": "个取景地",
+    "freeLabel": "免费",
     "toExplore": "免费探索"
+  },
+  "featuredLocations": {
+    "badge": "精选地点",
+    "title": "从这里开始你的旅程",
+    "viewAll": "查看全部地点",
+    "explore": "去探索"
   },
   "map": {
     "legend": "图例",
     "loadingMap": "加载地图中..."
+  },
+  "mapPage": {
+    "back": "返回",
+    "searchPlaceholder": "搜索地点...",
+    "filter": "筛选",
+    "mapView": "地图视图",
+    "listView": "列表视图",
+    "all": "全部",
+    "title": "探索地点",
+    "resultSingular": "个地点",
+    "resultPlural": "个地点",
+    "noLocationsTitle": "未找到地点",
+    "noLocationsDescription": "请尝试调整搜索或筛选条件"
   },
   "locationTypes": {
     "historical": "历史遗迹",
@@ -118,5 +145,17 @@
     "officialWebsite": "官方网站",
     "getDirections": "获取路线",
     "close": "关闭"
+  },
+  "languageSwitcher": {
+    "switchLanguage": "切换语言"
+  },
+  "timelineCompare": {
+    "title": "古今对比",
+    "dragToCompare": "拖动进行对比",
+    "modernView": "现代视角",
+    "historicalView": "历史视角",
+    "past": "过去",
+    "present": "现在",
+    "today": "今天"
   }
 }

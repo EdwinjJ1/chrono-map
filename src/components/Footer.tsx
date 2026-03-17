@@ -45,7 +45,7 @@ export default function Footer() {
                   Chrono-Map
                 </span>
                 <span className="text-[10px] text-white/50 uppercase tracking-widest -mt-1">
-                  {locale === 'zh' ? '悉尼层次' : 'Sydney Layers'}
+                  {t('brandSubtitle')}
                 </span>
               </div>
             </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer"
-                aria-label="Twitter"
+                aria-label={t('social.twitter')}
               >
                 <Twitter className="w-5 h-5" />
               </a>
@@ -67,14 +67,14 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer"
-                aria-label="GitHub"
+                aria-label={t('social.github')}
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:hello@chrono-map.com"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer"
-                aria-label="Email"
+                aria-label={t('social.email')}
               >
                 <Mail className="w-5 h-5" />
               </a>

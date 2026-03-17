@@ -1,50 +1,24 @@
 "use client";
 
+import { useMemo } from "react";
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-
-const locations = [
-  {
-    id: 1,
-    name: "The Rocks",
-    type: "Historical",
-    year: "1788",
-    description: "Sydney's oldest neighborhood, where the first European settlers landed.",
-    image: "/images/locations/the-rocks.jpg",
-    gradient: "from-primary/80 to-primary-dark/90",
-  },
-  {
-    id: 2,
-    name: "Martin Place",
-    type: "Film Location",
-    year: "1999",
-    description: "The iconic 'Woman in Red' scene from The Matrix was filmed here.",
-    image: "/images/locations/martin-place.jpg",
-    gradient: "from-accent/80 to-accent-dark/90",
-  },
-  {
-    id: 3,
-    name: "Queen Victoria Building",
-    type: "Heritage",
-    year: "1898",
-    description: "A Romanesque Revival masterpiece, once nearly demolished.",
-    image: "/images/locations/qvb.jpg",
-    gradient: "from-primary-light/80 to-primary/90",
-  },
-  {
-    id: 4,
-    name: "Sydney Opera House",
-    type: "Cultural",
-    year: "1973",
-    description: "Jørn Utzon's controversial masterpiece that became a world icon.",
-    image: "/images/locations/opera-house.jpg",
-    gradient: "from-accent-dark/80 to-primary-dark/90",
-  },
-];
+import { locations } from "@/data/locations";
+import { getLocalizedLocation } from "@/data/locations-zh";
 
 export default function FeaturedLocations() {
+  const locale = useLocale();
+  const t = useTranslations('featuredLocations');
+  const tTypes = useTranslations('locationTypes');
+  const featuredLocations = useMemo(() => {
+    return locations
+      .filter((location) => location.id >= 1 && location.id <= 4)
+      .map((location) => getLocalizedLocation(location, locale));
+  }, [locale]);
+
   return (
     <section className="py-24 bg-background relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,24 +32,24 @@ export default function FeaturedLocations() {
         >
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent-dark text-sm font-medium mb-4">
-              Featured Locations
+              {t('badge')}
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
-              Start Your Journey Here
+              {t('title')}
             </h2>
           </div>
           <Link
-            href="/map"
+            href={`/${locale}/map`}
             className="group inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors cursor-pointer"
           >
-            View all locations
+            {t('viewAll')}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </motion.div>
 
         {/* Location Cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {locations.map((location, index) => (
+          {featuredLocations.map((location, index) => (
             <motion.div
               key={location.id}
               initial={{ opacity: 0, y: 30 }}
@@ -83,18 +57,18 @@ export default function FeaturedLocations() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link href={`/location/${location.id}`} className="block group cursor-pointer">
+              <Link href={`/${locale}/map`} className="block group cursor-pointer">
                 <div className="relative h-80 rounded-2xl overflow-hidden">
                   {/* Background Image */}
                   <Image
-                    src={location.image}
+                    src={location.modernImage || location.historicalImage || ""}
                     alt={location.name}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   {/* Fallback Gradient */}
-                  <div className={`absolute inset-0 bg-gradient-to-br ${location.gradient} opacity-30`} />
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/80 to-primary-dark/90 opacity-30" />
 
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
@@ -104,7 +78,7 @@ export default function FeaturedLocations() {
                     {/* Type Badge */}
                     <div className="absolute top-4 left-4">
                       <span className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">
-                        {location.type}
+                        {tTypes(location.type)}
                       </span>
                     </div>
 
@@ -125,7 +99,7 @@ export default function FeaturedLocations() {
 
                     {/* Hover Arrow */}
                     <div className="mt-4 flex items-center gap-2 text-white/0 group-hover:text-white transition-all duration-300">
-                      <span className="text-sm font-medium">Explore</span>
+                      <span className="text-sm font-medium">{t('explore')}</span>
                       <ArrowRight className="w-4 h-4 -translate-x-2 group-hover:translate-x-0 transition-transform" />
                     </div>
                   </div>

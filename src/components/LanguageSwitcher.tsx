@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useRef, useEffect } from 'react';
@@ -9,6 +9,7 @@ import { locales, localeLabels, type Locale } from '@/i18n/config';
 
 export default function LanguageSwitcher() {
   const locale = useLocale() as Locale;
+  const t = useTranslations('languageSwitcher');
   const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 px-3 py-2 rounded-xl bg-background/50 hover:bg-background border border-border hover:border-primary transition-all cursor-pointer"
-        aria-label="Switch language"
+        aria-label={t('switchLanguage')}
       >
         <Globe className="w-4 h-4 text-muted" />
         <span className="text-sm font-medium text-foreground">

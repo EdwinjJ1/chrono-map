@@ -13,7 +13,7 @@ export default function CallToAction() {
     { value: "50+", label: t('historicLocations') },
     { value: "200+", label: t('yearsOfHistory') },
     { value: "15+", label: t('filmLocations') },
-    { value: locale === 'zh' ? '免费' : 'Free', label: t('toExplore') },
+    { value: t('freeLabel'), label: t('toExplore') },
   ];
 
   return (

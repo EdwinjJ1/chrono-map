@@ -50,7 +50,7 @@ export default function Header() {
                 Chrono-Map
               </span>
               <span className="text-[10px] text-muted uppercase tracking-widest -mt-1">
-                {locale === 'zh' ? '悉尼层次' : 'Sydney Layers'}
+                {t('brandSubtitle')}
               </span>
             </div>
           </Link>

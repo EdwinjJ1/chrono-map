@@ -9,7 +9,8 @@
     "features": "Features",
     "about": "About",
     "startExploring": "Start Exploring",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "brandSubtitle": "Sydney Layers"
   },
   "hero": {
     "badge": "Discover Sydney's Hidden Stories",
@@ -58,6 +59,7 @@
   },
   "footer": {
     "brandTagline": "Discover Sydney's hidden stories through time. Every location has a tale to tell.",
+    "brandSubtitle": "Sydney Layers",
     "explore": "Explore",
     "about": "About",
     "legal": "Legal",
@@ -78,6 +80,11 @@
       "termsOfService": "Terms of Service",
       "cookiePolicy": "Cookie Policy"
     },
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "email": "Email"
+    },
     "allRightsReserved": "All rights reserved.",
     "madeWithPassion": "Made with passion in Sydney, Australia"
   },
@@ -91,11 +98,31 @@
     "historicLocations": "Historic Locations",
     "yearsOfHistory": "Years of History",
     "filmLocations": "Film Locations",
+    "freeLabel": "Free",
     "toExplore": "To Explore"
+  },
+  "featuredLocations": {
+    "badge": "Featured Locations",
+    "title": "Start Your Journey Here",
+    "viewAll": "View all locations",
+    "explore": "Explore"
   },
   "map": {
     "legend": "Legend",
     "loadingMap": "Loading map..."
+  },
+  "mapPage": {
+    "back": "Back",
+    "searchPlaceholder": "Search locations...",
+    "filter": "Filter",
+    "mapView": "Map view",
+    "listView": "List view",
+    "all": "All",
+    "title": "Explore Locations",
+    "resultSingular": "location found",
+    "resultPlural": "locations found",
+    "noLocationsTitle": "No locations found",
+    "noLocationsDescription": "Try adjusting your search or filter criteria"
   },
   "locationTypes": {
     "historical": "Historical",
@@ -118,5 +145,17 @@
     "officialWebsite": "Official Website",
     "getDirections": "Get Directions",
     "close": "Close"
+  },
+  "languageSwitcher": {
+    "switchLanguage": "Switch language"
+  },
+  "timelineCompare": {
+    "title": "Then & Now",
+    "dragToCompare": "Drag to compare",
+    "modernView": "Modern View",
+    "historicalView": "Historical View",
+    "past": "Past",
+    "present": "Present",
+    "today": "Today"
   }
 }

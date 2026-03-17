@@ -44,7 +44,7 @@ describe('Hero', () => {
   it('should have link to map page', () => {
     const { container } = render(<Hero />);
 
-    const mapLink = container.querySelector('a[href="/map"]');
+    const mapLink = container.querySelector('a[href="/en/map"]');
     expect(mapLink).toBeInTheDocument();
   });
 

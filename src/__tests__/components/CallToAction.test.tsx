@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import CallToAction from '@/components/CallToAction';
-import Link from 'next/link';
 
 // Mock Next.js Link component
 jest.mock('next/link', () => ({
@@ -41,7 +40,7 @@ describe('CallToAction', () => {
   it('should have link to map page', () => {
     const { container } = render(<CallToAction />);
 
-    const mapLink = container.querySelector('a[href="/map"]');
+    const mapLink = container.querySelector('a[href="/en/map"]');
     expect(mapLink).toBeInTheDocument();
   });
 

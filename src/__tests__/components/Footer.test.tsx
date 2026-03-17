@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
 
 // Mock Next.js Link component
 jest.mock('next/link', () => ({
@@ -76,9 +75,9 @@ describe('Footer', () => {
   it('should have correct link hrefs', () => {
     const { container } = render(<Footer />);
 
-    expect(container.querySelector('a[href="/map"]')).toBeInTheDocument();
-    expect(container.querySelector('a[href="/"]')).toBeInTheDocument();
-    expect(container.querySelector('a[href="/about"]')).toBeInTheDocument();
-    expect(container.querySelector('a[href="/privacy"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en/map"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en/about"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en/privacy"]')).toBeInTheDocument();
   });
 });

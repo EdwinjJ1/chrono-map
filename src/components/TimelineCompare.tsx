@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useTranslations } from 'next-intl';
 
 interface TimelineCompareProps {
   historicalImage?: string;
@@ -15,12 +16,14 @@ export default function TimelineCompare({
   historicalImage,
   modernImage,
   historicalYear,
-  modernYear = "Today",
+  modernYear,
   locationName,
 }: TimelineCompareProps) {
+  const t = useTranslations('timelineCompare');
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const resolvedModernYear = modernYear || t('today');
 
   const handleMove = (clientX: number) => {
     if (!containerRef.current) return;
@@ -59,9 +62,9 @@ export default function TimelineCompare({
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-serif font-semibold text-foreground">
-          Then & Now
+          {t('title')}
         </h3>
-        <p className="text-sm text-muted">Drag to compare</p>
+        <p className="text-sm text-muted">{t('dragToCompare')}</p>
       </div>
 
       {/* Comparison Container */}
@@ -85,8 +88,8 @@ export default function TimelineCompare({
           {!modernImage && (
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-white/60">
-                <p className="text-sm font-medium">Modern View</p>
-                <p className="text-xs">{modernYear}</p>
+                <p className="text-sm font-medium">{t('modernView')}</p>
+                <p className="text-xs">{resolvedModernYear}</p>
               </div>
             </div>
           )}
@@ -104,7 +107,7 @@ export default function TimelineCompare({
           {!historicalImage && (
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-white/60">
-                <p className="text-sm font-medium">Historical View</p>
+                <p className="text-sm font-medium">{t('historicalView')}</p>
                 <p className="text-xs">{historicalYear}</p>
               </div>
             </div>
@@ -136,7 +139,7 @@ export default function TimelineCompare({
           {historicalYear}
         </div>
         <div className="absolute bottom-4 right-4 px-3 py-1.5 rounded-full bg-accent/90 backdrop-blur-sm text-white text-sm font-medium">
-          {modernYear}
+          {resolvedModernYear}
         </div>
 
         {/* Location Label */}
@@ -165,8 +168,8 @@ export default function TimelineCompare({
             [&::-webkit-slider-thumb]:hover:scale-110"
         />
         <div className="flex justify-between mt-2 text-xs text-muted">
-          <span>Past</span>
-          <span>Present</span>
+          <span>{t('past')}</span>
+          <span>{t('present')}</span>
         </div>
       </div>
     </div>
