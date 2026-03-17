@@ -2,9 +2,25 @@
 # Download images for Australia-wide locations (IDs 48-82)
 # Uses Serper API for image search
 
-SERPER_KEY="13d7cc8d1c7128f0cab43fa7227b16ce98b3a38e"
-MODERN_DIR="/Users/edwinj/Edwin/second-brain/01-projects/080-chrono-map/public/images/locations"
-HISTORICAL_DIR="/Users/edwinj/Edwin/second-brain/01-projects/080-chrono-map/public/images/locations/historical"
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+if [ -f "$PROJECT_ROOT/.env.local" ]; then
+  set -a
+  . "$PROJECT_ROOT/.env.local"
+  set +a
+fi
+
+SERPER_KEY="${SERPER_API_KEY:-}"
+if [ -z "$SERPER_KEY" ]; then
+  echo "SERPER_API_KEY is required. Add it to .env.local or your shell environment."
+  exit 1
+fi
+
+MODERN_DIR="$PROJECT_ROOT/public/images/locations"
+HISTORICAL_DIR="$PROJECT_ROOT/public/images/locations/historical"
 
 mkdir -p "$MODERN_DIR" "$HISTORICAL_DIR"
 
