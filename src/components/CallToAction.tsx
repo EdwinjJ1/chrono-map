@@ -1,10 +1,21 @@
 "use client";
 
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
 
 export default function CallToAction() {
+  const t = useTranslations('cta');
+  const locale = useLocale();
+
+  const stats = [
+    { value: "50+", label: t('historicLocations') },
+    { value: "200+", label: t('yearsOfHistory') },
+    { value: "15+", label: t('filmLocations') },
+    { value: t('freeLabel'), label: t('toExplore') },
+  ];
+
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Background */}
@@ -37,39 +48,37 @@ export default function CallToAction() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 mb-6">
             <MapPin className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-white/90">
-              Start Your Journey Today
+              {t('badge')}
             </span>
           </div>
 
           {/* Headline */}
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-            Every Street Corner Has a Story.
+            {t('headline1')}
             <br />
-            <span className="text-accent">Are You Ready to Discover Them?</span>
+            <span className="text-accent">{t('headline2')}</span>
           </h2>
 
           {/* Description */}
           <p className="text-lg text-white/70 max-w-2xl mx-auto mb-10">
-            From the convict-built streets of The Rocks to the futuristic sets of The Matrix,
-            Sydney&apos;s history is waiting to be explored. Join thousands of urban adventurers
-            discovering the city&apos;s hidden past.
+            {t('description')}
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/map"
+              href={`/${locale}/map`}
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent text-primary-dark font-semibold rounded-2xl hover:bg-accent-light transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
             >
               <MapPin className="w-5 h-5" />
-              Explore the Map
+              {t('exploreTheMap')}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
               href="#features"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/30 text-white font-semibold rounded-2xl hover:bg-white/10 transition-all duration-300 cursor-pointer"
             >
-              Learn How It Works
+              {t('learnHowItWorks')}
             </Link>
           </div>
 
@@ -81,12 +90,7 @@ export default function CallToAction() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-wrap justify-center gap-8 sm:gap-16 mt-16 pt-10 border-t border-white/10"
           >
-            {[
-              { value: "50+", label: "Historic Locations" },
-              { value: "200+", label: "Years of History" },
-              { value: "15+", label: "Film Locations" },
-              { value: "Free", label: "To Explore" },
-            ].map((stat) => (
+            {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl sm:text-4xl font-serif font-bold text-accent">
                   {stat.value}

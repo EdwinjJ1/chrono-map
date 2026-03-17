@@ -2,6 +2,8 @@ import { render, screen } from '@testing-library/react';
 import MapView from '@/components/MapView';
 import { locations } from '@/data/locations';
 
+const mockFlyTo = jest.fn();
+
 // Mock mapbox-gl
 jest.mock('mapbox-gl', () => ({
   accessToken: '',
@@ -13,7 +15,7 @@ jest.mock('mapbox-gl', () => ({
     })),
     addLayer: jest.fn(),
     remove: jest.fn(),
-    flyTo: jest.fn(),
+    flyTo: mockFlyTo,
   })),
   NavigationControl: jest.fn(),
   Marker: jest.fn().mockImplementation(() => ({
@@ -27,6 +29,10 @@ jest.mock('mapbox-gl', () => ({
 jest.mock('mapbox-gl/dist/mapbox-gl.css', () => ({}));
 
 describe('MapView', () => {
+  beforeEach(() => {
+    mockFlyTo.mockClear();
+  });
+
   it('should render map container', () => {
     const { container } = render(<MapView />);
 
@@ -41,7 +47,7 @@ describe('MapView', () => {
   });
 
   it('should render legend', () => {
-    const { container } = render(<MapView />);
+    render(<MapView />);
 
     expect(screen.getByText('Legend')).toBeInTheDocument();
 
@@ -65,5 +71,40 @@ describe('MapView', () => {
 
     const legendItems = screen.getAllByText(/Historical|Film|Cultural|Heritage|Nature/);
     expect(legendItems.length).toBeGreaterThan(0);
+  });
+
+  it('should render custom labels without relying on i18n context', () => {
+    render(
+      <MapView
+        labels={{ legend: '图例', loadingMap: '地图加载中...' }}
+        typeLabels={{ historical: '历史', film: '电影取景地' }}
+      />
+    );
+
+    expect(screen.getByText('图例')).toBeInTheDocument();
+    expect(screen.getByText('地图加载中...')).toBeInTheDocument();
+    expect(screen.getByText('历史')).toBeInTheDocument();
+    expect(screen.getByText('电影取景地')).toBeInTheDocument();
+  });
+
+  it('should fly to the selected location from the filtered list only', () => {
+    const filteredLocations = [locations[0]];
+
+    const { rerender } = render(
+      <MapView filteredLocations={filteredLocations} selectedLocationId={locations[1].id} />
+    );
+
+    expect(mockFlyTo).not.toHaveBeenCalled();
+
+    rerender(
+      <MapView filteredLocations={filteredLocations} selectedLocationId={locations[0].id} />
+    );
+
+    expect(mockFlyTo).toHaveBeenCalledWith({
+      center: [locations[0].coordinates.lng, locations[0].coordinates.lat],
+      zoom: 16,
+      pitch: 60,
+      duration: 1500,
+    });
   });
 });

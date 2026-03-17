@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Chrono-Map | Sydney Layers",
+    "description": "Explore Sydney's hidden stories through time. Discover historical landmarks, film locations, and cultural heritage with our interactive time-travel map."
+  },
+  "header": {
+    "home": "Home",
+    "exploreMap": "Explore Map",
+    "features": "Features",
+    "about": "About",
+    "startExploring": "Start Exploring",
+    "toggleMenu": "Toggle menu",
+    "brandSubtitle": "Sydney Layers"
+  },
+  "hero": {
+    "badge": "Discover Sydney's Hidden Stories",
+    "headline1": "Travel Through",
+    "headline2": "Time",
+    "headline3": "One Location at a Time",
+    "subheadline": "Explore historical landmarks, film locations, and cultural heritage sites. See how Sydney has transformed through the decades with our interactive time-travel map.",
+    "startExploring": "Start Exploring",
+    "learnMore": "Learn More",
+    "historicSites": "Historic Sites",
+    "yearsOfHistory": "Years of History",
+    "filmLocations": "Film Locations",
+    "interactiveMapPreview": "Interactive Map Preview",
+    "historicalLandmarks": "Historical Landmarks",
+    "filmTVLocations": "Film & TV Locations",
+    "thenNowComparison": "Then & Now Comparison"
+  },
+  "features": {
+    "badge": "Features",
+    "headline": "Explore History Like Never Before",
+    "description": "Our platform combines cutting-edge technology with rich historical content to create an immersive time-traveling experience.",
+    "interactiveHeritageMap": {
+      "title": "Interactive Heritage Map",
+      "description": "Explore Sydney's rich history through our beautifully designed interactive map. Each pin tells a unique story."
+    },
+    "thenNowComparison": {
+      "title": "Then & Now Comparison",
+      "description": "Slide through time to see how locations have transformed over decades. Historical photos meet modern reality."
+    },
+    "filmLocationTours": {
+      "title": "Film Location Tours",
+      "description": "Discover where iconic movies like The Matrix were filmed. Walk in the footsteps of cinema history."
+    },
+    "qrCodePlaques": {
+      "title": "QR Code Plaques",
+      "description": "Scan physical plaques at locations to instantly access rich historical content and AR experiences."
+    },
+    "mobileFirstExperience": {
+      "title": "Mobile-First Experience",
+      "description": "Designed for explorers on the go. Access stories, photos, and navigation right from your pocket."
+    },
+    "curatedWalkingTours": {
+      "title": "Curated Walking Tours",
+      "description": "Follow expertly crafted routes that connect multiple historical points into meaningful journeys."
+    }
+  },
+  "footer": {
+    "brandTagline": "Discover Sydney's hidden stories through time. Every location has a tale to tell.",
+    "brandSubtitle": "Sydney Layers",
+    "explore": "Explore",
+    "about": "About",
+    "legal": "Legal",
+    "exploreLinks": {
+      "interactiveMap": "Interactive Map",
+      "featuredLocations": "Featured Locations",
+      "filmLocations": "Film Locations",
+      "walkingTours": "Walking Tours"
+    },
+    "aboutLinks": {
+      "ourStory": "Our Story",
+      "howItWorks": "How It Works",
+      "forBusinesses": "For Businesses",
+      "contactUs": "Contact Us"
+    },
+    "legalLinks": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy"
+    },
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "email": "Email"
+    },
+    "allRightsReserved": "All rights reserved.",
+    "madeWithPassion": "Made with passion in Sydney, Australia"
+  },
+  "cta": {
+    "badge": "Start Your Journey Today",
+    "headline1": "Every Street Corner Has a Story.",
+    "headline2": "Are You Ready to Discover Them?",
+    "description": "From the convict-built streets of The Rocks to the futuristic sets of The Matrix, Sydney's history is waiting to be explored. Join thousands of urban adventurers discovering the city's hidden past.",
+    "exploreTheMap": "Explore the Map",
+    "learnHowItWorks": "Learn How It Works",
+    "historicLocations": "Historic Locations",
+    "yearsOfHistory": "Years of History",
+    "filmLocations": "Film Locations",
+    "freeLabel": "Free",
+    "toExplore": "To Explore"
+  },
+  "featuredLocations": {
+    "badge": "Featured Locations",
+    "title": "Start Your Journey Here",
+    "viewAll": "View all locations",
+    "explore": "Explore"
+  },
+  "map": {
+    "legend": "Legend",
+    "loadingMap": "Loading map..."
+  },
+  "mapPage": {
+    "back": "Back",
+    "searchPlaceholder": "Search locations...",
+    "filter": "Filter",
+    "mapView": "Map view",
+    "listView": "List view",
+    "all": "All",
+    "title": "Explore Locations",
+    "resultSingular": "location found",
+    "resultPlural": "locations found",
+    "noLocationsTitle": "No locations found",
+    "noLocationsDescription": "Try adjusting your search or filter criteria"
+  },
+  "locationTypes": {
+    "historical": "Historical",
+    "film": "Film Location",
+    "cultural": "Cultural",
+    "heritage": "Heritage",
+    "nature": "Nature",
+    "restaurant": "Restaurant"
+  },
+  "locationCard": {
+    "viewModern": "View Modern",
+    "viewHistorical": "View Historical",
+    "historical": "Historical",
+    "presentDay": "Present Day",
+    "est": "Est.",
+    "featuredIn": "Featured In",
+    "didYouKnow": "Did You Know?",
+    "visitorInformation": "Visitor Information",
+    "admission": "Admission",
+    "officialWebsite": "Official Website",
+    "getDirections": "Get Directions",
+    "close": "Close"
+  },
+  "languageSwitcher": {
+    "switchLanguage": "Switch language"
+  },
+  "timelineCompare": {
+    "title": "Then & Now",
+    "dragToCompare": "Drag to compare",
+    "modernView": "Modern View",
+    "historicalView": "Historical View",
+    "past": "Past",
+    "present": "Present",
+    "today": "Today"
+  }
+}

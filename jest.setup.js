@@ -1,31 +1,55 @@
 import '@testing-library/jest-dom'
+import messages from './src/i18n/messages/en.json'
+
+const getMessage = (namespace, key) => {
+  const namespaceValue = namespace
+    ? namespace.split('.').reduce((acc, part) => acc?.[part], messages)
+    : messages;
+
+  return key.split('.').reduce((acc, part) => acc?.[part], namespaceValue) ?? key;
+};
+
+jest.mock('next-intl', () => ({
+  NextIntlClientProvider: ({ children }) => children,
+  useLocale: () => 'en',
+  useTranslations: (namespace) => (key) => getMessage(namespace, key),
+}));
+
+jest.mock('next/navigation', () => ({
+  useRouter: () => ({
+    push: jest.fn(),
+  }),
+  usePathname: () => '/en',
+}));
 
 // Suppress React warnings about unknown props (Framer Motion props in test environment)
 const originalError = console.error;
 beforeAll(() => {
   console.error = (...args) => {
-    if (typeof args[0] === 'string' && args[0].includes('whileInView')) {
+    const message = args.map((arg) => String(arg)).join(' ');
+
+    if (message.includes('whileInView') || message.includes('whileinview')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('unknown prop')) {
+    if (message.includes('unknown prop')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('while')) {
+    if (message.includes('while')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('initial')) {
+    if (message.includes('initial')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('animate')) {
+    if (message.includes('animate')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('transition')) {
+    if (message.includes('transition')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('viewport')) {
+    if (message.includes('viewport')) {
       return;
     }
-    if (typeof args[0] === 'string' && args[0].includes('exit')) {
+    if (message.includes('exit')) {
       return;
     }
     originalError.call(console, ...args);

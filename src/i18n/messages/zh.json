@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "时光地图 | 悉尼層次",
+    "description": "穿越时空探索悉尼的隐秘故事。通过我们的互动时光地图，发现历史地标、电影取景地和文化遗产。"
+  },
+  "header": {
+    "home": "首页",
+    "exploreMap": "探索地图",
+    "features": "功能特色",
+    "about": "关于我们",
+    "startExploring": "开始探索",
+    "toggleMenu": "切换菜单",
+    "brandSubtitle": "悉尼层次"
+  },
+  "hero": {
+    "badge": "探索悉尼的隐秘故事",
+    "headline1": "穿越",
+    "headline2": "时光",
+    "headline3": "一站一故事",
+    "subheadline": "探索历史地标、电影取景地和文化遗产。通过我们的互动时光地图，看看悉尼数十年来的变迁。",
+    "startExploring": "开始探索",
+    "learnMore": "了解更多",
+    "historicSites": "处历史遗址",
+    "yearsOfHistory": "年历史",
+    "filmLocations": "个取景地",
+    "interactiveMapPreview": "互动地图预览",
+    "historicalLandmarks": "历史地标",
+    "filmTVLocations": "影视取景地",
+    "thenNowComparison": "古今对比"
+  },
+  "features": {
+    "badge": "功能特色",
+    "headline": "以前所未有的方式探索历史",
+    "description": "我们的平台将尖端技术与丰富的历史内容相结合，创造身临其境的时光穿越体验。",
+    "interactiveHeritageMap": {
+      "title": "互动遗产地图",
+      "description": "通过我们精心设计的互动地图探索悉尼丰富的历史。每个标记都讲述着一个独特的故事。"
+    },
+    "thenNowComparison": {
+      "title": "古今对比",
+      "description": "滑动时间轴，看看这些地方数十年来的变迁。历史照片与现代实景相遇。"
+    },
+    "filmLocationTours": {
+      "title": "影视取景地之旅",
+      "description": "探索《黑客帝国》等经典电影的拍摄地。漫步在电影历史的足迹中。"
+    },
+    "qrCodePlaques": {
+      "title": "二维码标牌",
+      "description": "扫描现场的二维码标牌，即时获取丰富的历史内容和增强现实体验。"
+    },
+    "mobileFirstExperience": {
+      "title": "移动优先体验",
+      "description": "为探索者量身设计。随时随地获取故事、照片和导航。"
+    },
+    "curatedWalkingTours": {
+      "title": "精选步行路线",
+      "description": "沿着专家精心策划的路线，将多个历史景点串联成有意义的旅程。"
+    }
+  },
+  "footer": {
+    "brandTagline": "穿越时空探索悉尼的隐秘故事。每个地方都有故事要讲述。",
+    "brandSubtitle": "悉尼层次",
+    "explore": "探索",
+    "about": "关于",
+    "legal": "法律信息",
+    "exploreLinks": {
+      "interactiveMap": "互动地图",
+      "featuredLocations": "精选地点",
+      "filmLocations": "影视取景地",
+      "walkingTours": "步行路线"
+    },
+    "aboutLinks": {
+      "ourStory": "我们的故事",
+      "howItWorks": "运作方式",
+      "forBusinesses": "商业合作",
+      "contactUs": "联系我们"
+    },
+    "legalLinks": {
+      "privacyPolicy": "隐私政策",
+      "termsOfService": "服务条款",
+      "cookiePolicy": "Cookie 政策"
+    },
+    "social": {
+      "twitter": "推特",
+      "github": "GitHub",
+      "email": "电子邮箱"
+    },
+    "allRightsReserved": "保留所有权利。",
+    "madeWithPassion": "于澳大利亚悉尼，用心打造"
+  },
+  "cta": {
+    "badge": "今天就开始你的旅程",
+    "headline1": "每个街角都有一个故事。",
+    "headline2": "你准备好探索了吗？",
+    "description": "从岩石区的囚犯街道到《黑客帝国》的未来场景，悉尼的历史等待你去探索。加入成千上万的城市探险者，发现这座城市隐藏的过去。",
+    "exploreTheMap": "探索地图",
+    "learnHowItWorks": "了解运作方式",
+    "historicLocations": "处历史地点",
+    "yearsOfHistory": "年历史",
+    "filmLocations": "个取景地",
+    "freeLabel": "免费",
+    "toExplore": "免费探索"
+  },
+  "featuredLocations": {
+    "badge": "精选地点",
+    "title": "从这里开始你的旅程",
+    "viewAll": "查看全部地点",
+    "explore": "去探索"
+  },
+  "map": {
+    "legend": "图例",
+    "loadingMap": "加载地图中..."
+  },
+  "mapPage": {
+    "back": "返回",
+    "searchPlaceholder": "搜索地点...",
+    "filter": "筛选",
+    "mapView": "地图视图",
+    "listView": "列表视图",
+    "all": "全部",
+    "title": "探索地点",
+    "resultSingular": "个地点",
+    "resultPlural": "个地点",
+    "noLocationsTitle": "未找到地点",
+    "noLocationsDescription": "请尝试调整搜索或筛选条件"
+  },
+  "locationTypes": {
+    "historical": "历史遗迹",
+    "film": "影视取景地",
+    "cultural": "文化景点",
+    "heritage": "文化遗产",
+    "nature": "自然景观",
+    "restaurant": "特色餐厅"
+  },
+  "locationCard": {
+    "viewModern": "现代照片",
+    "viewHistorical": "历史照片",
+    "historical": "历史",
+    "presentDay": "现代",
+    "est": "建于",
+    "featuredIn": "出现于",
+    "didYouKnow": "你知道吗？",
+    "visitorInformation": "游客信息",
+    "admission": "门票",
+    "officialWebsite": "官方网站",
+    "getDirections": "获取路线",
+    "close": "关闭"
+  },
+  "languageSwitcher": {
+    "switchLanguage": "切换语言"
+  },
+  "timelineCompare": {
+    "title": "古今对比",
+    "dragToCompare": "拖动进行对比",
+    "modernView": "现代视角",
+    "historicalView": "历史视角",
+    "past": "过去",
+    "present": "现在",
+    "today": "今天"
+  }
+}

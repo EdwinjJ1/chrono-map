@@ -40,8 +40,8 @@ describe('Header', () => {
   it('should have correct link hrefs', () => {
     const { container } = render(<Header />);
 
-    expect(container.querySelector('a[href="/"]')).toBeInTheDocument();
-    expect(container.querySelector('a[href="/map"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en/map"]')).toBeInTheDocument();
     expect(container.querySelector('a[href="#features"]')).toBeInTheDocument();
     expect(container.querySelector('a[href="#about"]')).toBeInTheDocument();
   });

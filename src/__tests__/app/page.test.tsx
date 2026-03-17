@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Home from '@/app/page';
+import Home from '@/app/[locale]/page';
 
 // Mock all components
 jest.mock('@/components/Header', () => {

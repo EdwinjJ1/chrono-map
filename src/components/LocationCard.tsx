@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslations, useLocale } from 'next-intl';
 import { X, MapPin, Clock, Film, ExternalLink, ChevronRight, History, Camera } from "lucide-react";
 import { Location, locationTypes } from "@/data/locations";
+import { getLocalizedLocation } from "@/data/locations-zh";
 
 interface LocationCardProps {
   location: Location | null;
@@ -13,13 +15,23 @@ interface LocationCardProps {
 }
 
 export default function LocationCard({ location, onClose, isOpen }: LocationCardProps) {
+  const t = useTranslations('locationCard');
+  const tTypes = useTranslations('locationTypes');
+  const locale = useLocale();
   const [showHistorical, setShowHistorical] = useState(false);
 
-  if (!location) return null;
+  // Get localized location data
+  const localizedLocation = useMemo(() => {
+    if (!location) return null;
+    return getLocalizedLocation(location, locale);
+  }, [location, locale]);
 
-  const typeInfo = locationTypes[location.type];
-  const hasImage = location.modernImage || location.historicalImage;
-  const hasBothImages = location.modernImage && location.historicalImage;
+  if (!localizedLocation) return null;
+
+  const typeInfo = locationTypes[localizedLocation.type];
+  const hasImage = localizedLocation.modernImage || localizedLocation.historicalImage;
+  const hasBothImages = localizedLocation.modernImage && localizedLocation.historicalImage;
+  const typeLabel = tTypes(localizedLocation.type);
 
   return (
     <AnimatePresence>
@@ -63,8 +75,8 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                         className="absolute inset-0"
                       >
                         <Image
-                          src={showHistorical && location.historicalImage ? location.historicalImage : (location.modernImage || location.historicalImage || "")}
-                          alt={`${showHistorical ? "Historical" : "Modern"} ${location.name}`}
+                          src={showHistorical && localizedLocation.historicalImage ? localizedLocation.historicalImage : (localizedLocation.modernImage || localizedLocation.historicalImage || "")}
+                          alt={`${showHistorical ? t('historical') : t('presentDay')} ${localizedLocation.name}`}
                           fill
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 400px"
@@ -84,12 +96,12 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                           {showHistorical ? (
                             <>
                               <Camera className="w-4 h-4" />
-                              <span>View Modern</span>
+                              <span>{t('viewModern')}</span>
                             </>
                           ) : (
                             <>
                               <History className="w-4 h-4" />
-                              <span>View Historical</span>
+                              <span>{t('viewHistorical')}</span>
                             </>
                           )}
                         </button>
@@ -100,7 +112,7 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                     {hasBothImages && (
                       <div className="absolute top-14 right-4 z-10">
                         <span className="px-2 py-1 rounded bg-black/40 backdrop-blur-sm text-white text-xs">
-                          {showHistorical ? "Historical" : "Present Day"}
+                          {showHistorical ? t('historical') : t('presentDay')}
                         </span>
                       </div>
                     )}
@@ -111,7 +123,7 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                 <button
                   onClick={onClose}
                   className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/20 backdrop-blur-sm flex items-center justify-center text-white hover:bg-black/40 transition-colors cursor-pointer z-10"
-                  aria-label="Close"
+                  aria-label={t('close')}
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -119,22 +131,22 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                 {/* Type Badge */}
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium">
-                    {typeInfo.label}
+                    {typeLabel}
                   </span>
                 </div>
 
                 {/* Year Badge */}
                 <div className="absolute bottom-4 left-4 flex items-center gap-2 text-white/90">
                   <Clock className="w-4 h-4" />
-                  <span className="text-sm font-medium">Est. {location.year}</span>
+                  <span className="text-sm font-medium">{t('est')} {localizedLocation.year}</span>
                 </div>
 
                 {/* Location Name */}
                 <div className="absolute bottom-4 right-4 left-4 text-right">
                   <h2 className="text-2xl sm:text-3xl font-serif font-bold text-white drop-shadow-lg">
-                    {location.name}
+                    {localizedLocation.name}
                   </h2>
-                  {location.nameZh && (
+                  {locale === 'en' && location?.nameZh && (
                     <p className="text-white/70 text-sm mt-1">{location.nameZh}</p>
                   )}
                 </div>
@@ -144,29 +156,29 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
               <div className="flex-1 overflow-y-auto p-6">
                 {/* Description */}
                 <p className="text-foreground leading-relaxed mb-6">
-                  {location.fullDescription}
+                  {localizedLocation.fullDescription}
                 </p>
 
                 {/* Address */}
                 <div className="flex items-start gap-3 p-4 rounded-xl bg-background-alt mb-4">
                   <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-sm font-medium text-foreground">{location.address}</p>
-                    {location.visitInfo?.hours && (
-                      <p className="text-xs text-muted mt-1">{location.visitInfo.hours}</p>
+                    <p className="text-sm font-medium text-foreground">{localizedLocation.address}</p>
+                    {localizedLocation.visitInfo?.hours && (
+                      <p className="text-xs text-muted mt-1">{localizedLocation.visitInfo.hours}</p>
                     )}
                   </div>
                 </div>
 
                 {/* Film References */}
-                {location.relatedFilms && location.relatedFilms.length > 0 && (
+                {localizedLocation.relatedFilms && localizedLocation.relatedFilms.length > 0 && (
                   <div className="mb-6">
                     <h3 className="flex items-center gap-2 text-sm font-semibold text-foreground mb-3">
                       <Film className="w-4 h-4 text-accent" />
-                      Featured In
+                      {t('featuredIn')}
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                      {location.relatedFilms.map((film) => (
+                      {localizedLocation.relatedFilms.map((film) => (
                         <span
                           key={film}
                           className="px-3 py-1.5 rounded-full bg-accent/10 text-accent-dark text-sm"
@@ -181,10 +193,10 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                 {/* Facts */}
                 <div className="mb-6">
                   <h3 className="text-sm font-semibold text-foreground mb-3">
-                    Did You Know?
+                    {t('didYouKnow')}
                   </h3>
                   <ul className="space-y-3">
-                    {location.facts.map((fact, index) => (
+                    {localizedLocation.facts.map((fact, index) => (
                       <li key={index} className="flex items-start gap-3">
                         <span className="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-semibold flex items-center justify-center flex-shrink-0">
                           {index + 1}
@@ -196,28 +208,28 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
                 </div>
 
                 {/* Visit Info */}
-                {location.visitInfo && (
+                {localizedLocation.visitInfo && (
                   <div className="p-4 rounded-xl border border-border">
                     <h3 className="text-sm font-semibold text-foreground mb-3">
-                      Visitor Information
+                      {t('visitorInformation')}
                     </h3>
                     <div className="space-y-2 text-sm">
-                      {location.visitInfo.admission && (
+                      {localizedLocation.visitInfo.admission && (
                         <div className="flex justify-between">
-                          <span className="text-muted">Admission</span>
+                          <span className="text-muted">{t('admission')}</span>
                           <span className="text-foreground font-medium">
-                            {location.visitInfo.admission}
+                            {localizedLocation.visitInfo.admission}
                           </span>
                         </div>
                       )}
-                      {location.visitInfo.website && (
+                      {localizedLocation.visitInfo.website && (
                         <a
-                          href={location.visitInfo.website}
+                          href={localizedLocation.visitInfo.website}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center justify-between text-primary hover:text-primary-light transition-colors cursor-pointer"
                         >
-                          <span>Official Website</span>
+                          <span>{t('officialWebsite')}</span>
                           <ExternalLink className="w-4 h-4" />
                         </a>
                       )}
@@ -229,7 +241,7 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
               {/* Footer Actions */}
               <div className="flex-shrink-0 p-4 border-t border-border">
                 <button className="w-full flex items-center justify-center gap-2 py-3 bg-primary text-white font-medium rounded-xl hover:bg-primary-light transition-colors cursor-pointer">
-                  Get Directions
+                  {t('getDirections')}
                   <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
