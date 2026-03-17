@@ -275,6 +275,7 @@ export const locations: Location[] = [
     description: "A governor's wife carved into stone, waiting for news from home.",
     fullDescription: "Convicts hand-carved this sandstone bench in 1810 for Elizabeth Macquarie, the governor's wife, who sat here watching for ships arriving from Britain. In an age when communication with 'home' took months or years, every sail on the horizon meant news, supplies, or perhaps someone she knew from a life half a world away. Her lonely vigil captures the isolation and longing of early colonial settlers. The spot still offers one of the most iconic views in the Southern Hemisphere—but imagine waiting months for a letter, hoping for a familiar face among the disembarking passengers.",
     modernImage: "/images/locations/mrs-macquaries-chair.jpg",
+    historicalImage: "/images/locations/historical/mrs-macquaries-chair-historical.jpg",
     facts: [
       "Hand-carved by convicts in 1810",
       "Named after Governor Macquarie's wife Elizabeth",
@@ -344,6 +345,7 @@ export const locations: Location[] = [
     description: "Drunken patrons dropped through a trapdoor—waking up at sea.",
     fullDescription: "Built in 1843, the Hero of Waterloo allegedly operated a sinister shanghaiing operation: drunken patrons dropped through a trapdoor into the cellar, shackled to walls that still bear their marks, then dragged through a secret tunnel to the harbour. Victims would wake up the next day in the middle of the ocean, involuntarily recruited onto clipper ships bound for who knows where. The cellar's shackles and tunnel entrance remain visible today, and the ghost of Anne Kirkman is said to move chairs mysteriously—perhaps still looking for lost sailors.",
     modernImage: "/images/locations/hero-of-waterloo.jpg",
+    historicalImage: "/images/locations/historical/hero-of-waterloo-historical.jpg",
     facts: [
       "Built by convicts in 1843",
       "Rumored secret tunnel to Sydney Harbour for smuggling",
@@ -847,6 +849,7 @@ export const locations: Location[] = [
     description: "A convict proved the soil could feed a colony—and earned his freedom.",
     fullDescription: "In 1789, Governor Phillip assigned convict James Ruse the first land grant in Australia—a small plot at Parramatta to prove whether a settler could support himself through farming. The 'experiment' succeeded. Ruse grew corn and vegetables, demonstrating that the colony could become self-sufficient. In 1792, he was granted the land permanently and became one of the first emancipists (freed convicts) to own property. The current Indian bungalow-style cottage was built by surgeon John Harris in the 1830s, but the site marks where one man proved that Australia's poor soil could sustain European settlement.",
     modernImage: "/images/locations/experiment-farm.jpg",
+    historicalImage: "/images/locations/historical/experiment-farm-historical.jpg",
     facts: [
       "Site of Australia's first land grant to a convict (1789)",
       "James Ruse proved self-sufficient farming was possible",
@@ -894,6 +897,7 @@ export const locations: Location[] = [
     description: "Two convict-built towers survived when everything else had to be rebuilt.",
     fullDescription: "The twin towers of St John's Cathedral have dominated Parramatta's skyline since the 1820s, built by convict labor to a design attributed to Francis Greenway. But here's the remarkable thing: the original 1803 church was so poorly built that everything except the towers had to be demolished and rebuilt in the 1850s. The towers survived because they were the only part solid enough to keep. Samuel Marsden, the 'flogging parson' known for his brutal treatment of convicts, served here as chaplain from 1794 to 1838. His grave lies in the churchyard, and his reputation for cruelty echoes still.",
     modernImage: "/images/locations/st-johns-cathedral.jpg",
+    historicalImage: "/images/locations/historical/st-johns-cathedral-historical.jpg",
     facts: [
       "Twin towers built by convicts in the 1820s",
       "Original 1803 church demolished—only towers survived",
@@ -965,6 +969,7 @@ export const locations: Location[] = [
     description: "A cemetery became a park—but the dead are still there under the grass.",
     fullDescription: "When Camperdown Cemetery opened in 1848, it was Sydney's main burial ground, holding everyone from paupers to prominent citizens. By the 1940s, it had fallen into disrepair, and in 1942, the government resumed the land for a public park. They moved the headstones but left the bodies. Today, thousands of corpses remain buried beneath the grass of Camperdown Memorial Rest Park, their graves unmarked. A small section of headstones survives near St Stephen's Church, including the grave of explorer William Hovell. Locals picnic on graves without knowing, and ghost sightings are regularly reported.",
     modernImage: "/images/locations/camperdown-cemetery.jpg",
+    historicalImage: "/images/locations/historical/camperdown-cemetery-historical.jpg",
     facts: [
       "Sydney's main cemetery from 1848-1942",
       "Headstones removed in 1942 but bodies left in place",
@@ -1011,6 +1016,7 @@ export const locations: Location[] = [
     description: "Aboriginal activists claimed land in the heart of Redfern—and changed Australia.",
     fullDescription: "In 1973, the Aboriginal Housing Company acquired houses on Louis Street in Redfern, creating 'The Block'—Australia's first urban Aboriginal land rights victory. For decades, The Block was a spiritual home for Indigenous Australians who had migrated to Sydney from rural areas, a place where Aboriginal culture thrived in the city. It was also the site of protests, police raids, and the 2004 Redfern Riots after teenager TJ Hickey died while being pursued by police. Many original houses have been demolished for redevelopment, but The Block remains a symbol of Aboriginal resistance and community in urban Australia.",
     modernImage: "/images/locations/the-block.jpg",
+    historicalImage: "/images/locations/historical/the-block-historical.jpg",
     facts: [
       "Australia's first urban Aboriginal land rights victory (1973)",
       "Spiritual home for Indigenous Australians in Sydney",
@@ -1717,6 +1723,7 @@ export const locations: Location[] = [
       "The defeat at Lake Pedder fuelled the later successful Franklin River campaign",
     ],
     modernImage: "/images/locations/gordon-dam-tasmania.jpg",
+    historicalImage: "/images/locations/historical/gordon-dam-tasmania-historical.jpg",
 
     address: "Gordon Dam, Strathgordon TAS 7139",
     visitInfo: {
