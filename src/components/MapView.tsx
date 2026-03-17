@@ -1,16 +1,31 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import { useTranslations, useLocale } from 'next-intl';
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { locations, locationTypes, type Location } from "@/data/locations";
+
+const DEFAULT_MAP_LABELS = {
+  legend: "Legend",
+  loadingMap: "Loading map...",
+};
+
+const DEFAULT_TYPE_LABELS: Record<Location["type"], string> = {
+  historical: "Historical",
+  film: "Film Location",
+  cultural: "Cultural",
+  heritage: "Heritage",
+  nature: "Nature",
+  restaurant: "Restaurant",
+};
 
 interface MapViewProps {
   onLocationSelect?: (location: Location) => void;
   selectedLocationId?: number | null;
   className?: string;
   filteredLocations?: Location[];
+  labels?: Partial<typeof DEFAULT_MAP_LABELS>;
+  typeLabels?: Partial<Record<Location["type"], string>>;
 }
 
 // Note: Replace with your own Mapbox token
@@ -20,20 +35,20 @@ export default function MapView({
   onLocationSelect,
   selectedLocationId,
   className = "",
-  filteredLocations: displayLocations = locations
+  filteredLocations: displayLocations = locations,
+  labels,
+  typeLabels,
 }: MapViewProps) {
-  const t = useTranslations('map');
-  const tTypes = useTranslations('locationTypes');
-  const locale = useLocale();
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const mapLabels = { ...DEFAULT_MAP_LABELS, ...labels };
+  const resolvedTypeLabels = { ...DEFAULT_TYPE_LABELS, ...typeLabels };
 
   const createCustomMarker = useCallback((location: Location, isSelected: boolean) => {
     const el = document.createElement("div");
     const typeInfo = locationTypes[location.type];
-    const locationName = locale === 'zh' && location.nameZh ? location.nameZh : location.name;
 
     el.className = "custom-marker";
     el.innerHTML = `
@@ -113,7 +128,7 @@ export default function MapView({
     el.appendChild(style);
 
     return el;
-  }, [locale]);
+  }, []);
 
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
@@ -196,7 +211,7 @@ export default function MapView({
   useEffect(() => {
     if (!map.current || !selectedLocationId) return;
 
-    const location = locations.find((loc) => loc.id === selectedLocationId);
+    const location = displayLocations.find((loc) => loc.id === selectedLocationId);
     if (location) {
       map.current.flyTo({
         center: [location.coordinates.lng, location.coordinates.lat],
@@ -205,7 +220,7 @@ export default function MapView({
         duration: 1500,
       });
     }
-  }, [selectedLocationId]);
+  }, [displayLocations, selectedLocationId]);
 
   return (
     <div className={`relative w-full ${className}`} style={{ height: '100%', minHeight: '400px' }}>
@@ -213,7 +228,7 @@ export default function MapView({
 
       {/* Map Legend */}
       <div className="absolute bottom-4 left-4 glass rounded-xl p-4 z-10">
-        <h4 className="text-sm font-semibold text-foreground mb-3">{t('legend')}</h4>
+        <h4 className="text-sm font-semibold text-foreground mb-3">{mapLabels.legend}</h4>
         <div className="space-y-2">
           {Object.entries(locationTypes).map(([key, value]) => (
             <div key={key} className="flex items-center gap-2">
@@ -221,7 +236,7 @@ export default function MapView({
                 className="w-3 h-3 rounded-full"
                 style={{ backgroundColor: value.color }}
               />
-              <span className="text-xs text-muted">{tTypes(key)}</span>
+              <span className="text-xs text-muted">{resolvedTypeLabels[key as Location["type"]]}</span>
             </div>
           ))}
         </div>
@@ -232,7 +247,7 @@ export default function MapView({
         <div className="absolute inset-0 bg-background/80 flex items-center justify-center rounded-2xl">
           <div className="flex flex-col items-center gap-3">
             <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-            <span className="text-sm text-muted">{t('loadingMap')}</span>
+            <span className="text-sm text-muted">{mapLabels.loadingMap}</span>
           </div>
         </div>
       )}

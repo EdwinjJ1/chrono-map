@@ -67,7 +67,7 @@ export const locationsZhData: Record<number, LocationZhData> = {
       "'贝壳'覆盖着超过100万块瑞典瓷砖",
       "2007年成为联合国教科文组织世界遗产",
     ],
-    addressZh: " Bennelong Point，悉尼 NSW 2000",
+    addressZh: "Bennelong Point，悉尼 NSW 2000",
     hoursZh: "每天上午9点-下午5点有导览",
     admissionZh: "导览43澳元起",
   },
@@ -589,15 +589,16 @@ export function getLocalizedLocation(
   locale: string
 ) {
   const zhData = locationsZhData[location.id];
+  const normalizedLocale = locale.toLowerCase();
 
-  if (locale === 'zh' && zhData) {
+  if (normalizedLocale.startsWith('zh') && zhData) {
     return {
       ...location,
       name: location.nameZh || location.name,
       description: zhData.descriptionZh || location.description,
       fullDescription: zhData.fullDescriptionZh || location.fullDescription,
       facts: zhData.factsZh.length > 0 ? zhData.factsZh : location.facts,
-      address: zhData.addressZh || location.address,
+      address: zhData.addressZh.trim() || location.address,
       visitInfo: location.visitInfo ? {
         ...location.visitInfo,
         hours: zhData.hoursZh || location.visitInfo.hours,

@@ -11,20 +11,21 @@ import { locations, locationTypes, type Location } from "@/data/locations";
 import { useLocale } from 'next-intl';
 import LocationCard from "@/components/LocationCard";
 
+function MapLoadingFallback() {
+  return (
+    <div className="w-full h-full bg-background-alt flex items-center justify-center rounded-2xl">
+      <div className="flex flex-col items-center gap-3">
+        <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+        <span className="text-sm text-muted">Loading map...</span>
+      </div>
+    </div>
+  );
+}
+
 // Dynamic import for MapView to avoid SSR issues with Mapbox
 const MapView = dynamic(() => import("@/components/MapView"), {
   ssr: false,
-  loading: () => {
-    const t = useTranslations('map');
-    return (
-      <div className="w-full h-full bg-background-alt flex items-center justify-center rounded-2xl">
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-          <span className="text-sm text-muted">{t('loadingMap')}</span>
-        </div>
-      </div>
-    );
-  },
+  loading: MapLoadingFallback,
 });
 
 type ViewMode = "map" | "list";
@@ -47,9 +48,23 @@ export default function MapPage() {
     setSelectedLocation(null);
   }, []);
 
+  const mapLabels = {
+    legend: t('map.legend'),
+    loadingMap: t('map.loadingMap'),
+  };
+
+  const mapTypeLabels: Record<Location["type"], string> = {
+    historical: t('locationTypes.historical'),
+    film: t('locationTypes.film'),
+    cultural: t('locationTypes.cultural'),
+    heritage: t('locationTypes.heritage'),
+    nature: t('locationTypes.nature'),
+    restaurant: t('locationTypes.restaurant'),
+  };
+
   // Get localized name
   const getLocationName = (location: Location) => {
-    if (locale === 'zh' && location.nameZh) {
+    if (locale.startsWith('zh') && location.nameZh) {
       return location.nameZh;
     }
     return location.name;
@@ -205,6 +220,8 @@ export default function MapPage() {
               selectedLocationId={selectedLocation?.id}
               filteredLocations={filteredLocations}
               className="h-full"
+              labels={mapLabels}
+              typeLabels={mapTypeLabels}
             />
           </div>
         ) : (

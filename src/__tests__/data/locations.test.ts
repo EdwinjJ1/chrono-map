@@ -1,4 +1,5 @@
 import { getLocationById, getLocationsByType, locations, locationTypes, Location } from '@/data/locations';
+import { getLocalizedLocation } from '@/data/locations-zh';
 
 describe('locations data', () => {
   describe('Location interface', () => {
@@ -45,7 +46,7 @@ describe('locations data', () => {
     });
 
     it('should have correct structure for each type', () => {
-      Object.entries(locationTypes).forEach(([type, config]) => {
+      Object.entries(locationTypes).forEach(([, config]) => {
         expect(config).toHaveProperty('label');
         expect(config).toHaveProperty('color');
         expect(config).toHaveProperty('icon');
@@ -65,8 +66,8 @@ describe('locations data', () => {
   });
 
   describe('locations array', () => {
-    it('should have 27 locations', () => {
-      expect(locations.length).toBe(27);
+    it('should have a substantial seed dataset', () => {
+      expect(locations.length).toBeGreaterThan(100);
     });
 
     it('should have unique IDs', () => {
@@ -103,7 +104,7 @@ describe('locations data', () => {
         expect(typeof location.coordinates.lng).toBe('number');
 
         // Validate type is one of the allowed types
-        expect(['historical', 'film', 'cultural', 'heritage', 'nature']).toContain(location.type);
+        expect(['historical', 'film', 'cultural', 'heritage', 'nature', 'restaurant']).toContain(location.type);
       });
     });
 
@@ -135,9 +136,11 @@ describe('locations data', () => {
     });
 
     it('should handle boundary IDs', () => {
+      const maxId = Math.max(...locations.map((location) => location.id));
+
       expect(getLocationById(1)).toBeDefined();
-      expect(getLocationById(27)).toBeDefined();
-      expect(getLocationById(28)).toBeUndefined();
+      expect(getLocationById(maxId)).toBeDefined();
+      expect(getLocationById(maxId + 1)).toBeUndefined();
     });
   });
 
@@ -186,6 +189,24 @@ describe('locations data', () => {
       // Assuming we don't have a 'nightlife' type
       const result = getLocationsByType('nightlife' as Location['type']);
       expect(result).toEqual([]);
+    });
+  });
+
+  describe('getLocalizedLocation', () => {
+    it('should localize zh regional locales', () => {
+      const localized = getLocalizedLocation(locations[0], 'zh-CN');
+
+      expect(localized.name).toBe(locations[0].nameZh);
+      expect(localized.description).not.toBe(locations[0].description);
+    });
+
+    it('should trim localized addresses', () => {
+      const operaHouse = locations.find((location) => location.id === 4);
+
+      expect(operaHouse).toBeDefined();
+
+      const localized = getLocalizedLocation(operaHouse!, 'zh');
+      expect(localized.address).toBe('Bennelong Point，悉尼 NSW 2000');
     });
   });
 });

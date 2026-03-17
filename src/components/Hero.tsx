@@ -1,10 +1,26 @@
 "use client";
 
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { MapPin, Clock, Film, Compass, ChevronRight } from "lucide-react";
 
 export default function Hero() {
+  const t = useTranslations('hero');
+  const locale = useLocale();
+
+  const stats = [
+    { value: "50+", label: t('historicSites') },
+    { value: "100+", label: t('yearsOfHistory') },
+    { value: "10+", label: t('filmLocations') },
+  ];
+
+  const features = [
+    { icon: MapPin, label: t('historicalLandmarks'), color: "text-primary" },
+    { icon: Film, label: t('filmTVLocations'), color: "text-accent" },
+    { icon: Clock, label: t('thenNowComparison'), color: "text-primary-light" },
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center justify-center aurora-bg overflow-hidden">
       {/* Background Pattern */}
@@ -37,39 +53,38 @@ export default function Hero() {
             >
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
               <span className="text-sm font-medium text-accent-dark">
-                Discover Sydney&apos;s Hidden Stories
+                {t('badge')}
               </span>
             </motion.div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-foreground leading-[1.1] mb-6">
-              Travel Through{" "}
-              <span className="gradient-text">Time</span>
+              {t('headline1')}{" "}
+              <span className="gradient-text">{t('headline2')}</span>
               <br />
-              One Location at a Time
+              {t('headline3')}
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-muted max-w-xl mx-auto lg:mx-0 mb-8">
-              Explore historical landmarks, film locations, and cultural heritage sites.
-              See how Sydney has transformed through the decades with our interactive time-travel map.
+              {t('subheadline')}
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="/map"
+                href={`/${locale}/map`}
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-semibold rounded-2xl hover:bg-primary-light transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
               >
                 <Compass className="w-5 h-5" />
-                Start Exploring
+                {t('startExploring')}
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 href="#features"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 glass text-foreground font-semibold rounded-2xl hover:bg-white/90 transition-all duration-300 cursor-pointer"
               >
-                Learn More
+                {t('learnMore')}
               </Link>
             </div>
 
@@ -80,11 +95,7 @@ export default function Hero() {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="flex flex-wrap gap-8 mt-12 justify-center lg:justify-start"
             >
-              {[
-                { value: "50+", label: "Historic Sites" },
-                { value: "100+", label: "Years of History" },
-                { value: "10+", label: "Film Locations" },
-              ].map((stat) => (
+              {stats.map((stat) => (
                 <div key={stat.label} className="text-center lg:text-left">
                   <div className="text-3xl font-serif font-bold text-primary">{stat.value}</div>
                   <div className="text-sm text-muted">{stat.label}</div>
@@ -107,7 +118,7 @@ export default function Hero() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="w-16 h-16 text-primary/40 mx-auto mb-4" />
-                    <p className="text-muted text-sm">Interactive Map Preview</p>
+                    <p className="text-muted text-sm">{t('interactiveMapPreview')}</p>
                   </div>
                 </div>
                 {/* Floating Location Pins */}
@@ -136,11 +147,7 @@ export default function Hero() {
 
               {/* Feature List */}
               <div className="space-y-3">
-                {[
-                  { icon: MapPin, label: "Historical Landmarks", color: "text-primary" },
-                  { icon: Film, label: "Film & TV Locations", color: "text-accent" },
-                  { icon: Clock, label: "Then & Now Comparison", color: "text-primary-light" },
-                ].map((feature) => (
+                {features.map((feature) => (
                   <div
                     key={feature.label}
                     className="flex items-center gap-3 p-3 rounded-xl bg-background/50 hover:bg-background transition-colors cursor-pointer"
