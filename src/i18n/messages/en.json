@@ -108,6 +108,23 @@
     "viewAll": "View all locations",
     "explore": "Explore"
   },
+  "aiPlanner": {
+    "title": "AI Travel Planner",
+    "subtitle": "Your personal Sydney guide",
+    "mockUser1": "I have 2 days in Sydney, love history and film locations.",
+    "mockAi1": "I'd suggest starting at The Rocks (1788) for colonial history, then Martin Place where The Matrix was filmed. Day 2: Sydney Opera House and the Harbour Bridge walk.",
+    "mockUser2": "Add some food spots along the way!",
+    "featureRoute": "Smart Routes",
+    "featureSpots": "Hidden Gems",
+    "featureChat": "Live Chat",
+    "inputPlaceholder": "Plan my Sydney adventure...",
+    "cta": "Start Planning with AI",
+    "pageTitle": "AI Travel Planner",
+    "pageSubtitle": "Tell me about your trip and I'll create a personalized Sydney itinerary",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "We're training our AI on Sydney's rich history, hidden gems, and the best local experiences. Soon you'll be able to chat with our AI to plan the perfect Sydney adventure.",
+    "backToHome": "Back to Home"
+  },
   "map": {
     "legend": "Legend",
     "loadingMap": "Loading map..."
