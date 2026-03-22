@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import { MapPin, Clock, Film, QrCode, Smartphone, Compass } from "lucide-react";
 
+
 const iconMap = {
   MapPin,
   Clock,

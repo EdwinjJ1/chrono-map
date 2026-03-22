@@ -22,6 +22,7 @@ export default function Footer() {
       { label: t('aboutLinks.contactUs'), href: `/${locale}/contact` },
     ],
     legal: [
+      { label: t('legalLinks.legalInformation'), href: `/${locale}/legal` },
       { label: t('legalLinks.privacyPolicy'), href: `/${locale}/privacy` },
       { label: t('legalLinks.termsOfService'), href: `/${locale}/terms` },
       { label: t('legalLinks.cookiePolicy'), href: `/${locale}/cookies` },

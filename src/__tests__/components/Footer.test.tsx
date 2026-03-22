@@ -47,6 +47,7 @@ describe('Footer', () => {
     render(<Footer />);
 
     expect(screen.getByText('Legal')).toBeInTheDocument();
+    expect(screen.getByText('Legal Information')).toBeInTheDocument();
     expect(screen.getByText('Privacy Policy')).toBeInTheDocument();
     expect(screen.getByText('Terms of Service')).toBeInTheDocument();
     expect(screen.getByText('Cookie Policy')).toBeInTheDocument();
@@ -78,6 +79,7 @@ describe('Footer', () => {
     expect(container.querySelector('a[href="/en/map"]')).toBeInTheDocument();
     expect(container.querySelector('a[href="/en"]')).toBeInTheDocument();
     expect(container.querySelector('a[href="/en/about"]')).toBeInTheDocument();
+    expect(container.querySelector('a[href="/en/legal"]')).toBeInTheDocument();
     expect(container.querySelector('a[href="/en/privacy"]')).toBeInTheDocument();
   });
 });

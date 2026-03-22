@@ -76,6 +76,7 @@
       "contactUs": "联系我们"
     },
     "legalLinks": {
+      "legalInformation": "法律信息",
       "privacyPolicy": "隐私政策",
       "termsOfService": "服务条款",
       "cookiePolicy": "Cookie 政策"
@@ -106,6 +107,23 @@
     "title": "从这里开始你的旅程",
     "viewAll": "查看全部地点",
     "explore": "去探索"
+  },
+  "aiPlanner": {
+    "title": "AI 旅行规划",
+    "subtitle": "你的悉尼私人导游",
+    "mockUser1": "我在悉尼有2天，喜欢历史和电影取景地。",
+    "mockAi1": "建议先去岩石区（1788年）体验殖民历史，然后到马丁广场——《黑客帝国》的取景地。第二天：悉尼歌剧院和海港大桥步行。",
+    "mockUser2": "顺路推荐一些美食吧！",
+    "featureRoute": "智能路线",
+    "featureSpots": "隐藏宝藏",
+    "featureChat": "实时对话",
+    "inputPlaceholder": "规划我的悉尼之旅...",
+    "cta": "开始 AI 规划",
+    "pageTitle": "AI 旅行规划",
+    "pageSubtitle": "告诉我你的旅行计划，我会为你制定个性化的悉尼行程",
+    "comingSoon": "即将推出",
+    "comingSoonDescription": "我们正在用悉尼丰富的历史、隐藏宝藏和最佳本地体验训练我们的 AI。很快你就能通过 AI 对话来规划完美的悉尼之旅。",
+    "backToHome": "返回首页"
   },
   "map": {
     "legend": "图例",
