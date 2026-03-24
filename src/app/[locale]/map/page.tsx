@@ -11,6 +11,7 @@ import { locations, locationTypes, type Location } from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
 import { useLocale } from 'next-intl';
 import LocationCard from "@/components/LocationCard";
+import { sortLocations } from '@/lib/location-sorting';
 
 function MapLoadingFallback() {
   const t = useTranslations('map');
@@ -70,22 +71,27 @@ export default function MapPage() {
     restaurant: t('locationTypes.restaurant'),
   };
 
-  const filteredLocations = localizedLocations.filter((loc) => {
-    // Restaurant locations are hidden by default and only shown when explicitly selected
-    if (loc.type === "restaurant" && filterType !== "restaurant") {
-      return false;
-    }
+  const filteredLocations = useMemo(() => {
+    const visibleLocations = localizedLocations.filter((loc) => {
+      // Restaurant locations are hidden by default and only shown when explicitly selected
+      if (loc.type === "restaurant" && filterType !== "restaurant") {
+        return false;
+      }
 
-    const matchesType = filterType === "all" || loc.type === filterType;
-    const name = loc.name;
-    const matchesSearch =
-      searchQuery === "" ||
-      name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      loc.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      loc.fullDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      loc.address.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesType && matchesSearch;
-  });
+      const matchesType = filterType === "all" || loc.type === filterType;
+      const name = loc.name;
+      const matchesSearch =
+        searchQuery === "" ||
+        name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        loc.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        loc.fullDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        loc.address.toLowerCase().includes(searchQuery.toLowerCase());
+
+      return matchesType && matchesSearch;
+    });
+
+    return sortLocations(visibleLocations, filterType, locale);
+  }, [filterType, locale, localizedLocations, searchQuery]);
 
   // Get localized type label
   const getTypeLabel = (type: Location["type"]) => {

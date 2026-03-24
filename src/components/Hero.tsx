@@ -110,6 +110,8 @@ export default function Hero() {
               <Link
                 href={`/${locale}/map`}
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent text-primary-dark font-semibold rounded-2xl hover:bg-accent-light transition-all duration-300 shadow-lg hover:shadow-accent/20 cursor-pointer"
+                title={locale === 'zh' ? "开始您的 City Walk 与旅游准备地图探索" : "Start your City Walk and Travel Preparation map exploration"}
+                aria-label={locale === 'zh' ? "进入互动地图" : "Enter Interactive Map"}
               >
                 <Compass className="w-5 h-5" />
                 {t('startExploring')}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -18,13 +19,13 @@ export async function generateMetadata({
   const isZh = locale === 'zh';
 
   return {
-    title: isZh ? "时光地图 | 悉尼层次" : "Chrono-Map | Sydney Layers",
+    title: isZh ? "时光地图 (Chrono-Map) | 用一张地图，看懂每个地点背后的故事" : "Chrono-Map | Stories of Place - City Walk & Travel Planning",
     description: isZh
-      ? "穿越时空探索悉尼的隐秘故事。通过我们的互动时光地图，发现历史地标、电影取景地和文化遗产。"
-      : "Explore Sydney's hidden stories through time. Discover historical landmarks, film locations, and cultural heritage with our interactive time-travel map.",
+      ? "用一张地图，看懂每个地点背后的故事。Chrono-Map 是您绝佳的 City Walk（城市漫游）与旅游准备工具，带您探索跨越时间的历史地标、影视取景地与文化遗产。"
+      : "Use one map to understand the story behind every place. Chrono-Map is your ultimate city walk companion and travel preparation tool to explore historical landmarks, film locations, and cultural heritage.",
     keywords: isZh
-      ? ["悉尼", "历史", "地图", "遗产", "电影取景地", "旅游", "文化"]
-      : ["Sydney", "history", "map", "heritage", "film locations", "travel", "culture"],
+      ? ["city walk", "旅游准备", "用一张地图，看懂每个地点背后的故事", "历史地图", "地点故事", "文化遗产", "影视取景地", "旅行", "城市探索", "文化"]
+      : ["city walk", "travel preparation", "history map", "place stories", "heritage", "film locations", "travel", "city exploration", "culture"],
     authors: [{ name: "Evan Lin" }],
     alternates: {
       canonical: `/${locale}`,
@@ -34,12 +35,20 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: isZh ? "时光地图 | 悉尼层次" : "Chrono-Map | Sydney Layers",
+      title: isZh ? "时光地图 (Chrono-Map) | 用一张地图，看懂每个地点背后的故事" : "Chrono-Map | Stories of Place - City Walk & Travel Planning",
       description: isZh
-        ? "穿越时空探索悉尼的隐秘故事"
-        : "Explore Sydney's hidden stories through time",
+        ? "用一张地图，看懂每个地点背后的故事。为您的 City Walk 与旅游准备提供最翔实的历史街区地图指南。"
+        : "Use one map to understand the story behind every place. Your ultimate guide for city walks and travel preparation.",
       type: "website",
       locale: isZh ? 'zh_CN' : 'en_AU',
+      siteName: isZh ? "时光地图 (Chrono-Map)" : "Chrono-Map",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: isZh ? "时光地图 (Chrono-Map) | 用一张地图，看懂每个地点背后的故事" : "Chrono-Map | Stories of Place - City Walk & Travel Planning",
+      description: isZh
+        ? "为您的 City Walk 与旅游准备提供最翔实的历史街区地图指南。用一张地图，看懂每个地点背后的故事。"
+        : "Your ultimate guide for city walks and travel preparation. Use one map to understand the story behind every place.",
     },
   };
 }
@@ -58,13 +67,51 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const isZh = locale === 'zh';
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": ["WebSite", "SoftwareApplication"],
+    "name": isZh ? "时光地图 (Chrono-Map)" : "Chrono-Map",
+    "alternateName": "Chrono-Map: Stories of Place",
+    "url": "https://chrono-map.com",
+    "description": isZh 
+      ? "用一张地图，看懂每个地点背后的故事。一款为 City Walk 与旅游准备打造的互动地图应用。"
+      : "Use one map to understand the story behind every place. An interactive map application designed for city walks and travel preparation.",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Any",
+    "keywords": isZh ? "city walk, 旅游准备, 地图, 故事" : "city walk, travel preparation, map, stories"
+  };
 
   return (
     <html lang={locale}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

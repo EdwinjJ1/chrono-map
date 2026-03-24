@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Chrono-Map | Sydney Layers",
-    "description": "Explore Sydney's hidden stories through time. Discover historical landmarks, film locations, and cultural heritage with our interactive time-travel map."
+    "title": "Chrono-Map | Stories of Place",
+    "description": "Use one map to understand the story behind every place. Explore historical landmarks, film locations, and cultural heritage through time."
   },
   "header": {
     "home": "Home",
@@ -10,14 +10,14 @@
     "about": "About",
     "startExploring": "Start Exploring",
     "toggleMenu": "Toggle menu",
-    "brandSubtitle": "Sydney Layers"
+    "brandSubtitle": "Stories of Place"
   },
   "hero": {
-    "badge": "Discover Sydney's Hidden Stories",
+    "badge": "Stories Behind Every Place",
     "headline1": "Travel Through",
     "headline2": "Time",
     "headline3": "One Location at a Time",
-    "subheadline": "Explore historical landmarks, film locations, and cultural heritage sites. See how Sydney has transformed through the decades with our interactive time-travel map.",
+    "subheadline": "Use one map to understand the story behind every place. Explore historical landmarks, film locations, and cultural heritage across cities and across time.",
     "startExploring": "Start Exploring",
     "learnMore": "Learn More",
     "historicSites": "Historic Sites",
@@ -34,7 +34,7 @@
     "description": "Our platform combines cutting-edge technology with rich historical content to create an immersive time-traveling experience.",
     "interactiveHeritageMap": {
       "title": "Interactive Heritage Map",
-      "description": "Explore Sydney's rich history through our beautifully designed interactive map. Each pin tells a unique story."
+      "description": "Explore layered history through our interactive map. Each pin reveals the story behind a place."
     },
     "thenNowComparison": {
       "title": "Then & Now Comparison",
@@ -58,8 +58,8 @@
     }
   },
   "footer": {
-    "brandTagline": "Discover Sydney's hidden stories through time. Every location has a tale to tell.",
-    "brandSubtitle": "Sydney Layers",
+    "brandTagline": "Use one map to understand the story behind every place.",
+    "brandSubtitle": "Stories of Place",
     "explore": "Explore",
     "about": "About",
     "legal": "Legal",
@@ -87,13 +87,13 @@
       "email": "Email"
     },
     "allRightsReserved": "All rights reserved.",
-    "madeWithPassion": "Made with passion in Sydney, Australia"
+    "madeWithPassion": "Built for curious explorers everywhere"
   },
   "cta": {
     "badge": "Start Your Journey Today",
     "headline1": "Every Street Corner Has a Story.",
     "headline2": "Are You Ready to Discover Them?",
-    "description": "From the convict-built streets of The Rocks to the futuristic sets of The Matrix, Sydney's history is waiting to be explored. Join thousands of urban adventurers discovering the city's hidden past.",
+    "description": "From historic landmarks to film locations and cultural heritage, every place holds layers worth discovering. Follow stories through the map and see how places change across time.",
     "exploreTheMap": "Explore the Map",
     "learnHowItWorks": "Learn How It Works",
     "historicLocations": "Historic Locations",
@@ -110,19 +110,19 @@
   },
   "aiPlanner": {
     "title": "AI Travel Planner",
-    "subtitle": "Your personal Sydney guide",
-    "mockUser1": "I have 2 days in Sydney, love history and film locations.",
-    "mockAi1": "I'd suggest starting at The Rocks (1788) for colonial history, then Martin Place where The Matrix was filmed. Day 2: Sydney Opera House and the Harbour Bridge walk.",
+    "subtitle": "Your personal place guide",
+    "mockUser1": "I have 2 days in a new city and love history plus film locations.",
+    "mockAi1": "I can build a route around landmark stories, filming locations, and memorable local stops. Tell me the city and how much time you have.",
     "mockUser2": "Add some food spots along the way!",
     "featureRoute": "Smart Routes",
     "featureSpots": "Hidden Gems",
     "featureChat": "Live Chat",
-    "inputPlaceholder": "Plan my Sydney adventure...",
+    "inputPlaceholder": "Plan my next city adventure...",
     "cta": "Start Planning with AI",
     "pageTitle": "AI Travel Planner",
-    "pageSubtitle": "Tell me about your trip and I'll create a personalized Sydney itinerary",
+    "pageSubtitle": "Tell me about your trip and I'll create a personalized place-based itinerary",
     "comingSoon": "Coming Soon",
-    "comingSoonDescription": "We're training our AI on Sydney's rich history, hidden gems, and the best local experiences. Soon you'll be able to chat with our AI to plan the perfect Sydney adventure.",
+    "comingSoonDescription": "We're training our AI on layered local history, hidden gems, and place-based experiences. Soon you'll be able to chat with our AI to plan a smarter route through any city.",
     "backToHome": "Back to Home"
   },
   "map": {

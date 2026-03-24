@@ -1,10 +1,14 @@
-# Chrono-Map: Sydney Layers
+# Chrono-Map: Stories of Place
 
-An interactive web application for exploring Sydney's historical landmarks, film locations, and cultural heritage sites through time.
+Use one map to understand the story behind every place.
+
+An interactive web application for exploring the layered stories behind places through time, starting with Sydney and designed to expand globally.
 
 ## Project Overview
 
-Chrono-Map is a production-grade Next.js application that combines cutting-edge web technologies with rich historical content to create an immersive time-traveling experience. Users can explore Sydney's heritage through an interactive 3D map, compare historical and modern photographs, and discover the stories behind iconic locations.
+Chrono-Map is a production-grade Next.js application that combines map-based exploration, visual comparison, and editorial storytelling into a place-discovery experience. Users can move from a map view to a story view in a few taps, compare historical and modern imagery, and understand why a location matters.
+
+The current editorial layer starts with Sydney, but the product is being built as a global system for place-based storytelling. The data model, bilingual UX, and content structure are intended to scale beyond a single city.
 
 ## Tech Stack
 
@@ -20,11 +24,13 @@ Chrono-Map is a production-grade Next.js application that combines cutting-edge 
 
 ## Features
 
-- **Interactive 3D Map**: Explore Sydney CBD with Mapbox GL, featuring 3D buildings and custom markers
-- **Location Categories**: Historical sites, Film locations, Cultural venues, Heritage buildings
+- **Interactive 3D Map**: Explore story-rich places with Mapbox GL, featuring 3D buildings and custom markers
+- **Location Categories**: Historical sites, film locations, cultural venues, heritage buildings, nature, and food
 - **Then & Now Comparison**: Slider component to compare historical and modern photographs
+- **Bilingual Experience**: English and Chinese content supported through localized routes and messages
 - **Responsive Design**: Mobile-first approach with glass morphism UI effects
-- **Dynamic Routing**: Individual location detail pages with rich content
+- **Editorial Pages**: Static pages for about, business, contact, and legal information
+- **AI Planner Preview**: Early product direction for itinerary and route planning
 
 ## Project Structure
 
@@ -35,11 +41,11 @@ Chrono-Map is a production-grade Next.js application that combines cutting-edge 
 │       └── locations/        # Location photographs
 ├── src/
 │   ├── app/
-│   │   ├── page.tsx          # Landing page
-│   │   ├── map/
-│   │   │   └── page.tsx      # Interactive map page
-│   │   └── location/
-│   │       └── [id]/         # Dynamic location detail pages
+│   │   ├── [locale]/
+│   │   │   ├── page.tsx          # Landing page
+│   │   │   ├── map/page.tsx      # Interactive map page
+│   │   │   ├── ai-planner/page.tsx
+│   │   │   └── [slug]/page.tsx   # Static content pages
 │   ├── components/
 │   │   ├── MapView.tsx       # Mapbox GL map component
 │   │   ├── LocationCard.tsx  # Slide-out location panel
@@ -51,10 +57,19 @@ Chrono-Map is a production-grade Next.js application that combines cutting-edge 
 │   │   ├── Footer.tsx
 │   │   └── CallToAction.tsx
 │   └── data/
-│       └── locations.ts      # Location data and types
+│       ├── locations.ts      # Core location data and types
+│       ├── locations-zh.ts   # Chinese localization layer
+│       └── site-pages.ts     # Static content page copy
 ├── .env.local                # Environment variables
 └── package.json
 ```
+
+## Product Positioning
+
+- **Core promise**: Use one map to understand the story behind every place.
+- **Current scope**: Sydney is the first content layer and proof of concept.
+- **Long-term direction**: Expand to more cities, more place types, and more route-based experiences.
+- **Primary audiences**: Travelers, citywalk users, film-location fans, students, and cultural institutions.
 
 ## Getting Started
 
@@ -114,9 +129,10 @@ npm run dev
 
 | Route | Description |
 |-------|-------------|
-| `/` | Landing page with hero, features, and featured locations |
-| `/map` | Interactive Mapbox map with search and filter |
-| `/location/[id]` | Individual location detail page |
+| `/{locale}` | Localized landing page |
+| `/{locale}/map` | Interactive map with search and filters |
+| `/{locale}/ai-planner` | AI planner preview page |
+| `/{locale}/[slug]` | Static content pages such as about, business, and contact |
 
 ## Location Data Model
 
@@ -124,24 +140,36 @@ npm run dev
 interface Location {
   id: number;
   name: string;
-  nameZh?: string;              // Chinese name
-  type: "historical" | "film" | "cultural" | "heritage";
+  nameZh?: string;
+  type: "historical" | "film" | "cultural" | "heritage" | "nature" | "restaurant";
   year: string;
   coordinates: { lat: number; lng: number };
   description: string;
+  descriptionZh?: string;
   fullDescription: string;
+  fullDescriptionZh?: string;
   historicalImage?: string;
   modernImage?: string;
   facts: string[];
+  factsZh?: string[];
   relatedFilms?: string[];
   address: string;
+  addressZh?: string;
   visitInfo?: {
     hours?: string;
+    hoursZh?: string;
     admission?: string;
+    admissionZh?: string;
     website?: string;
   };
 }
 ```
+
+## Content Model
+
+- Each location combines coordinates, concise summary copy, deeper narrative context, facts, imagery, and visitor information.
+- English content is the base layer, with Chinese localization provided for key fields and UI copy.
+- The editorial pattern is designed to support future route pages, QR plaque experiences, and city-by-city expansion.
 
 ## Development Progress
 
@@ -150,24 +178,28 @@ interface Location {
 - [x] Landing page with Hero, Features, and CTA sections
 - [x] Interactive Mapbox GL map with 3D buildings
 - [x] Custom color-coded markers by location type
-- [x] Location detail pages with dynamic routing
+- [x] Localized static pages with dynamic slug routing
 - [x] Then & Now image comparison slider
 - [x] Search and filter functionality
 - [x] Mobile-responsive design
 - [x] Glass morphism UI effects
 - [x] Real location images from Unsplash
+- [x] English and Chinese localization support
+- [x] Static documentation pages for brand, business, and legal content
 
 ### In Progress
 - [ ] Historical images for Then & Now comparison
 - [ ] QR code generation for physical plaques
 - [ ] Walking tour routes
+- [ ] Better growth infrastructure such as analytics, sharing, and sitemap support
 
 ### Planned
-- [ ] User authentication
-- [ ] Bookmarking favorite locations
+- [ ] Shareable route generation
+- [ ] Expanded city coverage beyond Sydney
 - [ ] AR overlay features
+- [ ] Optional bookmarks or saved places
 - [ ] Offline PWA support
-- [ ] Multi-language support (Chinese/English)
+- [ ] Additional language support beyond English and Chinese
 
 ## Design System
 
@@ -233,7 +265,7 @@ This project is licensed under the MIT License.
 
 - Location images from [Unsplash](https://unsplash.com)
 - Map data from [Mapbox](https://www.mapbox.com) and [OpenStreetMap](https://www.openstreetmap.org)
-- Historical information from various Sydney heritage resources
+- Historical information sourced from location-specific heritage, archival, tourism, and cultural references
 
 ## Contact
 

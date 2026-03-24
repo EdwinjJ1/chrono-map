@@ -14,10 +14,11 @@ describe('Hero', () => {
     const { container } = render(<Hero />);
 
     const h1 = container.querySelector('h1');
+    const normalizedText = h1?.textContent?.replace(/\s+/g, '').trim();
     expect(h1).toBeInTheDocument();
-    expect(h1?.textContent).toContain('Travel Through');
-    expect(h1?.textContent).toContain('Time');
-    expect(h1?.textContent).toContain('One Location at a Time');
+    expect(normalizedText).toContain('TravelThrough');
+    expect(normalizedText).toContain('Time');
+    expect(normalizedText).toContain('OneLocationataTime');
   });
 
   it('should render subheadline', () => {
@@ -31,7 +32,7 @@ describe('Hero', () => {
   it('should render badge', () => {
     const { container } = render(<Hero />);
 
-    expect(screen.getByText("Discover Sydney's Hidden Stories")).toBeInTheDocument();
+    expect(screen.getByText("Stories Behind Every Place")).toBeInTheDocument();
   });
 
   it('should render CTA buttons', () => {

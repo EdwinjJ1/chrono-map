@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "时光地图 | 悉尼層次",
-    "description": "穿越时空探索悉尼的隐秘故事。通过我们的互动时光地图，发现历史地标、电影取景地和文化遗产。"
+    "title": "时光地图 | 地点故事",
+    "description": "用一张地图，看懂每个地点背后的故事。探索跨越时间的历史地标、影视取景地与文化遗产。"
   },
   "header": {
     "home": "首页",
@@ -10,14 +10,14 @@
     "about": "关于我们",
     "startExploring": "开始探索",
     "toggleMenu": "切换菜单",
-    "brandSubtitle": "悉尼层次"
+    "brandSubtitle": "地点故事"
   },
   "hero": {
-    "badge": "探索悉尼的隐秘故事",
+    "badge": "每个地点背后都有故事",
     "headline1": "穿越",
     "headline2": "时光",
     "headline3": "一站一故事",
-    "subheadline": "探索历史地标、电影取景地和文化遗产。通过我们的互动时光地图，看看悉尼数十年来的变迁。",
+    "subheadline": "用一张地图，看懂每个地点背后的故事。探索跨越城市与时间的历史地标、影视取景地和文化遗产。",
     "startExploring": "开始探索",
     "learnMore": "了解更多",
     "historicSites": "处历史遗址",
@@ -34,7 +34,7 @@
     "description": "我们的平台将尖端技术与丰富的历史内容相结合，创造身临其境的时光穿越体验。",
     "interactiveHeritageMap": {
       "title": "互动遗产地图",
-      "description": "通过我们精心设计的互动地图探索悉尼丰富的历史。每个标记都讲述着一个独特的故事。"
+      "description": "通过精心设计的互动地图探索层层叠加的地方历史。每个标记都揭示一个地点背后的故事。"
     },
     "thenNowComparison": {
       "title": "古今对比",
@@ -58,8 +58,8 @@
     }
   },
   "footer": {
-    "brandTagline": "穿越时空探索悉尼的隐秘故事。每个地方都有故事要讲述。",
-    "brandSubtitle": "悉尼层次",
+    "brandTagline": "用一张地图，看懂每个地点背后的故事。",
+    "brandSubtitle": "地点故事",
     "explore": "探索",
     "about": "关于",
     "legal": "法律信息",
@@ -87,13 +87,13 @@
       "email": "电子邮箱"
     },
     "allRightsReserved": "保留所有权利。",
-    "madeWithPassion": "于澳大利亚悉尼，用心打造"
+    "madeWithPassion": "为每一位好奇的探索者而做"
   },
   "cta": {
     "badge": "今天就开始你的旅程",
     "headline1": "每个街角都有一个故事。",
     "headline2": "你准备好探索了吗？",
-    "description": "从岩石区的囚犯街道到《黑客帝国》的未来场景，悉尼的历史等待你去探索。加入成千上万的城市探险者，发现这座城市隐藏的过去。",
+    "description": "从历史地标到影视取景地，再到文化遗产，每个地点都藏着值得被看见的层次。沿着地图读故事，看地点如何随时间变化。",
     "exploreTheMap": "探索地图",
     "learnHowItWorks": "了解运作方式",
     "historicLocations": "处历史地点",
@@ -110,19 +110,19 @@
   },
   "aiPlanner": {
     "title": "AI 旅行规划",
-    "subtitle": "你的悉尼私人导游",
-    "mockUser1": "我在悉尼有2天，喜欢历史和电影取景地。",
-    "mockAi1": "建议先去岩石区（1788年）体验殖民历史，然后到马丁广场——《黑客帝国》的取景地。第二天：悉尼歌剧院和海港大桥步行。",
+    "subtitle": "你的地点探索助手",
+    "mockUser1": "我在一个新城市有 2 天，喜欢历史和电影取景地。",
+    "mockAi1": "我可以围绕地标故事、影视取景地和有记忆点的本地停靠点，为你生成路线。告诉我城市和可用时间即可。",
     "mockUser2": "顺路推荐一些美食吧！",
     "featureRoute": "智能路线",
     "featureSpots": "隐藏宝藏",
     "featureChat": "实时对话",
-    "inputPlaceholder": "规划我的悉尼之旅...",
+    "inputPlaceholder": "规划我的下一次城市探索...",
     "cta": "开始 AI 规划",
     "pageTitle": "AI 旅行规划",
-    "pageSubtitle": "告诉我你的旅行计划，我会为你制定个性化的悉尼行程",
+    "pageSubtitle": "告诉我你的旅行计划，我会为你制定一条以地点故事为核心的个性化路线",
     "comingSoon": "即将推出",
-    "comingSoonDescription": "我们正在用悉尼丰富的历史、隐藏宝藏和最佳本地体验训练我们的 AI。很快你就能通过 AI 对话来规划完美的悉尼之旅。",
+    "comingSoonDescription": "我们正在用各地的历史脉络、隐藏宝藏和地点体验训练 AI。很快你就能通过对话，规划一条更聪明的城市探索路线。",
     "backToHome": "返回首页"
   },
   "map": {
