@@ -14,13 +14,13 @@ describe('Footer', () => {
     render(<Footer />);
 
     expect(screen.getByText('Chrono-Map')).toBeInTheDocument();
-    expect(screen.getByText('Sydney Layers')).toBeInTheDocument();
+    expect(screen.getByText('Stories of Place')).toBeInTheDocument();
   });
 
   it('should render description', () => {
     render(<Footer />);
 
-    expect(screen.getByText(/Discover Sydney's hidden stories/)).toBeInTheDocument();
+    expect(screen.getByText(/Use one map to understand the story behind every place/)).toBeInTheDocument();
   });
 
   it('should render Explore section links', () => {
@@ -70,7 +70,7 @@ describe('Footer', () => {
   it('should render location text', () => {
     render(<Footer />);
 
-    expect(screen.getByText('Made with passion in Sydney, Australia')).toBeInTheDocument();
+    expect(screen.getByText('Built for curious explorers everywhere')).toBeInTheDocument();
   });
 
   it('should have correct link hrefs', () => {

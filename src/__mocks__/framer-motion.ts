@@ -50,3 +50,55 @@ export const motion = {
 export function AnimatePresence({ children }: { children?: ReactNode }) {
   return React.createElement(React.Fragment, null, children);
 }
+
+export function useInView() {
+  return true;
+}
+
+type MotionListener = (value: number) => void;
+
+export function useMotionValue(initialValue: number) {
+  let currentValue = initialValue;
+  const listeners = new Set<MotionListener>();
+
+  return {
+    get: () => currentValue,
+    set: (value: number) => {
+      currentValue = value;
+      listeners.forEach((listener) => listener(value));
+    },
+    on: (eventName: string, listener: MotionListener) => {
+      if (eventName === 'change') {
+        listeners.add(listener);
+      }
+
+      return () => listeners.delete(listener);
+    },
+  };
+}
+
+export function useTransform(
+  motionValue: { get: () => number; on: (eventName: string, listener: MotionListener) => () => void },
+  transformer: (value: number) => number
+) {
+  return {
+    on: (eventName: string, listener: MotionListener) => {
+      if (eventName === 'change') {
+        listener(transformer(motionValue.get()));
+      }
+
+      return motionValue.on(eventName, (value) => listener(transformer(value)));
+    },
+  };
+}
+
+export function animate(
+  motionValue: { set: (value: number) => void },
+  target: number
+) {
+  motionValue.set(target);
+
+  return {
+    stop: () => undefined,
+  };
+}

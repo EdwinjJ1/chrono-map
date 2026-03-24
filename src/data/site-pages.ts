@@ -70,12 +70,12 @@ const sitePages: Record<SitePageSlug, SitePageDefinition> = {
       zh: '我们的故事',
     },
     description: {
-      en: 'Why Chrono-Map exists and what kind of city memory experience we are building.',
-      zh: '为什么 Chrono-Map 会存在，以及我们想打造怎样的城市记忆体验。',
+      en: 'Why Chrono-Map exists and what kind of place-memory experience we are building.',
+      zh: '为什么 Chrono-Map 会存在，以及我们想打造怎样的地点记忆体验。',
     },
     intro: {
-      en: 'Chrono-Map began with a simple observation: people walk past layered history every day, but most places do not make those stories easy to see, compare, and share.',
-      zh: 'Chrono-Map 起源于一个很简单的观察：人们每天都会经过层层叠叠的城市历史，但大多数地点并不会把这些故事清楚地呈现出来、对比出来、传播出去。',
+      en: 'Chrono-Map began with a simple observation: people move through layered history every day, but most places do not make those stories easy to see, compare, and share.',
+      zh: 'Chrono-Map 起源于一个很简单的观察：人们每天都会经过层层叠叠的地点历史，但大多数地方并不会把这些故事清楚地呈现出来、对比出来、传播出去。',
     },
     updatedAt: sharedUpdatedAt,
     sections: [
@@ -97,17 +97,17 @@ const sitePages: Record<SitePageSlug, SitePageDefinition> = {
       },
       {
         title: {
-          en: 'Why Sydney Layers',
-          zh: '为什么是 Sydney Layers',
+          en: 'From One City to Many',
+          zh: '从一座城市到更多城市',
         },
         paragraphs: [
           {
-            en: 'Sydney is a city where colonial history, Indigenous history, migration, cinema, tourism, and everyday life overlap in a small physical space. That density makes it ideal for time-based exploration.',
-            zh: '悉尼是一座在很小的物理空间里叠加了殖民历史、原住民历史、移民经验、电影文化、旅游叙事与日常生活的城市，这种密度非常适合做“时间维度”的探索。',
+            en: 'Chrono-Map is designed for any place where history, migration, cinema, architecture, tourism, and everyday life overlap. The richer the layers, the stronger the storytelling experience becomes.',
+            zh: 'Chrono-Map 适用于任何一个历史、迁徙、电影、建筑、旅游与日常生活彼此重叠的地点。一个地方的层次越丰富，这种叙事体验就越有价值。',
           },
           {
-            en: 'The long-term vision is broader than one city, but Sydney is the right place to prove the product, the editorial model, and the bilingual experience.',
-            zh: '我们的长期愿景不会只停留在一座城市，但悉尼是验证产品形态、内容方法和双语体验最合适的起点。',
+            en: 'We are starting with Sydney as the first editorial layer, but the long-term vision is global. The product, content model, and bilingual experience are being built to expand beyond a single city.',
+            zh: '我们目前以悉尼作为第一层内容起点，但长期愿景是全球化的。产品形态、内容模型和双语体验，都是按超出单一城市的扩展方向来设计的。',
           },
         ],
       },
@@ -165,8 +165,8 @@ const sitePages: Record<SitePageSlug, SitePageDefinition> = {
       zh: '地点内容如何被整理、展示、翻译，并在整个网站中被发现。',
     },
     intro: {
-      en: 'Chrono-Map combines editorial curation, structured location data, and map-based browsing so users can move from a city view to a story view in a few taps.',
-      zh: 'Chrono-Map 把内容策划、结构化地点数据与地图浏览结合起来，让用户可以在几次点击之内，从“看城市”切换到“读故事”。',
+      en: 'Chrono-Map combines editorial curation, structured location data, and map-based browsing so users can move from a map view to a story view in a few taps.',
+      zh: 'Chrono-Map 把内容策划、结构化地点数据与地图浏览结合起来，让用户可以在几次点击之内，从“看地图”切换到“读故事”。',
     },
     updatedAt: sharedUpdatedAt,
     sections: [
@@ -246,8 +246,8 @@ const sitePages: Record<SitePageSlug, SitePageDefinition> = {
       zh: '文化机构、旅游运营方、品牌方与本地合作伙伴可以如何与 Chrono-Map 合作。',
     },
     intro: {
-      en: 'We are open to partnerships that improve cultural discovery without turning place-based storytelling into ad clutter.',
-      zh: '我们欢迎能提升文化发现体验的合作，但不会把地点叙事做成充满广告噪音的页面。',
+      en: 'We are open to partnerships that improve cultural discovery across places and cities without turning place-based storytelling into ad clutter.',
+      zh: '我们欢迎能在不同地点与城市中提升文化发现体验的合作，但不会把地点叙事做成充满广告噪音的页面。',
     },
     updatedAt: sharedUpdatedAt,
     sections: [

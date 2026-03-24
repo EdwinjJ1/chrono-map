@@ -19,7 +19,7 @@ describe('Header', () => {
     render(<Header />);
 
     expect(screen.getByText('Chrono-Map')).toBeInTheDocument();
-    expect(screen.getByText('Sydney Layers')).toBeInTheDocument();
+    expect(screen.getByText('Stories of Place')).toBeInTheDocument();
   });
 
   it('should render navigation links on desktop', () => {

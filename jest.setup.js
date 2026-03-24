@@ -22,6 +22,14 @@ jest.mock('next/navigation', () => ({
   usePathname: () => '/en',
 }));
 
+class MockIntersectionObserver {
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+}
+
+global.IntersectionObserver = MockIntersectionObserver;
+
 // Suppress React warnings about unknown props (Framer Motion props in test environment)
 const originalError = console.error;
 beforeAll(() => {
@@ -50,6 +58,9 @@ beforeAll(() => {
       return;
     }
     if (message.includes('exit')) {
+      return;
+    }
+    if (message.includes('LoadableComponent') && message.includes('act')) {
       return;
     }
     originalError.call(console, ...args);
