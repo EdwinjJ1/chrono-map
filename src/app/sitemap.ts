@@ -3,7 +3,7 @@ import { locales } from '@/i18n/config';
 import { sitePageSlugs } from '@/data/site-pages';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chrono-map.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chronomap.site';
 
   const routes: MetadataRoute.Sitemap = [];
 
