@@ -3,6 +3,13 @@ import LocationCard from '@/components/LocationCard';
 import { locationTypes } from '@/data/locations';
 import type { Location } from '@/data/locations';
 
+jest.mock('next/link', () => ({
+  __esModule: true,
+  default: function Link({ children, href, className }: { children: React.ReactNode; href: string; className?: string }) {
+    return <a href={href} className={className}>{children}</a>;
+  },
+}));
+
 const mockLocation: Location = {
   id: 1,
   name: 'Test Location',
@@ -82,6 +89,16 @@ describe('LocationCard', () => {
     });
     expect(screen.getByText('Free')).toBeInTheDocument();
     expect(screen.getByText('Official Website')).toBeInTheDocument();
+  });
+
+  it('should render a crawlable location page link', async () => {
+    const { container } = render(<LocationCard location={mockLocation} onClose={() => {}} isOpen={true} />);
+
+    await waitFor(() => {
+      expect(screen.getByText('Read Full Story')).toBeInTheDocument();
+    });
+
+    expect(container.querySelector('a[href^="/en/places/"]')).toBeInTheDocument();
   });
 
   it('should display facts list', async () => {

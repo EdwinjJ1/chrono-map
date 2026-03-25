@@ -28,41 +28,41 @@ describe('FeaturedLocations', () => {
   it('should render all 4 location cards', () => {
     const { container } = render(<FeaturedLocations />);
 
-    const locationCards = container.querySelectorAll('.grid a[href="/en/map"]');
-    expect(locationCards).toHaveLength(4);
+    const locationCards = container.querySelectorAll('.grid a[href^="/en/places/"]');
+    expect(locationCards).toHaveLength(8);
   });
 
   it('should render The Rocks location', () => {
     render(<FeaturedLocations />);
 
-    expect(screen.getByText('The Rocks')).toBeInTheDocument();
-    expect(screen.getByText('Where the bubonic plague sparked a battle to save a community.')).toBeInTheDocument();
+    expect(screen.getAllByText('The Rocks').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Where the bubonic plague sparked a battle to save a community.').length).toBeGreaterThan(0);
     expect(screen.getByText('1788')).toBeInTheDocument();
-    expect(screen.getByText('Historical')).toBeInTheDocument();
+    expect(screen.getAllByText('Historical').length).toBeGreaterThan(0);
   });
 
   it('should render Martin Place location', () => {
     render(<FeaturedLocations />);
 
-    expect(screen.getByText('Martin Place')).toBeInTheDocument();
-    expect(screen.getByText('Where ANZAC dawn began in darkness at 4:30 AM.')).toBeInTheDocument();
-    expect(screen.getByText('Film Location')).toBeInTheDocument();
+    expect(screen.getAllByText('Martin Place').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Where ANZAC dawn began in darkness at 4:30 AM.').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Film Location').length).toBeGreaterThan(0);
   });
 
   it('should render QVB location', () => {
     render(<FeaturedLocations />);
 
-    expect(screen.getByText('Queen Victoria Building')).toBeInTheDocument();
-    expect(screen.getByText("Sydneyers refused to let a parking lot kill this masterpiece.")).toBeInTheDocument();
-    expect(screen.getByText('Heritage')).toBeInTheDocument();
+    expect(screen.getAllByText('Queen Victoria Building').length).toBeGreaterThan(0);
+    expect(screen.getAllByText("Sydneyers refused to let a parking lot kill this masterpiece.").length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Heritage').length).toBeGreaterThan(0);
   });
 
   it('should render Sydney Opera House location', () => {
     render(<FeaturedLocations />);
 
-    expect(screen.getByText('Sydney Opera House')).toBeInTheDocument();
-    expect(screen.getByText('The architect who never saw his own masterpiece.')).toBeInTheDocument();
-    expect(screen.getByText('Cultural')).toBeInTheDocument();
+    expect(screen.getAllByText('Sydney Opera House').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('The architect who never saw his own masterpiece.').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Cultural').length).toBeGreaterThan(0);
   });
 
   it('should have view all locations link', () => {

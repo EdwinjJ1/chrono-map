@@ -11,9 +11,9 @@ export default function Footer() {
   const footerLinks = {
     explore: [
       { label: t('exploreLinks.interactiveMap'), href: `/${locale}/map` },
-      { label: t('exploreLinks.featuredLocations'), href: `/${locale}/map?featured=true` },
-      { label: t('exploreLinks.filmLocations'), href: `/${locale}/map?type=film` },
-      { label: t('exploreLinks.walkingTours'), href: `/${locale}/tours` },
+      { label: t('exploreLinks.featuredLocations'), href: `/${locale}/topics/sydney-hidden-history` },
+      { label: t('exploreLinks.filmLocations'), href: `/${locale}/topics/sydney-film-locations` },
+      { label: t('exploreLinks.walkingTours'), href: `/${locale}/topics/sydney-heritage-walk` },
     ],
     about: [
       { label: t('aboutLinks.ourStory'), href: `/${locale}/about` },
