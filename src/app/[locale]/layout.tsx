@@ -72,6 +72,7 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const isZh = locale === 'zh';
+  const siteUrl = getSiteUrl();
 
   const jsonLd = {
     "@context": "https://schema.org",

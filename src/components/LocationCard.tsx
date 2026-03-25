@@ -28,7 +28,7 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
     return getLocalizedLocation(location, locale);
   }, [location, locale]);
 
-  if (!localizedLocation) return null;
+  if (!location || !localizedLocation) return null;
 
   const typeInfo = locationTypes[localizedLocation.type];
   const hasImage = localizedLocation.modernImage || localizedLocation.historicalImage;
