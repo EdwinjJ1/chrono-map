@@ -1,0 +1,992 @@
+[
+  {
+    "id": "201",
+    "label": "Sydney Harbour Bridge at Dawn",
+    "destination": "public/images/locations/photography/sydney-harbour-bridge-dawn.jpg",
+    "queries": [
+      "Sydney Harbour Bridge dawn photography sunrise",
+      "Harbour Bridge Sydney golden hour photo"
+    ]
+  },
+  {
+    "id": "202",
+    "label": "Opera House from Mrs Macquaries Point",
+    "destination": "public/images/locations/photography/opera-house-mrs-macquaries-point.jpg",
+    "queries": [
+      "Sydney Opera House Mrs Macquaries Point sunset photography",
+      "Opera House sunset reflection photo Sydney"
+    ]
+  },
+  {
+    "id": "203",
+    "label": "Bondi Icebergs Pool",
+    "destination": "public/images/locations/photography/bondi-icebergs-pool.jpg",
+    "queries": [
+      "Bondi Icebergs pool aerial photography Sydney",
+      "Bondi Icebergs ocean pool sunset photo"
+    ]
+  },
+  {
+    "id": "204",
+    "label": "Wendy's Secret Garden, Lavender Bay",
+    "destination": "public/images/locations/photography/wendys-secret-garden-lavender-bay.jpg",
+    "queries": [
+      "Wendy's Secret Garden Lavender Bay Sydney photography",
+      "Wendy's Secret Garden Lavender Bay harbour view photo"
+    ]
+  },
+  {
+    "id": "205",
+    "label": "Cockatoo Island Timelapse Point",
+    "destination": "public/images/locations/photography/cockatoo-island-timelapse.jpg",
+    "queries": [
+      "Cockatoo Island Sydney Harbour industrial heritage photography",
+      "Cockatoo Island Sydney timelapse long exposure photo"
+    ]
+  },
+  {
+    "id": "206",
+    "label": "Manly Beach Sunrise",
+    "destination": "public/images/locations/photography/manly-beach-sunrise.jpg",
+    "queries": [
+      "Manly Beach sunrise photography Sydney",
+      "Manly Beach dawn golden hour photo Australia"
+    ]
+  },
+  {
+    "id": "207",
+    "label": "Barangaroo Reserve Waterfront",
+    "destination": "public/images/locations/photography/barangaroo-reserve.jpg",
+    "queries": [
+      "Barangaroo Reserve Sydney waterfront park photography",
+      "Barangaroo Reserve Sydney sandstone harbour photo"
+    ]
+  },
+  {
+    "id": "208",
+    "label": "Royal Botanic Garden – Flying Foxes",
+    "destination": "public/images/locations/photography/royal-botanic-garden-flying-foxes.jpg",
+    "queries": [
+      "Royal Botanic Garden Sydney flying foxes fruit bats photography",
+      "Royal Botanic Garden Sydney grey-headed flying fox photo"
+    ]
+  },
+  {
+    "id": "209",
+    "label": "Bundeena & Jibbon Head",
+    "destination": "public/images/locations/photography/bundeena-jibbon-head.jpg",
+    "queries": [
+      "Jibbon Head Bundeena sandstone cliffs Aboriginal rock engravings photography",
+      "Jibbon Head Royal National Park coastal cliff photo"
+    ]
+  },
+  {
+    "id": "210",
+    "label": "Ku-ring-gai Chase NP – West Head",
+    "destination": "public/images/locations/photography/ku-ring-gai-west-head.jpg",
+    "queries": [
+      "West Head Lookout Ku-ring-gai Chase National Park photography",
+      "West Head Ku-ring-gai Chase panoramic waterway view photo"
+    ]
+  },
+  {
+    "id": "211",
+    "label": "Wattamolla Beach, Royal National Park",
+    "destination": "public/images/locations/photography/wattamolla-beach.jpg",
+    "queries": [
+      "Wattamolla Beach Royal National Park lagoon photography",
+      "Wattamolla Beach waterfall lagoon NSW photo"
+    ]
+  },
+  {
+    "id": "212",
+    "label": "Figure Eight Pools, Royal National Park",
+    "destination": "public/images/locations/photography/figure-eight-pools.jpg",
+    "queries": [
+      "Figure Eight Pools Royal National Park photography",
+      "Figure Eight Pools Burning Palms Beach rock pools photo"
+    ]
+  },
+  {
+    "id": "213",
+    "label": "Sea Cliff Bridge",
+    "destination": "public/images/locations/photography/sea-cliff-bridge.jpg",
+    "queries": [
+      "Sea Cliff Bridge Clifton curved bridge coastal photography",
+      "Sea Cliff Bridge NSW ocean drive photo"
+    ]
+  },
+  {
+    "id": "214",
+    "label": "Kiama Blowhole",
+    "destination": "public/images/locations/photography/kiama-blowhole.jpg",
+    "queries": [
+      "Kiama Blowhole coastal water spray photography",
+      "Kiama Blowhole NSW eruption photo"
+    ]
+  },
+  {
+    "id": "215",
+    "label": "Cronulla Sand Dunes",
+    "destination": "public/images/locations/photography/cronulla-sand-dunes.jpg",
+    "queries": [
+      "Cronulla Kurnell sand dunes photography",
+      "Cronulla sand dunes NSW coastal desert photo"
+    ]
+  },
+  {
+    "id": "216",
+    "label": "Sydney Observatory – Night Sky",
+    "destination": "public/images/locations/photography/sydney-observatory-night.jpg",
+    "queries": [
+      "Sydney Observatory night sky astrophotography stars",
+      "Sydney Observatory Hill night photography Milky Way"
+    ]
+  },
+  {
+    "id": "217",
+    "label": "Centennial Park – Bird Photography",
+    "destination": "public/images/locations/photography/centennial-park-birds.jpg",
+    "queries": [
+      "Centennial Park Sydney ibis cockatoo bird photography",
+      "Centennial Park Sydney waterbirds pond photo"
+    ]
+  },
+  {
+    "id": "218",
+    "label": "Balls Head Reserve",
+    "destination": "public/images/locations/photography/balls-head-reserve.jpg",
+    "queries": [
+      "Balls Head Reserve Waverton Sydney Harbour photography",
+      "Balls Head Reserve Sydney foreshore bushwalk harbour view photo"
+    ]
+  },
+  {
+    "id": "219",
+    "label": "Taronga Zoo – Free Flight Bird Show",
+    "destination": "public/images/locations/photography/taronga-zoo-bird-show.jpg",
+    "queries": [
+      "Taronga Zoo bird show free flight photography",
+      "Taronga Zoo Sydney bird show raptor flight photo"
+    ]
+  },
+  {
+    "id": "220",
+    "label": "Dangar Island, Hawkesbury River",
+    "destination": "public/images/locations/photography/dangar-island-hawkesbury.jpg",
+    "queries": [
+      "Dangar Island Hawkesbury River photography",
+      "Dangar Island Hawkesbury River lush island photo aerial"
+    ]
+  },
+  {
+    "id": "221",
+    "label": "Palm Beach Lighthouse",
+    "destination": "public/images/locations/photography/palm-beach-lighthouse.jpg",
+    "queries": [
+      "Barrenjoey Lighthouse Palm Beach photography",
+      "Palm Beach lighthouse Sydney northern beaches photo"
+    ]
+  },
+  {
+    "id": "222",
+    "label": "Fitzroy Falls, Southern Highlands",
+    "destination": "public/images/locations/photography/fitzroy-falls.jpg",
+    "queries": [
+      "Fitzroy Falls Morton National Park waterfall photography",
+      "Fitzroy Falls NSW cliff waterfall valley photo"
+    ]
+  },
+  {
+    "id": "223",
+    "label": "Carrington Falls, Budderoo NP",
+    "destination": "public/images/locations/photography/carrington-falls.jpg",
+    "queries": [
+      "Carrington Falls Budderoo National Park waterfall photography",
+      "Carrington Falls NSW deep gorge waterfall photo"
+    ]
+  },
+  {
+    "id": "224",
+    "label": "Wentworth Falls, Blue Mountains",
+    "destination": "public/images/locations/photography/wentworth-falls.jpg",
+    "queries": [
+      "Wentworth Falls Blue Mountains waterfall photography",
+      "Wentworth Falls Katoomba cascading waterfall photo"
+    ]
+  },
+  {
+    "id": "225",
+    "label": "Lincoln's Rock, Blue Mountains",
+    "destination": "public/images/locations/photography/lincolns-rock-blue-mountains.jpg",
+    "queries": [
+      "Lincolns Rock Blue Mountains lookout photography",
+      "Lincolns Rock Wentworth Falls panoramic valley photo"
+    ]
+  },
+  {
+    "id": "226",
+    "label": "Three Sisters, Echo Point",
+    "destination": "public/images/locations/photography/three-sisters-echo-point.jpg",
+    "queries": [
+      "Three Sisters Echo Point Blue Mountains photography",
+      "Three Sisters Katoomba sandstone pillars sunrise photo"
+    ]
+  },
+  {
+    "id": "227",
+    "label": "Govetts Leap Lookout, Blackheath",
+    "destination": "public/images/locations/photography/govetts-leap-lookout.jpg",
+    "queries": [
+      "Govetts Leap Lookout Blackheath Blue Mountains photography",
+      "Govetts Leap waterfall valley view Blackheath photo"
+    ]
+  },
+  {
+    "id": "228",
+    "label": "Pulpit Rock, Blackheath",
+    "destination": "public/images/locations/photography/pulpit-rock-blackheath.jpg",
+    "queries": [
+      "Pulpit Rock Blackheath Blue Mountains photography",
+      "Pulpit Rock Lookout Blackheath cliff edge photo"
+    ]
+  },
+  {
+    "id": "229",
+    "label": "Megalong Valley",
+    "destination": "public/images/locations/photography/megalong-valley.jpg",
+    "queries": [
+      "Megalong Valley Blue Mountains photography",
+      "Megalong Valley rural landscape Blue Mountains photo"
+    ]
+  },
+  {
+    "id": "230",
+    "label": "Jenolan Caves",
+    "destination": "public/images/locations/photography/jenolan-caves.jpg",
+    "queries": [
+      "Jenolan Caves limestone formations photography",
+      "Jenolan Caves Blue Mountains crystal cave interior photo"
+    ]
+  },
+  {
+    "id": "231",
+    "label": "Hassans Walls Lookout, Lithgow",
+    "destination": "public/images/locations/photography/hassans-walls-lookout.jpg",
+    "queries": [
+      "Hassans Walls Lookout Lithgow Blue Mountains photography",
+      "Hassans Walls Lookout cliffside valley view photo"
+    ]
+  },
+  {
+    "id": "232",
+    "label": "Mount Wilson – Autumn Colour",
+    "destination": "public/images/locations/photography/mount-wilson-autumn.jpg",
+    "queries": [
+      "Mount Wilson Blue Mountains autumn foliage gardens photography",
+      "Mount Wilson autumn colour heritage garden photo NSW"
+    ]
+  },
+  {
+    "id": "233",
+    "label": "Mount Tomah Botanic Garden",
+    "destination": "public/images/locations/photography/mount-tomah-botanic-garden.jpg",
+    "queries": [
+      "Horseshoe Falls Blue Mountains photography",
+      "Horseshoe Falls Blue Mountains photo Australia"
+    ]
+  },
+  {
+    "id": "234",
+    "label": "Flinders Street Station – Blue Hour",
+    "destination": "public/images/locations/photography/flinders-station-blue-hour.jpg",
+    "queries": [
+      "Flinders Street Station Melbourne photography",
+      "Flinders Street Station Melbourne photo iconic yellow"
+    ]
+  },
+  {
+    "id": "235",
+    "label": "Hosier Lane Street Art",
+    "destination": "public/images/locations/photography/hosier-lane-street-art.jpg",
+    "queries": [
+      "Hosier Lane Melbourne street art photography",
+      "Hosier Lane Melbourne graffiti street art photo"
+    ]
+  },
+  {
+    "id": "236",
+    "label": "Brighton Bathing Boxes",
+    "destination": "public/images/locations/photography/brighton-bathing-boxes.jpg",
+    "queries": [
+      "Brighton Beach bathing boxes photography Melbourne",
+      "Brighton bathing boxes Melbourne sunset photo Australia"
+    ]
+  },
+  {
+    "id": "237",
+    "label": "Twelve Apostles, Great Ocean Road",
+    "destination": "public/images/locations/photography/twelve-apostles.jpg",
+    "queries": [
+      "Twelve Apostles sunset photography Great Ocean Road",
+      "Twelve Apostles Great Ocean Road sunset photo"
+    ]
+  },
+  {
+    "id": "238",
+    "label": "Loch Ard Gorge",
+    "destination": "public/images/locations/photography/loch-ard-gorge.jpg",
+    "queries": [
+      "Loch Ard Gorge Great Ocean Road photography",
+      "Loch Ard Gorge Victoria limestone cliffs photo"
+    ]
+  },
+  {
+    "id": "239",
+    "label": "London Arch, Great Ocean Road",
+    "destination": "public/images/locations/photography/london-arch.jpg",
+    "queries": [
+      "London Arch Great Ocean Road natural rock bridge photography",
+      "London Bridge Great Ocean Road sea arch photo"
+    ]
+  },
+  {
+    "id": "240",
+    "label": "Gibson Steps",
+    "destination": "public/images/locations/photography/gibson-steps.jpg",
+    "queries": [
+      "Gibson Steps Great Ocean Road beach cliffs photography",
+      "Gibson Steps limestone stacks beach Victoria photo"
+    ]
+  },
+  {
+    "id": "241",
+    "label": "Phillip Island Penguin Parade",
+    "destination": "public/images/locations/photography/phillip-island-penguins.jpg",
+    "queries": [
+      "Phillip Island penguin parade little penguins photography",
+      "Phillip Island Penguin Parade sunset beach photo"
+    ]
+  },
+  {
+    "id": "242",
+    "label": "Yarra Valley Vineyards",
+    "destination": "public/images/locations/photography/yarra-valley-vineyards.jpg",
+    "queries": [
+      "Yarra Valley vineyards rolling hills photography",
+      "Yarra Valley winery grapevines rows photo Victoria"
+    ]
+  },
+  {
+    "id": "243",
+    "label": "Dandenong Ranges – Sherbrooke Forest",
+    "destination": "public/images/locations/photography/dandenong-lyrebirds.jpg",
+    "queries": [
+      "Dandenong Ranges Sherbrooke Forest lyrebird photography",
+      "Dandenong Ranges lyrebird forest ferns photo Victoria"
+    ]
+  },
+  {
+    "id": "244",
+    "label": "Wilsons Promontory",
+    "destination": "public/images/locations/photography/wilsons-promontory.jpg",
+    "queries": [
+      "Wilsons Promontory granite boulders sandy beach photography",
+      "Wilsons Promontory Tidal River Squeaky Beach photo"
+    ]
+  },
+  {
+    "id": "245",
+    "label": "St Kilda Pier Sunset",
+    "destination": "public/images/locations/photography/st-kilda-pier-sunset.jpg",
+    "queries": [
+      "St Kilda Pier sunset wooden pier Melbourne photography",
+      "St Kilda Pier sunset Melbourne golden hour photo"
+    ]
+  },
+  {
+    "id": "246",
+    "label": "Eureka Skydeck",
+    "destination": "public/images/locations/photography/eureka-skydeck.jpg",
+    "queries": [
+      "Melbourne CBD buildings at dusk aerial",
+      "Eureka Tower Southbank Melbourne city buildings"
+    ]
+  },
+  {
+    "id": "247",
+    "label": "Royal Botanic Gardens Melbourne – Birds",
+    "destination": "public/images/locations/photography/rbg-melbourne-birds.jpg",
+    "queries": [
+      "Royal Botanic Gardens Melbourne birds lake photography",
+      "Royal Botanic Gardens Melbourne swans waterbirds photo"
+    ]
+  },
+  {
+    "id": "248",
+    "label": "Tidal River, Wilsons Promontory",
+    "destination": "public/images/locations/photography/tidal-river-prom.jpg",
+    "queries": [
+      "Tidal River Wilsons Promontory river estuary photography",
+      "Tidal River Wilsons Promontory camping beach photo"
+    ]
+  },
+  {
+    "id": "249",
+    "label": "Cradle Mountain – Dove Lake",
+    "destination": "public/images/locations/photography/cradle-mountain-dove-lake.jpg",
+    "queries": [
+      "Cradle Mountain Dove Lake Tasmania photography",
+      "Cradle Mountain Dove Lake boat shed reflection photo"
+    ]
+  },
+  {
+    "id": "250",
+    "label": "Wineglass Bay, Freycinet NP",
+    "destination": "public/images/locations/photography/wineglass-bay.jpg",
+    "queries": [
+      "Wineglass Bay Freycinet National Park Tasmania photography",
+      "Wineglass Bay Tasmania curved white sand beach photo"
+    ]
+  },
+  {
+    "id": "251",
+    "label": "Bay of Fires",
+    "destination": "public/images/locations/photography/bay-of-fires.jpg",
+    "queries": [
+      "Bay of Fires photography Tasmania orange lichen",
+      "Bay of Fires Tasmania orange lichen boulders photo"
+    ]
+  },
+  {
+    "id": "252",
+    "label": "Bruny Island Neck",
+    "destination": "public/images/locations/photography/bruny-island-neck.jpg",
+    "queries": [
+      "Bruny Island Neck photography Tasmania",
+      "Bruny Island Neck Tasmania dune photo isthmus"
+    ]
+  },
+  {
+    "id": "253",
+    "label": "Mount Wellington – kunanyi Aurora",
+    "destination": "public/images/locations/photography/mount-wellington-aurora.jpg",
+    "queries": [
+      "Mount Wellington aurora photography Tasmania",
+      "kunanyi Mount Wellington aurora australis photo Tasmania"
+    ]
+  },
+  {
+    "id": "254",
+    "label": "Hastings Caves",
+    "destination": "public/images/locations/photography/hastings-caves.jpg",
+    "queries": [
+      "Hastings Caves photography Tasmania",
+      "Hastings Caves Tasmania limestone photo underground"
+    ]
+  },
+  {
+    "id": "255",
+    "label": "Russell Falls, Mount Field NP",
+    "destination": "public/images/locations/photography/russell-falls.jpg",
+    "queries": [
+      "Russell Falls photography Mount Field Tasmania",
+      "Russell Falls Tasmania waterfall rainforest photo"
+    ]
+  },
+  {
+    "id": "256",
+    "label": "Tasman Arch & Devils Kitchen",
+    "destination": "public/images/locations/photography/tasman-arch-devils-kitchen.jpg",
+    "queries": [
+      "Tasman Arch Devils Kitchen photography Tasmania",
+      "Tasman Arch Devils Kitchen photo Tasmania coast"
+    ]
+  },
+  {
+    "id": "257",
+    "label": "Strahan Harbour",
+    "destination": "public/images/locations/photography/strahan-harbour.jpg",
+    "queries": [
+      "Strahan Harbour photography Tasmania",
+      "Strahan Harbour Tasmania sunset photo fishing boats"
+    ]
+  },
+  {
+    "id": "258",
+    "label": "Cataract Gorge, Launceston",
+    "destination": "public/images/locations/photography/cataract-gorge-launceston.jpg",
+    "queries": [
+      "Cataract Gorge Launceston photography",
+      "Cataract Gorge Launceston Tasmania photo suspension bridge"
+    ]
+  },
+  {
+    "id": "259",
+    "label": "Sarah Island, Macquarie Harbour",
+    "destination": "public/images/locations/photography/sarah-island.jpg",
+    "queries": [
+      "Sarah Island photography Macquarie Harbour",
+      "Sarah Island Macquarie Harbour Tasmania photo ruins"
+    ]
+  },
+  {
+    "id": "260",
+    "label": "South Bruny Lighthouse",
+    "destination": "public/images/locations/photography/south-bruny-lighthouse.jpg",
+    "queries": [
+      "South Bruny Lighthouse Tasmania cliff photography",
+      "Cape Bruny Lighthouse white tower ocean view photo"
+    ]
+  },
+  {
+    "id": "261",
+    "label": "Whitehaven Beach, Whitsundays",
+    "destination": "public/images/locations/photography/whitehaven-beach.jpg",
+    "queries": [
+      "Whitehaven Beach Whitsundays photography",
+      "Whitehaven Beach Whitsunday turquoise water photo Australia"
+    ]
+  },
+  {
+    "id": "262",
+    "label": "Heart Reef, Great Barrier Reef",
+    "destination": "public/images/locations/photography/heart-reef.jpg",
+    "queries": [
+      "Heart Reef Great Barrier Reef aerial photography",
+      "Heart Reef aerial photo Great Barrier Reef Australia"
+    ]
+  },
+  {
+    "id": "263",
+    "label": "Daintree Rainforest Canopy",
+    "destination": "public/images/locations/photography/daintree-rainforest-canopy.jpg",
+    "queries": [
+      "Daintree Rainforest canopy photography Queensland",
+      "Daintree Rainforest canopy photo Queensland Australia ancient"
+    ]
+  },
+  {
+    "id": "264",
+    "label": "Cape Tribulation Beach",
+    "destination": "public/images/locations/photography/cape-tribulation.jpg",
+    "queries": [
+      "Cape Tribulation photography Queensland",
+      "Cape Tribulation beach rainforest photo Queensland Australia"
+    ]
+  },
+  {
+    "id": "265",
+    "label": "Noosa Everglades",
+    "destination": "public/images/locations/photography/noosa-everglades.jpg",
+    "queries": [
+      "Noosa Everglades mirror photography Queensland",
+      "Noosa Everglades mirror reflection photo Queensland Australia"
+    ]
+  },
+  {
+    "id": "266",
+    "label": "Glass House Mountains",
+    "destination": "public/images/locations/photography/glass-house-mountains.jpg",
+    "queries": [
+      "Glass House Mountains sunrise photography Queensland",
+      "Glass House Mountains sunrise photo Queensland Australia"
+    ]
+  },
+  {
+    "id": "267",
+    "label": "Springbrook Natural Bridge – Glow Worms",
+    "destination": "public/images/locations/photography/springbrook-glow-worms.jpg",
+    "queries": [
+      "Springbrook Natural Bridge glow worms photography",
+      "Springbrook glow worms bioluminescent photo Queensland cave"
+    ]
+  },
+  {
+    "id": "268",
+    "label": "Lady Elliot Island – Manta Rays",
+    "destination": "public/images/locations/photography/lady-elliot-island-manta.jpg",
+    "queries": [
+      "Lady Elliot Island manta ray underwater photography",
+      "Lady Elliot Island manta ray underwater photo Great Barrier Reef"
+    ]
+  },
+  {
+    "id": "269",
+    "label": "Kuranda Scenic Railway",
+    "destination": "public/images/locations/photography/kuranda-scenic-railway.jpg",
+    "queries": [
+      "Kuranda Scenic Railway Queensland train rainforest photography",
+      "Kuranda Scenic Railway historic train Barron Gorge photo"
+    ]
+  },
+  {
+    "id": "270",
+    "label": "Gold Coast Skyline from The Spit",
+    "destination": "public/images/locations/photography/gold-coast-skyline.jpg",
+    "queries": [
+      "Gold Coast Skyline sunset photography",
+      "Gold Coast skyline sunset photo Surfers Paradise Australia"
+    ]
+  },
+  {
+    "id": "271",
+    "label": "Moreton Island Shipwrecks",
+    "destination": "public/images/locations/photography/moreton-island-wrecks.jpg",
+    "queries": [
+      "Moreton Island Tangalooma Wrecks photography",
+      "Tangalooma Wrecks Moreton Island sunset photo Australia"
+    ]
+  },
+  {
+    "id": "272",
+    "label": "Lamington NP – Albert's Lyrebird",
+    "destination": "public/images/locations/photography/lamington-lyrebird.jpg",
+    "queries": [
+      "Lamington National Park Albert Lyrebird photography",
+      "Albert Lyrebird Lamington National Park photo Queensland"
+    ]
+  },
+  {
+    "id": "273",
+    "label": "Magnetic Island – Koalas",
+    "destination": "public/images/locations/photography/magnetic-island-koalas.jpg",
+    "queries": [
+      "Magnetic Island koala photography Queensland",
+      "Magnetic Island koala photo Queensland Australia wildlife"
+    ]
+  },
+  {
+    "id": "274",
+    "label": "Josephine Falls, Wooroonooran NP",
+    "destination": "public/images/locations/photography/josephine-falls.jpg",
+    "queries": [
+      "Josephine Falls photography Wooroonooran",
+      "Josephine Falls waterfall photo Queensland Australia granite"
+    ]
+  },
+  {
+    "id": "275",
+    "label": "Undara Lava Tubes",
+    "destination": "public/images/locations/photography/undara-lava-tubes.jpg",
+    "queries": [
+      "Undara Lava Tubes photography Queensland",
+      "Undara Lava Tubes photo Queensland Australia cathedral"
+    ]
+  },
+  {
+    "id": "276",
+    "label": "The Pinnacles Desert",
+    "destination": "public/images/locations/photography/pinnacles-desert.jpg",
+    "queries": [
+      "Pinnacles Desert photography Western Australia",
+      "Pinnacles Desert sunset photo Western Australia limestone"
+    ]
+  },
+  {
+    "id": "277",
+    "label": "Wave Rock",
+    "destination": "public/images/locations/photography/wave-rock.jpg",
+    "queries": [
+      "Wave Rock photography Western Australia",
+      "Wave Rock Hyden Western Australia photo granite"
+    ]
+  },
+  {
+    "id": "278",
+    "label": "Lucky Bay, Cape Le Grand",
+    "destination": "public/images/locations/photography/lucky-bay.jpg",
+    "queries": [
+      "Lucky Bay kangaroo beach photography WA",
+      "Lucky Bay kangaroo beach photo Esperance Western Australia"
+    ]
+  },
+  {
+    "id": "279",
+    "label": "Horizontal Falls, Talbot Bay",
+    "destination": "public/images/locations/photography/horizontal-falls.jpg",
+    "queries": [
+      "Horizontal Falls Kimberley aerial photography",
+      "Horizontal Falls Kimberley aerial photo Western Australia"
+    ]
+  },
+  {
+    "id": "280",
+    "label": "Margaret River Coast",
+    "destination": "public/images/locations/photography/margaret-river-coast.jpg",
+    "queries": [
+      "Margaret River coast Western Australia rugged cliffs photography",
+      "Margaret River coastline surf beach limestone WA photo"
+    ]
+  },
+  {
+    "id": "281",
+    "label": "Rottnest Island Quokkas",
+    "destination": "public/images/locations/photography/rottnest-quokkas.jpg",
+    "queries": [
+      "Rottnest Island quokka selfie photography",
+      "Rottnest Island quokka photo Western Australia wildlife"
+    ]
+  },
+  {
+    "id": "282",
+    "label": "Karijini NP, Hancock Gorge",
+    "destination": "public/images/locations/photography/karijini-hancock-gorge.jpg",
+    "queries": [
+      "Karijini Hancock Gorge photography Western Australia",
+      "Karijini Hancock Gorge photo Western Australia turquoise pool"
+    ]
+  },
+  {
+    "id": "283",
+    "label": "Bungle Bungles, Purnululu NP",
+    "destination": "public/images/locations/photography/bungle-bungles.jpg",
+    "queries": [
+      "Bungle Bungles photography Purnululu WA",
+      "Bungle Bungles Purnululu photo Western Australia tiger stripes"
+    ]
+  },
+  {
+    "id": "284",
+    "label": "Lake Argyle Aerial",
+    "destination": "public/images/locations/photography/lake-argyle-aerial.jpg",
+    "queries": [
+      "Lake Argyle aerial photography Kimberley",
+      "Lake Argyle aerial photo Kimberley Western Australia"
+    ]
+  },
+  {
+    "id": "285",
+    "label": "Esperance Pink Lake",
+    "destination": "public/images/locations/photography/esperance-pink-lake.jpg",
+    "queries": [
+      "Esperance Pink Lake photography Western Australia",
+      "Lake Hillier pink lake aerial photo Western Australia"
+    ]
+  },
+  {
+    "id": "286",
+    "label": "Kings Park Wildflowers",
+    "destination": "public/images/locations/photography/kings-park-wildflowers.jpg",
+    "queries": [
+      "Kings Park wildflower photography Perth",
+      "Kings Park Perth wildflower photo Western Australia spring"
+    ]
+  },
+  {
+    "id": "287",
+    "label": "Monkey Mia Dolphins",
+    "destination": "public/images/locations/photography/monkey-mia-dolphins.jpg",
+    "queries": [
+      "Monkey Mia dolphin photography Shark Bay",
+      "Monkey Mia dolphin photo Shark Bay Western Australia"
+    ]
+  },
+  {
+    "id": "288",
+    "label": "Wilpena Pound, Flinders Ranges",
+    "destination": "public/images/locations/photography/wilpena-pound.jpg",
+    "queries": [
+      "Wilpena Pound photography Flinders Ranges",
+      "Wilpena Pound sunrise photo Flinders Ranges South Australia"
+    ]
+  },
+  {
+    "id": "289",
+    "label": "Kangaroo Island Sea Lions",
+    "destination": "public/images/locations/photography/kangaroo-island-sea-lions.jpg",
+    "queries": [
+      "Kangaroo Island sea lion photography",
+      "Seal Bay Kangaroo Island sea lion photo South Australia"
+    ]
+  },
+  {
+    "id": "290",
+    "label": "Remarkable Rocks, Kangaroo Island",
+    "destination": "public/images/locations/photography/remarkable-rocks.jpg",
+    "queries": [
+      "Remarkable Rocks photography Kangaroo Island",
+      "Remarkable Rocks Kangaroo Island photo South Australia granite"
+    ]
+  },
+  {
+    "id": "291",
+    "label": "Stokes Bay, Kangaroo Island",
+    "destination": "public/images/locations/photography/stokes-bay-kangaroo-island.jpg",
+    "queries": [
+      "Stokes Bay Kangaroo Island photography",
+      "Stokes Bay Kangaroo Island photo South Australia beach"
+    ]
+  },
+  {
+    "id": "292",
+    "label": "Umpherston Sinkhole, Mount Gambier",
+    "destination": "public/images/locations/photography/umpherston-sinkhole.jpg",
+    "queries": [
+      "Umpherston Sinkhole photography Mount Gambier",
+      "Umpherston Sinkhole photo Mount Gambier South Australia garden"
+    ]
+  },
+  {
+    "id": "293",
+    "label": "Coober Pedy Underground",
+    "destination": "public/images/locations/photography/coober-pedy-underground.jpg",
+    "queries": [
+      "Coober Pedy underground dugout home photography",
+      "Coober Pedy opal mine underground living South Australia photo"
+    ]
+  },
+  {
+    "id": "294",
+    "label": "Barossa Valley Vineyards",
+    "destination": "public/images/locations/photography/barossa-valley-vineyards.jpg",
+    "queries": [
+      "Barossa Valley vineyard rolling hills photography",
+      "Barossa Valley winery rows grapevines South Australia photo"
+    ]
+  },
+  {
+    "id": "295",
+    "label": "Victor Harbor Granite Island",
+    "destination": "public/images/locations/photography/victor-harbor-granite-island.jpg",
+    "queries": [
+      "Victor Harbor Granite Island photography",
+      "Victor Harbor causeway photo South Australia sunset"
+    ]
+  },
+  {
+    "id": "296",
+    "label": "Uluru Sunrise",
+    "destination": "public/images/locations/photography/uluru-sunrise.jpg",
+    "queries": [
+      "Uluru sunrise photography Australia",
+      "Uluru Ayers Rock sunrise photo Northern Territory Australia"
+    ]
+  },
+  {
+    "id": "297",
+    "label": "Kata Tjuta – Valley of the Winds",
+    "destination": "public/images/locations/photography/kata-tjuta-valley-winds.jpg",
+    "queries": [
+      "Kata Tjuta Valley of the Winds photography",
+      "Kata Tjuta Olgas Valley of the Winds photo Northern Territory"
+    ]
+  },
+  {
+    "id": "298",
+    "label": "Kings Canyon – Rim Walk",
+    "destination": "public/images/locations/photography/kings-canyon-rim-walk.jpg",
+    "queries": [
+      "Kings Canyon Rim Walk photography Northern Territory",
+      "Kings Canyon Rim Walk photo Watarrka Northern Territory"
+    ]
+  },
+  {
+    "id": "299",
+    "label": "West MacDonnell Ranges – Standley Chasm",
+    "destination": "public/images/locations/photography/standley-chasm.jpg",
+    "queries": [
+      "Standley Chasm West MacDonnell photography",
+      "Standley Chasm sunlight photo West MacDonnell Northern Territory"
+    ]
+  },
+  {
+    "id": "300",
+    "label": "Simpson Desert – Red Sand Dunes",
+    "destination": "public/images/locations/photography/simpson-desert-dunes.jpg",
+    "queries": [
+      "Simpson Desert red sand dunes photography",
+      "Simpson Desert red sand dunes photo Australia outback"
+    ]
+  },
+  {
+    "id": "301",
+    "label": "Kakadu – Yellow Water Billabong",
+    "destination": "public/images/locations/photography/kakadu-yellow-water.jpg",
+    "queries": [
+      "Kakadu Yellow Water billabong photography",
+      "Yellow Water Kakadu crocodile photo Northern Territory wetland"
+    ]
+  },
+  {
+    "id": "302",
+    "label": "Katherine Gorge – Nitmiluk",
+    "destination": "public/images/locations/photography/katherine-gorge-nitmiluk.jpg",
+    "queries": [
+      "Katherine Gorge Nitmiluk photography",
+      "Katherine Gorge Nitmiluk photo Northern Territory sandstone cliffs"
+    ]
+  },
+  {
+    "id": "303",
+    "label": "Devils Marbles – Karlu Karlu",
+    "destination": "public/images/locations/photography/devils-marbles-karlu-karlu.jpg",
+    "queries": [
+      "Devils Marbles sunset photography Northern Territory",
+      "Devils Marbles Karlu Karlu sunset photo Northern Territory"
+    ]
+  },
+  {
+    "id": "304",
+    "label": "Alice Springs Desert Park Night Sky",
+    "destination": "public/images/locations/photography/alice-springs-night-sky.jpg",
+    "queries": [
+      "Alice Springs night sky astrophotography",
+      "Alice Springs Milky Way photo Northern Territory Australia"
+    ]
+  },
+  {
+    "id": "305",
+    "label": "Jim Jim Falls, Kakadu",
+    "destination": "public/images/locations/photography/jim-jim-falls.jpg",
+    "queries": [
+      "Jim Jim Falls Kakadu photography",
+      "Jim Jim Falls Kakadu waterfall photo Northern Territory cliffs"
+    ]
+  },
+  {
+    "id": "306",
+    "label": "Lake Burley Griffin – Captains Flat",
+    "destination": "public/images/locations/photography/lake-burley-griffin.jpg",
+    "queries": [
+      "Lake Burley Griffin Canberra photography",
+      "Lake Burley Griffin Canberra sunset photo Parliament House"
+    ]
+  },
+  {
+    "id": "307",
+    "label": "Namadgi National Park – Night Sky",
+    "destination": "public/images/locations/photography/namadgi-night-sky.jpg",
+    "queries": [
+      "Canberra night sky Milky Way astrophotography",
+      "Australian Capital Territory dark sky stars photo"
+    ]
+  },
+  {
+    "id": "308",
+    "label": "Tidbinbilla Nature Reserve – Koalas",
+    "destination": "public/images/locations/photography/tidbinbilla-koalas.jpg",
+    "queries": [
+      "Tidbinbilla koala photography Canberra",
+      "Tidbinbilla koala photo Canberra Australia wildlife"
+    ]
+  },
+  {
+    "id": "309",
+    "label": "Mount Ainslie Lookout",
+    "destination": "public/images/locations/photography/mount-ainslie-lookout.jpg",
+    "queries": [
+      "Mount Ainslie Lookout Canberra photography",
+      "Mount Ainslie Canberra panorama photo Parliament House"
+    ]
+  },
+  {
+    "id": "310",
+    "label": "Floriade – Commonwealth Park",
+    "destination": "public/images/locations/photography/floriade-commonwealth-park.jpg",
+    "queries": [
+      "Floriade Commonwealth Park flower photography",
+      "Floriade Canberra tulip photo Australia spring flower"
+    ]
+  }
+]
