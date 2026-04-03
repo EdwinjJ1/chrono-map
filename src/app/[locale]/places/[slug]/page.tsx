@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TimelineCompare from "@/components/TimelineCompare";
+import PhotographyInfoPanel from "@/components/PhotographyInfoPanel";
 import { locations, locationTypes } from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
 import { locales, type Locale } from "@/i18n/config";
@@ -113,6 +114,7 @@ export default async function PlaceDetailPage({
     heritage: '文化遗产',
     nature: '自然景观',
     restaurant: '特色餐厅',
+    photography: '摄影地点',
   } as const;
   const typeLabel = locale === 'zh'
     ? zhTypeLabels[location.type]
@@ -292,6 +294,10 @@ export default async function PlaceDetailPage({
                 ))}
               </ul>
             </section>
+
+            {location.photographyInfo && (
+              <PhotographyInfoPanel location={location} />
+            )}
 
             {localizedLocation.relatedFilms && localizedLocation.relatedFilms.length > 0 && (
               <section className="glass rounded-3xl p-6">

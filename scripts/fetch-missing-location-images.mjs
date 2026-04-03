@@ -247,6 +247,180 @@ const tasks = [
       "Gordon Dam construction historical photo Tasmania",
     ],
   },
+
+  // ==================== WOLLONGONG / KIAMA / ILLAWARRA ====================
+
+  {
+    id: 121,
+    label: "Wollongong Harbour modern",
+    destination: "public/images/locations/wollongong-harbour.jpg",
+    queries: [
+      "Wollongong Harbour lighthouse Belmore Basin",
+      "Wollongong Breakwater Lighthouse harbour view",
+    ],
+  },
+  {
+    id: 122,
+    label: "Kiama Blowhole modern",
+    destination: "public/images/locations/kiama-blowhole.jpg",
+    queries: [
+      "Kiama Blowhole aerial view water erupting",
+      "Kiama Blowhole lighthouse NSW",
+    ],
+  },
+  {
+    id: 123,
+    label: "Nan Tien Temple modern",
+    destination: "public/images/locations/nan-tien-temple.jpg",
+    queries: [
+      "Nan Tien Temple Wollongong exterior",
+      "Nan Tien Buddhist Temple Berkeley NSW",
+    ],
+  },
+  {
+    id: 124,
+    label: "Mount Kembla Memorial modern",
+    destination: "public/images/locations/mount-kembla-memorial.jpg",
+    queries: [
+      "Mount Kembla Mine Disaster Memorial",
+      "Mount Kembla Heritage Centre NSW",
+    ],
+  },
+  {
+    id: 124,
+    label: "Mount Kembla Memorial historical",
+    destination: "public/images/locations/historical/mount-kembla-memorial-historical.jpg",
+    queries: [
+      "Mount Kembla mine disaster 1902 historical photo",
+      "Mount Kembla coal mine explosion 1902 photograph",
+    ],
+  },
+  {
+    id: 125,
+    label: "Sea Cliff Bridge modern",
+    destination: "public/images/locations/sea-cliff-bridge.jpg",
+    queries: [
+      "Sea Cliff Bridge Illawarra aerial view",
+      "Sea Cliff Bridge Clifton NSW ocean curved bridge",
+    ],
+  },
+  {
+    id: 126,
+    label: "Port Kembla Hill 60 modern",
+    destination: "public/images/locations/port-kembla-hill-60.jpg",
+    queries: [
+      "Hill 60 Port Kembla lookout view",
+      "Port Kembla Hill 60 coastal defence gun emplacement",
+    ],
+  },
+  {
+    id: 126,
+    label: "Port Kembla Hill 60 historical",
+    destination: "public/images/locations/historical/port-kembla-hill-60-historical.jpg",
+    queries: [
+      "Port Kembla steelworks historical photograph",
+      "Port Kembla WWII coastal defence guns historical photo",
+    ],
+  },
+  {
+    id: 127,
+    label: "Mount Keira modern",
+    destination: "public/images/locations/mount-keira.jpg",
+    queries: [
+      "Mount Keira Wollongong summit lookout view",
+      "Mount Keira escarpment Illawarra aerial",
+    ],
+  },
+  {
+    id: 127,
+    label: "Mount Keira historical",
+    destination: "public/images/locations/historical/mount-keira-historical.jpg",
+    queries: [
+      "Mount Keira coal mine historical photo Wollongong",
+      "Kemira mine 1982 strike historical photograph",
+    ],
+  },
+  {
+    id: 128,
+    label: "Bulli Mine Memorial modern",
+    destination: "public/images/locations/bulli-mine-memorial.jpg",
+    queries: [
+      "Bulli Mine Disaster Memorial NSW",
+      "Bulli Heritage Hotel NSW",
+    ],
+  },
+  {
+    id: 129,
+    label: "Thirroul D.H. Lawrence modern",
+    destination: "public/images/locations/thirroul-dh-lawrence.jpg",
+    queries: [
+      "Thirroul Beach NSW Illawarra escarpment",
+      "Anita's Theatre Thirroul exterior",
+    ],
+  },
+  {
+    id: 130,
+    label: "Bass Point Reserve modern",
+    destination: "public/images/locations/bass-point-reserve.jpg",
+    queries: [
+      "Bass Point Reserve Shellharbour aerial view",
+      "Bushrangers Bay Shellharbour NSW",
+    ],
+  },
+  {
+    id: 131,
+    label: "Austinmer Hicks Point modern",
+    destination: "public/images/locations/austinmer-hicks-point.jpg",
+    queries: [
+      "Austinmer Beach rock pool NSW",
+      "Headland Hotel Austinmer NSW ocean pool",
+    ],
+  },
+  {
+    id: 132,
+    label: "Shellharbour Village modern",
+    destination: "public/images/locations/shellharbour-village.jpg",
+    queries: [
+      "Shellharbour Village harbour NSW",
+      "Shellharbour Village beach heritage",
+    ],
+  },
+  {
+    id: 133,
+    label: "Lawrence Hargrave Stanwell Park modern",
+    destination: "public/images/locations/lawrence-hargrave-stanwell-park.jpg",
+    queries: [
+      "Bald Hill Lookout Stanwell Park hang glider",
+      "Lawrence Hargrave memorial Stanwell Park Beach",
+    ],
+  },
+  {
+    id: 134,
+    label: "Wollongong Steel Industry modern",
+    destination: "public/images/locations/wollongong-steel-industry.jpg",
+    queries: [
+      "BlueScope Steel Port Kembla aerial",
+      "Port Kembla steelworks Wollongong",
+    ],
+  },
+  {
+    id: 134,
+    label: "Wollongong Steel Industry historical",
+    destination: "public/images/locations/historical/wollongong-steel-industry-historical.jpg",
+    queries: [
+      "Port Kembla steelworks BHP historical photograph",
+      "Australian Iron Steel Port Kembla historical photo",
+    ],
+  },
+  {
+    id: 135,
+    label: "Kiama Heritage Precinct modern",
+    destination: "public/images/locations/kiama-heritage-precinct.jpg",
+    queries: [
+      "Kiama Collins Street terraces wooden heritage",
+      "Kiama Pilot's Cottage Museum heritage building",
+    ],
+  },
 ];
 
 const minimumBytes = 15_000;

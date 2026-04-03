@@ -69,11 +69,15 @@ export default function MapPageClient() {
     heritage: t('locationTypes.heritage'),
     nature: t('locationTypes.nature'),
     restaurant: t('locationTypes.restaurant'),
+    photography: t('locationTypes.photography'),
   };
 
   const filteredLocations = useMemo(() => {
     const visibleLocations = localizedLocations.filter((loc) => {
       if (loc.type === "restaurant" && filterType !== "restaurant") {
+        return false;
+      }
+      if (loc.type === "photography" && filterType !== "photography") {
         return false;
       }
 

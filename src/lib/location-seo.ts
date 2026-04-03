@@ -20,6 +20,15 @@ const knownCities = [
   'Broken Hill',
   'Surfers Paradise',
   'Palm Beach',
+  'Kiama',
+  'Shellharbour',
+  'Stanwell Park',
+  'Thirroul',
+  'Austinmer',
+  'Bulli',
+  'Mount Kembla',
+  'Mount Keira',
+  'Port Kembla',
 ] as const;
 
 export function getLocationCity(location: Location) {
@@ -46,6 +55,7 @@ export function getLocationTypeKeyword(type: Location['type'], locale: 'en' | 'z
     heritage: 'heritage site',
     nature: 'nature spot',
     restaurant: 'food destination',
+    photography: 'photography spot',
   };
 
   const zhLabels: Record<Location['type'], string> = {
@@ -55,6 +65,7 @@ export function getLocationTypeKeyword(type: Location['type'], locale: 'en' | 'z
     heritage: '文化遗产地点',
     nature: '自然地点',
     restaurant: '美食地点',
+    photography: '摄影地点',
   };
 
   return locale === 'zh' ? zhLabels[type] : enLabels[type];
