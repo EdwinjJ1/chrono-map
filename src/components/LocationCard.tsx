@@ -2,11 +2,13 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations, useLocale } from 'next-intl';
 import { X, MapPin, Clock, Film, ExternalLink, ChevronRight, History, Camera } from "lucide-react";
 import { Location, locationTypes } from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
+import { getLocationSlugById } from "@/lib/location-slugs";
 
 interface LocationCardProps {
   location: Location | null;
@@ -26,7 +28,7 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
     return getLocalizedLocation(location, locale);
   }, [location, locale]);
 
-  if (!localizedLocation) return null;
+  if (!location || !localizedLocation) return null;
 
   const typeInfo = locationTypes[localizedLocation.type];
   const hasImage = localizedLocation.modernImage || localizedLocation.historicalImage;
@@ -240,10 +242,18 @@ export default function LocationCard({ location, onClose, isOpen }: LocationCard
 
               {/* Footer Actions */}
               <div className="flex-shrink-0 p-4 border-t border-border">
-                <button className="w-full flex items-center justify-center gap-2 py-3 bg-primary text-white font-medium rounded-xl hover:bg-primary-light transition-colors cursor-pointer">
-                  {t('getDirections')}
-                  <ChevronRight className="w-4 h-4" />
-                </button>
+                <div className="grid grid-cols-2 gap-3">
+                  <Link
+                    href={`/${locale}/places/${getLocationSlugById(location.id)}`}
+                    className="flex items-center justify-center gap-2 py-3 border border-border text-foreground font-medium rounded-xl hover:border-primary hover:text-primary transition-colors"
+                  >
+                    {t('readFullStory')}
+                  </Link>
+                  <button className="flex items-center justify-center gap-2 py-3 bg-primary text-white font-medium rounded-xl hover:bg-primary-light transition-colors cursor-pointer">
+                    {t('getDirections')}
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
             </div>
           </motion.div>

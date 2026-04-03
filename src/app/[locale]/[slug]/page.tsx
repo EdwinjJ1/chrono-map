@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { locales, type Locale } from '@/i18n/config';
+import { getSiteUrl } from '@/lib/site-url';
 import StaticContentPage from '@/components/StaticContentPage';
 import {
   getLocalizedSitePage,
@@ -30,8 +31,10 @@ export async function generateMetadata({
   }
 
   const page = getLocalizedSitePage(locale as Locale, slug);
+  const siteUrl = getSiteUrl();
 
   return {
+    metadataBase: new URL(siteUrl),
     title: `${page.title} | Chrono-Map`,
     description: page.description,
     alternates: {
@@ -44,6 +47,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${page.title} | Chrono-Map`,
       description: page.description,
+      url: `${siteUrl}/${locale}/${slug}`,
       type: 'article',
       locale: locale === 'zh' ? 'zh_CN' : 'en_AU',
     },

@@ -8,6 +8,7 @@ import Image from "next/image";
 import { ArrowRight, Sparkles, MessageCircle, MapPin, Route, Send } from "lucide-react";
 import { locations } from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
+import { getLocationSlugById } from "@/lib/location-slugs";
 
 const cardTransforms = [
   { rotate: 5, x: -60 },
@@ -107,7 +108,7 @@ export default function FeaturedLocations() {
                     delay: index * 0.08,
                   }}
                 >
-                  <Link href={`/${locale}/map`} className="block group cursor-pointer">
+                  <Link href={`/${locale}/places/${getLocationSlugById(location.id)}`} className="block group cursor-pointer">
                     <div className="relative h-52 rounded-2xl overflow-hidden shadow-lg border-2 border-white/10">
                       <Image
                         src={location.modernImage || location.historicalImage || ""}
@@ -164,7 +165,7 @@ export default function FeaturedLocations() {
                     }
                     onMouseEnter={() => setHoveredIndex(index)}
                   >
-                    <Link href={`/${locale}/map`} className="block group">
+                    <Link href={`/${locale}/places/${getLocationSlugById(location.id)}`} className="block group">
                       <div className="relative w-52 h-80 rounded-2xl overflow-hidden shadow-2xl border-[3px] border-white/20 hover:border-accent/40 transition-colors duration-300">
                         <Image
                           src={location.modernImage || location.historicalImage || ""}

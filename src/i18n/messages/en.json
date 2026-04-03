@@ -148,7 +148,8 @@
     "cultural": "Cultural",
     "heritage": "Heritage",
     "nature": "Nature",
-    "restaurant": "Restaurant"
+    "restaurant": "Restaurant",
+    "photography": "Photography Spot"
   },
   "locationCard": {
     "viewModern": "View Modern",
@@ -161,6 +162,7 @@
     "visitorInformation": "Visitor Information",
     "admission": "Admission",
     "officialWebsite": "Official Website",
+    "readFullStory": "Read Full Story",
     "getDirections": "Get Directions",
     "close": "Close"
   },

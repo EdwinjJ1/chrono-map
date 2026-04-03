@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales, type Locale } from '@/i18n/config';
+import { getSiteUrl } from '@/lib/site-url';
 import "./globals.css";
 
 export function generateStaticParams() {
@@ -17,8 +18,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const isZh = locale === 'zh';
+  const siteUrl = getSiteUrl();
 
   return {
+    metadataBase: new URL(siteUrl),
     title: isZh ? "时光地图 (Chrono-Map) | 用一张地图，看懂每个地点背后的故事" : "Chrono-Map | Stories of Place - City Walk & Travel Planning",
     description: isZh
       ? "用一张地图，看懂每个地点背后的故事。Chrono-Map 是您绝佳的 City Walk（城市漫游）与旅游准备工具，带您探索跨越时间的历史地标、影视取景地与文化遗产。"
@@ -40,6 +43,7 @@ export async function generateMetadata({
         ? "用一张地图，看懂每个地点背后的故事。为您的 City Walk 与旅游准备提供最翔实的历史街区地图指南。"
         : "Use one map to understand the story behind every place. Your ultimate guide for city walks and travel preparation.",
       type: "website",
+      url: `${siteUrl}/${locale}`,
       locale: isZh ? 'zh_CN' : 'en_AU',
       siteName: isZh ? "时光地图 (Chrono-Map)" : "Chrono-Map",
     },
@@ -68,13 +72,14 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const isZh = locale === 'zh';
+  const siteUrl = getSiteUrl();
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["WebSite", "SoftwareApplication"],
     "name": isZh ? "时光地图 (Chrono-Map)" : "Chrono-Map",
     "alternateName": "Chrono-Map: Stories of Place",
-    "url": "https://chrono-map.com",
+    "url": siteUrl,
     "description": isZh 
       ? "用一张地图，看懂每个地点背后的故事。一款为 City Walk 与旅游准备打造的互动地图应用。"
       : "Use one map to understand the story behind every place. An interactive map application designed for city walks and travel preparation.",

@@ -1,8 +1,25 @@
+import { photographySpots } from './photography-spots';
+import { photographySpotsVicTas } from './photography-spots-vic-tas';
+import { photographySpotsTas } from './photography-spots-tas';
+import { photographySpotsRest } from './photography-spots-rest';
+
+export type PhotographySubcategory =
+  | "bird"
+  | "astrophotography"
+  | "timelapse"
+  | "landscape"
+  | "cityscape"
+  | "sunrise-sunset"
+  | "seascape"
+  | "waterfall"
+  | "macro"
+  | "wildlife";
+
 export interface Location {
   id: number;
   name: string;
   nameZh?: string;
-  type: "historical" | "film" | "cultural" | "heritage" | "nature" | "restaurant";
+  type: "historical" | "film" | "cultural" | "heritage" | "nature" | "restaurant" | "photography";
   year: string;
   coordinates: {
     lat: number;
@@ -25,6 +42,22 @@ export interface Location {
     admission?: string;
     admissionZh?: string;
     website?: string;
+  };
+  photographyInfo?: {
+    subcategory: PhotographySubcategory;
+    bestTimeOfDay: string;
+    bestTimeOfDayZh?: string;
+    bestSeason: string;
+    bestSeasonZh?: string;
+    equipment: string[];
+    equipmentZh?: string[];
+    tips: string;
+    tipsZh?: string;
+    difficulty: "easy" | "moderate" | "challenging";
+    weatherRequirements?: string;
+    weatherRequirementsZh?: string;
+    compassDirection?: string;
+    compassDirectionZh?: string;
   };
 }
 
@@ -2971,6 +3004,353 @@ export const locations: Location[] = [
       website: "https://waterfrontsouthgate.com.au",
     },
   },
+
+  // ==================== WOLLONGONG / KIAMA / ILLAWARRA ====================
+
+  {
+    id: 121,
+    name: "Wollongong Harbour & Lighthouses",
+    nameZh: "卧龙岗港与灯塔",
+    type: "heritage",
+    year: "1871",
+    coordinates: { lat: -34.427243, lng: 150.893915 },
+    description: "Two lighthouses from different centuries guard a harbour built by convicts.",
+    fullDescription: "Wollongong Harbour is one of the oldest in New South Wales, with its Breakwater Lighthouse — a rare wrought-iron structure — first lit in 1871 to guide coal ships out of Belmore Basin. The basin itself was excavated by convict labour in the 1860s, shipping coal from the Mount Keira mines to Sydney and beyond. In 1881, the clipper Queen of Nations ran aground near the harbour with the loss of four lives, its wreckage still visible in the sand. A second lighthouse, Wollongong Head Lighthouse, was built in 1936 on Flagstaff Hill — making Wollongong one of the few places in Australia with two operating lighthouses. Today, the harbour is a working fishing port and marina, where the convict-built breakwater still stands against the Tasman Sea.",
+    modernImage: "/images/locations/wollongong-harbour.jpg",
+    facts: [
+      "One of the few Australian locations with two operational lighthouses",
+      "Belmore Basin was excavated by convict labour in the 1860s",
+      "The 1871 Breakwater Lighthouse is a rare wrought-iron structure",
+      "Queen of Nations shipwreck (1881) remains are still visible nearby",
+    ],
+    address: "Belmore Basin, Wollongong NSW 2500",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+      website: "https://www.wollongong.nsw.gov.au",
+    },
+  },
+  {
+    id: 122,
+    name: "Kiama Blowhole",
+    nameZh: "凯阿玛喷水洞",
+    type: "nature",
+    year: "1887",
+    coordinates: { lat: -34.67083, lng: 150.85417 },
+    description: "A volcanic fissure that can shoot water 60 metres into the air — and gave Kiama its name.",
+    fullDescription: "The name Kiama derives from the Aboriginal word 'kiarama,' meaning 'where the sea makes a noise' — a reference to the spectacular blowhole carved into the basalt headland by thousands of years of wave action. When conditions are right, the blowhole erupts with a thunderous roar, sending plumes of water up to 60 metres high that drench onlookers on the viewing platforms. The Kiama Lighthouse, built in 1887, stands sentinel above the blowhole on Blowhole Point. Nearby, the Bombo Headland exposes a geological formation of columnar basalt — hexagonal volcanic columns that geologists travel from around the world to study. Kiama also holds another distinction: in 1884, it became home to Australia's first dairy factory and co-operative, pioneering the organised dairy industry that would define the region.",
+    modernImage: "/images/locations/kiama-blowhole.jpg",
+    facts: [
+      "Name derives from Aboriginal 'kiarama' — 'where the sea makes a noise'",
+      "Can erupt up to 60 metres high under the right conditions",
+      "Kiama Lighthouse (1887) stands above the blowhole",
+      "Site of Australia's first dairy factory and co-operative (1884)",
+    ],
+    address: "Blowhole Point Rd, Kiama NSW 2533",
+    visitInfo: {
+      hours: "Open 24/7 (best at high tide with large swell)",
+      admission: "Free",
+      website: "https://www.kiama.com.au",
+    },
+  },
+  {
+    id: 123,
+    name: "Nan Tien Temple",
+    nameZh: "南天寺",
+    type: "cultural",
+    year: "1995",
+    coordinates: { lat: -34.46667, lng: 150.84861 },
+    description: "The largest Buddhist temple in the Southern Hemisphere rises from the Illawarra escarpment.",
+    fullDescription: "Nan Tien Temple — 'Paradise of the Southern Sky' — opened in 1995 as the largest Buddhist temple in the Southern Hemisphere, built by the Fo Guang Shan Buddhist order from Taiwan at a cost of over $50 million. Architect Brewster Hjorth designed the complex to accommodate thousands of worshippers and visitors, with an eight-level pagoda housing shrines and meditation rooms for up to 7,000 people. The main shrine contains a jade Buddha and thousands of smaller Buddha statues lining the walls. In 2015, the Nan Tien Institute opened adjacent to the temple — a government-accredited university offering degrees in Buddhist studies, arts, and health, making it one of the few Buddhist universities outside Asia. The temple's vegetarian restaurant, tea house, and meditation classes draw over 300,000 visitors annually to what was once a hillside paddock in Berkeley, south of Wollongong.",
+    modernImage: "/images/locations/nan-tien-temple.jpg",
+    facts: [
+      "Largest Buddhist temple in the Southern Hemisphere",
+      "Built by Taiwan's Fo Guang Shan order at a cost of over $50 million",
+      "Eight-level pagoda can accommodate 7,000 worshippers",
+      "Nan Tien Institute (2015) is one of few Buddhist universities outside Asia",
+    ],
+    address: "180 Berkeley Rd, Berkeley NSW 2506",
+    visitInfo: {
+      hours: "Daily 9am - 5pm",
+      admission: "Free (donations welcome)",
+      website: "https://www.nantien.org.au",
+    },
+  },
+  {
+    id: 124,
+    name: "Mount Kembla Mine Disaster Memorial",
+    nameZh: "肯布拉山矿难纪念碑",
+    type: "heritage",
+    year: "1902",
+    coordinates: { lat: -34.44167, lng: 150.80833 },
+    description: "Ninety-six men and boys died in Australia's worst coal mining disaster — the village still remembers every one.",
+    fullDescription: "On 31 July 1902, a gas explosion ripped through the Mount Kembla coal mine, killing 96 men and boys in what remains Australia's worst land-based industrial disaster. The explosion was so powerful it blew the cage out of the mine shaft. Rescue teams worked for days, but the toxic gases meant that most victims died from asphyxiation rather than the blast itself. Among the dead were boys as young as fourteen, working alongside their fathers and brothers in the underground tunnels. Every year since, the village of Mount Kembla holds the '96 Candles' ceremony — lighting one candle for each life lost. The mine itself had opened in 1865 as Australia's first successful kerosene shale mine, and the mountain holds an even older distinction: in 1803, a koala was scientifically described for the first time from a specimen found on Mount Kembla, one of the earliest recorded encounters between European science and this iconic marsupial.",
+    modernImage: "/images/locations/mount-kembla-memorial.jpg",
+    historicalImage: "/images/locations/historical/mount-kembla-memorial-historical.jpg",
+    facts: [
+      "Australia's worst coal mining disaster — 96 killed on 31 July 1902",
+      "Annual '96 Candles' ceremony still held every year",
+      "Site of Australia's first kerosene shale mine (1865)",
+      "The koala was first scientifically described here in 1803",
+    ],
+    address: "Coronation Ave, Mount Kembla NSW 2526",
+    visitInfo: {
+      hours: "Memorial always accessible; Heritage Centre by appointment",
+      admission: "Free",
+    },
+  },
+  {
+    id: 125,
+    name: "Sea Cliff Bridge",
+    nameZh: "海崖大桥",
+    type: "nature",
+    year: "2005",
+    coordinates: { lat: -34.25389, lng: 150.97389 },
+    description: "A bridge that curves out over the ocean — named by an 11-year-old schoolgirl.",
+    fullDescription: "The Sea Cliff Bridge opened in 2005 as a spectacular 455.6-metre curved viaduct that sweeps out over the crashing Tasman Sea, replacing the dangerous section of Lawrence Hargrave Drive that was repeatedly closed by rockfalls from the escarpment above. The $52 million bridge was officially named by 11-year-old Makenzie Russell, a Stanwell Park schoolgirl who won a public naming competition. The bridge quickly became an icon: cyclists and walkers flock to its pedestrian walkway for the ocean views, and lovers attach padlocks to the railings in a tradition borrowed from European bridges. The bridge has also appeared in a Ferrari/Shell television commercial and features in the Xbox racing game Forza Horizon 3. Beneath the bridge, the ocean drops away sharply, and during whale migration season (May-November), humpback whales can sometimes be spotted breaching just offshore.",
+    modernImage: "/images/locations/sea-cliff-bridge.jpg",
+    facts: [
+      "Named by 11-year-old Makenzie Russell in a public competition",
+      "455.6 metre curved viaduct costing $52 million",
+      "Featured in a Ferrari/Shell commercial and Forza Horizon 3",
+      "Love padlocks tradition has taken hold on the bridge railings",
+    ],
+    address: "Lawrence Hargrave Drive, Clifton NSW 2515",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 126,
+    name: "Port Kembla & Hill 60",
+    nameZh: "肯布拉港与60高地",
+    type: "heritage",
+    year: "1942",
+    coordinates: { lat: -34.47556, lng: 150.90028 },
+    description: "An Aboriginal settlement was forcibly evicted so coastal guns could defend the steelworks — now the steel city looks to nuclear submarines.",
+    fullDescription: "Port Kembla's steelworks — established in 1928 by Hoskins (later Australian Iron & Steel, then BHP, now BlueScope) — transformed a quiet port into the industrial engine of the Illawarra, producing the steel that built much of modern Australia. During World War II, the strategic importance of the steelworks demanded protection: in 1942, the Australian military installed coastal defence guns on Hill 60, a headland overlooking the port. To make way for the gun emplacements, an Aboriginal settlement that had existed on Hill 60 for decades was forcibly evicted — residents were given just days to leave. Before the war, Port Kembla had already made international headlines: in 1938, dockworkers refused to load pig iron onto the Dalfram, a ship bound for Japan, fearing the metal would be made into weapons used against China. The 'Dalfram Dispute' lasted months and sparked a national debate about trade with militarist regimes. Today, Port Kembla is poised for transformation again: the Australian government has designated it as the future homeport for nuclear-powered submarines under the AUKUS pact, expected in the 2030s.",
+    modernImage: "/images/locations/port-kembla-hill-60.jpg",
+    historicalImage: "/images/locations/historical/port-kembla-hill-60-historical.jpg",
+    facts: [
+      "Steelworks operating since 1928 (now BlueScope Steel)",
+      "Aboriginal settlement forcibly evicted from Hill 60 in 1942 for WWII coastal guns",
+      "The 1938 Dalfram Dispute saw dockworkers refuse to load pig iron for Japan",
+      "Designated future homeport for AUKUS nuclear submarines (2030s)",
+    ],
+    address: "Hill 60, Port Kembla NSW 2505",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 127,
+    name: "Mount Keira",
+    nameZh: "凯拉山",
+    type: "historical",
+    year: "1848",
+    coordinates: { lat: -34.4, lng: 150.85 },
+    description: "The mountain where coal mining began in the Illawarra — and where miners staged a famous underground sit-in.",
+    fullDescription: "Mount Keira — 'Geera' in the Wodi Wodi Aboriginal language, meaning 'wild fig' or 'large lagoon' — is the backdrop to Wollongong and the site of the Illawarra's first coal mine. The Albert Coal Mine opened in 1848, and by 1861 a tramway was hauling coal down the mountain to Belmore Basin for shipment to Sydney. The mountain became known as the 'Uluru of the Illawarra' for its spiritual significance to the local Aboriginal people, whose Dreaming stories describe the mountain as part of a great creation narrative. In 1982, the Kemira mine (as it was then known) made national headlines when 32 miners staged an underground sit-in strike to protest planned closures, spending 16 days in the tunnels before emerging to a community rally of thousands. The Mount Keira Summit Lookout offers 360-degree views from the escarpment across the city to the ocean, and the Mount Keira Ring Track is one of the Illawarra's most popular bushwalks.",
+    modernImage: "/images/locations/mount-keira.jpg",
+    historicalImage: "/images/locations/historical/mount-keira-historical.jpg",
+    facts: [
+      "Site of the Illawarra's first coal mine — Albert Coal Mine (1848)",
+      "Called 'Geera' by Wodi Wodi people; known as 'Uluru of the Illawarra'",
+      "1982 Kemira sit-in strike lasted 16 days underground",
+      "Summit lookout offers 360-degree views across Wollongong and the ocean",
+    ],
+    address: "Mount Keira Rd, Mount Keira NSW 2500",
+    visitInfo: {
+      hours: "Lookout open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 128,
+    name: "Bulli Mine Disaster Site",
+    nameZh: "布利矿难遗址",
+    type: "heritage",
+    year: "1887",
+    coordinates: { lat: -34.33417, lng: 150.91333 },
+    description: "Eighty-one men and boys died in a gas explosion — one boy survived underground for three days.",
+    fullDescription: "On 23 March 1887, a devastating gas explosion tore through the Bulli coal mine, killing 81 men and boys in one of Australia's worst mining disasters. The blast was so powerful it blew debris hundreds of metres from the mine entrance. Among the dead were boys as young as twelve. Only one man survived the initial explosion — a young miner known as 'Boy Cope,' who was found alive in a tunnel three days after the disaster, having survived on water dripping from the mine walls. The disaster led to the formation of the first trade union in the Illawarra region in 1879, as miners demanded safer working conditions. A memorial obelisk stands in Park Road, Bulli, listing the names of all 81 victims. The nearby Heritage Hotel (1889) served as an impromptu morgue after the disaster and is said to be haunted by the spirits of the miners who died.",
+    modernImage: "/images/locations/bulli-mine-memorial.jpg",
+    facts: [
+      "81 men and boys killed in gas explosion on 23 March 1887",
+      "Sole survivor 'Boy Cope' was found alive after three days underground",
+      "Led to the formation of the first trade union in the Illawarra (1879)",
+      "Heritage Hotel (1889) served as a makeshift morgue after the disaster",
+    ],
+    address: "Park Rd, Bulli NSW 2516",
+    visitInfo: {
+      hours: "Memorial always accessible",
+      admission: "Free",
+    },
+  },
+  {
+    id: 129,
+    name: "Thirroul — D.H. Lawrence Country",
+    nameZh: "塞罗尔——D.H.劳伦斯之乡",
+    type: "cultural",
+    year: "1922",
+    coordinates: { lat: -34.316472, lng: 150.918861 },
+    description: "D.H. Lawrence wrote 'Kangaroo' in a beachside cottage here — capturing Australia in ways Australians never had.",
+    fullDescription: "In May 1922, the English novelist D.H. Lawrence and his German wife Frieda arrived in Thirroul (then called Robbinsville) and rented a house called 'Wyewurk' overlooking the Pacific Ocean. In just six weeks, Lawrence wrote 'Kangaroo,' a novel that captured the strange beauty and political undercurrents of Australia with an outsider's penetrating gaze. Wyewurk is considered one of the earliest examples of Californian Bungalow architectural influence in Australia, a modest weatherboard cottage that became briefly the centre of Australian literary life. Lawrence described the Illawarra escarpment as 'like a great wall of the world' and the ocean as having a quality of light found nowhere else. The town also holds cultural significance for Anita's Theatre, originally built as King's Theatre in 1925, one of the oldest continuously operating theatres in the Illawarra. Aboriginal occupation of the Thirroul area dates back over 20,000 years, with the Wodi Wodi people maintaining a deep connection to the coastline and escarpment.",
+    modernImage: "/images/locations/thirroul-dh-lawrence.jpg",
+    facts: [
+      "D.H. Lawrence wrote 'Kangaroo' here in just six weeks in 1922",
+      "Wyewurk cottage is among the earliest Californian Bungalow influences in Australia",
+      "Anita's Theatre (originally King's Theatre) has operated since 1925",
+      "Aboriginal occupation of the area dates back over 20,000 years",
+    ],
+    address: "Lawrence Hargrave St, Thirroul NSW 2515",
+    visitInfo: {
+      hours: "Town accessible 24/7; Theatre check website for shows",
+      admission: "Free to visit town",
+      website: "https://www.anitastheatre.com.au",
+    },
+  },
+  {
+    id: 130,
+    name: "Bass Point Reserve",
+    nameZh: "巴斯角保护区",
+    type: "heritage",
+    year: "6000",
+    coordinates: { lat: -34.5959, lng: 150.8957 },
+    description: "Twelve shell middens dating back 6,000 years — and six shipwrecks beneath the headland.",
+    fullDescription: "Bass Point Reserve contains one of the most significant Aboriginal heritage landscapes on the NSW south coast. Twelve shell midden sites, some dating back over 6,000 years, record thousands of years of feasting and gathering by the Elouera people of the Dharawal nation. The middens contain shells from dozens of marine species, bone fragments, and stone tools — a rich archaeological record of continuous coastal occupation. Captain Cook noted the headland in 1770, and George Bass and Matthew Flinders explored it in 1796, though they had no idea of the ancient heritage beneath their feet. Six shipwrecks lie in the waters around Bass Point, the most notable being the Cities Service Boston, an American oil tanker that struck a reef in 1943, killing four crew members. Bushrangers Bay, within the reserve, was declared a Marine Reserve in 1982, protecting its underwater ecosystem. The entire reserve was heritage-listed in 2013.",
+    modernImage: "/images/locations/bass-point-reserve.jpg",
+    facts: [
+      "Twelve Aboriginal shell midden sites dating back over 6,000 years",
+      "Home to Elouera people of the Dharawal nation",
+      "Six shipwrecks surround the headland, including Cities Service Boston (1943)",
+      "Bushrangers Bay Marine Reserve established 1982; heritage-listed 2013",
+    ],
+    address: "Boollwarroo Parade, Shell Cove NSW 2529",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 131,
+    name: "Austinmer & Hicks Point",
+    nameZh: "奥斯汀默与希克斯角",
+    type: "historical",
+    year: "1886",
+    coordinates: { lat: -34.306311, lng: 150.93451 },
+    description: "A coal jetty burned to the waterline — and the Headland Hotel became a TV star.",
+    fullDescription: "In 1886, a coal jetty was built at Hicks Point in Austinmer to ship coal from the South Bulli mine, extending 200 metres out to sea to reach deeper water for steam colliers. The jetty operated for nearly 30 years until 1915, when it was destroyed by fire — burnt to the waterline and never rebuilt. The stone footings remain visible at low tide. Austinmer's other claim to fame is the Headland Hotel, perched on the cliff overlooking the ocean rock pool, which featured prominently in the Australian television drama 'headLand' (2005-2006). Glastonbury Gardens, a peaceful park behind the beach, sits on the site of a former colliery dam that once supplied water to the mining operations. The twin ocean rock pools at Austinmer, built in the early 1900s, are among the most photographed on the NSW coast.",
+    modernImage: "/images/locations/austinmer-hicks-point.jpg",
+    facts: [
+      "Hicks Point coal jetty (1886-1915) was destroyed by fire",
+      "Headland Hotel featured in TV drama 'headLand' (2005-2006)",
+      "Glastonbury Gardens sits on a former colliery dam site",
+      "Twin ocean rock pools are among NSW's most photographed",
+    ],
+    address: "Headland Ave, Austinmer NSW 2515",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 132,
+    name: "Shellharbour Village",
+    nameZh: "谢尔哈伯村",
+    type: "heritage",
+    year: "1817",
+    coordinates: { lat: -34.583, lng: 150.867 },
+    description: "Nine shipwrecks line the coast of a village that has changed its name three times.",
+    fullDescription: "Shellharbour Village, originally known by the Aboriginal name 'Yerrowah' and later renamed 'Peterborough' before settling on its current name, is one of the oldest European settlements on the NSW south coast, established in 1817. The village's sheltered harbour and rocky coastline have claimed at least nine shipwrecks, the earliest dating from 1851, making the waters around Shellharbour some of the most treacherous on the coast. The Beverley Whitfield Ocean Rock Pool, carved into the rock shelf at the southern end of the beach, commemorates the Shellharbour swimmer who won gold at the 1972 Munich Olympics. The village's heritage streetscape preserves sandstone buildings from the 19th century, and the waterfront reserve contains Aboriginal shell middens that record thousands of years of occupation before Europeans arrived. Today, Shellharbour Village retains the character of a small fishing hamlet despite the rapid development of the surrounding suburb.",
+    modernImage: "/images/locations/shellharbour-village.jpg",
+    facts: [
+      "Originally 'Yerrowah,' then 'Peterborough,' before becoming Shellharbour",
+      "At least nine shipwrecks lie along the coastline (from 1851 onwards)",
+      "Beverley Whitfield Pool commemorates the 1972 Olympic gold medallist",
+      "One of the oldest European settlements on the NSW south coast (1817)",
+    ],
+    address: "Addison St, Shellharbour NSW 2529",
+    visitInfo: {
+      hours: "Open 24/7",
+      admission: "Free",
+      website: "https://www.shellharbour.nsw.gov.au",
+    },
+  },
+  {
+    id: 133,
+    name: "Lawrence Hargrave Memorial — Stanwell Park",
+    nameZh: "劳伦斯·哈格雷夫纪念碑——斯坦威尔公园",
+    type: "historical",
+    year: "1894",
+    coordinates: { lat: -34.22, lng: 150.98 },
+    description: "An aviation pioneer lifted himself 16 feet into the air on four box kites at this beach.",
+    fullDescription: "On 12 November 1894, Lawrence Hargrave — a quiet, meticulous astronomer and engineer — strode onto Stanwell Park Beach carrying four box kites connected by a seat. He was lifted 16 feet into the air by the coastal winds, becoming the first person in Australia to achieve powered lift (by wind alone). His box kite design was so elegant and effective that it was adopted by early aviation pioneers worldwide: the French aviation pioneer Gabriel Voisin used Hargrave's box kite structure in his early aircraft, and the fundamental principle influenced the Wright Brothers' wing designs. Hargrave was featured on the Australian $20 note from 1966 to 1994, his box kites depicted alongside his portrait. A memorial cairn at Bald Hill Lookout, above Stanwell Park, marks the site where hang gliders and paragliders now launch from the same updrafts that lifted Hargrave's kites over a century ago. The Lawrence Hargrave School at nearby Austinmer also bears his name.",
+    modernImage: "/images/locations/lawrence-hargrave-stanwell-park.jpg",
+    facts: [
+      "Lifted himself 16 feet on box kites at Stanwell Park Beach (12 Nov 1894)",
+      "His box kite design influenced early aviation worldwide, including the Wright Brothers",
+      "Featured on the Australian $20 note from 1966 to 1994",
+      "Memorial cairn at Bald Hill Lookout overlooks the beach",
+    ],
+    address: "Bald Hill Lookout, Lawrence Hargrave Drive, Stanwell Park NSW 2508",
+    visitInfo: {
+      hours: "Lookout open 24/7",
+      admission: "Free",
+    },
+  },
+  {
+    id: 134,
+    name: "Wollongong Steel Industry Heritage",
+    nameZh: "卧龙岗钢铁工业遗产",
+    type: "historical",
+    year: "1928",
+    coordinates: { lat: -34.4728, lng: 150.8979 },
+    description: "The steel that built the Sydney Harbour Bridge came from a works that transformed a region.",
+    fullDescription: "In 1928, the Hoskins family established the Australian Iron & Steel (AI&S) works at Port Kembla, moving their operations from Lithgow to the coast for easier access to coal and shipping. The decision transformed the Illawarra from a string of mining villages into an industrial powerhouse. By the 1960s, under BHP ownership, the Port Kembla steelworks employed over 20,000 people and produced the steel that went into the Sydney Harbour Bridge, the Sydney Opera House shells, and countless other landmark structures. The works were so vast they had their own railway system, fire brigade, and medical centre. A landmark 198-metre chimney — the tallest in the Southern Hemisphere when built — dominated the skyline until its controlled demolition in 2014, an event watched by thousands of residents. Today, as BlueScope Steel, the works continue to produce steel on a smaller scale, while the surrounding industrial landscape is gradually being redeveloped for container ports and renewable energy infrastructure.",
+    modernImage: "/images/locations/wollongong-steel-industry.jpg",
+    historicalImage: "/images/locations/historical/wollongong-steel-industry-historical.jpg",
+    facts: [
+      "AI&S established in 1928; later became BHP, now BlueScope Steel",
+      "At peak, employed over 20,000 workers with its own railway and fire brigade",
+      "Produced steel for the Sydney Harbour Bridge and Opera House",
+      "198m chimney demolished in 2014 — the tallest in the Southern Hemisphere",
+    ],
+    address: "Five Islands Rd, Port Kembla NSW 2505",
+    visitInfo: {
+      hours: "Not open to public (viewable from surrounding roads)",
+      admission: "N/A",
+    },
+  },
+  {
+    id: 135,
+    name: "Kiama Heritage Precinct",
+    nameZh: "凯阿玛遗产街区",
+    type: "heritage",
+    year: "1886",
+    coordinates: { lat: -34.6725, lng: 150.85167 },
+    description: "Wooden terraces, a sandstone bank, and a black stone fleet that once shipped basalt to Sydney.",
+    fullDescription: "The Kiama Heritage Precinct preserves one of the finest collections of 19th-century streetscapes on the NSW south coast. Collins Street features rare two-storey wooden terraces — the Terraces — built in the 1880s for quarry workers and their families, an unusual construction material for terraces that were typically built in brick or stone. The CBC Bank Building (1887), a sandstone Italianate structure on Manning Street, served the town's commercial needs during the boom years of basalt quarrying. The Scots Presbyterian Church (1863) is one of the oldest continuously worshipping Presbyterian churches in Australia. Kiama's wealth in the late 19th century came from 'blue metal' — basalt quarried from the headlands and shipped to Sydney on the 'Stone Fleet,' a collection of sailing vessels that made regular runs between Kiama and Sydney Harbour carrying the crushed stone that paved Sydney's streets. The Kiama Pilot's Cottage Museum, housed in an 1881 sandstone building, tells the story of the port and its maritime heritage.",
+    modernImage: "/images/locations/kiama-heritage-precinct.jpg",
+    facts: [
+      "Collins Street wooden terraces are rare surviving examples in NSW",
+      "CBC Bank Building (1887) is a fine sandstone Italianate structure",
+      "The 'Stone Fleet' shipped basalt from Kiama to pave Sydney's streets",
+      "Scots Presbyterian Church (1863) is one of the oldest in Australia",
+    ],
+    address: "Collins St, Kiama NSW 2533",
+    visitInfo: {
+      hours: "Streets accessible 24/7; Pilot's Cottage Museum Wed-Sun 11am-3pm",
+      admission: "Free (museum by donation)",
+      website: "https://www.kiama.nsw.gov.au",
+    },
+  },
+  ...photographySpots,
+  ...photographySpotsVicTas,
+  ...photographySpotsTas,
+  ...photographySpotsRest,
 ];
 
 export const locationTypes = {
@@ -3003,6 +3383,11 @@ export const locationTypes = {
     label: "Restaurant",
     color: "#C41E3A",
     icon: "utensils",
+  },
+  photography: {
+    label: "Photography Spot",
+    color: "#7C3AED",
+    icon: "camera",
   },
 };
 

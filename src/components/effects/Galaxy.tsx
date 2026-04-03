@@ -234,23 +234,8 @@ export default function Galaxy({
         gl.clearColor(0, 0, 0, 1);
       }
 
-      let program: any;
-
-      function resize() {
-        renderer.setSize(ctn.offsetWidth, ctn.offsetHeight);
-        if (program) {
-          program.uniforms.uResolution.value = new OGL.Color(
-            gl.canvas.width,
-            gl.canvas.height,
-            gl.canvas.width / gl.canvas.height
-          );
-        }
-      }
-      window.addEventListener('resize', resize, false);
-      resize();
-
       const geometry = new OGL.Triangle(gl);
-      program = new OGL.Program(gl, {
+      const program = new OGL.Program(gl, {
         vertex: vertexShader,
         fragment: fragmentShader,
         uniforms: {
@@ -276,6 +261,19 @@ export default function Galaxy({
           uTransparent: { value: transparent },
         },
       });
+
+      function resize() {
+        renderer.setSize(ctn.offsetWidth, ctn.offsetHeight);
+        if (program) {
+          program.uniforms.uResolution.value = new OGL.Color(
+            gl.canvas.width,
+            gl.canvas.height,
+            gl.canvas.width / gl.canvas.height
+          );
+        }
+      }
+      window.addEventListener('resize', resize, false);
+      resize();
 
       const mesh = new OGL.Mesh(gl, { geometry, program });
       let animateId: number;
