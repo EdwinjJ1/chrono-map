@@ -16,6 +16,35 @@ const mockMap = {
 };
 
 export const Map = jest.fn().mockImplementation(() => mockMap);
+
+export const NavigationControl = jest.fn().mockImplementation(() => ({}));
+
+export const LngLatBounds = jest.fn().mockImplementation(() => {
+  const coords: [number, number][] = [];
+  return {
+    extend(coord: [number, number]) {
+      coords.push(coord);
+      return this;
+    },
+    getCenter() {
+      if (coords.length === 0) return [0, 0];
+      const lng = coords.reduce((sum, c) => sum + c[0], 0) / coords.length;
+      const lat = coords.reduce((sum, c) => sum + c[1], 0) / coords.length;
+      return [lng, lat];
+    },
+    getNorthEast() {
+      const lng = Math.max(...coords.map((c) => c[0]));
+      const lat = Math.max(...coords.map((c) => c[1]));
+      return { lng, lat };
+    },
+    getSouthWest() {
+      const lng = Math.min(...coords.map((c) => c[0]));
+      const lat = Math.min(...coords.map((c) => c[1]));
+      return { lng, lat };
+    },
+  };
+});
+
 export const Marker = jest.fn().mockImplementation(() => ({
   addTo: jest.fn(),
   remove: jest.fn(),

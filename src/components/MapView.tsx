@@ -43,9 +43,21 @@ export default function MapView({
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
+  const didInitialFit = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const mapLabels = { ...DEFAULT_MAP_LABELS, ...labels };
   const resolvedTypeLabels = { ...DEFAULT_TYPE_LABELS, ...typeLabels };
+
+  // Compute a bounding box that contains every visible location so the map can
+  // frame the current dataset — whether that's a single city or all of Europe.
+  const computeBounds = useCallback((locs: Location[]) => {
+    if (locs.length === 0) return null;
+    const bounds = new mapboxgl.LngLatBounds();
+    locs.forEach((loc) => {
+      bounds.extend([loc.coordinates.lng, loc.coordinates.lat]);
+    });
+    return bounds;
+  }, []);
 
   const createCustomMarker = useCallback((location: Location, isSelected: boolean) => {
     const el = document.createElement("div");
@@ -136,13 +148,17 @@ export default function MapView({
 
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
+    // Frame the initial view to the data we already have so the map opens on the
+    // right part of the world (Sydney, Europe, or everything) instead of a fixed city.
+    const initialBounds = computeBounds(displayLocations);
+
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/light-v11",
-      center: [151.2093, -33.8688], // Sydney CBD
-      zoom: 14,
-      pitch: 45,
-      bearing: -17.6,
+      center: initialBounds ? initialBounds.getCenter() : [10, 47], // fallback: central Europe
+      zoom: initialBounds ? 4 : 3,
+      pitch: 0,
+      bearing: 0,
     });
 
     map.current.addControl(new mapboxgl.NavigationControl(), "top-right");
@@ -180,7 +196,11 @@ export default function MapView({
     return () => {
       map.current?.remove();
       map.current = null;
+      didInitialFit.current = false;
     };
+    // Map is created once; initial framing uses the data available at mount and
+    // the dedicated fit-bounds effect below keeps it in sync afterwards.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Add markers when map is loaded
@@ -207,6 +227,38 @@ export default function MapView({
       markers.current.push(marker);
     });
   }, [mapLoaded, selectedLocationId, onLocationSelect, createCustomMarker, displayLocations]);
+
+  // Fit the map to the visible locations whenever that set changes (e.g. after
+  // switching region or filter). Skips the reframe while a specific location is
+  // selected so it doesn't yank the camera away from a place the user opened.
+  useEffect(() => {
+    if (!mapLoaded || !map.current || selectedLocationId) return;
+
+    const bounds = computeBounds(displayLocations);
+    if (!bounds) return;
+
+    const single =
+      displayLocations.length === 1 ||
+      (bounds.getNorthEast().lat === bounds.getSouthWest().lat &&
+        bounds.getNorthEast().lng === bounds.getSouthWest().lng);
+
+    if (single) {
+      map.current.flyTo({
+        center: bounds.getCenter(),
+        zoom: 14,
+        pitch: 45,
+        duration: didInitialFit.current ? 1200 : 0,
+      });
+    } else {
+      map.current.fitBounds(bounds, {
+        padding: { top: 80, bottom: 80, left: 80, right: 80 },
+        maxZoom: 13,
+        pitch: 0,
+        duration: didInitialFit.current ? 1200 : 0,
+      });
+    }
+    didInitialFit.current = true;
+  }, [mapLoaded, displayLocations, selectedLocationId, computeBounds]);
 
   // Fly to selected location
   useEffect(() => {

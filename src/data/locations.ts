@@ -2,6 +2,12 @@ import { photographySpots } from './photography-spots';
 import { photographySpotsVicTas } from './photography-spots-vic-tas';
 import { photographySpotsTas } from './photography-spots-tas';
 import { photographySpotsRest } from './photography-spots-rest';
+import { locationsDe } from './locations-de';
+import { locationsFr } from './locations-fr';
+import { locationsIt } from './locations-it';
+import { locationsEs } from './locations-es';
+import { locationsChEe } from './locations-ch-ee';
+import { locationsCz } from './locations-cz';
 
 export type PhotographySubcategory =
   | "bird"
@@ -20,6 +26,12 @@ export interface Location {
   name: string;
   nameZh?: string;
   type: "historical" | "film" | "cultural" | "heritage" | "nature" | "restaurant" | "photography";
+  /**
+   * Optional region/country label used to group and navigate locations on the
+   * global map (e.g. "Sydney", "Germany", "France"). Legacy Australian entries
+   * omit this and are treated as "Sydney" region by default.
+   */
+  region?: string;
   year: string;
   coordinates: {
     lat: number;
@@ -58,6 +70,14 @@ export interface Location {
     weatherRequirementsZh?: string;
     compassDirection?: string;
     compassDirectionZh?: string;
+  };
+  /**
+   * Helper metadata consumed by the image-fetch scripts. Not rendered in the UI.
+   * Holds Serper image-search queries used to source modern/historical photos.
+   */
+  imageQueries?: {
+    modern: string[];
+    historical?: string[];
   };
 }
 
@@ -3369,6 +3389,13 @@ export const locations: Location[] = [
   ...photographySpotsVicTas,
   ...photographySpotsTas,
   ...photographySpotsRest,
+  // European historical locations
+  ...locationsDe,
+  ...locationsFr,
+  ...locationsIt,
+  ...locationsEs,
+  ...locationsChEe,
+  ...locationsCz,
 ];
 
 export const locationTypes = {
@@ -3415,4 +3442,63 @@ export function getLocationById(id: number): Location | undefined {
 
 export function getLocationsByType(type: Location["type"]): Location[] {
   return locations.filter((loc) => loc.type === type);
+}
+
+/**
+ * Region grouping for the global map. Legacy Australian entries have no `region`
+ * field and are treated as the default "Australia" region.
+ */
+export const DEFAULT_REGION = "Australia";
+
+export function getLocationRegion(location: Location): string {
+  return location.region ?? DEFAULT_REGION;
+}
+
+export interface RegionMeta {
+  /** Canonical region key matching Location.region (or DEFAULT_REGION). */
+  key: string;
+  label: string;
+  labelZh: string;
+  flag: string;
+}
+
+/**
+ * Ordered, curated metadata for regions we expect to have data for. Regions are
+ * only shown in the UI when at least one location actually references them, so
+ * this list can safely stay ahead of the data.
+ */
+export const REGION_META: RegionMeta[] = [
+  { key: "Australia", label: "Australia", labelZh: "澳大利亚", flag: "🇦🇺" },
+  { key: "Germany", label: "Germany", labelZh: "德国", flag: "🇩🇪" },
+  { key: "France", label: "France", labelZh: "法国", flag: "🇫🇷" },
+  { key: "Italy", label: "Italy", labelZh: "意大利", flag: "🇮🇹" },
+  { key: "Spain", label: "Spain", labelZh: "西班牙", flag: "🇪🇸" },
+  { key: "Switzerland", label: "Switzerland", labelZh: "瑞士", flag: "🇨🇭" },
+  { key: "Austria", label: "Austria", labelZh: "奥地利", flag: "🇦🇹" },
+  { key: "Poland", label: "Poland", labelZh: "波兰", flag: "🇵🇱" },
+  { key: "Czechia", label: "Czechia", labelZh: "捷克", flag: "🇨🇿" },
+  { key: "Hungary", label: "Hungary", labelZh: "匈牙利", flag: "🇭🇺" },
+];
+
+/**
+ * Returns the region metadata that actually has locations, in curated order,
+ * with any unexpected region keys appended so nothing gets silently dropped.
+ */
+export function getAvailableRegions(): RegionMeta[] {
+  const counts = new Map<string, number>();
+  for (const loc of locations) {
+    const key = getLocationRegion(loc);
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+
+  const ordered = REGION_META.filter((meta) => counts.has(meta.key));
+
+  const known = new Set(REGION_META.map((meta) => meta.key));
+  for (const key of counts.keys()) {
+    if (!known.has(key)) {
+      ordered.push({ key, label: key, labelZh: key, flag: "📍" });
+    }
+  }
+
+  return ordered;
 }

@@ -115,6 +115,16 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--primary);
 }
 
+/* Hide scrollbar for horizontally-scrolling pill rows (region selector, etc.) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* Glass Card Effect */
 .glass {
   background: var(--glass-bg);

@@ -1,0 +1,3250 @@
+[
+  {
+    "label": "Germany · Sanssouci Palace (modern)",
+    "destination": "public/images/locations/sanssouci-palace.jpg",
+    "queries": [
+      "Sanssouci Palace Potsdam terraces",
+      "Sanssouci rococo facade vineyard"
+    ]
+  },
+  {
+    "label": "Germany · Sanssouci Palace (historical)",
+    "destination": "public/images/locations/historical/sanssouci-palace-historical.jpg",
+    "queries": [
+      "Sanssouci Palace historical engraving 18th century",
+      "Frederick the Great Sanssouci flute concert painting"
+    ]
+  },
+  {
+    "label": "Germany · Cecilienhof Palace (modern)",
+    "destination": "public/images/locations/cecilienhof-palace.jpg",
+    "queries": [
+      "Cecilienhof Palace Potsdam Tudor",
+      "Cecilienhof conference room round table"
+    ]
+  },
+  {
+    "label": "Germany · Cecilienhof Palace (historical)",
+    "destination": "public/images/locations/historical/cecilienhof-palace-historical.jpg",
+    "queries": [
+      "Potsdam Conference 1945 Truman Stalin Churchill",
+      "Cecilienhof 1945 Big Three photograph"
+    ]
+  },
+  {
+    "label": "Germany · Reichstag Building (modern)",
+    "destination": "public/images/locations/reichstag-building.jpg",
+    "queries": [
+      "Reichstag building glass dome Berlin",
+      "Reichstag Foster dome interior"
+    ]
+  },
+  {
+    "label": "Germany · Reichstag Building (historical)",
+    "destination": "public/images/locations/historical/reichstag-building-historical.jpg",
+    "queries": [
+      "Reichstag fire 1933",
+      "Soviet flag Reichstag 1945"
+    ]
+  },
+  {
+    "label": "Germany · Brandenburg Gate (modern)",
+    "destination": "public/images/locations/brandenburg-gate.jpg",
+    "queries": [
+      "Brandenburg Gate Berlin Quadriga",
+      "Brandenburg Gate Pariser Platz night"
+    ]
+  },
+  {
+    "label": "Germany · Brandenburg Gate (historical)",
+    "destination": "public/images/locations/historical/brandenburg-gate-historical.jpg",
+    "queries": [
+      "Brandenburg Gate Berlin Wall 1989",
+      "Brandenburg Gate 1945 ruins"
+    ]
+  },
+  {
+    "label": "Germany · Checkpoint Charlie (modern)",
+    "destination": "public/images/locations/checkpoint-charlie.jpg",
+    "queries": [
+      "Checkpoint Charlie Berlin guardhouse sign",
+      "Checkpoint Charlie Friedrichstrasse today"
+    ]
+  },
+  {
+    "label": "Germany · Checkpoint Charlie (historical)",
+    "destination": "public/images/locations/historical/checkpoint-charlie-historical.jpg",
+    "queries": [
+      "Checkpoint Charlie tank standoff 1961",
+      "Checkpoint Charlie 1961 US Soviet tanks"
+    ]
+  },
+  {
+    "label": "Germany · East Side Gallery (modern)",
+    "destination": "public/images/locations/east-side-gallery.jpg",
+    "queries": [
+      "East Side Gallery Berlin Wall murals",
+      "East Side Gallery Fraternal Kiss painting"
+    ]
+  },
+  {
+    "label": "Germany · East Side Gallery (historical)",
+    "destination": "public/images/locations/historical/east-side-gallery-historical.jpg",
+    "queries": [
+      "Berlin Wall Spree 1989 Friedrichshain",
+      "Berlin Wall painting 1990"
+    ]
+  },
+  {
+    "label": "Germany · Berlin Wall Memorial (Bernauer Strasse) (modern)",
+    "destination": "public/images/locations/berlin-wall-memorial-bernauer-strasse.jpg",
+    "queries": [
+      "Berlin Wall Memorial Bernauer Strasse watchtower",
+      "Gedenkstaette Berliner Mauer death strip"
+    ]
+  },
+  {
+    "label": "Germany · Berlin Wall Memorial (Bernauer Strasse) (historical)",
+    "destination": "public/images/locations/historical/berlin-wall-memorial-bernauer-strasse-historical.jpg",
+    "queries": [
+      "Bernauer Strasse 1961 escape window",
+      "Berlin Wall construction 1961 barbed wire"
+    ]
+  },
+  {
+    "label": "Germany · Stasi Headquarters (Campus for Democracy) (modern)",
+    "destination": "public/images/locations/stasi-headquarters-campus-for-democracy.jpg",
+    "queries": [
+      "Stasi Museum Berlin Mielke office",
+      "Stasi headquarters Normannenstrasse building"
+    ]
+  },
+  {
+    "label": "Germany · Stasi Headquarters (Campus for Democracy) (historical)",
+    "destination": "public/images/locations/historical/stasi-headquarters-campus-for-democracy-historical.jpg",
+    "queries": [
+      "Stasi headquarters stormed January 1990",
+      "Stasi files archive 1990"
+    ]
+  },
+  {
+    "label": "Germany · Glienicke Bridge (modern)",
+    "destination": "public/images/locations/glienicke-bridge.jpg",
+    "queries": [
+      "Glienicke Bridge Potsdam Havel",
+      "Glienicke Bridge spies Berlin"
+    ]
+  },
+  {
+    "label": "Germany · Glienicke Bridge (historical)",
+    "destination": "public/images/locations/historical/glienicke-bridge-historical.jpg",
+    "queries": [
+      "Glienicke Bridge 1962 spy exchange",
+      "Glienicke Bridge Cold War border green"
+    ]
+  },
+  {
+    "label": "Germany · Charlottenburg Palace (modern)",
+    "destination": "public/images/locations/charlottenburg-palace.jpg",
+    "queries": [
+      "Charlottenburg Palace Berlin baroque",
+      "Charlottenburg Palace porcelain cabinet"
+    ]
+  },
+  {
+    "label": "Germany · Charlottenburg Palace (historical)",
+    "destination": "public/images/locations/historical/charlottenburg-palace-historical.jpg",
+    "queries": [
+      "Charlottenburg Palace 1945 ruins bombing",
+      "Charlottenburg Palace historical engraving"
+    ]
+  },
+  {
+    "label": "Germany · Memorial to the Murdered Jews of Europe (modern)",
+    "destination": "public/images/locations/memorial-to-the-murdered-jews-of-europe.jpg",
+    "queries": [
+      "Holocaust Memorial Berlin stelae field",
+      "Memorial Murdered Jews Europe Eisenman"
+    ]
+  },
+  {
+    "label": "Germany · Memorial to the Murdered Jews of Europe (historical)",
+    "destination": "public/images/locations/historical/memorial-to-the-murdered-jews-of-europe-historical.jpg",
+    "queries": [
+      "Berlin government quarter ruins 1945",
+      "Holocaust memorial construction Berlin 2004"
+    ]
+  },
+  {
+    "label": "Germany · Topography of Terror (modern)",
+    "destination": "public/images/locations/topography-of-terror.jpg",
+    "queries": [
+      "Topography of Terror Berlin documentation centre",
+      "Topographie des Terrors excavated cellars"
+    ]
+  },
+  {
+    "label": "Germany · Topography of Terror (historical)",
+    "destination": "public/images/locations/historical/topography-of-terror-historical.jpg",
+    "queries": [
+      "Gestapo headquarters Prinz-Albrecht-Strasse 1933",
+      "SS headquarters Berlin historical"
+    ]
+  },
+  {
+    "label": "Germany · Neue Wache (modern)",
+    "destination": "public/images/locations/neue-wache.jpg",
+    "queries": [
+      "Neue Wache Berlin Kollwitz Pietà",
+      "Neue Wache interior oculus mother"
+    ]
+  },
+  {
+    "label": "Germany · Neue Wache (historical)",
+    "destination": "public/images/locations/historical/neue-wache-historical.jpg",
+    "queries": [
+      "Neue Wache Schinkel historical Unter den Linden",
+      "Neue Wache GDR honour guard"
+    ]
+  },
+  {
+    "label": "Germany · Museum Island (modern)",
+    "destination": "public/images/locations/museum-island.jpg",
+    "queries": [
+      "Museum Island Berlin Pergamon Ishtar Gate",
+      "Neues Museum Nefertiti bust"
+    ]
+  },
+  {
+    "label": "Germany · Museum Island (historical)",
+    "destination": "public/images/locations/historical/museum-island-historical.jpg",
+    "queries": [
+      "Museum Island Berlin 1945 bomb damage",
+      "Pergamon Museum historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Leuthen Site (Lutynia) (modern)",
+    "destination": "public/images/locations/battle-of-leuthen-site-lutynia.jpg",
+    "queries": [
+      "Lutynia Leuthen battlefield memorial",
+      "Leuthen 1757 battle site countryside"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Leuthen Site (Lutynia) (historical)",
+    "destination": "public/images/locations/historical/battle-of-leuthen-site-lutynia-historical.jpg",
+    "queries": [
+      "Battle of Leuthen 1757 painting oblique order",
+      "Frederick the Great Leuthen engraving"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Rossbach Site (modern)",
+    "destination": "public/images/locations/battle-of-rossbach-site.jpg",
+    "queries": [
+      "Rossbach battlefield monument Reichardtswerben",
+      "Rossbach 1757 memorial Saxony"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Rossbach Site (historical)",
+    "destination": "public/images/locations/historical/battle-of-rossbach-site-historical.jpg",
+    "queries": [
+      "Battle of Rossbach 1757 Seydlitz cavalry painting",
+      "Frederick the Great Rossbach engraving"
+    ]
+  },
+  {
+    "label": "Germany · Rheinsberg Palace (modern)",
+    "destination": "public/images/locations/rheinsberg-palace.jpg",
+    "queries": [
+      "Rheinsberg Palace lake Grienericksee",
+      "Schloss Rheinsberg rococo"
+    ]
+  },
+  {
+    "label": "Germany · Rheinsberg Palace (historical)",
+    "destination": "public/images/locations/historical/rheinsberg-palace-historical.jpg",
+    "queries": [
+      "Rheinsberg Palace historical engraving",
+      "Frederick the Great crown prince Rheinsberg"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Kunersdorf Site (Kunowice) (modern)",
+    "destination": "public/images/locations/battle-of-kunersdorf-site-kunowice.jpg",
+    "queries": [
+      "Kunowice Kunersdorf battlefield memorial",
+      "Kunersdorf 1759 battle site"
+    ]
+  },
+  {
+    "label": "Germany · Battle of Kunersdorf Site (Kunowice) (historical)",
+    "destination": "public/images/locations/historical/battle-of-kunersdorf-site-kunowice-historical.jpg",
+    "queries": [
+      "Battle of Kunersdorf 1759 painting",
+      "Frederick the Great Kunersdorf defeat engraving"
+    ]
+  },
+  {
+    "label": "Germany · Seelow Heights Battlefield (modern)",
+    "destination": "public/images/locations/seelow-heights-battlefield.jpg",
+    "queries": [
+      "Seelow Heights memorial Soviet soldier statue",
+      "Seelower Hoehen museum battlefield"
+    ]
+  },
+  {
+    "label": "Germany · Seelow Heights Battlefield (historical)",
+    "destination": "public/images/locations/historical/seelow-heights-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Seelow Heights 1945 Red Army",
+      "Seelow Heights 1945 Soviet offensive Oder"
+    ]
+  },
+  {
+    "label": "Germany · Frauenkirche Dresden (modern)",
+    "destination": "public/images/locations/frauenkirche-dresden.jpg",
+    "queries": [
+      "Frauenkirche Dresden dome Neumarkt",
+      "Dresden Frauenkirche reconstructed"
+    ]
+  },
+  {
+    "label": "Germany · Frauenkirche Dresden (historical)",
+    "destination": "public/images/locations/historical/frauenkirche-dresden-historical.jpg",
+    "queries": [
+      "Frauenkirche Dresden ruins 1945",
+      "Dresden bombing 1945 destroyed city"
+    ]
+  },
+  {
+    "label": "Germany · Zwinger Palace (modern)",
+    "destination": "public/images/locations/zwinger-palace.jpg",
+    "queries": [
+      "Zwinger Palace Dresden baroque courtyard",
+      "Zwinger Dresden Crown Gate"
+    ]
+  },
+  {
+    "label": "Germany · Zwinger Palace (historical)",
+    "destination": "public/images/locations/historical/zwinger-palace-historical.jpg",
+    "queries": [
+      "Zwinger Dresden ruins 1945",
+      "Zwinger Palace historical engraving Augustus"
+    ]
+  },
+  {
+    "label": "Germany · Semperoper Dresden (modern)",
+    "destination": "public/images/locations/semperoper-dresden.jpg",
+    "queries": [
+      "Semperoper Dresden opera house facade",
+      "Semperoper Theaterplatz Dresden"
+    ]
+  },
+  {
+    "label": "Germany · Semperoper Dresden (historical)",
+    "destination": "public/images/locations/historical/semperoper-dresden-historical.jpg",
+    "queries": [
+      "Semperoper Dresden ruins 1945",
+      "Semperoper historical photograph 19th century"
+    ]
+  },
+  {
+    "label": "Germany · Nazi Party Rally Grounds (modern)",
+    "destination": "public/images/locations/nazi-party-rally-grounds.jpg",
+    "queries": [
+      "Nazi rally grounds Nuremberg Zeppelin Field today",
+      "Nuremberg Congress Hall ruins documentation centre"
+    ]
+  },
+  {
+    "label": "Germany · Nazi Party Rally Grounds (historical)",
+    "destination": "public/images/locations/historical/nazi-party-rally-grounds-historical.jpg",
+    "queries": [
+      "Nuremberg rally 1934 Zeppelin Field crowd",
+      "Cathedral of Light Nuremberg searchlights"
+    ]
+  },
+  {
+    "label": "Germany · Nuremberg Palace of Justice (Courtroom 600) (modern)",
+    "destination": "public/images/locations/nuremberg-palace-of-justice-courtroom-600.jpg",
+    "queries": [
+      "Nuremberg Courtroom 600 Palace of Justice today",
+      "Memorium Nuremberg Trials courtroom"
+    ]
+  },
+  {
+    "label": "Germany · Nuremberg Palace of Justice (Courtroom 600) (historical)",
+    "destination": "public/images/locations/historical/nuremberg-palace-of-justice-courtroom-600-historical.jpg",
+    "queries": [
+      "Nuremberg Trials 1945 defendants dock",
+      "Nuremberg Trials Goering Hess courtroom photo"
+    ]
+  },
+  {
+    "label": "Germany · Dachau Concentration Camp Memorial (modern)",
+    "destination": "public/images/locations/dachau-concentration-camp-memorial.jpg",
+    "queries": [
+      "Dachau memorial gate Arbeit macht frei",
+      "Dachau concentration camp memorial barracks"
+    ]
+  },
+  {
+    "label": "Germany · Dachau Concentration Camp Memorial (historical)",
+    "destination": "public/images/locations/historical/dachau-concentration-camp-memorial-historical.jpg",
+    "queries": [
+      "Dachau concentration camp 1945 liberation",
+      "Dachau prisoners historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Peenemünde Army Research Centre (modern)",
+    "destination": "public/images/locations/peenemunde-army-research-centre.jpg",
+    "queries": [
+      "Peenemünde museum power station V-2",
+      "Peenemünde historical technical museum rocket"
+    ]
+  },
+  {
+    "label": "Germany · Peenemünde Army Research Centre (historical)",
+    "destination": "public/images/locations/historical/peenemunde-army-research-centre-historical.jpg",
+    "queries": [
+      "V-2 rocket Peenemünde 1942 launch",
+      "Peenemünde von Braun rocket test 1943"
+    ]
+  },
+  {
+    "label": "Germany · Marienplatz, Munich (modern)",
+    "destination": "public/images/locations/marienplatz-munich.jpg",
+    "queries": [
+      "Marienplatz Munich New Town Hall Glockenspiel",
+      "Marienplatz Munich square Marian column"
+    ]
+  },
+  {
+    "label": "Germany · Marienplatz, Munich (historical)",
+    "destination": "public/images/locations/historical/marienplatz-munich-historical.jpg",
+    "queries": [
+      "Marienplatz Munich 1945 ruins",
+      "Marienplatz Munich historical photograph 1900"
+    ]
+  },
+  {
+    "label": "Germany · Odeonsplatz (Feldherrnhalle) (modern)",
+    "destination": "public/images/locations/odeonsplatz-feldherrnhalle.jpg",
+    "queries": [
+      "Feldherrnhalle Odeonsplatz Munich loggia",
+      "Viscardigasse Dodger's Lane bronze trail"
+    ]
+  },
+  {
+    "label": "Germany · Odeonsplatz (Feldherrnhalle) (historical)",
+    "destination": "public/images/locations/historical/odeonsplatz-feldherrnhalle-historical.jpg",
+    "queries": [
+      "Beer Hall Putsch 1923 Feldherrnhalle",
+      "Feldherrnhalle Nazi memorial 1930s"
+    ]
+  },
+  {
+    "label": "Germany · Neuschwanstein Castle (modern)",
+    "destination": "public/images/locations/neuschwanstein-castle.jpg",
+    "queries": [
+      "Neuschwanstein Castle Bavaria aerial",
+      "Neuschwanstein castle autumn Alps"
+    ]
+  },
+  {
+    "label": "Germany · Neuschwanstein Castle (historical)",
+    "destination": "public/images/locations/historical/neuschwanstein-castle-historical.jpg",
+    "queries": [
+      "Neuschwanstein castle construction 1880s",
+      "Ludwig II Bavaria Neuschwanstein historical"
+    ]
+  },
+  {
+    "label": "Germany · Nymphenburg Palace (modern)",
+    "destination": "public/images/locations/nymphenburg-palace.jpg",
+    "queries": [
+      "Nymphenburg Palace Munich facade canal",
+      "Nymphenburg Gallery of Beauties"
+    ]
+  },
+  {
+    "label": "Germany · Nymphenburg Palace (historical)",
+    "destination": "public/images/locations/historical/nymphenburg-palace-historical.jpg",
+    "queries": [
+      "Nymphenburg Palace historical engraving",
+      "Lola Montez portrait Gallery of Beauties"
+    ]
+  },
+  {
+    "label": "Germany · Munich Olympic Park (modern)",
+    "destination": "public/images/locations/munich-olympic-park.jpg",
+    "queries": [
+      "Munich Olympic Park tent roof Frei Otto",
+      "Olympiapark Munich tower lake"
+    ]
+  },
+  {
+    "label": "Germany · Munich Olympic Park (historical)",
+    "destination": "public/images/locations/historical/munich-olympic-park-historical.jpg",
+    "queries": [
+      "Munich 1972 Olympics massacre",
+      "Munich 1972 Olympic Village Black September"
+    ]
+  },
+  {
+    "label": "Germany · Cologne Cathedral (modern)",
+    "destination": "public/images/locations/cologne-cathedral.jpg",
+    "queries": [
+      "Cologne Cathedral twin spires Rhine",
+      "Cologne Cathedral facade night"
+    ]
+  },
+  {
+    "label": "Germany · Cologne Cathedral (historical)",
+    "destination": "public/images/locations/historical/cologne-cathedral-historical.jpg",
+    "queries": [
+      "Cologne Cathedral 1945 ruins bombing",
+      "Cologne Cathedral historical photograph 19th century"
+    ]
+  },
+  {
+    "label": "Germany · Aachen Cathedral (modern)",
+    "destination": "public/images/locations/aachen-cathedral.jpg",
+    "queries": [
+      "Aachen Cathedral octagon interior",
+      "Aachen Cathedral Charlemagne throne"
+    ]
+  },
+  {
+    "label": "Germany · Aachen Cathedral (historical)",
+    "destination": "public/images/locations/historical/aachen-cathedral-historical.jpg",
+    "queries": [
+      "Aachen Cathedral historical engraving Charlemagne",
+      "Aachen Palatine Chapel old photograph"
+    ]
+  },
+  {
+    "label": "Germany · Charlemagne's Throne, Aachen (modern)",
+    "destination": "public/images/locations/charlemagnes-throne-aachen.jpg",
+    "queries": [
+      "Charlemagne throne Aachen Cathedral gallery",
+      "Aachen imperial throne marble steps"
+    ]
+  },
+  {
+    "label": "Germany · Charlemagne's Throne, Aachen (historical)",
+    "destination": "public/images/locations/historical/charlemagnes-throne-aachen-historical.jpg",
+    "queries": [
+      "Charlemagne throne Aachen historical drawing",
+      "Holy Roman Emperor coronation Aachen engraving"
+    ]
+  },
+  {
+    "label": "Germany · Trier - Porta Nigra (modern)",
+    "destination": "public/images/locations/trier-porta-nigra.jpg",
+    "queries": [
+      "Porta Nigra Trier Roman gate",
+      "Porta Nigra black gate Trier facade"
+    ]
+  },
+  {
+    "label": "Germany · Trier - Porta Nigra (historical)",
+    "destination": "public/images/locations/historical/trier-porta-nigra-historical.jpg",
+    "queries": [
+      "Porta Nigra Trier historical engraving",
+      "Porta Nigra church 18th century drawing"
+    ]
+  },
+  {
+    "label": "Germany · Trier Roman Basilica (Aula Palatina) (modern)",
+    "destination": "public/images/locations/trier-roman-basilica-aula-palatina.jpg",
+    "queries": [
+      "Trier Basilica Constantine brick hall interior",
+      "Aula Palatina Trier exterior"
+    ]
+  },
+  {
+    "label": "Germany · Trier Roman Basilica (Aula Palatina) (historical)",
+    "destination": "public/images/locations/historical/trier-roman-basilica-aula-palatina-historical.jpg",
+    "queries": [
+      "Trier Basilica historical engraving",
+      "Aula Palatina Trier 19th century drawing"
+    ]
+  },
+  {
+    "label": "Germany · Ludwigsburg Palace (modern)",
+    "destination": "public/images/locations/ludwigsburg-palace.jpg",
+    "queries": [
+      "Ludwigsburg Palace baroque garden Blooming Baroque",
+      "Ludwigsburg Palace facade"
+    ]
+  },
+  {
+    "label": "Germany · Ludwigsburg Palace (historical)",
+    "destination": "public/images/locations/historical/ludwigsburg-palace-historical.jpg",
+    "queries": [
+      "Ludwigsburg Palace historical engraving",
+      "Ludwigsburg Baroque theatre old photograph"
+    ]
+  },
+  {
+    "label": "Germany · Ludendorff Bridge, Remagen (modern)",
+    "destination": "public/images/locations/ludendorff-bridge-remagen.jpg",
+    "queries": [
+      "Remagen bridge towers peace museum Rhine",
+      "Ludendorff bridge Remagen remains today"
+    ]
+  },
+  {
+    "label": "Germany · Ludendorff Bridge, Remagen (historical)",
+    "destination": "public/images/locations/historical/ludendorff-bridge-remagen-historical.jpg",
+    "queries": [
+      "Remagen bridge 1945 US troops crossing",
+      "Ludendorff bridge collapse 1945"
+    ]
+  },
+  {
+    "label": "Germany · Marksburg Castle (modern)",
+    "destination": "public/images/locations/marksburg-castle.jpg",
+    "queries": [
+      "Marksburg Castle Braubach Rhine hilltop",
+      "Marksburg castle courtyard"
+    ]
+  },
+  {
+    "label": "Germany · Marksburg Castle (historical)",
+    "destination": "public/images/locations/historical/marksburg-castle-historical.jpg",
+    "queries": [
+      "Marksburg castle historical engraving Rhine",
+      "Marksburg castle old photograph"
+    ]
+  },
+  {
+    "label": "Germany · Wartburg Castle (modern)",
+    "destination": "public/images/locations/wartburg-castle.jpg",
+    "queries": [
+      "Wartburg Castle Eisenach hilltop",
+      "Wartburg Luther study room"
+    ]
+  },
+  {
+    "label": "Germany · Wartburg Castle (historical)",
+    "destination": "public/images/locations/historical/wartburg-castle-historical.jpg",
+    "queries": [
+      "Wartburg castle historical engraving",
+      "Luther Junker Jörg Wartburg painting"
+    ]
+  },
+  {
+    "label": "Germany · Lutherhaus, Wittenberg (modern)",
+    "destination": "public/images/locations/lutherhaus-wittenberg.jpg",
+    "queries": [
+      "Lutherhaus Wittenberg museum building",
+      "Wittenberg Castle Church door theses"
+    ]
+  },
+  {
+    "label": "Germany · Lutherhaus, Wittenberg (historical)",
+    "destination": "public/images/locations/historical/lutherhaus-wittenberg-historical.jpg",
+    "queries": [
+      "Luther Ninety-five Theses Wittenberg engraving",
+      "Martin Luther portrait Cranach"
+    ]
+  },
+  {
+    "label": "Germany · Heidelberg Castle (modern)",
+    "destination": "public/images/locations/heidelberg-castle.jpg",
+    "queries": [
+      "Heidelberg Castle ruins red sandstone",
+      "Heidelberg castle Neckar valley view"
+    ]
+  },
+  {
+    "label": "Germany · Heidelberg Castle (historical)",
+    "destination": "public/images/locations/historical/heidelberg-castle-historical.jpg",
+    "queries": [
+      "Heidelberg castle historical engraving ruins",
+      "Heidelberg castle 19th century romantic painting"
+    ]
+  },
+  {
+    "label": "France · Bastille Site (modern)",
+    "destination": "public/images/locations/bastille-site.jpg",
+    "queries": [
+      "Place de la Bastille July Column Paris",
+      "Bastille square modern Paris"
+    ]
+  },
+  {
+    "label": "France · Bastille Site (historical)",
+    "destination": "public/images/locations/historical/bastille-site-historical.jpg",
+    "queries": [
+      "Storming of the Bastille 1789 painting",
+      "prise de la Bastille engraving"
+    ]
+  },
+  {
+    "label": "France · Place de la Concorde (modern)",
+    "destination": "public/images/locations/place-de-la-concorde.jpg",
+    "queries": [
+      "Place de la Concorde obelisk Paris",
+      "Concorde square fountains Paris"
+    ]
+  },
+  {
+    "label": "France · Place de la Concorde (historical)",
+    "destination": "public/images/locations/historical/place-de-la-concorde-historical.jpg",
+    "queries": [
+      "execution of Louis XVI Place de la Revolution",
+      "guillotine Place de la Concorde 1793 engraving"
+    ]
+  },
+  {
+    "label": "France · Les Invalides — Napoleon's Tomb (modern)",
+    "destination": "public/images/locations/les-invalides-napoleons-tomb.jpg",
+    "queries": [
+      "Les Invalides golden dome Paris",
+      "Napoleon tomb sarcophagus Invalides"
+    ]
+  },
+  {
+    "label": "France · Les Invalides — Napoleon's Tomb (historical)",
+    "destination": "public/images/locations/historical/les-invalides-napoleons-tomb-historical.jpg",
+    "queries": [
+      "retour des cendres 1840 Napoleon funeral",
+      "Napoleon tomb Invalides 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Arc de Triomphe (modern)",
+    "destination": "public/images/locations/arc-de-triomphe.jpg",
+    "queries": [
+      "Arc de Triomphe Paris Champs Elysees",
+      "Arc de Triomphe aerial star avenues"
+    ]
+  },
+  {
+    "label": "France · Arc de Triomphe (historical)",
+    "destination": "public/images/locations/historical/arc-de-triomphe-historical.jpg",
+    "queries": [
+      "Arc de Triomphe 1919 victory parade WWI",
+      "Arc de Triomphe unknown soldier 1920"
+    ]
+  },
+  {
+    "label": "France · Louvre Museum (modern)",
+    "destination": "public/images/locations/louvre-museum.jpg",
+    "queries": [
+      "Louvre glass pyramid Paris",
+      "Louvre museum courtyard Mona Lisa"
+    ]
+  },
+  {
+    "label": "France · Louvre Museum (historical)",
+    "destination": "public/images/locations/historical/louvre-museum-historical.jpg",
+    "queries": [
+      "Louvre palace 19th century photo",
+      "Musee Napoleon Louvre historical"
+    ]
+  },
+  {
+    "label": "France · Notre-Dame de Paris (modern)",
+    "destination": "public/images/locations/notre-dame-de-paris.jpg",
+    "queries": [
+      "Notre-Dame de Paris cathedral restored 2024",
+      "Notre-Dame Paris facade Seine"
+    ]
+  },
+  {
+    "label": "France · Notre-Dame de Paris (historical)",
+    "destination": "public/images/locations/historical/notre-dame-de-paris-historical.jpg",
+    "queries": [
+      "Notre-Dame Paris 19th century photograph",
+      "coronation of Napoleon Notre-Dame David painting"
+    ]
+  },
+  {
+    "label": "France · Palace of Versailles (modern)",
+    "destination": "public/images/locations/palace-of-versailles.jpg",
+    "queries": [
+      "Palace of Versailles Hall of Mirrors",
+      "Versailles palace gardens aerial"
+    ]
+  },
+  {
+    "label": "France · Palace of Versailles (historical)",
+    "destination": "public/images/locations/historical/palace-of-versailles-historical.jpg",
+    "queries": [
+      "Treaty of Versailles 1919 Hall of Mirrors",
+      "Versailles palace 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Château de Fontainebleau (modern)",
+    "destination": "public/images/locations/chateau-de-fontainebleau.jpg",
+    "queries": [
+      "Chateau de Fontainebleau horseshoe staircase",
+      "Fontainebleau palace courtyard"
+    ]
+  },
+  {
+    "label": "France · Château de Fontainebleau (historical)",
+    "destination": "public/images/locations/historical/chateau-de-fontainebleau-historical.jpg",
+    "queries": [
+      "Napoleon farewell Fontainebleau 1814 painting",
+      "Fontainebleau palace 19th century"
+    ]
+  },
+  {
+    "label": "France · Château de Malmaison (modern)",
+    "destination": "public/images/locations/chateau-de-malmaison.jpg",
+    "queries": [
+      "Chateau de Malmaison Josephine house",
+      "Malmaison rose garden Rueil"
+    ]
+  },
+  {
+    "label": "France · Château de Malmaison (historical)",
+    "destination": "public/images/locations/historical/chateau-de-malmaison-historical.jpg",
+    "queries": [
+      "Empress Josephine Malmaison portrait",
+      "Malmaison chateau 19th century Napoleon"
+    ]
+  },
+  {
+    "label": "France · Panthéon (modern)",
+    "destination": "public/images/locations/pantheon.jpg",
+    "queries": [
+      "Pantheon Paris dome exterior",
+      "Pantheon Paris Foucault pendulum interior"
+    ]
+  },
+  {
+    "label": "France · Panthéon (historical)",
+    "destination": "public/images/locations/historical/pantheon-historical.jpg",
+    "queries": [
+      "Victor Hugo funeral Pantheon 1885",
+      "Pantheon Paris 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Sorbonne (modern)",
+    "destination": "public/images/locations/sorbonne.jpg",
+    "queries": [
+      "Sorbonne university Paris chapel courtyard",
+      "Sorbonne Paris facade Latin Quarter"
+    ]
+  },
+  {
+    "label": "France · Sorbonne (historical)",
+    "destination": "public/images/locations/historical/sorbonne-historical.jpg",
+    "queries": [
+      "Sorbonne May 1968 student protest Paris",
+      "Sorbonne Paris 19th century photograph"
+    ]
+  },
+  {
+    "label": "France · Montmartre & Sacré-Cœur (modern)",
+    "destination": "public/images/locations/montmartre-sacre-coeur.jpg",
+    "queries": [
+      "Sacre-Coeur Basilica Montmartre Paris",
+      "Montmartre artists square Place du Tertre"
+    ]
+  },
+  {
+    "label": "France · Montmartre & Sacré-Cœur (historical)",
+    "destination": "public/images/locations/historical/montmartre-sacre-coeur-historical.jpg",
+    "queries": [
+      "Paris Commune 1871 Montmartre barricade",
+      "Montmartre Bateau-Lavoir Picasso 1900s"
+    ]
+  },
+  {
+    "label": "France · Mont Valérien (modern)",
+    "destination": "public/images/locations/mont-valerien.jpg",
+    "queries": [
+      "Mont Valerien memorial Suresnes",
+      "Memorial de la France Combattante"
+    ]
+  },
+  {
+    "label": "France · Mont Valérien (historical)",
+    "destination": "public/images/locations/historical/mont-valerien-historical.jpg",
+    "queries": [
+      "Mont Valerien execution Resistance WWII",
+      "Nazi execution site Paris occupation 1944"
+    ]
+  },
+  {
+    "label": "France · Omaha Beach (modern)",
+    "destination": "public/images/locations/omaha-beach.jpg",
+    "queries": [
+      "Omaha Beach Normandy memorial Les Braves",
+      "Omaha Beach D-Day sands today"
+    ]
+  },
+  {
+    "label": "France · Omaha Beach (historical)",
+    "destination": "public/images/locations/historical/omaha-beach-historical.jpg",
+    "queries": [
+      "Omaha Beach D-Day landing 6 June 1944",
+      "Omaha Beach American troops 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Utah Beach (modern)",
+    "destination": "public/images/locations/utah-beach.jpg",
+    "queries": [
+      "Utah Beach Normandy museum bunker",
+      "Utah Beach D-Day monument dunes"
+    ]
+  },
+  {
+    "label": "France · Utah Beach (historical)",
+    "destination": "public/images/locations/historical/utah-beach-historical.jpg",
+    "queries": [
+      "Utah Beach landing 4th Infantry Division 1944",
+      "Utah Beach D-Day 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Pointe du Hoc (modern)",
+    "destination": "public/images/locations/pointe-du-hoc.jpg",
+    "queries": [
+      "Pointe du Hoc cliff craters Normandy",
+      "Pointe du Hoc Ranger monument"
+    ]
+  },
+  {
+    "label": "France · Pointe du Hoc (historical)",
+    "destination": "public/images/locations/historical/pointe-du-hoc-historical.jpg",
+    "queries": [
+      "Pointe du Hoc Rangers climbing cliff 1944",
+      "Pointe du Hoc D-Day 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Gold Beach (modern)",
+    "destination": "public/images/locations/gold-beach.jpg",
+    "queries": [
+      "Gold Beach Normandy Asnelles today",
+      "Gold Beach British sector memorial"
+    ]
+  },
+  {
+    "label": "France · Gold Beach (historical)",
+    "destination": "public/images/locations/historical/gold-beach-historical.jpg",
+    "queries": [
+      "Gold Beach British landing 1944",
+      "Gold Beach D-Day 50th Division 1944"
+    ]
+  },
+  {
+    "label": "France · Juno Beach (modern)",
+    "destination": "public/images/locations/juno-beach.jpg",
+    "queries": [
+      "Juno Beach Centre Courseulles Canada",
+      "Juno Beach Normandy memorial today"
+    ]
+  },
+  {
+    "label": "France · Juno Beach (historical)",
+    "destination": "public/images/locations/historical/juno-beach-historical.jpg",
+    "queries": [
+      "Juno Beach Canadian landing 1944",
+      "Juno Beach D-Day 3rd Canadian Division 1944"
+    ]
+  },
+  {
+    "label": "France · Sword Beach (modern)",
+    "destination": "public/images/locations/sword-beach.jpg",
+    "queries": [
+      "Sword Beach Ouistreham Normandy today",
+      "Sword Beach Kieffer commando memorial"
+    ]
+  },
+  {
+    "label": "France · Sword Beach (historical)",
+    "destination": "public/images/locations/historical/sword-beach-historical.jpg",
+    "queries": [
+      "Sword Beach British landing 1944",
+      "Free French commandos D-Day Kieffer 1944"
+    ]
+  },
+  {
+    "label": "France · Sainte-Mère-Église (modern)",
+    "destination": "public/images/locations/sainte-mere-eglise.jpg",
+    "queries": [
+      "Sainte-Mere-Eglise church paratrooper dummy",
+      "Sainte-Mere-Eglise Airborne Museum"
+    ]
+  },
+  {
+    "label": "France · Sainte-Mère-Église (historical)",
+    "destination": "public/images/locations/historical/sainte-mere-eglise-historical.jpg",
+    "queries": [
+      "Sainte-Mere-Eglise paratroopers 1944 D-Day",
+      "John Steele church steeple 1944"
+    ]
+  },
+  {
+    "label": "France · Pegasus Bridge (modern)",
+    "destination": "public/images/locations/pegasus-bridge.jpg",
+    "queries": [
+      "Pegasus Bridge Benouville Normandy today",
+      "Memorial Pegasus original bridge museum"
+    ]
+  },
+  {
+    "label": "France · Pegasus Bridge (historical)",
+    "destination": "public/images/locations/historical/pegasus-bridge-historical.jpg",
+    "queries": [
+      "Pegasus Bridge gliders 1944 D-Day",
+      "Pegasus Bridge June 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Arromanches — Mulberry Harbour (modern)",
+    "destination": "public/images/locations/arromanches-mulberry-harbour.jpg",
+    "queries": [
+      "Arromanches Mulberry harbour caissons today",
+      "Arromanches Normandy beach remains"
+    ]
+  },
+  {
+    "label": "France · Arromanches — Mulberry Harbour (historical)",
+    "destination": "public/images/locations/historical/arromanches-mulberry-harbour-historical.jpg",
+    "queries": [
+      "Mulberry harbour Arromanches 1944 construction",
+      "Mulberry harbour D-Day 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Normandy American Cemetery, Colleville-sur-Mer (modern)",
+    "destination": "public/images/locations/normandy-american-cemetery-colleville-sur-mer.jpg",
+    "queries": [
+      "Normandy American Cemetery Colleville crosses",
+      "Omaha Beach American cemetery memorial"
+    ]
+  },
+  {
+    "label": "France · Normandy American Cemetery, Colleville-sur-Mer (historical)",
+    "destination": "public/images/locations/historical/normandy-american-cemetery-colleville-sur-mer-historical.jpg",
+    "queries": [
+      "Normandy American cemetery 1940s dedication",
+      "American war graves Normandy 1945"
+    ]
+  },
+  {
+    "label": "France · Bayeux (modern)",
+    "destination": "public/images/locations/bayeux.jpg",
+    "queries": [
+      "Bayeux Tapestry museum Normandy",
+      "Bayeux cathedral old town"
+    ]
+  },
+  {
+    "label": "France · Bayeux (historical)",
+    "destination": "public/images/locations/historical/bayeux-historical.jpg",
+    "queries": [
+      "Bayeux Tapestry 11th century detail Hastings",
+      "Bayeux liberation 1944 de Gaulle"
+    ]
+  },
+  {
+    "label": "France · Caen Memorial (modern)",
+    "destination": "public/images/locations/caen-memorial.jpg",
+    "queries": [
+      "Memorial de Caen museum Normandy",
+      "Caen Abbaye aux Hommes today"
+    ]
+  },
+  {
+    "label": "France · Caen Memorial (historical)",
+    "destination": "public/images/locations/historical/caen-memorial-historical.jpg",
+    "queries": [
+      "Caen destroyed ruins 1944 battle",
+      "Battle of Caen 1944 rubble photo"
+    ]
+  },
+  {
+    "label": "France · Oradour-sur-Glane (modern)",
+    "destination": "public/images/locations/oradour-sur-glane.jpg",
+    "queries": [
+      "Oradour-sur-Glane ruins martyr village",
+      "Oradour rusted car church ruins"
+    ]
+  },
+  {
+    "label": "France · Oradour-sur-Glane (historical)",
+    "destination": "public/images/locations/historical/oradour-sur-glane-historical.jpg",
+    "queries": [
+      "Oradour-sur-Glane massacre 1944",
+      "Oradour village destroyed 1944 photo"
+    ]
+  },
+  {
+    "label": "France · Verdun Battlefield (modern)",
+    "destination": "public/images/locations/verdun-battlefield.jpg",
+    "queries": [
+      "Verdun battlefield memorial today",
+      "Verdun shell craters landscape"
+    ]
+  },
+  {
+    "label": "France · Verdun Battlefield (historical)",
+    "destination": "public/images/locations/historical/verdun-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Verdun 1916 trenches",
+      "Verdun 1916 French soldiers photo"
+    ]
+  },
+  {
+    "label": "France · Douaumont Ossuary (modern)",
+    "destination": "public/images/locations/douaumont-ossuary.jpg",
+    "queries": [
+      "Douaumont Ossuary Verdun tower cemetery",
+      "Douaumont ossuaire crosses"
+    ]
+  },
+  {
+    "label": "France · Douaumont Ossuary (historical)",
+    "destination": "public/images/locations/historical/douaumont-ossuary-historical.jpg",
+    "queries": [
+      "Douaumont ossuary inauguration 1932",
+      "Fort Douaumont 1916 Verdun"
+    ]
+  },
+  {
+    "label": "France · Somme — Thiepval Memorial (modern)",
+    "destination": "public/images/locations/somme-thiepval-memorial.jpg",
+    "queries": [
+      "Thiepval Memorial Somme arch",
+      "Thiepval memorial to the missing today"
+    ]
+  },
+  {
+    "label": "France · Somme — Thiepval Memorial (historical)",
+    "destination": "public/images/locations/historical/somme-thiepval-memorial-historical.jpg",
+    "queries": [
+      "Battle of the Somme 1916 trenches",
+      "Somme July 1916 British soldiers"
+    ]
+  },
+  {
+    "label": "France · Clairière de l'Armistice, Compiègne (modern)",
+    "destination": "public/images/locations/clairiere-de-larmistice-compiegne.jpg",
+    "queries": [
+      "Clairiere Armistice Compiegne wagon museum",
+      "Compiegne armistice clearing memorial"
+    ]
+  },
+  {
+    "label": "France · Clairière de l'Armistice, Compiègne (historical)",
+    "destination": "public/images/locations/historical/clairiere-de-larmistice-compiegne-historical.jpg",
+    "queries": [
+      "Armistice 1918 railway carriage Compiegne",
+      "Hitler Compiegne 1940 armistice wagon"
+    ]
+  },
+  {
+    "label": "France · Vichy (modern)",
+    "destination": "public/images/locations/vichy.jpg",
+    "queries": [
+      "Vichy spa town Grand Casino France",
+      "Vichy Allier thermal town"
+    ]
+  },
+  {
+    "label": "France · Vichy (historical)",
+    "destination": "public/images/locations/historical/vichy-historical.jpg",
+    "queries": [
+      "Vichy Petain 1940 government",
+      "Vichy France WWII collaboration photo"
+    ]
+  },
+  {
+    "label": "France · Dunkirk (Dunkerque) (modern)",
+    "destination": "public/images/locations/dunkirk-dunkerque.jpg",
+    "queries": [
+      "Dunkirk beach memorial Dunkerque today",
+      "Dunkirk Operation Dynamo museum"
+    ]
+  },
+  {
+    "label": "France · Dunkirk (Dunkerque) (historical)",
+    "destination": "public/images/locations/historical/dunkirk-dunkerque-historical.jpg",
+    "queries": [
+      "Dunkirk evacuation 1940 little ships",
+      "Dunkirk beaches 1940 soldiers photo"
+    ]
+  },
+  {
+    "label": "France · Reims Cathedral (modern)",
+    "destination": "public/images/locations/reims-cathedral.jpg",
+    "queries": [
+      "Reims Cathedral gothic facade France",
+      "Reims cathedral Chagall windows"
+    ]
+  },
+  {
+    "label": "France · Reims Cathedral (historical)",
+    "destination": "public/images/locations/historical/reims-cathedral-historical.jpg",
+    "queries": [
+      "Reims cathedral fire 1914 WWI",
+      "Joan of Arc coronation Charles VII Reims"
+    ]
+  },
+  {
+    "label": "France · Rouen — Joan of Arc's Execution Site (modern)",
+    "destination": "public/images/locations/rouen-joan-of-arcs-execution-site.jpg",
+    "queries": [
+      "Place du Vieux-Marche Rouen Joan of Arc church",
+      "Rouen Joan of Arc modern church"
+    ]
+  },
+  {
+    "label": "France · Rouen — Joan of Arc's Execution Site (historical)",
+    "destination": "public/images/locations/historical/rouen-joan-of-arcs-execution-site-historical.jpg",
+    "queries": [
+      "Joan of Arc burned at stake Rouen 1431",
+      "Jeanne d'Arc execution painting Rouen"
+    ]
+  },
+  {
+    "label": "France · Orléans (modern)",
+    "destination": "public/images/locations/orleans.jpg",
+    "queries": [
+      "Orleans cathedral Joan of Arc statue",
+      "Orleans old town France today"
+    ]
+  },
+  {
+    "label": "France · Orléans (historical)",
+    "destination": "public/images/locations/historical/orleans-historical.jpg",
+    "queries": [
+      "Joan of Arc siege of Orleans 1429 painting",
+      "Jeanne d'Arc Orleans historical engraving"
+    ]
+  },
+  {
+    "label": "France · Chartres Cathedral (modern)",
+    "destination": "public/images/locations/chartres-cathedral.jpg",
+    "queries": [
+      "Chartres Cathedral stained glass blue",
+      "Chartres cathedral spires France"
+    ]
+  },
+  {
+    "label": "France · Chartres Cathedral (historical)",
+    "destination": "public/images/locations/historical/chartres-cathedral-historical.jpg",
+    "queries": [
+      "Chartres cathedral 19th century photograph",
+      "Chartres cathedral 1944 WWII"
+    ]
+  },
+  {
+    "label": "France · Mont-Saint-Michel (modern)",
+    "destination": "public/images/locations/mont-saint-michel.jpg",
+    "queries": [
+      "Mont-Saint-Michel abbey tidal island",
+      "Mont Saint Michel high tide aerial"
+    ]
+  },
+  {
+    "label": "France · Mont-Saint-Michel (historical)",
+    "destination": "public/images/locations/historical/mont-saint-michel-historical.jpg",
+    "queries": [
+      "Mont-Saint-Michel 19th century engraving",
+      "Mont Saint Michel vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Carcassonne (modern)",
+    "destination": "public/images/locations/carcassonne.jpg",
+    "queries": [
+      "Carcassonne medieval city walls France",
+      "Carcassonne fortress aerial towers"
+    ]
+  },
+  {
+    "label": "France · Carcassonne (historical)",
+    "destination": "public/images/locations/historical/carcassonne-historical.jpg",
+    "queries": [
+      "Carcassonne 19th century Viollet-le-Duc restoration",
+      "Carcassonne vintage engraving"
+    ]
+  },
+  {
+    "label": "France · Palais des Papes, Avignon (modern)",
+    "destination": "public/images/locations/palais-des-papes-avignon.jpg",
+    "queries": [
+      "Palais des Papes Avignon Gothic palace",
+      "Avignon papal palace Rhone"
+    ]
+  },
+  {
+    "label": "France · Palais des Papes, Avignon (historical)",
+    "destination": "public/images/locations/historical/palais-des-papes-avignon-historical.jpg",
+    "queries": [
+      "Palais des Papes Avignon 19th century",
+      "Avignon popes medieval fresco"
+    ]
+  },
+  {
+    "label": "France · Pont du Gard (modern)",
+    "destination": "public/images/locations/pont-du-gard.jpg",
+    "queries": [
+      "Pont du Gard Roman aqueduct France",
+      "Pont du Gard three tiers Gardon river"
+    ]
+  },
+  {
+    "label": "France · Pont du Gard (historical)",
+    "destination": "public/images/locations/historical/pont-du-gard-historical.jpg",
+    "queries": [
+      "Pont du Gard 19th century engraving",
+      "Pont du Gard vintage postcard aqueduct"
+    ]
+  },
+  {
+    "label": "France · Arènes de Nîmes (modern)",
+    "destination": "public/images/locations/arenes-de-nimes.jpg",
+    "queries": [
+      "Arenes de Nimes Roman amphitheatre",
+      "Nimes arena interior tiers"
+    ]
+  },
+  {
+    "label": "France · Arènes de Nîmes (historical)",
+    "destination": "public/images/locations/historical/arenes-de-nimes-historical.jpg",
+    "queries": [
+      "Nimes arena 19th century engraving",
+      "Arenes de Nimes vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Arles Roman Amphitheatre (modern)",
+    "destination": "public/images/locations/arles-roman-amphitheatre.jpg",
+    "queries": [
+      "Arles Roman amphitheatre France",
+      "Arles arena Van Gogh town"
+    ]
+  },
+  {
+    "label": "France · Arles Roman Amphitheatre (historical)",
+    "destination": "public/images/locations/historical/arles-roman-amphitheatre-historical.jpg",
+    "queries": [
+      "Arles amphitheatre 19th century",
+      "Van Gogh Arles yellow house painting"
+    ]
+  },
+  {
+    "label": "France · Alesia (MuséoParc) (modern)",
+    "destination": "public/images/locations/alesia.jpg",
+    "queries": [
+      "Alesia MuseoParc Vercingetorix statue",
+      "Alesia archaeological site Burgundy"
+    ]
+  },
+  {
+    "label": "France · Alesia (MuséoParc) (historical)",
+    "destination": "public/images/locations/historical/alesia-historical.jpg",
+    "queries": [
+      "Vercingetorix surrenders to Caesar painting",
+      "Siege of Alesia 52 BC illustration"
+    ]
+  },
+  {
+    "label": "France · Théâtre Antique d'Orange (modern)",
+    "destination": "public/images/locations/theatre-antique-dorange.jpg",
+    "queries": [
+      "Theatre Antique Orange Roman stage wall",
+      "Orange Roman theatre France"
+    ]
+  },
+  {
+    "label": "France · Théâtre Antique d'Orange (historical)",
+    "destination": "public/images/locations/historical/theatre-antique-dorange-historical.jpg",
+    "queries": [
+      "Orange Roman theatre 19th century engraving",
+      "Theatre Antique Orange vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Vieux Lyon & Roman Fourvière (modern)",
+    "destination": "public/images/locations/vieux-lyon-roman-fourviere.jpg",
+    "queries": [
+      "Vieux Lyon old town traboules",
+      "Fourviere Roman theatre Lyon"
+    ]
+  },
+  {
+    "label": "France · Vieux Lyon & Roman Fourvière (historical)",
+    "destination": "public/images/locations/historical/vieux-lyon-roman-fourviere-historical.jpg",
+    "queries": [
+      "Lyon Roman theatre Fourviere excavation",
+      "Lumiere brothers Lyon 1895 factory film"
+    ]
+  },
+  {
+    "label": "France · Château de Chambord (modern)",
+    "destination": "public/images/locations/chateau-de-chambord.jpg",
+    "queries": [
+      "Chateau de Chambord Loire France",
+      "Chambord double helix staircase"
+    ]
+  },
+  {
+    "label": "France · Château de Chambord (historical)",
+    "destination": "public/images/locations/historical/chateau-de-chambord-historical.jpg",
+    "queries": [
+      "Chambord chateau 19th century engraving",
+      "Chambord Mona Lisa WWII hidden"
+    ]
+  },
+  {
+    "label": "France · Château de Chenonceau (modern)",
+    "destination": "public/images/locations/chateau-de-chenonceau.jpg",
+    "queries": [
+      "Chateau de Chenonceau river Cher France",
+      "Chenonceau gallery bridge Loire"
+    ]
+  },
+  {
+    "label": "France · Château de Chenonceau (historical)",
+    "destination": "public/images/locations/historical/chateau-de-chenonceau-historical.jpg",
+    "queries": [
+      "Chenonceau chateau 19th century",
+      "Chenonceau WWII hospital gallery"
+    ]
+  },
+  {
+    "label": "France · Château du Clos Lucé, Amboise (modern)",
+    "destination": "public/images/locations/chateau-du-clos-luce-amboise.jpg",
+    "queries": [
+      "Chateau du Clos Luce Amboise Leonardo",
+      "Clos Luce manor Loire da Vinci"
+    ]
+  },
+  {
+    "label": "France · Château du Clos Lucé, Amboise (historical)",
+    "destination": "public/images/locations/historical/chateau-du-clos-luce-amboise-historical.jpg",
+    "queries": [
+      "Leonardo da Vinci death Francis I painting",
+      "Clos Luce Amboise 19th century"
+    ]
+  },
+  {
+    "label": "France · Royal Château of Amboise (modern)",
+    "destination": "public/images/locations/royal-chateau-of-amboise.jpg",
+    "queries": [
+      "Royal Chateau Amboise Loire France",
+      "Amboise chateau Saint-Hubert chapel"
+    ]
+  },
+  {
+    "label": "France · Royal Château of Amboise (historical)",
+    "destination": "public/images/locations/historical/royal-chateau-of-amboise-historical.jpg",
+    "queries": [
+      "Amboise conspiracy 1560 execution Huguenots",
+      "Chateau Amboise 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Château Royal de Blois (modern)",
+    "destination": "public/images/locations/chateau-royal-de-blois.jpg",
+    "queries": [
+      "Chateau Royal de Blois spiral staircase",
+      "Blois chateau Loire France"
+    ]
+  },
+  {
+    "label": "France · Château Royal de Blois (historical)",
+    "destination": "public/images/locations/historical/chateau-royal-de-blois-historical.jpg",
+    "queries": [
+      "assassination Duke of Guise Blois 1588 painting",
+      "Chateau de Blois 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Forteresse Royale de Chinon (modern)",
+    "destination": "public/images/locations/forteresse-royale-de-chinon.jpg",
+    "queries": [
+      "Forteresse Royale de Chinon Loire",
+      "Chinon castle Vienne river France"
+    ]
+  },
+  {
+    "label": "France · Forteresse Royale de Chinon (historical)",
+    "destination": "public/images/locations/historical/forteresse-royale-de-chinon-historical.jpg",
+    "queries": [
+      "Joan of Arc meets dauphin Chinon 1429 painting",
+      "Chinon fortress 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Maison Bonaparte, Ajaccio (modern)",
+    "destination": "public/images/locations/maison-bonaparte-ajaccio.jpg",
+    "queries": [
+      "Maison Bonaparte Ajaccio Corsica museum",
+      "Napoleon birthplace Ajaccio house"
+    ]
+  },
+  {
+    "label": "France · Maison Bonaparte, Ajaccio (historical)",
+    "destination": "public/images/locations/historical/maison-bonaparte-ajaccio-historical.jpg",
+    "queries": [
+      "Maison Bonaparte Ajaccio 19th century",
+      "young Napoleon Corsica Ajaccio portrait"
+    ]
+  },
+  {
+    "label": "France · Vieux-Port de Marseille (modern)",
+    "destination": "public/images/locations/vieux-port-de-marseille.jpg",
+    "queries": [
+      "Vieux-Port Marseille harbour Notre-Dame de la Garde",
+      "Marseille old port boats"
+    ]
+  },
+  {
+    "label": "France · Vieux-Port de Marseille (historical)",
+    "destination": "public/images/locations/historical/vieux-port-de-marseille-historical.jpg",
+    "queries": [
+      "Marseille Vieux-Port 1943 destruction Nazi",
+      "Marseille old port 19th century photo"
+    ]
+  },
+  {
+    "label": "France · Site archéologique de Glanum, Saint-Rémy (modern)",
+    "destination": "public/images/locations/site-archeologique-de-glanum-saint-remy.jpg",
+    "queries": [
+      "Glanum archaeological site Saint-Remy Provence",
+      "Glanum Roman arch mausoleum Antiques"
+    ]
+  },
+  {
+    "label": "France · Site archéologique de Glanum, Saint-Rémy (historical)",
+    "destination": "public/images/locations/historical/site-archeologique-de-glanum-saint-remy-historical.jpg",
+    "queries": [
+      "Van Gogh Starry Night Saint-Remy asylum",
+      "Glanum excavation 1920s Provence"
+    ]
+  },
+  {
+    "label": "France · Château d'If, Marseille (modern)",
+    "destination": "public/images/locations/chateau-dif-marseille.jpg",
+    "queries": [
+      "Chateau d'If island Marseille fortress",
+      "Chateau If Monte Cristo prison island"
+    ]
+  },
+  {
+    "label": "France · Château d'If, Marseille (historical)",
+    "destination": "public/images/locations/historical/chateau-dif-marseille-historical.jpg",
+    "queries": [
+      "Chateau d'If 19th century engraving",
+      "Count of Monte Cristo Chateau If illustration"
+    ]
+  },
+  {
+    "label": "France · Strasbourg Cathedral (modern)",
+    "destination": "public/images/locations/strasbourg-cathedral.jpg",
+    "queries": [
+      "Strasbourg Cathedral pink sandstone spire",
+      "Strasbourg cathedral facade Alsace"
+    ]
+  },
+  {
+    "label": "France · Strasbourg Cathedral (historical)",
+    "destination": "public/images/locations/historical/strasbourg-cathedral-historical.jpg",
+    "queries": [
+      "Strasbourg cathedral 19th century photograph",
+      "Strasbourg cathedral old engraving"
+    ]
+  },
+  {
+    "label": "France · Petite France, Strasbourg (modern)",
+    "destination": "public/images/locations/petite-france-strasbourg.jpg",
+    "queries": [
+      "Petite France Strasbourg half-timbered canals",
+      "Petite France Ponts Couverts Strasbourg"
+    ]
+  },
+  {
+    "label": "France · Petite France, Strasbourg (historical)",
+    "destination": "public/images/locations/historical/petite-france-strasbourg-historical.jpg",
+    "queries": [
+      "Petite France Strasbourg old photograph",
+      "Strasbourg Petite France vintage"
+    ]
+  },
+  {
+    "label": "Italy · Colosseum (modern)",
+    "destination": "public/images/locations/colosseum.jpg",
+    "queries": [
+      "Colosseum Rome exterior day",
+      "Colosseum arena interior hypogeum"
+    ]
+  },
+  {
+    "label": "Italy · Colosseum (historical)",
+    "destination": "public/images/locations/historical/colosseum-historical.jpg",
+    "queries": [
+      "Colosseum 19th century engraving",
+      "Colosseum vintage photograph 1890"
+    ]
+  },
+  {
+    "label": "Italy · Roman Forum (modern)",
+    "destination": "public/images/locations/roman-forum.jpg",
+    "queries": [
+      "Roman Forum ruins panorama",
+      "Roman Forum temple of Saturn columns"
+    ]
+  },
+  {
+    "label": "Italy · Roman Forum (historical)",
+    "destination": "public/images/locations/historical/roman-forum-historical.jpg",
+    "queries": [
+      "Roman Forum Campo Vaccino painting",
+      "Roman Forum 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Palatine Hill (modern)",
+    "destination": "public/images/locations/palatine-hill.jpg",
+    "queries": [
+      "Palatine Hill ruins Rome",
+      "Domus Augustana Palatine palace"
+    ]
+  },
+  {
+    "label": "Italy · Palatine Hill (historical)",
+    "destination": "public/images/locations/historical/palatine-hill-historical.jpg",
+    "queries": [
+      "Palatine Hill 19th century engraving",
+      "Palatine Hill vintage postcard"
+    ]
+  },
+  {
+    "label": "Italy · Pantheon (modern)",
+    "destination": "public/images/locations/pantheon.jpg",
+    "queries": [
+      "Pantheon Rome dome oculus interior",
+      "Pantheon Rome facade portico"
+    ]
+  },
+  {
+    "label": "Italy · Pantheon (historical)",
+    "destination": "public/images/locations/historical/pantheon-historical.jpg",
+    "queries": [
+      "Pantheon Rome Piranesi engraving",
+      "Pantheon Rome vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Trajan's Column (modern)",
+    "destination": "public/images/locations/trajans-column.jpg",
+    "queries": [
+      "Trajan's Column Rome full view",
+      "Trajan's Column relief detail"
+    ]
+  },
+  {
+    "label": "Italy · Trajan's Column (historical)",
+    "destination": "public/images/locations/historical/trajans-column-historical.jpg",
+    "queries": [
+      "Trajan's Column engraving 18th century",
+      "Trajan's Column vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Circus Maximus (modern)",
+    "destination": "public/images/locations/circus-maximus.jpg",
+    "queries": [
+      "Circus Maximus Rome aerial",
+      "Circus Maximus valley Palatine view"
+    ]
+  },
+  {
+    "label": "Italy · Circus Maximus (historical)",
+    "destination": "public/images/locations/historical/circus-maximus-historical.jpg",
+    "queries": [
+      "Circus Maximus reconstruction painting",
+      "Circus Maximus 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Baths of Caracalla (modern)",
+    "destination": "public/images/locations/baths-of-caracalla.jpg",
+    "queries": [
+      "Baths of Caracalla ruins Rome",
+      "Baths of Caracalla mosaic floor"
+    ]
+  },
+  {
+    "label": "Italy · Baths of Caracalla (historical)",
+    "destination": "public/images/locations/historical/baths-of-caracalla-historical.jpg",
+    "queries": [
+      "Baths of Caracalla reconstruction engraving",
+      "Baths of Caracalla 19th century photo"
+    ]
+  },
+  {
+    "label": "Italy · Appian Way (modern)",
+    "destination": "public/images/locations/appian-way.jpg",
+    "queries": [
+      "Appian Way ancient road pines",
+      "Via Appia Antica paving stones tombs"
+    ]
+  },
+  {
+    "label": "Italy · Appian Way (historical)",
+    "destination": "public/images/locations/historical/appian-way-historical.jpg",
+    "queries": [
+      "Appian Way Piranesi engraving",
+      "Via Appia 19th century painting"
+    ]
+  },
+  {
+    "label": "Italy · Ostia Antica (modern)",
+    "destination": "public/images/locations/ostia-antica.jpg",
+    "queries": [
+      "Ostia Antica ruins street",
+      "Ostia Antica theatre mosaics"
+    ]
+  },
+  {
+    "label": "Italy · Ostia Antica (historical)",
+    "destination": "public/images/locations/historical/ostia-antica-historical.jpg",
+    "queries": [
+      "Ostia Antica excavation old photograph",
+      "Ostia Antica 1920s archaeology"
+    ]
+  },
+  {
+    "label": "Italy · Pompeii (modern)",
+    "destination": "public/images/locations/pompeii.jpg",
+    "queries": [
+      "Pompeii ruins Vesuvius background",
+      "Pompeii plaster cast victim"
+    ]
+  },
+  {
+    "label": "Italy · Pompeii (historical)",
+    "destination": "public/images/locations/historical/pompeii-historical.jpg",
+    "queries": [
+      "Pompeii excavation 19th century photograph",
+      "Pompeii Victorian tourists ruins"
+    ]
+  },
+  {
+    "label": "Italy · Herculaneum (modern)",
+    "destination": "public/images/locations/herculaneum.jpg",
+    "queries": [
+      "Herculaneum ruins Ercolano",
+      "Herculaneum boat sheds skeletons"
+    ]
+  },
+  {
+    "label": "Italy · Herculaneum (historical)",
+    "destination": "public/images/locations/historical/herculaneum-historical.jpg",
+    "queries": [
+      "Herculaneum excavation old engraving",
+      "Villa of the Papyri scrolls"
+    ]
+  },
+  {
+    "label": "Italy · Mount Vesuvius (modern)",
+    "destination": "public/images/locations/mount-vesuvius.jpg",
+    "queries": [
+      "Mount Vesuvius crater rim hike",
+      "Vesuvius Naples bay aerial"
+    ]
+  },
+  {
+    "label": "Italy · Mount Vesuvius (historical)",
+    "destination": "public/images/locations/historical/mount-vesuvius-historical.jpg",
+    "queries": [
+      "Vesuvius 1944 eruption photograph",
+      "Vesuvius eruption 19th century painting"
+    ]
+  },
+  {
+    "label": "Italy · Villa of the Mysteries (modern)",
+    "destination": "public/images/locations/villa-of-the-mysteries.jpg",
+    "queries": [
+      "Villa of the Mysteries fresco Pompeii",
+      "Villa dei Misteri Dionysian frieze"
+    ]
+  },
+  {
+    "label": "Italy · Villa of the Mysteries (historical)",
+    "destination": "public/images/locations/historical/villa-of-the-mysteries-historical.jpg",
+    "queries": [
+      "Villa of the Mysteries 1910 excavation",
+      "Pompeii fresco early photograph"
+    ]
+  },
+  {
+    "label": "Italy · Villa Jovis, Capri (modern)",
+    "destination": "public/images/locations/villa-jovis-capri.jpg",
+    "queries": [
+      "Villa Jovis Capri ruins cliff",
+      "Villa Jovis Tiberius palace terrace"
+    ]
+  },
+  {
+    "label": "Italy · Villa Jovis, Capri (historical)",
+    "destination": "public/images/locations/historical/villa-jovis-capri-historical.jpg",
+    "queries": [
+      "Villa Jovis Capri old engraving",
+      "Capri Tiberius villa 19th century"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of San Vitale, Ravenna (modern)",
+    "destination": "public/images/locations/basilica-of-san-vitale-ravenna.jpg",
+    "queries": [
+      "San Vitale Ravenna mosaics interior",
+      "Justinian mosaic San Vitale"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of San Vitale, Ravenna (historical)",
+    "destination": "public/images/locations/historical/basilica-of-san-vitale-ravenna-historical.jpg",
+    "queries": [
+      "San Vitale Ravenna old photograph",
+      "Ravenna mosaics 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Mausoleum of Galla Placidia, Ravenna (modern)",
+    "destination": "public/images/locations/mausoleum-of-galla-placidia-ravenna.jpg",
+    "queries": [
+      "Galla Placidia mausoleum starry dome",
+      "Galla Placidia mosaics Ravenna"
+    ]
+  },
+  {
+    "label": "Italy · Mausoleum of Galla Placidia, Ravenna (historical)",
+    "destination": "public/images/locations/historical/mausoleum-of-galla-placidia-ravenna-historical.jpg",
+    "queries": [
+      "Galla Placidia mausoleum old photograph",
+      "Ravenna mausoleum vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of Aquileia (modern)",
+    "destination": "public/images/locations/basilica-of-aquileia.jpg",
+    "queries": [
+      "Aquileia basilica floor mosaic",
+      "Aquileia basilica interior nave"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of Aquileia (historical)",
+    "destination": "public/images/locations/historical/basilica-of-aquileia-historical.jpg",
+    "queries": [
+      "Aquileia mosaic excavation old photo",
+      "Aquileia basilica vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Verona Arena (modern)",
+    "destination": "public/images/locations/verona-arena.jpg",
+    "queries": [
+      "Verona Arena amphitheatre opera",
+      "Verona Arena interior seating"
+    ]
+  },
+  {
+    "label": "Italy · Verona Arena (historical)",
+    "destination": "public/images/locations/historical/verona-arena-historical.jpg",
+    "queries": [
+      "Verona Arena 19th century photograph",
+      "Verona Arena vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · St Peter's Basilica (modern)",
+    "destination": "public/images/locations/st-peters-basilica.jpg",
+    "queries": [
+      "St Peter's Basilica dome Vatican",
+      "St Peter's Square colonnade Bernini"
+    ]
+  },
+  {
+    "label": "Italy · St Peter's Basilica (historical)",
+    "destination": "public/images/locations/historical/st-peters-basilica-historical.jpg",
+    "queries": [
+      "St Peter's Basilica 1900 photograph",
+      "St Peter's Rome vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Sistine Chapel (modern)",
+    "destination": "public/images/locations/sistine-chapel.jpg",
+    "queries": [
+      "Sistine Chapel ceiling Creation of Adam",
+      "Sistine Chapel Last Judgment"
+    ]
+  },
+  {
+    "label": "Italy · Sistine Chapel (historical)",
+    "destination": "public/images/locations/historical/sistine-chapel-historical.jpg",
+    "queries": [
+      "Sistine Chapel ceiling restoration old photo",
+      "Sistine Chapel vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Castel Sant'Angelo (modern)",
+    "destination": "public/images/locations/castel-santangelo.jpg",
+    "queries": [
+      "Castel Sant'Angelo Rome bridge",
+      "Castel Sant'Angelo angel statue"
+    ]
+  },
+  {
+    "label": "Italy · Castel Sant'Angelo (historical)",
+    "destination": "public/images/locations/historical/castel-santangelo-historical.jpg",
+    "queries": [
+      "Castel Sant'Angelo 19th century photograph",
+      "Castel Sant'Angelo old engraving"
+    ]
+  },
+  {
+    "label": "Italy · Capitoline Hill (Campidoglio) (modern)",
+    "destination": "public/images/locations/capitoline-hill-campidoglio.jpg",
+    "queries": [
+      "Piazza del Campidoglio Rome Michelangelo",
+      "Capitoline Hill Marcus Aurelius statue"
+    ]
+  },
+  {
+    "label": "Italy · Capitoline Hill (Campidoglio) (historical)",
+    "destination": "public/images/locations/historical/capitoline-hill-campidoglio-historical.jpg",
+    "queries": [
+      "Campidoglio Rome 19th century engraving",
+      "Capitoline Hill vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Ara Pacis Augustae (modern)",
+    "destination": "public/images/locations/ara-pacis-augustae.jpg",
+    "queries": [
+      "Ara Pacis altar Rome museum",
+      "Ara Pacis relief procession"
+    ]
+  },
+  {
+    "label": "Italy · Ara Pacis Augustae (historical)",
+    "destination": "public/images/locations/historical/ara-pacis-augustae-historical.jpg",
+    "queries": [
+      "Ara Pacis excavation 1938 photograph",
+      "Ara Pacis fragments old photo"
+    ]
+  },
+  {
+    "label": "Italy · Trevi Fountain (modern)",
+    "destination": "public/images/locations/trevi-fountain.jpg",
+    "queries": [
+      "Trevi Fountain Rome full view",
+      "Trevi Fountain Oceanus statue detail"
+    ]
+  },
+  {
+    "label": "Italy · Trevi Fountain (historical)",
+    "destination": "public/images/locations/historical/trevi-fountain-historical.jpg",
+    "queries": [
+      "Trevi Fountain 19th century photograph",
+      "Trevi Fountain vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Spanish Steps (modern)",
+    "destination": "public/images/locations/spanish-steps.jpg",
+    "queries": [
+      "Spanish Steps Rome azaleas",
+      "Spanish Steps Trinita dei Monti"
+    ]
+  },
+  {
+    "label": "Italy · Spanish Steps (historical)",
+    "destination": "public/images/locations/historical/spanish-steps-historical.jpg",
+    "queries": [
+      "Spanish Steps 19th century photograph",
+      "Spanish Steps vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Piazza Navona (modern)",
+    "destination": "public/images/locations/piazza-navona.jpg",
+    "queries": [
+      "Piazza Navona Rome fountain",
+      "Fountain of Four Rivers Bernini"
+    ]
+  },
+  {
+    "label": "Italy · Piazza Navona (historical)",
+    "destination": "public/images/locations/historical/piazza-navona-historical.jpg",
+    "queries": [
+      "Piazza Navona 19th century photograph",
+      "Piazza Navona flooded old print"
+    ]
+  },
+  {
+    "label": "Italy · Ardeatine Caves (Fosse Ardeatine) (modern)",
+    "destination": "public/images/locations/ardeatine-caves-fosse-ardeatine.jpg",
+    "queries": [
+      "Fosse Ardeatine mausoleum Rome",
+      "Ardeatine Caves memorial tombs"
+    ]
+  },
+  {
+    "label": "Italy · Ardeatine Caves (Fosse Ardeatine) (historical)",
+    "destination": "public/images/locations/historical/ardeatine-caves-fosse-ardeatine-historical.jpg",
+    "queries": [
+      "Fosse Ardeatine 1944 massacre photograph",
+      "Ardeatine massacre victims memorial"
+    ]
+  },
+  {
+    "label": "Italy · Florence Cathedral (Duomo) (modern)",
+    "destination": "public/images/locations/florence-cathedral-duomo.jpg",
+    "queries": [
+      "Florence Duomo Brunelleschi dome",
+      "Florence Cathedral facade Piazza del Duomo"
+    ]
+  },
+  {
+    "label": "Italy · Florence Cathedral (Duomo) (historical)",
+    "destination": "public/images/locations/historical/florence-cathedral-duomo-historical.jpg",
+    "queries": [
+      "Florence Duomo 19th century photograph",
+      "Florence Cathedral vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Uffizi Gallery (modern)",
+    "destination": "public/images/locations/uffizi-gallery.jpg",
+    "queries": [
+      "Uffizi Gallery Florence interior",
+      "Botticelli Birth of Venus Uffizi"
+    ]
+  },
+  {
+    "label": "Italy · Uffizi Gallery (historical)",
+    "destination": "public/images/locations/historical/uffizi-gallery-historical.jpg",
+    "queries": [
+      "Uffizi Gallery 19th century photograph",
+      "Uffizi corridor vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Vecchio (modern)",
+    "destination": "public/images/locations/palazzo-vecchio.jpg",
+    "queries": [
+      "Palazzo Vecchio Florence tower",
+      "Palazzo Vecchio Hall of Five Hundred"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Vecchio (historical)",
+    "destination": "public/images/locations/historical/palazzo-vecchio-historical.jpg",
+    "queries": [
+      "Palazzo Vecchio 19th century photograph",
+      "Savonarola execution painting Piazza Signoria"
+    ]
+  },
+  {
+    "label": "Italy · Ponte Vecchio (modern)",
+    "destination": "public/images/locations/ponte-vecchio.jpg",
+    "queries": [
+      "Ponte Vecchio Florence Arno",
+      "Ponte Vecchio goldsmith shops"
+    ]
+  },
+  {
+    "label": "Italy · Ponte Vecchio (historical)",
+    "destination": "public/images/locations/historical/ponte-vecchio-historical.jpg",
+    "queries": [
+      "Ponte Vecchio 1944 wartime photograph",
+      "Ponte Vecchio vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Galleria dell'Accademia (David) (modern)",
+    "destination": "public/images/locations/galleria-dellaccademia-david.jpg",
+    "queries": [
+      "Michelangelo David Accademia Florence",
+      "David statue Galleria Accademia"
+    ]
+  },
+  {
+    "label": "Italy · Galleria dell'Accademia (David) (historical)",
+    "destination": "public/images/locations/historical/galleria-dellaccademia-david-historical.jpg",
+    "queries": [
+      "David statue Piazza Signoria old photograph",
+      "Michelangelo David vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of Santa Croce (modern)",
+    "destination": "public/images/locations/basilica-of-santa-croce.jpg",
+    "queries": [
+      "Santa Croce Florence facade",
+      "Santa Croce interior tombs Michelangelo"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of Santa Croce (historical)",
+    "destination": "public/images/locations/historical/basilica-of-santa-croce-historical.jpg",
+    "queries": [
+      "Santa Croce 1966 flood photograph",
+      "Santa Croce Florence vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Florence Baptistery (Gates of Paradise) (modern)",
+    "destination": "public/images/locations/florence-baptistery-gates-of-paradise.jpg",
+    "queries": [
+      "Florence Baptistery Gates of Paradise doors",
+      "Florence Baptistery mosaic ceiling"
+    ]
+  },
+  {
+    "label": "Italy · Florence Baptistery (Gates of Paradise) (historical)",
+    "destination": "public/images/locations/historical/florence-baptistery-gates-of-paradise-historical.jpg",
+    "queries": [
+      "Florence Baptistery 19th century photograph",
+      "Gates of Paradise old engraving"
+    ]
+  },
+  {
+    "label": "Italy · Medici Chapels (San Lorenzo) (modern)",
+    "destination": "public/images/locations/medici-chapels-san-lorenzo.jpg",
+    "queries": [
+      "Medici Chapel Michelangelo New Sacristy",
+      "Chapel of the Princes San Lorenzo"
+    ]
+  },
+  {
+    "label": "Italy · Medici Chapels (San Lorenzo) (historical)",
+    "destination": "public/images/locations/historical/medici-chapels-san-lorenzo-historical.jpg",
+    "queries": [
+      "Medici Chapels 19th century engraving",
+      "San Lorenzo Florence vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Pitti Palace & Boboli Gardens (modern)",
+    "destination": "public/images/locations/pitti-palace-boboli-gardens.jpg",
+    "queries": [
+      "Pitti Palace Florence facade",
+      "Boboli Gardens amphitheatre"
+    ]
+  },
+  {
+    "label": "Italy · Pitti Palace & Boboli Gardens (historical)",
+    "destination": "public/images/locations/historical/pitti-palace-boboli-gardens-historical.jpg",
+    "queries": [
+      "Pitti Palace 19th century photograph",
+      "Boboli Gardens vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Leaning Tower of Pisa (modern)",
+    "destination": "public/images/locations/leaning-tower-of-pisa.jpg",
+    "queries": [
+      "Leaning Tower of Pisa full view",
+      "Pisa tower Piazza dei Miracoli"
+    ]
+  },
+  {
+    "label": "Italy · Leaning Tower of Pisa (historical)",
+    "destination": "public/images/locations/historical/leaning-tower-of-pisa-historical.jpg",
+    "queries": [
+      "Leaning Tower of Pisa 19th century photograph",
+      "Pisa tower vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Piazza del Campo, Siena (modern)",
+    "destination": "public/images/locations/piazza-del-campo-siena.jpg",
+    "queries": [
+      "Piazza del Campo Siena aerial",
+      "Palio di Siena horse race"
+    ]
+  },
+  {
+    "label": "Italy · Piazza del Campo, Siena (historical)",
+    "destination": "public/images/locations/historical/piazza-del-campo-siena-historical.jpg",
+    "queries": [
+      "Piazza del Campo Siena 19th century photograph",
+      "Palio Siena vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Siena Cathedral (modern)",
+    "destination": "public/images/locations/siena-cathedral.jpg",
+    "queries": [
+      "Siena Cathedral striped marble facade",
+      "Siena Duomo inlaid marble floor"
+    ]
+  },
+  {
+    "label": "Italy · Siena Cathedral (historical)",
+    "destination": "public/images/locations/historical/siena-cathedral-historical.jpg",
+    "queries": [
+      "Siena Cathedral 19th century photograph",
+      "Siena Duomo vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · San Gimignano (modern)",
+    "destination": "public/images/locations/san-gimignano.jpg",
+    "queries": [
+      "San Gimignano towers skyline",
+      "San Gimignano medieval towers Tuscany"
+    ]
+  },
+  {
+    "label": "Italy · San Gimignano (historical)",
+    "destination": "public/images/locations/historical/san-gimignano-historical.jpg",
+    "queries": [
+      "San Gimignano 19th century photograph",
+      "San Gimignano vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of St Francis, Assisi (modern)",
+    "destination": "public/images/locations/basilica-of-st-francis-assisi.jpg",
+    "queries": [
+      "Basilica of St Francis Assisi exterior",
+      "Giotto frescoes Assisi upper church"
+    ]
+  },
+  {
+    "label": "Italy · Basilica of St Francis, Assisi (historical)",
+    "destination": "public/images/locations/historical/basilica-of-st-francis-assisi-historical.jpg",
+    "queries": [
+      "Assisi basilica 1997 earthquake damage",
+      "Basilica St Francis vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · St Mark's Basilica, Venice (modern)",
+    "destination": "public/images/locations/st-marks-basilica-venice.jpg",
+    "queries": [
+      "St Mark's Basilica Venice facade domes",
+      "St Mark's Basilica golden mosaics interior"
+    ]
+  },
+  {
+    "label": "Italy · St Mark's Basilica, Venice (historical)",
+    "destination": "public/images/locations/historical/st-marks-basilica-venice-historical.jpg",
+    "queries": [
+      "St Mark's Basilica 19th century photograph",
+      "Piazza San Marco vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Doge's Palace, Venice (modern)",
+    "destination": "public/images/locations/doges-palace-venice.jpg",
+    "queries": [
+      "Doge's Palace Venice facade",
+      "Bridge of Sighs Venice"
+    ]
+  },
+  {
+    "label": "Italy · Doge's Palace, Venice (historical)",
+    "destination": "public/images/locations/historical/doges-palace-venice-historical.jpg",
+    "queries": [
+      "Doge's Palace 19th century photograph",
+      "Doge's Palace vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Rialto Bridge, Venice (modern)",
+    "destination": "public/images/locations/rialto-bridge-venice.jpg",
+    "queries": [
+      "Rialto Bridge Venice Grand Canal",
+      "Rialto Bridge shops arch"
+    ]
+  },
+  {
+    "label": "Italy · Rialto Bridge, Venice (historical)",
+    "destination": "public/images/locations/historical/rialto-bridge-venice-historical.jpg",
+    "queries": [
+      "Rialto Bridge 19th century photograph",
+      "Rialto Bridge vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Venetian Arsenal (modern)",
+    "destination": "public/images/locations/venetian-arsenal.jpg",
+    "queries": [
+      "Venetian Arsenal gate lions",
+      "Arsenale Venice shipyard"
+    ]
+  },
+  {
+    "label": "Italy · Venetian Arsenal (historical)",
+    "destination": "public/images/locations/historical/venetian-arsenal-historical.jpg",
+    "queries": [
+      "Venetian Arsenal 19th century photograph",
+      "Arsenale Venice old engraving"
+    ]
+  },
+  {
+    "label": "Italy · The Last Supper (Santa Maria delle Grazie) (modern)",
+    "destination": "public/images/locations/the-last-supper-santa-maria-delle-grazie.jpg",
+    "queries": [
+      "Last Supper Leonardo da Vinci Milan",
+      "Santa Maria delle Grazie refectory"
+    ]
+  },
+  {
+    "label": "Italy · The Last Supper (Santa Maria delle Grazie) (historical)",
+    "destination": "public/images/locations/historical/the-last-supper-santa-maria-delle-grazie-historical.jpg",
+    "queries": [
+      "Last Supper 1943 bomb damage sandbags",
+      "Last Supper Leonardo old photograph"
+    ]
+  },
+  {
+    "label": "Italy · Milan Cathedral (Duomo) (modern)",
+    "destination": "public/images/locations/milan-cathedral-duomo.jpg",
+    "queries": [
+      "Milan Cathedral Duomo facade",
+      "Milan Duomo rooftop spires statues"
+    ]
+  },
+  {
+    "label": "Italy · Milan Cathedral (Duomo) (historical)",
+    "destination": "public/images/locations/historical/milan-cathedral-duomo-historical.jpg",
+    "queries": [
+      "Milan Cathedral 19th century photograph",
+      "Milan Duomo vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Sforza Castle, Milan (modern)",
+    "destination": "public/images/locations/sforza-castle-milan.jpg",
+    "queries": [
+      "Sforza Castle Milan tower",
+      "Rondanini Pieta Michelangelo Sforza"
+    ]
+  },
+  {
+    "label": "Italy · Sforza Castle, Milan (historical)",
+    "destination": "public/images/locations/historical/sforza-castle-milan-historical.jpg",
+    "queries": [
+      "Sforza Castle 19th century photograph",
+      "Castello Sforzesco vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Piazzale Loreto, Milan (modern)",
+    "destination": "public/images/locations/piazzale-loreto-milan.jpg",
+    "queries": [
+      "Piazzale Loreto Milan today",
+      "Piazzale Loreto square Milan"
+    ]
+  },
+  {
+    "label": "Italy · Piazzale Loreto, Milan (historical)",
+    "destination": "public/images/locations/historical/piazzale-loreto-milan-historical.jpg",
+    "queries": [
+      "Piazzale Loreto 1945 Mussolini photograph",
+      "Piazzale Loreto 1944 partisans memorial"
+    ]
+  },
+  {
+    "label": "Italy · Teatro alla Scala, Milan (modern)",
+    "destination": "public/images/locations/teatro-alla-scala-milan.jpg",
+    "queries": [
+      "Teatro alla Scala Milan interior",
+      "La Scala opera house auditorium"
+    ]
+  },
+  {
+    "label": "Italy · Teatro alla Scala, Milan (historical)",
+    "destination": "public/images/locations/historical/teatro-alla-scala-milan-historical.jpg",
+    "queries": [
+      "La Scala 1943 bomb damage",
+      "Teatro alla Scala 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Monte Cassino Abbey (modern)",
+    "destination": "public/images/locations/monte-cassino-abbey.jpg",
+    "queries": [
+      "Monte Cassino Abbey rebuilt hilltop",
+      "Monte Cassino war cemetery"
+    ]
+  },
+  {
+    "label": "Italy · Monte Cassino Abbey (historical)",
+    "destination": "public/images/locations/historical/monte-cassino-abbey-historical.jpg",
+    "queries": [
+      "Monte Cassino 1944 ruins battle",
+      "Monte Cassino bombing 1944 photograph"
+    ]
+  },
+  {
+    "label": "Italy · Anzio Beachhead (modern)",
+    "destination": "public/images/locations/anzio-beachhead.jpg",
+    "queries": [
+      "Anzio beach Italy today",
+      "Anzio war cemetery Nettuno"
+    ]
+  },
+  {
+    "label": "Italy · Anzio Beachhead (historical)",
+    "destination": "public/images/locations/historical/anzio-beachhead-historical.jpg",
+    "queries": [
+      "Anzio landing 1944 photograph",
+      "Anzio beachhead WWII troops"
+    ]
+  },
+  {
+    "label": "Spain · Alhambra (modern)",
+    "destination": "public/images/locations/alhambra.jpg",
+    "queries": [
+      "Alhambra Granada Court of the Lions",
+      "Alhambra palace Nasrid Granada aerial"
+    ]
+  },
+  {
+    "label": "Spain · Alhambra (historical)",
+    "destination": "public/images/locations/historical/alhambra-historical.jpg",
+    "queries": [
+      "Alhambra Granada 19th century photograph",
+      "Alhambra vintage engraving Washington Irving"
+    ]
+  },
+  {
+    "label": "Spain · Mezquita of Córdoba (modern)",
+    "destination": "public/images/locations/mezquita-of-cordoba.jpg",
+    "queries": [
+      "Mezquita Cordoba arches interior",
+      "Cordoba mosque cathedral mihrab gold"
+    ]
+  },
+  {
+    "label": "Spain · Mezquita of Córdoba (historical)",
+    "destination": "public/images/locations/historical/mezquita-of-cordoba-historical.jpg",
+    "queries": [
+      "Mezquita Cordoba old photograph 19th century",
+      "Cordoba mosque vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Giralda and Seville Cathedral (modern)",
+    "destination": "public/images/locations/giralda-and-seville-cathedral.jpg",
+    "queries": [
+      "Giralda tower Seville cathedral",
+      "Seville cathedral Columbus tomb interior"
+    ]
+  },
+  {
+    "label": "Spain · Giralda and Seville Cathedral (historical)",
+    "destination": "public/images/locations/historical/giralda-and-seville-cathedral-historical.jpg",
+    "queries": [
+      "Giralda Seville old photograph",
+      "Seville cathedral 19th century engraving"
+    ]
+  },
+  {
+    "label": "Spain · Real Alcázar of Seville (modern)",
+    "destination": "public/images/locations/real-alcazar-of-seville.jpg",
+    "queries": [
+      "Real Alcazar Seville Courtyard of the Maidens",
+      "Alcazar Seville gardens azulejo"
+    ]
+  },
+  {
+    "label": "Spain · Real Alcázar of Seville (historical)",
+    "destination": "public/images/locations/historical/real-alcazar-of-seville-historical.jpg",
+    "queries": [
+      "Alcazar Seville old photograph 19th century",
+      "Alcazar Seville vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Medina Azahara (modern)",
+    "destination": "public/images/locations/medina-azahara.jpg",
+    "queries": [
+      "Medina Azahara ruins Cordoba archaeological",
+      "Medina Azahara caliph hall arches"
+    ]
+  },
+  {
+    "label": "Spain · Medina Azahara (historical)",
+    "destination": "public/images/locations/historical/medina-azahara-historical.jpg",
+    "queries": [
+      "Medina Azahara excavation old photograph",
+      "Medina Azahara reconstruction drawing"
+    ]
+  },
+  {
+    "label": "Spain · Alcazaba of Málaga (modern)",
+    "destination": "public/images/locations/alcazaba-of-malaga.jpg",
+    "queries": [
+      "Alcazaba Malaga fortress Roman theatre",
+      "Malaga Alcazaba walls gardens view"
+    ]
+  },
+  {
+    "label": "Spain · Alcazaba of Málaga (historical)",
+    "destination": "public/images/locations/historical/alcazaba-of-malaga-historical.jpg",
+    "queries": [
+      "Alcazaba Malaga old photograph 19th century",
+      "Malaga Gibralfaro vintage postcard"
+    ]
+  },
+  {
+    "label": "Spain · Ronda and the Puente Nuevo (modern)",
+    "destination": "public/images/locations/ronda-and-the-puente-nuevo.jpg",
+    "queries": [
+      "Ronda Puente Nuevo gorge Spain",
+      "Ronda cliff town El Tajo bridge"
+    ]
+  },
+  {
+    "label": "Spain · Ronda and the Puente Nuevo (historical)",
+    "destination": "public/images/locations/historical/ronda-and-the-puente-nuevo-historical.jpg",
+    "queries": [
+      "Ronda old photograph 19th century",
+      "Ronda Puente Nuevo vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Las Navas de Tolosa Battlefield (modern)",
+    "destination": "public/images/locations/las-navas-de-tolosa-battlefield.jpg",
+    "queries": [
+      "Las Navas de Tolosa battlefield monument",
+      "Sierra Morena Santa Elena Jaen landscape"
+    ]
+  },
+  {
+    "label": "Spain · Las Navas de Tolosa Battlefield (historical)",
+    "destination": "public/images/locations/historical/las-navas-de-tolosa-battlefield-historical.jpg",
+    "queries": [
+      "Las Navas de Tolosa 1212 battle painting",
+      "Reconquista battle medieval illustration"
+    ]
+  },
+  {
+    "label": "Spain · Generalife Gardens (modern)",
+    "destination": "public/images/locations/generalife-gardens.jpg",
+    "queries": [
+      "Generalife gardens Granada water channel",
+      "Generalife Alhambra fountains cypress"
+    ]
+  },
+  {
+    "label": "Spain · Generalife Gardens (historical)",
+    "destination": "public/images/locations/historical/generalife-gardens-historical.jpg",
+    "queries": [
+      "Generalife Granada old photograph",
+      "Generalife vintage engraving 19th century"
+    ]
+  },
+  {
+    "label": "Spain · Albaicín of Granada (modern)",
+    "destination": "public/images/locations/albaicin-of-granada.jpg",
+    "queries": [
+      "Albaicin Granada white houses Alhambra view",
+      "Mirador San Nicolas Granada sunset"
+    ]
+  },
+  {
+    "label": "Spain · Albaicín of Granada (historical)",
+    "destination": "public/images/locations/historical/albaicin-of-granada-historical.jpg",
+    "queries": [
+      "Albaicin Granada old photograph",
+      "Granada Moorish quarter vintage postcard"
+    ]
+  },
+  {
+    "label": "Spain · Toledo Old City (modern)",
+    "destination": "public/images/locations/toledo-old-city.jpg",
+    "queries": [
+      "Toledo old city panorama Tagus",
+      "Toledo Spain cathedral alcazar skyline"
+    ]
+  },
+  {
+    "label": "Spain · Toledo Old City (historical)",
+    "destination": "public/images/locations/historical/toledo-old-city-historical.jpg",
+    "queries": [
+      "Toledo old photograph 19th century",
+      "Toledo El Greco painting view of Toledo"
+    ]
+  },
+  {
+    "label": "Spain · Aqueduct of Segovia (modern)",
+    "destination": "public/images/locations/aqueduct-of-segovia.jpg",
+    "queries": [
+      "Aqueduct of Segovia Roman arches",
+      "Segovia aqueduct plaza granite"
+    ]
+  },
+  {
+    "label": "Spain · Aqueduct of Segovia (historical)",
+    "destination": "public/images/locations/historical/aqueduct-of-segovia-historical.jpg",
+    "queries": [
+      "Segovia aqueduct old photograph 19th century",
+      "Segovia aqueduct vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Roman Theatre of Mérida (modern)",
+    "destination": "public/images/locations/roman-theatre-of-merida.jpg",
+    "queries": [
+      "Roman theatre Merida stage columns",
+      "Merida Roman theatre Spain amphitheatre"
+    ]
+  },
+  {
+    "label": "Spain · Roman Theatre of Mérida (historical)",
+    "destination": "public/images/locations/historical/roman-theatre-of-merida-historical.jpg",
+    "queries": [
+      "Merida Roman theatre excavation old photograph",
+      "Merida Roman theatre vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Tarragona Roman Ruins (modern)",
+    "destination": "public/images/locations/tarragona-roman-ruins.jpg",
+    "queries": [
+      "Tarragona Roman amphitheatre sea",
+      "Tarraco Roman walls circus Spain"
+    ]
+  },
+  {
+    "label": "Spain · Tarragona Roman Ruins (historical)",
+    "destination": "public/images/locations/historical/tarragona-roman-ruins-historical.jpg",
+    "queries": [
+      "Tarragona Roman ruins old photograph",
+      "Tarragona amphitheatre vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Itálica (modern)",
+    "destination": "public/images/locations/italica.jpg",
+    "queries": [
+      "Italica amphitheatre Santiponce ruins",
+      "Italica Roman mosaic Seville"
+    ]
+  },
+  {
+    "label": "Spain · Itálica (historical)",
+    "destination": "public/images/locations/historical/italica-historical.jpg",
+    "queries": [
+      "Italica ruins old photograph 19th century",
+      "Italica Roman city engraving"
+    ]
+  },
+  {
+    "label": "Spain · Numantia (modern)",
+    "destination": "public/images/locations/numantia.jpg",
+    "queries": [
+      "Numantia ruins Soria archaeological site",
+      "Numantia Celtiberian ruins Spain"
+    ]
+  },
+  {
+    "label": "Spain · Numantia (historical)",
+    "destination": "public/images/locations/historical/numantia-historical.jpg",
+    "queries": [
+      "Numantia siege painting",
+      "Numantia excavation old photograph"
+    ]
+  },
+  {
+    "label": "Spain · Cave of Altamira (modern)",
+    "destination": "public/images/locations/cave-of-altamira.jpg",
+    "queries": [
+      "Altamira cave bison ceiling painting",
+      "Altamira museum replica Cantabria"
+    ]
+  },
+  {
+    "label": "Spain · Cave of Altamira (historical)",
+    "destination": "public/images/locations/historical/cave-of-altamira-historical.jpg",
+    "queries": [
+      "Altamira cave discovery old photograph",
+      "Altamira bison drawing 1880"
+    ]
+  },
+  {
+    "label": "Spain · Atapuerca Archaeological Site (modern)",
+    "destination": "public/images/locations/atapuerca-archaeological-site.jpg",
+    "queries": [
+      "Atapuerca excavation site Burgos",
+      "Atapuerca Sima de los Huesos dig"
+    ]
+  },
+  {
+    "label": "Spain · Atapuerca Archaeological Site (historical)",
+    "destination": "public/images/locations/historical/atapuerca-archaeological-site-historical.jpg",
+    "queries": [
+      "Atapuerca Homo antecessor reconstruction",
+      "Atapuerca early excavation photograph"
+    ]
+  },
+  {
+    "label": "Spain · El Escorial (modern)",
+    "destination": "public/images/locations/el-escorial.jpg",
+    "queries": [
+      "El Escorial monastery aerial Spain",
+      "El Escorial palace granite courtyard"
+    ]
+  },
+  {
+    "label": "Spain · El Escorial (historical)",
+    "destination": "public/images/locations/historical/el-escorial-historical.jpg",
+    "queries": [
+      "El Escorial old photograph 19th century",
+      "El Escorial engraving Philip II"
+    ]
+  },
+  {
+    "label": "Spain · Prado Museum (modern)",
+    "destination": "public/images/locations/prado-museum.jpg",
+    "queries": [
+      "Prado Museum Madrid facade",
+      "Prado museum Velazquez Las Meninas gallery"
+    ]
+  },
+  {
+    "label": "Spain · Prado Museum (historical)",
+    "destination": "public/images/locations/historical/prado-museum-historical.jpg",
+    "queries": [
+      "Prado museum old photograph 19th century",
+      "Prado museum Madrid vintage postcard"
+    ]
+  },
+  {
+    "label": "Spain · Royal Palace of Madrid (modern)",
+    "destination": "public/images/locations/royal-palace-of-madrid.jpg",
+    "queries": [
+      "Royal Palace Madrid facade",
+      "Palacio Real Madrid throne room courtyard"
+    ]
+  },
+  {
+    "label": "Spain · Royal Palace of Madrid (historical)",
+    "destination": "public/images/locations/historical/royal-palace-of-madrid-historical.jpg",
+    "queries": [
+      "Royal Palace Madrid old photograph 19th century",
+      "Palacio Real Madrid vintage postcard"
+    ]
+  },
+  {
+    "label": "Spain · Plaza Mayor of Madrid (modern)",
+    "destination": "public/images/locations/plaza-mayor-of-madrid.jpg",
+    "queries": [
+      "Plaza Mayor Madrid arcades",
+      "Plaza Mayor Madrid Casa de la Panaderia"
+    ]
+  },
+  {
+    "label": "Spain · Plaza Mayor of Madrid (historical)",
+    "destination": "public/images/locations/historical/plaza-mayor-of-madrid-historical.jpg",
+    "queries": [
+      "Plaza Mayor Madrid old photograph 19th century",
+      "Plaza Mayor Madrid auto de fe engraving"
+    ]
+  },
+  {
+    "label": "Spain · Archivo General de Indias (modern)",
+    "destination": "public/images/locations/archivo-general-de-indias.jpg",
+    "queries": [
+      "Archivo de Indias Seville building interior",
+      "Archivo General de Indias Seville shelves"
+    ]
+  },
+  {
+    "label": "Spain · Archivo General de Indias (historical)",
+    "destination": "public/images/locations/historical/archivo-general-de-indias-historical.jpg",
+    "queries": [
+      "Archivo de Indias Seville old photograph",
+      "Casa Lonja Seville engraving"
+    ]
+  },
+  {
+    "label": "Spain · University of Salamanca (modern)",
+    "destination": "public/images/locations/university-of-salamanca.jpg",
+    "queries": [
+      "University of Salamanca plateresque facade frog",
+      "Salamanca university old library"
+    ]
+  },
+  {
+    "label": "Spain · University of Salamanca (historical)",
+    "destination": "public/images/locations/historical/university-of-salamanca-historical.jpg",
+    "queries": [
+      "University of Salamanca old photograph",
+      "Salamanca university facade engraving"
+    ]
+  },
+  {
+    "label": "Spain · Walls of Ávila (modern)",
+    "destination": "public/images/locations/walls-of-avila.jpg",
+    "queries": [
+      "Walls of Avila medieval ramparts",
+      "Avila city walls towers Spain aerial"
+    ]
+  },
+  {
+    "label": "Spain · Walls of Ávila (historical)",
+    "destination": "public/images/locations/historical/walls-of-avila-historical.jpg",
+    "queries": [
+      "Avila walls old photograph 19th century",
+      "Avila medieval walls engraving"
+    ]
+  },
+  {
+    "label": "Spain · Santiago de Compostela Cathedral (modern)",
+    "destination": "public/images/locations/santiago-de-compostela-cathedral.jpg",
+    "queries": [
+      "Santiago de Compostela cathedral Obradoiro facade",
+      "Santiago Botafumeiro censer swinging"
+    ]
+  },
+  {
+    "label": "Spain · Santiago de Compostela Cathedral (historical)",
+    "destination": "public/images/locations/historical/santiago-de-compostela-cathedral-historical.jpg",
+    "queries": [
+      "Santiago de Compostela cathedral old photograph",
+      "Camino de Santiago pilgrims vintage"
+    ]
+  },
+  {
+    "label": "Spain · Guernica (modern)",
+    "destination": "public/images/locations/guernica.jpg",
+    "queries": [
+      "Guernica town Basque Spain peace museum",
+      "Gernika oak tree assembly house"
+    ]
+  },
+  {
+    "label": "Spain · Guernica (historical)",
+    "destination": "public/images/locations/historical/guernica-historical.jpg",
+    "queries": [
+      "Guernica bombing 1937 ruins photograph",
+      "Guernica 1937 destroyed town Spanish Civil War"
+    ]
+  },
+  {
+    "label": "Spain · Belchite Ruins (modern)",
+    "destination": "public/images/locations/belchite-ruins.jpg",
+    "queries": [
+      "Belchite ruins ghost town Spain",
+      "Belchite old town ruined church Zaragoza"
+    ]
+  },
+  {
+    "label": "Spain · Belchite Ruins (historical)",
+    "destination": "public/images/locations/historical/belchite-ruins-historical.jpg",
+    "queries": [
+      "Belchite 1937 destroyed battle photograph",
+      "Belchite Spanish Civil War ruins vintage"
+    ]
+  },
+  {
+    "label": "Spain · Battle of the Ebro Memorial (modern)",
+    "destination": "public/images/locations/battle-of-the-ebro-memorial.jpg",
+    "queries": [
+      "Battle of the Ebro memorial trenches Catalonia",
+      "Corbera d'Ebre old town ruins"
+    ]
+  },
+  {
+    "label": "Spain · Battle of the Ebro Memorial (historical)",
+    "destination": "public/images/locations/historical/battle-of-the-ebro-memorial-historical.jpg",
+    "queries": [
+      "Battle of the Ebro 1938 photograph",
+      "Ebro battle Spanish Civil War soldiers"
+    ]
+  },
+  {
+    "label": "Spain · Valley of the Fallen (modern)",
+    "destination": "public/images/locations/valley-of-the-fallen.jpg",
+    "queries": [
+      "Valley of the Fallen basilica cross Spain",
+      "Valle de los Caidos monument aerial"
+    ]
+  },
+  {
+    "label": "Spain · Valley of the Fallen (historical)",
+    "destination": "public/images/locations/historical/valley-of-the-fallen-historical.jpg",
+    "queries": [
+      "Valle de los Caidos construction old photograph",
+      "Valley of the Fallen Franco 1959"
+    ]
+  },
+  {
+    "label": "Spain · Alcázar of Toledo (modern)",
+    "destination": "public/images/locations/alcazar-of-toledo.jpg",
+    "queries": [
+      "Alcazar of Toledo fortress Spain",
+      "Alcazar Toledo army museum exterior"
+    ]
+  },
+  {
+    "label": "Spain · Alcázar of Toledo (historical)",
+    "destination": "public/images/locations/historical/alcazar-of-toledo-historical.jpg",
+    "queries": [
+      "Alcazar Toledo siege 1936 ruins photograph",
+      "Alcazar Toledo Spanish Civil War damage"
+    ]
+  },
+  {
+    "label": "Spain · Ciudad Universitaria, Madrid (modern)",
+    "destination": "public/images/locations/ciudad-universitaria-madrid.jpg",
+    "queries": [
+      "Ciudad Universitaria Madrid campus buildings",
+      "Arco de la Victoria Moncloa Madrid"
+    ]
+  },
+  {
+    "label": "Spain · Ciudad Universitaria, Madrid (historical)",
+    "destination": "public/images/locations/historical/ciudad-universitaria-madrid-historical.jpg",
+    "queries": [
+      "Ciudad Universitaria Madrid 1936 battle photograph",
+      "Madrid siege university city Civil War"
+    ]
+  },
+  {
+    "label": "Switzerland · Rütli Meadow (modern)",
+    "destination": "public/images/locations/rutli-meadow.jpg",
+    "queries": [
+      "Rütli meadow Lake Lucerne Switzerland",
+      "Rütliwiese Vierwaldstättersee"
+    ]
+  },
+  {
+    "label": "Switzerland · Rütli Meadow (historical)",
+    "destination": "public/images/locations/historical/rutli-meadow-historical.jpg",
+    "queries": [
+      "Rütlischwur 1291 painting",
+      "General Guisan Rütli Report 1940"
+    ]
+  },
+  {
+    "label": "Switzerland · Chillon Castle (modern)",
+    "destination": "public/images/locations/chillon-castle.jpg",
+    "queries": [
+      "Chillon Castle Lake Geneva",
+      "Château de Chillon Montreux"
+    ]
+  },
+  {
+    "label": "Switzerland · Chillon Castle (historical)",
+    "destination": "public/images/locations/historical/chillon-castle-historical.jpg",
+    "queries": [
+      "Chillon Castle old engraving",
+      "Prisoner of Chillon Byron dungeon"
+    ]
+  },
+  {
+    "label": "Switzerland · Reformation Wall, Geneva (modern)",
+    "destination": "public/images/locations/reformation-wall-geneva.jpg",
+    "queries": [
+      "Reformation Wall Geneva statues",
+      "Mur des Réformateurs Genève"
+    ]
+  },
+  {
+    "label": "Switzerland · Reformation Wall, Geneva (historical)",
+    "destination": "public/images/locations/historical/reformation-wall-geneva-historical.jpg",
+    "queries": [
+      "John Calvin Geneva portrait",
+      "Reformation Wall Geneva 1917 unveiling"
+    ]
+  },
+  {
+    "label": "Switzerland · Palace of Nations, Geneva (modern)",
+    "destination": "public/images/locations/palace-of-nations-geneva.jpg",
+    "queries": [
+      "Palais des Nations Geneva UN",
+      "Broken Chair Geneva UN"
+    ]
+  },
+  {
+    "label": "Switzerland · Palace of Nations, Geneva (historical)",
+    "destination": "public/images/locations/historical/palace-of-nations-geneva-historical.jpg",
+    "queries": [
+      "League of Nations Geneva 1920s",
+      "League of Nations assembly hall"
+    ]
+  },
+  {
+    "label": "Switzerland · International Red Cross Museum, Geneva (modern)",
+    "destination": "public/images/locations/red-cross-museum-geneva.jpg",
+    "queries": [
+      "International Red Cross Museum Geneva",
+      "Musée Croix-Rouge Genève"
+    ]
+  },
+  {
+    "label": "Switzerland · International Red Cross Museum, Geneva (historical)",
+    "destination": "public/images/locations/historical/red-cross-museum-geneva-historical.jpg",
+    "queries": [
+      "Henry Dunant Solferino Red Cross",
+      "first Geneva Convention 1864"
+    ]
+  },
+  {
+    "label": "Switzerland · Bern Old Town (Zytglogge) (modern)",
+    "destination": "public/images/locations/bern-old-town.jpg",
+    "queries": [
+      "Bern old town Zytglogge clock tower",
+      "Bern Altstadt arcades Aare"
+    ]
+  },
+  {
+    "label": "Switzerland · Bern Old Town (Zytglogge) (historical)",
+    "destination": "public/images/locations/historical/bern-old-town-historical.jpg",
+    "queries": [
+      "Bern old town vintage photograph",
+      "Zytglogge Bern historic engraving"
+    ]
+  },
+  {
+    "label": "Switzerland · Einstein House, Bern (modern)",
+    "destination": "public/images/locations/einstein-house-bern.jpg",
+    "queries": [
+      "Einstein House Kramgasse Bern museum",
+      "Einsteinhaus Bern apartment"
+    ]
+  },
+  {
+    "label": "Switzerland · Einstein House, Bern (historical)",
+    "destination": "public/images/locations/historical/einstein-house-bern-historical.jpg",
+    "queries": [
+      "Albert Einstein 1905 Bern patent office",
+      "young Einstein Bern photograph"
+    ]
+  },
+  {
+    "label": "Switzerland · Lion Monument, Lucerne (modern)",
+    "destination": "public/images/locations/lion-monument-lucerne.jpg",
+    "queries": [
+      "Lion Monument Lucerne dying lion",
+      "Löwendenkmal Luzern"
+    ]
+  },
+  {
+    "label": "Switzerland · Lion Monument, Lucerne (historical)",
+    "destination": "public/images/locations/historical/lion-monument-lucerne-historical.jpg",
+    "queries": [
+      "Lion of Lucerne 19th century engraving",
+      "Swiss Guards Tuileries 1792"
+    ]
+  },
+  {
+    "label": "Switzerland · Chapel Bridge (Kapellbrücke), Lucerne (modern)",
+    "destination": "public/images/locations/chapel-bridge-lucerne.jpg",
+    "queries": [
+      "Chapel Bridge Kapellbrücke Lucerne",
+      "Lucerne wooden bridge water tower"
+    ]
+  },
+  {
+    "label": "Switzerland · Chapel Bridge (Kapellbrücke), Lucerne (historical)",
+    "destination": "public/images/locations/historical/chapel-bridge-lucerne-historical.jpg",
+    "queries": [
+      "Kapellbrücke Lucerne old photo",
+      "Chapel Bridge Lucerne 1993 fire"
+    ]
+  },
+  {
+    "label": "Switzerland · Abbey Library of St. Gallen (modern)",
+    "destination": "public/images/locations/abbey-library-st-gallen.jpg",
+    "queries": [
+      "Abbey Library St Gallen Rococo hall",
+      "Stiftsbibliothek St Gallen interior"
+    ]
+  },
+  {
+    "label": "Switzerland · Abbey Library of St. Gallen (historical)",
+    "destination": "public/images/locations/historical/abbey-library-st-gallen-historical.jpg",
+    "queries": [
+      "Plan of St Gall manuscript",
+      "St Gallen abbey library engraving"
+    ]
+  },
+  {
+    "label": "Switzerland · Grossmünster, Zurich (modern)",
+    "destination": "public/images/locations/grossmunster-zurich.jpg",
+    "queries": [
+      "Grossmünster Zurich twin towers",
+      "Grossmunster Zurich river Limmat"
+    ]
+  },
+  {
+    "label": "Switzerland · Grossmünster, Zurich (historical)",
+    "destination": "public/images/locations/historical/grossmunster-zurich-historical.jpg",
+    "queries": [
+      "Huldrych Zwingli portrait",
+      "Grossmünster Zurich old engraving"
+    ]
+  },
+  {
+    "label": "Switzerland · Gotthard Pass (modern)",
+    "destination": "public/images/locations/gotthard-pass.jpg",
+    "queries": [
+      "Gotthard Pass road Switzerland",
+      "Devil's Bridge Schöllenen Teufelsbrücke"
+    ]
+  },
+  {
+    "label": "Switzerland · Gotthard Pass (historical)",
+    "destination": "public/images/locations/historical/gotthard-pass-historical.jpg",
+    "queries": [
+      "Suvorov Devil's Bridge 1799 painting",
+      "Gotthard Pass old postcard"
+    ]
+  },
+  {
+    "label": "Switzerland · Morgarten Battlefield (modern)",
+    "destination": "public/images/locations/morgarten-battlefield.jpg",
+    "queries": [
+      "Morgarten battle monument Switzerland",
+      "Morgarten Ägerisee memorial"
+    ]
+  },
+  {
+    "label": "Switzerland · Morgarten Battlefield (historical)",
+    "destination": "public/images/locations/historical/morgarten-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Morgarten 1315 illustration",
+      "Morgarten halberd Swiss painting"
+    ]
+  },
+  {
+    "label": "Switzerland · Sempach Battlefield (modern)",
+    "destination": "public/images/locations/sempach-battlefield.jpg",
+    "queries": [
+      "Sempach battlefield chapel Switzerland",
+      "Schlacht bei Sempach memorial"
+    ]
+  },
+  {
+    "label": "Switzerland · Sempach Battlefield (historical)",
+    "destination": "public/images/locations/historical/sempach-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Sempach 1386 painting",
+      "Arnold von Winkelried Sempach"
+    ]
+  },
+  {
+    "label": "Switzerland · Matterhorn (modern)",
+    "destination": "public/images/locations/matterhorn.jpg",
+    "queries": [
+      "Matterhorn Zermatt peak",
+      "Matterhorn reflection Riffelsee"
+    ]
+  },
+  {
+    "label": "Switzerland · Matterhorn (historical)",
+    "destination": "public/images/locations/historical/matterhorn-historical.jpg",
+    "queries": [
+      "Whymper Matterhorn first ascent 1865",
+      "Matterhorn accident engraving 1865"
+    ]
+  },
+  {
+    "label": "Switzerland · Federal Palace, Bern (modern)",
+    "destination": "public/images/locations/federal-palace-bern.jpg",
+    "queries": [
+      "Federal Palace Bundeshaus Bern",
+      "Bundesplatz Bern fountains"
+    ]
+  },
+  {
+    "label": "Switzerland · Federal Palace, Bern (historical)",
+    "destination": "public/images/locations/historical/federal-palace-bern-historical.jpg",
+    "queries": [
+      "Bundeshaus Bern 1902 construction",
+      "Federal Palace Bern historic photo"
+    ]
+  },
+  {
+    "label": "Switzerland · CERN, Meyrin (modern)",
+    "destination": "public/images/locations/cern-meyrin.jpg",
+    "queries": [
+      "CERN Large Hadron Collider Geneva",
+      "CERN Science Gateway building"
+    ]
+  },
+  {
+    "label": "Switzerland · CERN, Meyrin (historical)",
+    "destination": "public/images/locations/historical/cern-meyrin-historical.jpg",
+    "queries": [
+      "CERN 1954 founding",
+      "Tim Berners-Lee CERN NeXT computer web"
+    ]
+  },
+  {
+    "label": "Switzerland · Cathedral of St. Peter, Geneva (modern)",
+    "destination": "public/images/locations/cathedral-st-peter-geneva.jpg",
+    "queries": [
+      "Cathédrale Saint-Pierre Geneva",
+      "St Peter Cathedral Geneva towers"
+    ]
+  },
+  {
+    "label": "Switzerland · Cathedral of St. Peter, Geneva (historical)",
+    "destination": "public/images/locations/historical/cathedral-st-peter-geneva-historical.jpg",
+    "queries": [
+      "Calvin chair St Pierre Geneva",
+      "Geneva cathedral old engraving"
+    ]
+  },
+  {
+    "label": "Switzerland · Château de Gruyères (modern)",
+    "destination": "public/images/locations/chateau-de-gruyeres.jpg",
+    "queries": [
+      "Château de Gruyères castle Switzerland",
+      "Gruyeres medieval town castle"
+    ]
+  },
+  {
+    "label": "Switzerland · Château de Gruyères (historical)",
+    "destination": "public/images/locations/historical/chateau-de-gruyeres-historical.jpg",
+    "queries": [
+      "Gruyères castle old engraving",
+      "Counts of Gruyère heraldry"
+    ]
+  },
+  {
+    "label": "Switzerland · Avenches (Aventicum) (modern)",
+    "destination": "public/images/locations/avenches-aventicum.jpg",
+    "queries": [
+      "Avenches Roman amphitheatre Switzerland",
+      "Aventicum Cigognier column"
+    ]
+  },
+  {
+    "label": "Switzerland · Avenches (Aventicum) (historical)",
+    "destination": "public/images/locations/historical/avenches-aventicum-historical.jpg",
+    "queries": [
+      "Aventicum Roman ruins engraving",
+      "Marcus Aurelius gold bust Avenches"
+    ]
+  }
+]

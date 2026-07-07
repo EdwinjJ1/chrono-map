@@ -1,13 +1,19 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useRef, useLayoutEffect } from "react";
 import { useTranslations } from 'next-intl';
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowLeft, Search, Filter, List, Grid, MapPin } from "lucide-react";
-import { locations, locationTypes, type Location } from "@/data/locations";
+import {
+  locations,
+  locationTypes,
+  getAvailableRegions,
+  getLocationRegion,
+  type Location,
+} from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
 import { useLocale } from 'next-intl';
 import LocationCard from "@/components/LocationCard";
@@ -34,16 +40,48 @@ const MapView = dynamic(() => import("@/components/MapView"), {
 
 type ViewMode = "map" | "list";
 type FilterType = "all" | Location["type"];
+type RegionFilter = "all" | string;
 
 export default function MapPageClient() {
   const t = useTranslations();
   const tMapPage = useTranslations('mapPage');
   const locale = useLocale();
+  const isZh = locale.startsWith('zh');
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("map");
   const [filterType, setFilterType] = useState<FilterType>("all");
+  const [regionFilter, setRegionFilter] = useState<RegionFilter>("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [showFilters, setShowFilters] = useState(false);
+
+  const headerRef = useRef<HTMLElement>(null);
+  const [headerHeight, setHeaderHeight] = useState(64);
+
+  const regions = useMemo(() => getAvailableRegions(), []);
+
+  // Header height varies with the region bar and the type-filter drawer. Measure
+  // it so the map/list area sits flush beneath it regardless of which bars show.
+  useLayoutEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+
+    const update = () => setHeaderHeight(el.getBoundingClientRect().height);
+    update();
+
+    const observer = new ResizeObserver(update);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [showFilters, regions.length, regionFilter]);
+
+  const regionCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const loc of locations) {
+      if (loc.type === "restaurant" || loc.type === "photography") continue;
+      const key = getLocationRegion(loc);
+      counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+    return counts;
+  }, []);
 
   const localizedLocations = useMemo(() => {
     return locations.map((location) => getLocalizedLocation(location, locale));
@@ -81,6 +119,9 @@ export default function MapPageClient() {
         return false;
       }
 
+      const matchesRegion =
+        regionFilter === "all" || getLocationRegion(loc) === regionFilter;
+
       const matchesType = filterType === "all" || loc.type === filterType;
       const name = loc.name;
       const matchesSearch =
@@ -90,11 +131,11 @@ export default function MapPageClient() {
         loc.fullDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
         loc.address.toLowerCase().includes(searchQuery.toLowerCase());
 
-      return matchesType && matchesSearch;
+      return matchesRegion && matchesType && matchesSearch;
     });
 
     return sortLocations(visibleLocations, filterType, locale);
-  }, [filterType, locale, localizedLocations, searchQuery]);
+  }, [filterType, regionFilter, locale, localizedLocations, searchQuery]);
 
   const getTypeLabel = (type: Location["type"]) => {
     return t(`locationTypes.${type}`);
@@ -102,7 +143,7 @@ export default function MapPageClient() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="fixed top-0 left-0 right-0 z-30 glass">
+      <header ref={headerRef} className="fixed top-0 left-0 right-0 z-30 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 gap-4">
             <Link
@@ -166,6 +207,44 @@ export default function MapPageClient() {
             </div>
           </div>
 
+          {regions.length > 1 && (
+            <div className="pb-3 -mt-1">
+              <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+                <button
+                  onClick={() => setRegionFilter("all")}
+                  className={`shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer border ${
+                    regionFilter === "all"
+                      ? "bg-primary text-white border-primary"
+                      : "bg-background border-border text-foreground hover:border-primary"
+                  }`}
+                >
+                  🌍 {isZh ? "全部地区" : "All regions"}
+                </button>
+                {regions.map((region) => {
+                  const count = regionCounts.get(region.key) ?? 0;
+                  const active = regionFilter === region.key;
+                  return (
+                    <button
+                      key={region.key}
+                      onClick={() => setRegionFilter(region.key)}
+                      className={`shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer border flex items-center gap-1.5 ${
+                        active
+                          ? "bg-primary text-white border-primary"
+                          : "bg-background border-border text-foreground hover:border-primary"
+                      }`}
+                    >
+                      <span aria-hidden>{region.flag}</span>
+                      {isZh ? region.labelZh : region.label}
+                      <span className={active ? "text-white/80" : "text-muted"}>
+                        ({count})
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {showFilters && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
@@ -213,9 +292,9 @@ export default function MapPageClient() {
         </div>
       </header>
 
-      <main className={`pt-16 ${showFilters ? "pt-28" : ""}`} style={{ height: '100vh' }}>
+      <main style={{ paddingTop: headerHeight, height: '100vh' }}>
         {viewMode === "map" ? (
-          <div className="h-full p-4" style={{ height: showFilters ? 'calc(100vh - 7rem)' : 'calc(100vh - 4rem)' }}>
+          <div className="p-4" style={{ height: `calc(100vh - ${headerHeight}px)` }}>
             <MapView
               onLocationSelect={handleLocationSelect}
               selectedLocationId={selectedLocation?.id}

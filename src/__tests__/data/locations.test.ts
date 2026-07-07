@@ -102,10 +102,29 @@ describe('locations data', () => {
         expect(location.coordinates).toHaveProperty('lng');
         expect(typeof location.coordinates.lat).toBe('number');
         expect(typeof location.coordinates.lng).toBe('number');
+        // Coordinates must be within valid geographic bounds
+        expect(location.coordinates.lat).toBeGreaterThanOrEqual(-90);
+        expect(location.coordinates.lat).toBeLessThanOrEqual(90);
+        expect(location.coordinates.lng).toBeGreaterThanOrEqual(-180);
+        expect(location.coordinates.lng).toBeLessThanOrEqual(180);
 
         // Validate type is one of the allowed types
-        expect(['historical', 'film', 'cultural', 'heritage', 'nature', 'restaurant']).toContain(location.type);
+        expect([
+          'historical',
+          'film',
+          'cultural',
+          'heritage',
+          'nature',
+          'restaurant',
+          'photography',
+        ]).toContain(location.type);
       });
+    });
+
+    it('all location IDs should be unique', () => {
+      const ids = locations.map((loc) => loc.id);
+      const uniqueIds = new Set(ids);
+      expect(uniqueIds.size).toBe(ids.length);
     });
 
     it('all locations should have non-empty facts array', () => {

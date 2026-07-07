@@ -14,10 +14,17 @@ jest.mock('mapbox-gl', () => ({
       layers: [],
     })),
     addLayer: jest.fn(),
+    fitBounds: jest.fn(),
     remove: jest.fn(),
     flyTo: mockFlyTo,
   })),
   NavigationControl: jest.fn(),
+  LngLatBounds: jest.fn().mockImplementation(() => ({
+    extend: jest.fn().mockReturnThis(),
+    getCenter: jest.fn(() => [0, 0]),
+    getNorthEast: jest.fn(() => ({ lng: 1, lat: 1 })),
+    getSouthWest: jest.fn(() => ({ lng: 0, lat: 0 })),
+  })),
   Marker: jest.fn().mockImplementation(() => ({
     addTo: jest.fn().mockReturnThis(),
     remove: jest.fn(),
