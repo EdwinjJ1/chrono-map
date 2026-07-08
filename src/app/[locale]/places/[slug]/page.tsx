@@ -9,7 +9,14 @@ import { locations, locationTypes } from "@/data/locations";
 import { getLocalizedLocation } from "@/data/locations-zh";
 import { locales, type Locale } from "@/i18n/config";
 import { getLocationBySlug, getLocationSlug } from "@/lib/location-slugs";
-import { getLocationCity, getLocationTypeKeyword } from "@/lib/location-seo";
+import {
+  getLocationCity,
+  getLocationTypeKeyword,
+  getLocationCountryName,
+  getLocationCountryCode,
+} from "@/lib/location-seo";
+import { getCountryPageSlugForRegion } from "@/data/country-pages";
+import { getLocationRegion } from "@/data/locations";
 import { getSiteUrl } from "@/lib/site-url";
 
 export function generateStaticParams() {
@@ -42,16 +49,23 @@ export async function generateMetadata({
   const siteUrl = getSiteUrl();
   const path = `/${locale}/places/${slug}`;
   const city = getLocationCity(location);
-  const typeKeyword = getLocationTypeKeyword(location.type, locale === 'zh' ? 'zh' : 'en');
+  const isZh = locale === 'zh';
+  const country = getLocationCountryName(location, isZh ? 'zh' : 'en');
+  const typeKeyword = getLocationTypeKeyword(location.type, isZh ? 'zh' : 'en');
   const description = localizedLocation.description.length > 160
     ? localizedLocation.description.slice(0, 157).concat("...")
     : localizedLocation.description;
 
+  // "Potsdam, Germany" for foreign places; keep a single city for local ones so
+  // Sydney titles stay clean ("Sydney historical site").
+  const place = city && city !== country ? `${city}, ${country}` : country;
+  const seoTitle = isZh
+    ? `${localizedLocation.name} | ${place}${typeKeyword} | Chrono-Map`
+    : `${localizedLocation.name} History | ${place} ${typeKeyword} | Chrono-Map`;
+
   return {
     metadataBase: new URL(siteUrl),
-    title: locale === 'zh'
-      ? `${localizedLocation.name} | ${city}${typeKeyword} | Chrono-Map`
-      : `${localizedLocation.name} History | ${city} ${typeKeyword} | Chrono-Map`,
+    title: seoTitle,
     description,
     alternates: {
       canonical: path,
@@ -61,9 +75,7 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: locale === 'zh'
-        ? `${localizedLocation.name} | ${city}${typeKeyword} | Chrono-Map`
-        : `${localizedLocation.name} History | ${city} ${typeKeyword} | Chrono-Map`,
+      title: seoTitle,
       description,
       url: `${siteUrl}${path}`,
       type: "article",
@@ -75,9 +87,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: locale === 'zh'
-        ? `${localizedLocation.name} | ${city}${typeKeyword} | Chrono-Map`
-        : `${localizedLocation.name} History | ${city} ${typeKeyword} | Chrono-Map`,
+      title: seoTitle,
       description,
       images: localizedLocation.modernImage ? [localizedLocation.modernImage] : undefined,
     },
@@ -104,6 +114,8 @@ export default async function PlaceDetailPage({
   const localizedLocation = getLocalizedLocation(location, locale);
   const siteUrl = getSiteUrl();
   const pageUrl = `${siteUrl}/${locale}/places/${slug}`;
+  const placeCity = getLocationCity(location);
+  const placeCountryCode = getLocationCountryCode(location);
   const placeImages = [localizedLocation.modernImage, localizedLocation.historicalImage]
     .filter(Boolean)
     .map((image) => image?.startsWith('http') ? image : `${siteUrl}${image}`);
@@ -124,11 +136,48 @@ export default async function PlaceDetailPage({
     .map((paragraph) => paragraph.trim())
     .filter(Boolean);
 
+  // Link the place to its country landing page (internal linking + a richer
+  // breadcrumb trail for search/answer engines). Null for Australian entries,
+  // which have no country page.
+  const countrySlug = getCountryPageSlugForRegion(getLocationRegion(location));
+  const countryName = getLocationCountryName(location, locale === 'zh' ? 'zh' : 'en');
+
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": locale === 'zh' ? '首页' : 'Home',
+      "item": `${siteUrl}/${locale}`,
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": locale === 'zh' ? '探索地图' : 'Explore Map',
+      "item": `${siteUrl}/${locale}/map`,
+    },
+    ...(countrySlug
+      ? [
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": countryName,
+            "item": `${siteUrl}/${locale}/countries/${countrySlug}`,
+          },
+        ]
+      : []),
+    {
+      "@type": "ListItem",
+      "position": countrySlug ? 4 : 3,
+      "name": localizedLocation.name,
+      "item": pageUrl,
+    },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Place",
+        "@type": "TouristAttraction",
         "name": localizedLocation.name,
         "alternateName": locale === 'zh' ? location.name : location.nameZh,
         "description": localizedLocation.description,
@@ -137,6 +186,8 @@ export default async function PlaceDetailPage({
         "address": {
           "@type": "PostalAddress",
           "streetAddress": localizedLocation.address,
+          "addressLocality": placeCity,
+          "addressCountry": placeCountryCode,
         },
         "geo": {
           "@type": "GeoCoordinates",
@@ -146,26 +197,7 @@ export default async function PlaceDetailPage({
       },
       {
         "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": locale === 'zh' ? '首页' : 'Home',
-            "item": `${siteUrl}/${locale}`,
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": locale === 'zh' ? '探索地图' : 'Explore Map',
-            "item": `${siteUrl}/${locale}/map`,
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": localizedLocation.name,
-            "item": pageUrl,
-          },
-        ],
+        "itemListElement": breadcrumbItems,
       },
     ],
   };
@@ -209,6 +241,16 @@ export default async function PlaceDetailPage({
               >
                 {locale === 'zh' ? '回到地图' : 'Back to map'}
               </Link>
+              {countrySlug && (
+                <Link
+                  href={`/${locale}/countries/${countrySlug}`}
+                  className="rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition-colors hover:border-primary"
+                >
+                  {locale === 'zh'
+                    ? `探索更多${countryName}历史地点`
+                    : `More historic places in ${countryName}`}
+                </Link>
+              )}
               {localizedLocation.visitInfo?.website && (
                 <a
                   href={localizedLocation.visitInfo.website}

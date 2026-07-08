@@ -1,4 +1,36 @@
 import type { Location } from '@/data/locations';
+import { getLocationRegion } from '@/data/locations';
+
+/**
+ * ISO 3166-1 alpha-2 country codes per region, used for structured-data
+ * addressCountry. Legacy Australian entries default to AU.
+ */
+const regionCountryCodes: Record<string, string> = {
+  Australia: 'AU',
+  Germany: 'DE',
+  France: 'FR',
+  Italy: 'IT',
+  Spain: 'ES',
+  Switzerland: 'CH',
+  Austria: 'AT',
+  Poland: 'PL',
+  Czechia: 'CZ',
+  Hungary: 'HU',
+};
+
+/** Localized country display names for titles/metadata. */
+const regionCountryNames: Record<string, { en: string; zh: string }> = {
+  Australia: { en: 'Australia', zh: '澳大利亚' },
+  Germany: { en: 'Germany', zh: '德国' },
+  France: { en: 'France', zh: '法国' },
+  Italy: { en: 'Italy', zh: '意大利' },
+  Spain: { en: 'Spain', zh: '西班牙' },
+  Switzerland: { en: 'Switzerland', zh: '瑞士' },
+  Austria: { en: 'Austria', zh: '奥地利' },
+  Poland: { en: 'Poland', zh: '波兰' },
+  Czechia: { en: 'Czechia', zh: '捷克' },
+  Hungary: { en: 'Hungary', zh: '匈牙利' },
+};
 
 const knownCities = [
   'Sydney',
@@ -31,7 +63,19 @@ const knownCities = [
   'Port Kembla',
 ] as const;
 
+/**
+ * Best-effort city/locality for a location. Australian entries match the curated
+ * city list; European entries derive the city from their address, which follows
+ * a "..., <postcode> <City>, <Country>" or "..., <City>, <Country>" shape.
+ */
 export function getLocationCity(location: Location) {
+  const region = getLocationRegion(location);
+
+  if (region !== 'Australia') {
+    const derived = deriveCityFromAddress(location.address);
+    return derived ?? region;
+  }
+
   const haystacks = [location.address, location.name];
 
   for (const city of knownCities) {
@@ -45,6 +89,39 @@ export function getLocationCity(location: Location) {
   }
 
   return 'Australia';
+}
+
+/**
+ * Pull the city out of a European-style address. Addresses end in
+ * "<City>, <Country>", often with a postcode prefix on the city segment
+ * (e.g. "Maulbeerallee, 14469 Potsdam, Germany" -> "Potsdam").
+ */
+function deriveCityFromAddress(address: string): string | null {
+  const parts = address
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (parts.length < 2) return null;
+
+  // The last segment is the country; the one before it holds the city.
+  const citySegment = parts[parts.length - 2];
+
+  // Strip a leading postcode (numbers, optional letters) from "14469 Potsdam".
+  const withoutPostcode = citySegment.replace(/^[0-9][0-9A-Za-z-]*\s+/, '').trim();
+  return withoutPostcode || citySegment || null;
+}
+
+/** Localized country name for a location's region (e.g. "Germany" / "德国"). */
+export function getLocationCountryName(location: Location, locale: 'en' | 'zh') {
+  const region = getLocationRegion(location);
+  return regionCountryNames[region]?.[locale] ?? region;
+}
+
+/** ISO 3166-1 alpha-2 country code for structured data (e.g. "DE"). */
+export function getLocationCountryCode(location: Location) {
+  const region = getLocationRegion(location);
+  return regionCountryCodes[region] ?? 'AU';
 }
 
 export function getLocationTypeKeyword(type: Location['type'], locale: 'en' | 'zh') {

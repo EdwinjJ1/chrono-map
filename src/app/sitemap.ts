@@ -3,6 +3,7 @@ import { locales } from '@/i18n/config';
 import { locations } from '@/data/locations';
 import { sitePageSlugs } from '@/data/site-pages';
 import { topicPageSlugs } from '@/data/topic-pages';
+import { countryPageSlugs } from '@/data/country-pages';
 import { getLocationSlug } from '@/lib/location-slugs';
 import { getSiteUrl } from '@/lib/site-url';
 
@@ -60,6 +61,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
             locales.map((alternateLocale) => [
               alternateLocale,
               `${baseUrl}/${alternateLocale}/topics/${slug}`,
+            ])
+          ),
+        },
+      });
+    });
+
+    countryPageSlugs.forEach((slug) => {
+      routes.push({
+        url: `${baseUrl}/${locale}/countries/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((alternateLocale) => [
+              alternateLocale,
+              `${baseUrl}/${alternateLocale}/countries/${slug}`,
             ])
           ),
         },

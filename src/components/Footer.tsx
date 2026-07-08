@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from "next/link";
+import { countryPages } from '@/data/country-pages';
 import { MapPin, Clock, Mail, Github, Twitter } from "lucide-react";
 
 export default function Footer() {
@@ -132,6 +133,26 @@ export default function Footer() {
               ))}
             </ul>
           </div>
+        </div>
+
+        {/* Destinations — country guides (internal linking for discoverability) */}
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <h4 className="font-serif font-semibold text-white mb-4">
+            {locale.startsWith('zh') ? '按国家探索' : 'Explore by Country'}
+          </h4>
+          <ul className="flex flex-wrap gap-x-5 gap-y-2">
+            {countryPages.map((country) => (
+              <li key={country.slug}>
+                <Link
+                  href={`/${locale}/countries/${country.slug}`}
+                  className="inline-flex items-center gap-1.5 text-sm text-white/60 hover:text-accent-light transition-colors cursor-pointer"
+                >
+                  <span aria-hidden>{country.flag}</span>
+                  {locale.startsWith('zh') ? country.name.zh : country.name.en}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Bottom Bar */}
