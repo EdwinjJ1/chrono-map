@@ -91,6 +91,13 @@ export default function MapPageClient() {
     setSelectedLocation(location);
   }, []);
 
+  // Switching region clears any open selection so the map reframes to the new
+  // region instead of staying zoomed on a place from the previous one.
+  const handleRegionChange = useCallback((region: RegionFilter) => {
+    setRegionFilter(region);
+    setSelectedLocation(null);
+  }, []);
+
   const handleCloseCard = useCallback(() => {
     setSelectedLocation(null);
   }, []);
@@ -211,7 +218,7 @@ export default function MapPageClient() {
             <div className="pb-3 -mt-1">
               <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
                 <button
-                  onClick={() => setRegionFilter("all")}
+                  onClick={() => handleRegionChange("all")}
                   className={`shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer border ${
                     regionFilter === "all"
                       ? "bg-primary text-white border-primary"
@@ -226,7 +233,7 @@ export default function MapPageClient() {
                   return (
                     <button
                       key={region.key}
-                      onClick={() => setRegionFilter(region.key)}
+                      onClick={() => handleRegionChange(region.key)}
                       className={`shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer border flex items-center gap-1.5 ${
                         active
                           ? "bg-primary text-white border-primary"
