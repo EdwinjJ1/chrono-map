@@ -25,6 +25,9 @@ const dataFiles = [
   { file: "locations-it.ts", exportName: "locationsIt" },
   { file: "locations-es.ts", exportName: "locationsEs" },
   { file: "locations-ch-ee.ts", exportName: "locationsChEe" },
+  { file: "locations-cz.ts", exportName: "locationsCz" },
+  { file: "locations-pl.ts", exportName: "locationsPl" },
+  { file: "locations-hu.ts", exportName: "locationsHu" },
 ];
 
 /** Convert a "/images/..." public path to a repo-relative "public/images/..." path. */

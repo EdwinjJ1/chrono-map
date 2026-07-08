@@ -8,6 +8,7 @@ import { locationsIt } from './locations-it';
 import { locationsEs } from './locations-es';
 import { locationsChEe } from './locations-ch-ee';
 import { locationsCz } from './locations-cz';
+import { locationsPl } from './locations-pl';
 
 export type PhotographySubcategory =
   | "bird"
@@ -3396,6 +3397,7 @@ export const locations: Location[] = [
   ...locationsEs,
   ...locationsChEe,
   ...locationsCz,
+  ...locationsPl,
 ];
 
 export const locationTypes = {

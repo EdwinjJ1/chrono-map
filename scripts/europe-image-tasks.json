@@ -672,6 +672,790 @@
     ]
   },
   {
+    "label": "Germany · Goethe House, Weimar (modern)",
+    "destination": "public/images/locations/goethe-house-weimar.jpg",
+    "queries": [
+      "Goethe House Weimar Frauenplan museum",
+      "Goethe study Weimar interior"
+    ]
+  },
+  {
+    "label": "Germany · Goethe House, Weimar (historical)",
+    "destination": "public/images/locations/historical/goethe-house-weimar-historical.jpg",
+    "queries": [
+      "Goethe House Weimar historical",
+      "Goethe portrait Weimar 19th century"
+    ]
+  },
+  {
+    "label": "Germany · Bauhaus Weimar (modern)",
+    "destination": "public/images/locations/bauhaus-weimar.jpg",
+    "queries": [
+      "Bauhaus Museum Weimar building",
+      "Bauhaus Weimar design exhibit"
+    ]
+  },
+  {
+    "label": "Germany · Bauhaus Weimar (historical)",
+    "destination": "public/images/locations/historical/bauhaus-weimar-historical.jpg",
+    "queries": [
+      "Bauhaus Weimar 1919 Gropius",
+      "Bauhaus workshop historical photograph 1920s"
+    ]
+  },
+  {
+    "label": "Germany · Buchenwald Concentration Camp Memorial (modern)",
+    "destination": "public/images/locations/buchenwald-concentration-camp-memorial.jpg",
+    "queries": [
+      "Buchenwald memorial gate Jedem das Seine",
+      "Buchenwald concentration camp memorial today"
+    ]
+  },
+  {
+    "label": "Germany · Buchenwald Concentration Camp Memorial (historical)",
+    "destination": "public/images/locations/historical/buchenwald-concentration-camp-memorial-historical.jpg",
+    "queries": [
+      "Buchenwald concentration camp 1945 liberation",
+      "Buchenwald prisoners historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · St. Thomas Church, Leipzig (modern)",
+    "destination": "public/images/locations/st-thomas-church-leipzig.jpg",
+    "queries": [
+      "St Thomas Church Leipzig Bach grave",
+      "Thomaskirche Leipzig exterior"
+    ]
+  },
+  {
+    "label": "Germany · St. Thomas Church, Leipzig (historical)",
+    "destination": "public/images/locations/historical/st-thomas-church-leipzig-historical.jpg",
+    "queries": [
+      "St Thomas Church Leipzig historical engraving",
+      "Bach Leipzig Thomaskirche portrait"
+    ]
+  },
+  {
+    "label": "Germany · St. Nicholas Church, Leipzig (modern)",
+    "destination": "public/images/locations/st-nicholas-church-leipzig.jpg",
+    "queries": [
+      "St Nicholas Church Leipzig interior palm columns",
+      "Nikolaikirche Leipzig peaceful revolution column"
+    ]
+  },
+  {
+    "label": "Germany · St. Nicholas Church, Leipzig (historical)",
+    "destination": "public/images/locations/historical/st-nicholas-church-leipzig-historical.jpg",
+    "queries": [
+      "Leipzig Monday demonstrations 1989 candles",
+      "Leipzig 1989 peaceful revolution march"
+    ]
+  },
+  {
+    "label": "Germany · Rothenburg ob der Tauber (modern)",
+    "destination": "public/images/locations/rothenburg-ob-der-tauber.jpg",
+    "queries": [
+      "Rothenburg ob der Tauber Plönlein medieval",
+      "Rothenburg old town walls towers"
+    ]
+  },
+  {
+    "label": "Germany · Rothenburg ob der Tauber (historical)",
+    "destination": "public/images/locations/historical/rothenburg-ob-der-tauber-historical.jpg",
+    "queries": [
+      "Rothenburg ob der Tauber historical photograph",
+      "Rothenburg Meistertrunk 1631 painting"
+    ]
+  },
+  {
+    "label": "Germany · Regensburg Old Town & Stone Bridge (modern)",
+    "destination": "public/images/locations/regensburg-old-town-stone-bridge.jpg",
+    "queries": [
+      "Regensburg Stone Bridge Danube cathedral",
+      "Regensburg old town medieval towers"
+    ]
+  },
+  {
+    "label": "Germany · Regensburg Old Town & Stone Bridge (historical)",
+    "destination": "public/images/locations/historical/regensburg-old-town-stone-bridge-historical.jpg",
+    "queries": [
+      "Regensburg Stone Bridge historical engraving",
+      "Regensburg old town historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Lübeck Holstentor (modern)",
+    "destination": "public/images/locations/lubeck-holstentor.jpg",
+    "queries": [
+      "Lübeck Holstentor twin towers",
+      "Holstentor Lübeck brick gate"
+    ]
+  },
+  {
+    "label": "Germany · Lübeck Holstentor (historical)",
+    "destination": "public/images/locations/historical/lubeck-holstentor-historical.jpg",
+    "queries": [
+      "Lübeck Holstentor historical photograph",
+      "Hanseatic Lübeck old engraving"
+    ]
+  },
+  {
+    "label": "Germany · Speicherstadt, Hamburg (modern)",
+    "destination": "public/images/locations/speicherstadt-hamburg.jpg",
+    "queries": [
+      "Speicherstadt Hamburg warehouse canals",
+      "Speicherstadt red brick Gothic warehouses"
+    ]
+  },
+  {
+    "label": "Germany · Speicherstadt, Hamburg (historical)",
+    "destination": "public/images/locations/historical/speicherstadt-hamburg-historical.jpg",
+    "queries": [
+      "Speicherstadt Hamburg historical 1900",
+      "Hamburg warehouse district old photograph"
+    ]
+  },
+  {
+    "label": "Germany · Bremen Town Hall & Roland Statue (modern)",
+    "destination": "public/images/locations/bremen-town-hall-roland-statue.jpg",
+    "queries": [
+      "Bremen Town Hall Roland statue market square",
+      "Bremen Rathaus Renaissance facade"
+    ]
+  },
+  {
+    "label": "Germany · Bremen Town Hall & Roland Statue (historical)",
+    "destination": "public/images/locations/historical/bremen-town-hall-roland-statue-historical.jpg",
+    "queries": [
+      "Bremen Town Hall historical engraving",
+      "Bremen Roland statue old photograph"
+    ]
+  },
+  {
+    "label": "Germany · Roman-Germanic Museum, Cologne (modern)",
+    "destination": "public/images/locations/roman-germanic-museum-cologne.jpg",
+    "queries": [
+      "Roman-Germanic Museum Cologne Dionysus mosaic",
+      "Römisch-Germanisches Museum Köln interior"
+    ]
+  },
+  {
+    "label": "Germany · Roman-Germanic Museum, Cologne (historical)",
+    "destination": "public/images/locations/historical/roman-germanic-museum-cologne-historical.jpg",
+    "queries": [
+      "Cologne Dionysus mosaic discovery 1941",
+      "Roman Cologne Colonia historical"
+    ]
+  },
+  {
+    "label": "Germany · Colditz Castle (Oflag IV-C) (modern)",
+    "destination": "public/images/locations/colditz-castle-oflag-iv-c.jpg",
+    "queries": [
+      "Colditz Castle Germany hilltop",
+      "Colditz Castle escape museum glider replica"
+    ]
+  },
+  {
+    "label": "Germany · Colditz Castle (Oflag IV-C) (historical)",
+    "destination": "public/images/locations/historical/colditz-castle-oflag-iv-c-historical.jpg",
+    "queries": [
+      "Colditz Castle POW camp 1943",
+      "Colditz Cock glider attic 1945"
+    ]
+  },
+  {
+    "label": "Germany · Sachsenhausen Concentration Camp Memorial (modern)",
+    "destination": "public/images/locations/sachsenhausen-concentration-camp-memorial.jpg",
+    "queries": [
+      "Sachsenhausen memorial gate Arbeit macht frei",
+      "Sachsenhausen concentration camp memorial tower"
+    ]
+  },
+  {
+    "label": "Germany · Sachsenhausen Concentration Camp Memorial (historical)",
+    "destination": "public/images/locations/historical/sachsenhausen-concentration-camp-memorial-historical.jpg",
+    "queries": [
+      "Sachsenhausen concentration camp 1936 historical",
+      "Sachsenhausen prisoners historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Bergen-Belsen Memorial (modern)",
+    "destination": "public/images/locations/bergen-belsen-memorial.jpg",
+    "queries": [
+      "Bergen-Belsen memorial mass graves mounds",
+      "Bergen-Belsen documentation centre"
+    ]
+  },
+  {
+    "label": "Germany · Bergen-Belsen Memorial (historical)",
+    "destination": "public/images/locations/historical/bergen-belsen-memorial-historical.jpg",
+    "queries": [
+      "Bergen-Belsen liberation April 1945",
+      "Bergen-Belsen concentration camp 1945 British"
+    ]
+  },
+  {
+    "label": "Germany · Bebelplatz (Book Burning Memorial) (modern)",
+    "destination": "public/images/locations/bebelplatz-book-burning-memorial.jpg",
+    "queries": [
+      "Bebelplatz Berlin book burning memorial glass",
+      "Bebelplatz Ullman empty library memorial"
+    ]
+  },
+  {
+    "label": "Germany · Bebelplatz (Book Burning Memorial) (historical)",
+    "destination": "public/images/locations/historical/bebelplatz-book-burning-memorial-historical.jpg",
+    "queries": [
+      "Nazi book burning Berlin 1933 Bebelplatz",
+      "book burning 1933 Opernplatz Berlin"
+    ]
+  },
+  {
+    "label": "Germany · Kaiser Wilhelm Memorial Church (modern)",
+    "destination": "public/images/locations/kaiser-wilhelm-memorial-church.jpg",
+    "queries": [
+      "Kaiser Wilhelm Memorial Church broken spire Berlin",
+      "Gedächtniskirche Berlin blue glass interior"
+    ]
+  },
+  {
+    "label": "Germany · Kaiser Wilhelm Memorial Church (historical)",
+    "destination": "public/images/locations/historical/kaiser-wilhelm-memorial-church-historical.jpg",
+    "queries": [
+      "Kaiser Wilhelm Memorial Church 1943 bombed",
+      "Gedächtniskirche Berlin historical 1900"
+    ]
+  },
+  {
+    "label": "Germany · Tempelhof Airport (modern)",
+    "destination": "public/images/locations/tempelhof-airport.jpg",
+    "queries": [
+      "Tempelhof Airport Berlin terminal park",
+      "Tempelhofer Feld runway park"
+    ]
+  },
+  {
+    "label": "Germany · Tempelhof Airport (historical)",
+    "destination": "public/images/locations/historical/tempelhof-airport-historical.jpg",
+    "queries": [
+      "Berlin Airlift 1948 Tempelhof planes",
+      "Candy Bomber Berlin Airlift children"
+    ]
+  },
+  {
+    "label": "Germany · Soviet War Memorial, Treptower Park (modern)",
+    "destination": "public/images/locations/soviet-war-memorial-treptower-park.jpg",
+    "queries": [
+      "Soviet War Memorial Treptower Park bronze soldier",
+      "Treptow Soviet memorial Berlin sarcophagi"
+    ]
+  },
+  {
+    "label": "Germany · Soviet War Memorial, Treptower Park (historical)",
+    "destination": "public/images/locations/historical/soviet-war-memorial-treptower-park-historical.jpg",
+    "queries": [
+      "Soviet War Memorial Treptow 1949 opening",
+      "Battle of Berlin 1945 Red Army"
+    ]
+  },
+  {
+    "label": "Germany · Berlin Cathedral (Berliner Dom) (modern)",
+    "destination": "public/images/locations/berlin-cathedral-berliner-dom.jpg",
+    "queries": [
+      "Berlin Cathedral Berliner Dom dome Spree",
+      "Berliner Dom interior organ"
+    ]
+  },
+  {
+    "label": "Germany · Berlin Cathedral (Berliner Dom) (historical)",
+    "destination": "public/images/locations/historical/berlin-cathedral-berliner-dom-historical.jpg",
+    "queries": [
+      "Berliner Dom 1945 bomb damage",
+      "Berlin Cathedral historical photograph 1905"
+    ]
+  },
+  {
+    "label": "Germany · New Palace (Neues Palais), Potsdam (modern)",
+    "destination": "public/images/locations/new-palace-neues-palais-potsdam.jpg",
+    "queries": [
+      "New Palace Potsdam Neues Palais facade",
+      "Neues Palais Grotto Hall shells"
+    ]
+  },
+  {
+    "label": "Germany · New Palace (Neues Palais), Potsdam (historical)",
+    "destination": "public/images/locations/historical/new-palace-neues-palais-potsdam-historical.jpg",
+    "queries": [
+      "Neues Palais Potsdam historical engraving",
+      "Frederick the Great New Palace 18th century"
+    ]
+  },
+  {
+    "label": "Germany · Equestrian Statue of Frederick the Great (modern)",
+    "destination": "public/images/locations/equestrian-statue-of-frederick-the-great.jpg",
+    "queries": [
+      "Frederick the Great equestrian statue Unter den Linden",
+      "Old Fritz statue Berlin bronze"
+    ]
+  },
+  {
+    "label": "Germany · Equestrian Statue of Frederick the Great (historical)",
+    "destination": "public/images/locations/historical/equestrian-statue-of-frederick-the-great-historical.jpg",
+    "queries": [
+      "Frederick the Great statue Unter den Linden historical",
+      "Rauch Frederick statue 1851 engraving"
+    ]
+  },
+  {
+    "label": "Germany · Hürtgen Forest Battlefield (modern)",
+    "destination": "public/images/locations/hurtgen-forest-battlefield.jpg",
+    "queries": [
+      "Hürtgen Forest battlefield trail memorial",
+      "Hürtgenwald forest Germany today"
+    ]
+  },
+  {
+    "label": "Germany · Hürtgen Forest Battlefield (historical)",
+    "destination": "public/images/locations/historical/hurtgen-forest-battlefield-historical.jpg",
+    "queries": [
+      "Hürtgen Forest battle 1944 US soldiers",
+      "Battle of Hürtgen Forest winter 1944"
+    ]
+  },
+  {
+    "label": "Germany · Aachen Battle Site (Old Town) (modern)",
+    "destination": "public/images/locations/aachen-battle-site-old-town.jpg",
+    "queries": [
+      "Aachen old town market square today",
+      "Aachen town hall Rathaus"
+    ]
+  },
+  {
+    "label": "Germany · Aachen Battle Site (Old Town) (historical)",
+    "destination": "public/images/locations/historical/aachen-battle-site-old-town-historical.jpg",
+    "queries": [
+      "Battle of Aachen 1944 US soldiers ruins",
+      "Aachen 1944 destroyed street fighting"
+    ]
+  },
+  {
+    "label": "Germany · Würzburg Residence (modern)",
+    "destination": "public/images/locations/wurzburg-residence.jpg",
+    "queries": [
+      "Würzburg Residence Tiepolo staircase fresco",
+      "Würzburg Residenz baroque facade"
+    ]
+  },
+  {
+    "label": "Germany · Würzburg Residence (historical)",
+    "destination": "public/images/locations/historical/wurzburg-residence-historical.jpg",
+    "queries": [
+      "Würzburg Residence 1945 ruins bombing",
+      "Würzburg Residenz historical engraving"
+    ]
+  },
+  {
+    "label": "Germany · Bamberg Old Town (modern)",
+    "destination": "public/images/locations/bamberg-old-town.jpg",
+    "queries": [
+      "Bamberg Old Town Hall river island",
+      "Bamberg cathedral Little Venice"
+    ]
+  },
+  {
+    "label": "Germany · Bamberg Old Town (historical)",
+    "destination": "public/images/locations/historical/bamberg-old-town-historical.jpg",
+    "queries": [
+      "Bamberg old town historical photograph",
+      "Bamberg Rathaus historical engraving"
+    ]
+  },
+  {
+    "label": "Germany · Xanten Archaeological Park (Colonia Ulpia Traiana) (modern)",
+    "destination": "public/images/locations/xanten-archaeological-park-colonia-ulpia-traiana.jpg",
+    "queries": [
+      "Xanten Archaeological Park Roman amphitheatre",
+      "Colonia Ulpia Traiana reconstructed temple"
+    ]
+  },
+  {
+    "label": "Germany · Xanten Archaeological Park (Colonia Ulpia Traiana) (historical)",
+    "destination": "public/images/locations/historical/xanten-archaeological-park-colonia-ulpia-traiana-historical.jpg",
+    "queries": [
+      "Colonia Ulpia Traiana Roman city reconstruction",
+      "Xanten Roman ruins historical drawing"
+    ]
+  },
+  {
+    "label": "Germany · Wewelsburg Castle (modern)",
+    "destination": "public/images/locations/wewelsburg-castle.jpg",
+    "queries": [
+      "Wewelsburg Castle triangular Westphalia",
+      "Wewelsburg North Tower interior"
+    ]
+  },
+  {
+    "label": "Germany · Wewelsburg Castle (historical)",
+    "destination": "public/images/locations/historical/wewelsburg-castle-historical.jpg",
+    "queries": [
+      "Wewelsburg castle SS 1930s Himmler",
+      "Wewelsburg historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Cologne Old Town & Roman Praetorium (modern)",
+    "destination": "public/images/locations/cologne-old-town-roman-praetorium.jpg",
+    "queries": [
+      "Cologne Praetorium Roman ruins underground",
+      "Cologne old town Romanesque church Rhine"
+    ]
+  },
+  {
+    "label": "Germany · Cologne Old Town & Roman Praetorium (historical)",
+    "destination": "public/images/locations/historical/cologne-old-town-roman-praetorium-historical.jpg",
+    "queries": [
+      "Cologne Roman Praetorium excavation",
+      "Roman Cologne Colonia reconstruction"
+    ]
+  },
+  {
+    "label": "Germany · Point Alpha (modern)",
+    "destination": "public/images/locations/point-alpha.jpg",
+    "queries": [
+      "Point Alpha observation tower Fulda Gap",
+      "Point Alpha border memorial fence"
+    ]
+  },
+  {
+    "label": "Germany · Point Alpha (historical)",
+    "destination": "public/images/locations/historical/point-alpha-historical.jpg",
+    "queries": [
+      "Point Alpha Cold War US Army tower",
+      "inner German border Fulda Gap 1980s"
+    ]
+  },
+  {
+    "label": "Germany · Hambach Castle (modern)",
+    "destination": "public/images/locations/hambach-castle.jpg",
+    "queries": [
+      "Hambach Castle Neustadt hilltop",
+      "Hambacher Schloss vineyard"
+    ]
+  },
+  {
+    "label": "Germany · Hambach Castle (historical)",
+    "destination": "public/images/locations/historical/hambach-castle-historical.jpg",
+    "queries": [
+      "Hambacher Fest 1832 painting flags",
+      "Hambach Festival 1832 march"
+    ]
+  },
+  {
+    "label": "Germany · Speyer Cathedral (modern)",
+    "destination": "public/images/locations/speyer-cathedral.jpg",
+    "queries": [
+      "Speyer Cathedral Romanesque red sandstone",
+      "Speyer Dom crypt imperial tombs"
+    ]
+  },
+  {
+    "label": "Germany · Speyer Cathedral (historical)",
+    "destination": "public/images/locations/historical/speyer-cathedral-historical.jpg",
+    "queries": [
+      "Speyer Cathedral historical engraving",
+      "Speyer Dom 1689 French sack"
+    ]
+  },
+  {
+    "label": "Germany · Luther Monument, Worms (modern)",
+    "destination": "public/images/locations/luther-monument-worms.jpg",
+    "queries": [
+      "Luther Monument Worms statue",
+      "Lutherdenkmal Worms Reformation memorial"
+    ]
+  },
+  {
+    "label": "Germany · Luther Monument, Worms (historical)",
+    "destination": "public/images/locations/historical/luther-monument-worms-historical.jpg",
+    "queries": [
+      "Luther Diet of Worms 1521 painting",
+      "Luther Here I stand Worms engraving"
+    ]
+  },
+  {
+    "label": "Germany · Paulskirche, Frankfurt (modern)",
+    "destination": "public/images/locations/paulskirche-frankfurt.jpg",
+    "queries": [
+      "Paulskirche Frankfurt round church",
+      "Frankfurt Paulskirche interior parliament"
+    ]
+  },
+  {
+    "label": "Germany · Paulskirche, Frankfurt (historical)",
+    "destination": "public/images/locations/historical/paulskirche-frankfurt-historical.jpg",
+    "queries": [
+      "Frankfurt Parliament 1848 Paulskirche",
+      "Paulskirche 1848 national assembly painting"
+    ]
+  },
+  {
+    "label": "Germany · Römerberg, Frankfurt (modern)",
+    "destination": "public/images/locations/romerberg-frankfurt.jpg",
+    "queries": [
+      "Römerberg Frankfurt half-timbered houses",
+      "Frankfurt Römer town hall square"
+    ]
+  },
+  {
+    "label": "Germany · Römerberg, Frankfurt (historical)",
+    "destination": "public/images/locations/historical/romerberg-frankfurt-historical.jpg",
+    "queries": [
+      "Römerberg Frankfurt 1944 ruins",
+      "Frankfurt old town historical photograph"
+    ]
+  },
+  {
+    "label": "Germany · Marienberg Fortress, Würzburg (modern)",
+    "destination": "public/images/locations/marienberg-fortress-wurzburg.jpg",
+    "queries": [
+      "Marienberg Fortress Würzburg hilltop Main",
+      "Festung Marienberg Würzburg vineyard"
+    ]
+  },
+  {
+    "label": "Germany · Marienberg Fortress, Würzburg (historical)",
+    "destination": "public/images/locations/historical/marienberg-fortress-wurzburg-historical.jpg",
+    "queries": [
+      "Marienberg Fortress Würzburg historical engraving",
+      "Würzburg fortress 1631 Swedish siege"
+    ]
+  },
+  {
+    "label": "Germany · Kehlsteinhaus (Eagle's Nest) (modern)",
+    "destination": "public/images/locations/kehlsteinhaus-eagles-nest.jpg",
+    "queries": [
+      "Kehlsteinhaus Eagle's Nest Alps summit",
+      "Eagle's Nest Berchtesgaden mountain view"
+    ]
+  },
+  {
+    "label": "Germany · Kehlsteinhaus (Eagle's Nest) (historical)",
+    "destination": "public/images/locations/historical/kehlsteinhaus-eagles-nest-historical.jpg",
+    "queries": [
+      "Eagle's Nest Kehlsteinhaus 1939 Hitler",
+      "Kehlsteinhaus construction 1938"
+    ]
+  },
+  {
+    "label": "Germany · Obersalzberg Documentation Centre (modern)",
+    "destination": "public/images/locations/obersalzberg-documentation-centre.jpg",
+    "queries": [
+      "Obersalzberg Documentation Centre Berchtesgaden",
+      "Obersalzberg bunker tunnels museum"
+    ]
+  },
+  {
+    "label": "Germany · Obersalzberg Documentation Centre (historical)",
+    "destination": "public/images/locations/historical/obersalzberg-documentation-centre-historical.jpg",
+    "queries": [
+      "Berghof Obersalzberg Hitler 1938",
+      "Obersalzberg 1945 bomb damage"
+    ]
+  },
+  {
+    "label": "Germany · Königssee (modern)",
+    "destination": "public/images/locations/konigssee.jpg",
+    "queries": [
+      "Königssee St Bartholomä chapel emerald lake",
+      "Königssee Watzmann Alps boat"
+    ]
+  },
+  {
+    "label": "Germany · Königssee (historical)",
+    "destination": "public/images/locations/historical/konigssee-historical.jpg",
+    "queries": [
+      "Königssee St Bartholomä historical photograph",
+      "Königssee 1900 vintage postcard"
+    ]
+  },
+  {
+    "label": "Germany · Kalkriese (Teutoburg Forest Battlefield) (modern)",
+    "destination": "public/images/locations/kalkriese-teutoburg-forest-battlefield.jpg",
+    "queries": [
+      "Kalkriese Varusschlacht museum tower",
+      "Teutoburg Forest battlefield park Kalkriese"
+    ]
+  },
+  {
+    "label": "Germany · Kalkriese (Teutoburg Forest Battlefield) (historical)",
+    "destination": "public/images/locations/historical/kalkriese-teutoburg-forest-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Teutoburg Forest 9 AD painting",
+      "Arminius Varus Roman legions engraving"
+    ]
+  },
+  {
+    "label": "Germany · Hermannsdenkmal (Arminius Monument) (modern)",
+    "destination": "public/images/locations/hermannsdenkmal-arminius-monument.jpg",
+    "queries": [
+      "Hermannsdenkmal Arminius monument Detmold",
+      "Hermann monument sword Teutoburg forest"
+    ]
+  },
+  {
+    "label": "Germany · Hermannsdenkmal (Arminius Monument) (historical)",
+    "destination": "public/images/locations/historical/hermannsdenkmal-arminius-monument-historical.jpg",
+    "queries": [
+      "Hermannsdenkmal 1875 inauguration",
+      "Hermannsdenkmal historical engraving"
+    ]
+  },
+  {
+    "label": "Germany · Externsteine (modern)",
+    "destination": "public/images/locations/externsteine.jpg",
+    "queries": [
+      "Externsteine sandstone pillars Teutoburg",
+      "Externsteine rock formation relief"
+    ]
+  },
+  {
+    "label": "Germany · Externsteine (historical)",
+    "destination": "public/images/locations/historical/externsteine-historical.jpg",
+    "queries": [
+      "Externsteine historical engraving",
+      "Externsteine 1930s SS excavation"
+    ]
+  },
+  {
+    "label": "Germany · Zugspitze Summit (modern)",
+    "destination": "public/images/locations/zugspitze-summit.jpg",
+    "queries": [
+      "Zugspitze summit cross Germany highest peak",
+      "Zugspitze glacier cable car Alps"
+    ]
+  },
+  {
+    "label": "Germany · Zugspitze Summit (historical)",
+    "destination": "public/images/locations/historical/zugspitze-summit-historical.jpg",
+    "queries": [
+      "Zugspitze historical cog railway 1930s",
+      "Zugspitze summit vintage photograph"
+    ]
+  },
+  {
+    "label": "Germany · Stasi Prison Hohenschönhausen (modern)",
+    "destination": "public/images/locations/stasi-prison-hohenschonhausen.jpg",
+    "queries": [
+      "Hohenschönhausen Stasi prison memorial cells",
+      "Stasi prison Berlin interrogation room"
+    ]
+  },
+  {
+    "label": "Germany · Stasi Prison Hohenschönhausen (historical)",
+    "destination": "public/images/locations/historical/stasi-prison-hohenschonhausen-historical.jpg",
+    "queries": [
+      "Hohenschönhausen Stasi prison historical",
+      "East Germany Stasi prison 1980s"
+    ]
+  },
+  {
+    "label": "Germany · Tränenpalast (Palace of Tears) (modern)",
+    "destination": "public/images/locations/tranenpalast-palace-of-tears.jpg",
+    "queries": [
+      "Tränenpalast Berlin Palace of Tears museum",
+      "Tränenpalast Friedrichstrasse glass hall"
+    ]
+  },
+  {
+    "label": "Germany · Tränenpalast (Palace of Tears) (historical)",
+    "destination": "public/images/locations/historical/tranenpalast-palace-of-tears-historical.jpg",
+    "queries": [
+      "Tränenpalast Berlin 1980s border farewell",
+      "Friedrichstrasse crossing East Berlin historical"
+    ]
+  },
+  {
+    "label": "Germany · Olympiastadion Berlin (modern)",
+    "destination": "public/images/locations/olympiastadion-berlin.jpg",
+    "queries": [
+      "Olympiastadion Berlin stadium exterior",
+      "Olympiastadion Berlin bowl interior"
+    ]
+  },
+  {
+    "label": "Germany · Olympiastadion Berlin (historical)",
+    "destination": "public/images/locations/historical/olympiastadion-berlin-historical.jpg",
+    "queries": [
+      "1936 Berlin Olympics Jesse Owens",
+      "Olympiastadion Berlin 1936 opening ceremony"
+    ]
+  },
+  {
+    "label": "Germany · Rathaus Schöneberg (modern)",
+    "destination": "public/images/locations/rathaus-schoneberg.jpg",
+    "queries": [
+      "Rathaus Schöneberg Berlin town hall",
+      "Rathaus Schöneberg JFK plaza"
+    ]
+  },
+  {
+    "label": "Germany · Rathaus Schöneberg (historical)",
+    "destination": "public/images/locations/historical/rathaus-schoneberg-historical.jpg",
+    "queries": [
+      "Kennedy Ich bin ein Berliner 1963 speech",
+      "JFK Rathaus Schöneberg crowd 1963"
+    ]
+  },
+  {
+    "label": "Germany · Dresden Residenzschloss & Green Vault (modern)",
+    "destination": "public/images/locations/dresden-residenzschloss-green-vault.jpg",
+    "queries": [
+      "Dresden Residenzschloss Green Vault treasures",
+      "Dresden Royal Palace courtyard"
+    ]
+  },
+  {
+    "label": "Germany · Dresden Residenzschloss & Green Vault (historical)",
+    "destination": "public/images/locations/historical/dresden-residenzschloss-green-vault-historical.jpg",
+    "queries": [
+      "Dresden Residenzschloss 1945 ruins",
+      "Dresden Royal Palace historical engraving"
+    ]
+  },
+  {
+    "label": "Germany · Meissen Porcelain Manufactory (modern)",
+    "destination": "public/images/locations/meissen-porcelain-manufactory.jpg",
+    "queries": [
+      "Meissen porcelain manufactory museum",
+      "Meissen porcelain figurines crossed swords"
+    ]
+  },
+  {
+    "label": "Germany · Meissen Porcelain Manufactory (historical)",
+    "destination": "public/images/locations/historical/meissen-porcelain-manufactory-historical.jpg",
+    "queries": [
+      "Meissen porcelain Böttger historical",
+      "Albrechtsburg Meissen porcelain 18th century"
+    ]
+  },
+  {
+    "label": "Germany · Nuremberg Imperial Castle (Kaiserburg) (modern)",
+    "destination": "public/images/locations/nuremberg-imperial-castle-kaiserburg.jpg",
+    "queries": [
+      "Nuremberg Imperial Castle Kaiserburg",
+      "Nuremberg castle Sinwell Tower old town"
+    ]
+  },
+  {
+    "label": "Germany · Nuremberg Imperial Castle (Kaiserburg) (historical)",
+    "destination": "public/images/locations/historical/nuremberg-imperial-castle-kaiserburg-historical.jpg",
+    "queries": [
+      "Nuremberg Kaiserburg historical engraving",
+      "Nuremberg castle 1945 damage"
+    ]
+  },
+  {
     "label": "France · Bastille Site (modern)",
     "destination": "public/images/locations/bastille-site.jpg",
     "queries": [
@@ -1584,6 +2368,838 @@
     ]
   },
   {
+    "label": "France · Eiffel Tower (modern)",
+    "destination": "public/images/locations/eiffel-tower.jpg",
+    "queries": [
+      "Eiffel Tower Paris Champ de Mars",
+      "Eiffel Tower sunset Seine"
+    ]
+  },
+  {
+    "label": "France · Eiffel Tower (historical)",
+    "destination": "public/images/locations/historical/eiffel-tower-historical.jpg",
+    "queries": [
+      "Eiffel Tower construction 1888 1889",
+      "Eiffel Tower 1889 World's Fair photo"
+    ]
+  },
+  {
+    "label": "France · Conciergerie (modern)",
+    "destination": "public/images/locations/conciergerie.jpg",
+    "queries": [
+      "Conciergerie Paris Gothic hall Seine",
+      "Conciergerie Marie-Antoinette cell chapel"
+    ]
+  },
+  {
+    "label": "France · Conciergerie (historical)",
+    "destination": "public/images/locations/historical/conciergerie-historical.jpg",
+    "queries": [
+      "Marie-Antoinette Conciergerie cell painting",
+      "Conciergerie Paris 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Sainte-Chapelle (modern)",
+    "destination": "public/images/locations/sainte-chapelle.jpg",
+    "queries": [
+      "Sainte-Chapelle Paris stained glass upper chapel",
+      "Sainte-Chapelle windows light Paris"
+    ]
+  },
+  {
+    "label": "France · Sainte-Chapelle (historical)",
+    "destination": "public/images/locations/historical/sainte-chapelle-historical.jpg",
+    "queries": [
+      "Sainte-Chapelle Paris 19th century engraving",
+      "Sainte-Chapelle Crown of Thorns relic"
+    ]
+  },
+  {
+    "label": "France · Palais Garnier (Opéra) (modern)",
+    "destination": "public/images/locations/palais-garnier-opera.jpg",
+    "queries": [
+      "Palais Garnier opera grand staircase Paris",
+      "Opera Garnier Chagall ceiling auditorium"
+    ]
+  },
+  {
+    "label": "France · Palais Garnier (Opéra) (historical)",
+    "destination": "public/images/locations/historical/palais-garnier-opera-historical.jpg",
+    "queries": [
+      "Palais Garnier opera 19th century photograph",
+      "Opera Garnier Paris 1875 engraving"
+    ]
+  },
+  {
+    "label": "France · Père Lachaise Cemetery (modern)",
+    "destination": "public/images/locations/pere-lachaise-cemetery.jpg",
+    "queries": [
+      "Pere Lachaise cemetery Paris tombs",
+      "Pere Lachaise Mur des Federes wall"
+    ]
+  },
+  {
+    "label": "France · Père Lachaise Cemetery (historical)",
+    "destination": "public/images/locations/historical/pere-lachaise-cemetery-historical.jpg",
+    "queries": [
+      "Paris Commune Mur des Federes 1871",
+      "Pere Lachaise 19th century photograph"
+    ]
+  },
+  {
+    "label": "France · Château de Vincennes (modern)",
+    "destination": "public/images/locations/chateau-de-vincennes.jpg",
+    "queries": [
+      "Chateau de Vincennes keep donjon Paris",
+      "Vincennes castle chapel France"
+    ]
+  },
+  {
+    "label": "France · Château de Vincennes (historical)",
+    "destination": "public/images/locations/historical/chateau-de-vincennes-historical.jpg",
+    "queries": [
+      "Chateau de Vincennes 19th century engraving",
+      "Duke of Enghien execution Vincennes 1804"
+    ]
+  },
+  {
+    "label": "France · Struthof — Natzweiler Concentration Camp (modern)",
+    "destination": "public/images/locations/struthof-natzweiler-concentration-camp.jpg",
+    "queries": [
+      "Struthof Natzweiler memorial Vosges France",
+      "Struthof concentration camp memorial"
+    ]
+  },
+  {
+    "label": "France · Struthof — Natzweiler Concentration Camp (historical)",
+    "destination": "public/images/locations/historical/struthof-natzweiler-concentration-camp-historical.jpg",
+    "queries": [
+      "Natzweiler-Struthof concentration camp 1944",
+      "Struthof camp WWII photograph"
+    ]
+  },
+  {
+    "label": "France · Château du Haut-Kœnigsbourg (modern)",
+    "destination": "public/images/locations/chateau-du-haut-koenigsbourg.jpg",
+    "queries": [
+      "Chateau Haut-Koenigsbourg Alsace castle",
+      "Haut-Koenigsbourg fortress Vosges"
+    ]
+  },
+  {
+    "label": "France · Château du Haut-Kœnigsbourg (historical)",
+    "destination": "public/images/locations/historical/chateau-du-haut-koenigsbourg-historical.jpg",
+    "queries": [
+      "Haut-Koenigsbourg reconstruction 1908 Kaiser",
+      "Haut-Koenigsbourg ruins 19th century"
+    ]
+  },
+  {
+    "label": "France · Hospices de Beaune (modern)",
+    "destination": "public/images/locations/hospices-de-beaune.jpg",
+    "queries": [
+      "Hospices de Beaune tiled roof Burgundy",
+      "Hotel-Dieu Beaune Grande Salle beds"
+    ]
+  },
+  {
+    "label": "France · Hospices de Beaune (historical)",
+    "destination": "public/images/locations/historical/hospices-de-beaune-historical.jpg",
+    "queries": [
+      "Hospices de Beaune 19th century engraving",
+      "Hotel-Dieu Beaune historical postcard"
+    ]
+  },
+  {
+    "label": "France · Basilique de Vézelay (modern)",
+    "destination": "public/images/locations/basilique-de-vezelay.jpg",
+    "queries": [
+      "Basilique Vezelay Romanesque nave Burgundy",
+      "Vezelay hilltop basilica France"
+    ]
+  },
+  {
+    "label": "France · Basilique de Vézelay (historical)",
+    "destination": "public/images/locations/historical/basilique-de-vezelay-historical.jpg",
+    "queries": [
+      "Vezelay basilica 19th century engraving",
+      "Saint Bernard preaching crusade Vezelay"
+    ]
+  },
+  {
+    "label": "France · Abbaye de Cluny (modern)",
+    "destination": "public/images/locations/abbaye-de-cluny.jpg",
+    "queries": [
+      "Abbaye de Cluny remains transept Burgundy",
+      "Cluny abbey ruins France today"
+    ]
+  },
+  {
+    "label": "France · Abbaye de Cluny (historical)",
+    "destination": "public/images/locations/historical/abbaye-de-cluny-historical.jpg",
+    "queries": [
+      "Cluny abbey reconstruction largest church",
+      "Cluny abbey 18th century before demolition"
+    ]
+  },
+  {
+    "label": "France · Basilica of Saint-Denis (modern)",
+    "destination": "public/images/locations/basilica-of-saint-denis.jpg",
+    "queries": [
+      "Basilica Saint-Denis royal tombs Gothic",
+      "Saint-Denis basilica effigies kings"
+    ]
+  },
+  {
+    "label": "France · Basilica of Saint-Denis (historical)",
+    "destination": "public/images/locations/historical/basilica-of-saint-denis-historical.jpg",
+    "queries": [
+      "Saint-Denis tombs desecration 1793 Revolution",
+      "Basilica Saint-Denis 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Domrémy — Joan of Arc's Birthplace (modern)",
+    "destination": "public/images/locations/domremy-joan-of-arcs-birthplace.jpg",
+    "queries": [
+      "Domremy Joan of Arc birthplace house Lorraine",
+      "Domremy Jeanne d'Arc maison natale"
+    ]
+  },
+  {
+    "label": "France · Domrémy — Joan of Arc's Birthplace (historical)",
+    "destination": "public/images/locations/historical/domremy-joan-of-arcs-birthplace-historical.jpg",
+    "queries": [
+      "Joan of Arc voices Domremy painting",
+      "Domremy Joan of Arc house 19th century"
+    ]
+  },
+  {
+    "label": "France · Château de Montségur (modern)",
+    "destination": "public/images/locations/chateau-de-montsegur.jpg",
+    "queries": [
+      "Chateau de Montsegur Cathar castle Pyrenees",
+      "Montsegur ruins mountaintop France"
+    ]
+  },
+  {
+    "label": "France · Château de Montségur (historical)",
+    "destination": "public/images/locations/historical/chateau-de-montsegur-historical.jpg",
+    "queries": [
+      "Montsegur Cathars burned 1244 illustration",
+      "Montsegur fortress Albigensian Crusade"
+    ]
+  },
+  {
+    "label": "France · Colombey-les-Deux-Églises — Charles de Gaulle Memorial (modern)",
+    "destination": "public/images/locations/colombey-les-deux-eglises-charles-de-gaulle-memorial.jpg",
+    "queries": [
+      "Colombey Cross of Lorraine de Gaulle memorial",
+      "La Boisserie de Gaulle house Colombey"
+    ]
+  },
+  {
+    "label": "France · Colombey-les-Deux-Églises — Charles de Gaulle Memorial (historical)",
+    "destination": "public/images/locations/historical/colombey-les-deux-eglises-charles-de-gaulle-memorial-historical.jpg",
+    "queries": [
+      "Charles de Gaulle La Boisserie Colombey",
+      "de Gaulle funeral Colombey 1970"
+    ]
+  },
+  {
+    "label": "France · Giverny — Monet's House and Gardens (modern)",
+    "destination": "public/images/locations/giverny-monets-house-and-gardens.jpg",
+    "queries": [
+      "Giverny Monet garden Japanese bridge water lilies",
+      "Monet house Giverny pond"
+    ]
+  },
+  {
+    "label": "France · Giverny — Monet's House and Gardens (historical)",
+    "destination": "public/images/locations/historical/giverny-monets-house-and-gardens-historical.jpg",
+    "queries": [
+      "Claude Monet Giverny garden photograph",
+      "Monet water lilies painting Giverny"
+    ]
+  },
+  {
+    "label": "France · Château de Chantilly (modern)",
+    "destination": "public/images/locations/chateau-de-chantilly.jpg",
+    "queries": [
+      "Chateau de Chantilly France moat gardens",
+      "Chantilly castle Conde museum"
+    ]
+  },
+  {
+    "label": "France · Château de Chantilly (historical)",
+    "destination": "public/images/locations/historical/chateau-de-chantilly-historical.jpg",
+    "queries": [
+      "Chateau de Chantilly 19th century engraving",
+      "Tres Riches Heures Chantilly manuscript"
+    ]
+  },
+  {
+    "label": "France · Rocamadour (modern)",
+    "destination": "public/images/locations/rocamadour.jpg",
+    "queries": [
+      "Rocamadour cliff village pilgrimage France",
+      "Rocamadour sanctuary Black Madonna"
+    ]
+  },
+  {
+    "label": "France · Rocamadour (historical)",
+    "destination": "public/images/locations/historical/rocamadour-historical.jpg",
+    "queries": [
+      "Rocamadour 19th century engraving",
+      "Rocamadour vintage postcard pilgrimage"
+    ]
+  },
+  {
+    "label": "France · Le Puy-en-Velay (modern)",
+    "destination": "public/images/locations/le-puy-en-velay.jpg",
+    "queries": [
+      "Le Puy-en-Velay volcanic rock chapel France",
+      "Le Puy Notre-Dame de France statue"
+    ]
+  },
+  {
+    "label": "France · Le Puy-en-Velay (historical)",
+    "destination": "public/images/locations/historical/le-puy-en-velay-historical.jpg",
+    "queries": [
+      "Le Puy-en-Velay 19th century engraving",
+      "Le Puy en Velay vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Gorges du Verdon (modern)",
+    "destination": "public/images/locations/gorges-du-verdon.jpg",
+    "queries": [
+      "Gorges du Verdon canyon turquoise river France",
+      "Verdon gorge Lac Sainte-Croix"
+    ]
+  },
+  {
+    "label": "France · Gorges du Verdon (historical)",
+    "destination": "public/images/locations/historical/gorges-du-verdon-historical.jpg",
+    "queries": [
+      "Gorges du Verdon Martel 1905 expedition",
+      "Verdon gorge early 20th century photo"
+    ]
+  },
+  {
+    "label": "France · Aigues-Mortes (modern)",
+    "destination": "public/images/locations/aigues-mortes.jpg",
+    "queries": [
+      "Aigues-Mortes walled town ramparts Camargue",
+      "Aigues-Mortes Tour de Constance"
+    ]
+  },
+  {
+    "label": "France · Aigues-Mortes (historical)",
+    "destination": "public/images/locations/historical/aigues-mortes-historical.jpg",
+    "queries": [
+      "Aigues-Mortes Saint Louis crusade departure",
+      "Aigues-Mortes 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Sainte-Cécile, Albi (modern)",
+    "destination": "public/images/locations/cathedrale-sainte-cecile-albi.jpg",
+    "queries": [
+      "Albi Cathedral Sainte-Cecile brick fortress",
+      "Albi cathedral Last Judgment fresco"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Sainte-Cécile, Albi (historical)",
+    "destination": "public/images/locations/historical/cathedrale-sainte-cecile-albi-historical.jpg",
+    "queries": [
+      "Albi cathedral 19th century engraving",
+      "Albi Sainte-Cecile old photograph"
+    ]
+  },
+  {
+    "label": "France · Basilique Saint-Sernin, Toulouse (modern)",
+    "destination": "public/images/locations/basilique-saint-sernin-toulouse.jpg",
+    "queries": [
+      "Basilique Saint-Sernin Toulouse bell tower brick",
+      "Saint-Sernin Toulouse Romanesque nave"
+    ]
+  },
+  {
+    "label": "France · Basilique Saint-Sernin, Toulouse (historical)",
+    "destination": "public/images/locations/historical/basilique-saint-sernin-toulouse-historical.jpg",
+    "queries": [
+      "Saint-Sernin Toulouse 19th century engraving",
+      "Toulouse Saint-Sernin old photograph"
+    ]
+  },
+  {
+    "label": "France · Pont Saint-Bénézet (Pont d'Avignon) (modern)",
+    "destination": "public/images/locations/pont-saint-benezet-pont-davignon.jpg",
+    "queries": [
+      "Pont d'Avignon broken bridge Rhone",
+      "Pont Saint-Benezet Avignon four arches"
+    ]
+  },
+  {
+    "label": "France · Pont Saint-Bénézet (Pont d'Avignon) (historical)",
+    "destination": "public/images/locations/historical/pont-saint-benezet-pont-davignon-historical.jpg",
+    "queries": [
+      "Pont d'Avignon 19th century engraving",
+      "Pont Saint-Benezet Avignon vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Promenade des Anglais, Nice (modern)",
+    "destination": "public/images/locations/promenade-des-anglais-nice.jpg",
+    "queries": [
+      "Promenade des Anglais Nice seafront",
+      "Nice Promenade des Anglais Negresco"
+    ]
+  },
+  {
+    "label": "France · Promenade des Anglais, Nice (historical)",
+    "destination": "public/images/locations/historical/promenade-des-anglais-nice-historical.jpg",
+    "queries": [
+      "Promenade des Anglais Nice 19th century",
+      "Nice Belle Epoque promenade vintage"
+    ]
+  },
+  {
+    "label": "France · Alignements de Carnac (modern)",
+    "destination": "public/images/locations/alignements-de-carnac.jpg",
+    "queries": [
+      "Alignements de Carnac standing stones Brittany",
+      "Carnac menhirs rows France"
+    ]
+  },
+  {
+    "label": "France · Alignements de Carnac (historical)",
+    "destination": "public/images/locations/historical/alignements-de-carnac-historical.jpg",
+    "queries": [
+      "Carnac stones 19th century engraving",
+      "Carnac megaliths vintage photograph"
+    ]
+  },
+  {
+    "label": "France · Saint-Malo (modern)",
+    "destination": "public/images/locations/saint-malo.jpg",
+    "queries": [
+      "Saint-Malo walled city ramparts Brittany",
+      "Saint-Malo intra-muros sea"
+    ]
+  },
+  {
+    "label": "France · Saint-Malo (historical)",
+    "destination": "public/images/locations/historical/saint-malo-historical.jpg",
+    "queries": [
+      "Saint-Malo destroyed 1944 WWII",
+      "Saint-Malo old town before war photograph"
+    ]
+  },
+  {
+    "label": "France · Grotte de Lascaux (Lascaux IV) (modern)",
+    "destination": "public/images/locations/grotte-de-lascaux-lascaux-iv.jpg",
+    "queries": [
+      "Lascaux IV cave replica paintings Dordogne",
+      "Lascaux cave horses aurochs painting"
+    ]
+  },
+  {
+    "label": "France · Grotte de Lascaux (Lascaux IV) (historical)",
+    "destination": "public/images/locations/historical/grotte-de-lascaux-lascaux-iv-historical.jpg",
+    "queries": [
+      "Lascaux cave discovery 1940 boys",
+      "Lascaux prehistoric paintings 1940s photo"
+    ]
+  },
+  {
+    "label": "France · Château de Vaux-le-Vicomte (modern)",
+    "destination": "public/images/locations/chateau-de-vaux-le-vicomte.jpg",
+    "queries": [
+      "Chateau Vaux-le-Vicomte gardens Le Notre",
+      "Vaux-le-Vicomte castle moat France"
+    ]
+  },
+  {
+    "label": "France · Château de Vaux-le-Vicomte (historical)",
+    "destination": "public/images/locations/historical/chateau-de-vaux-le-vicomte-historical.jpg",
+    "queries": [
+      "Vaux-le-Vicomte Fouquet 1661 party engraving",
+      "Vaux-le-Vicomte 19th century"
+    ]
+  },
+  {
+    "label": "France · Château des ducs de Bretagne, Nantes (modern)",
+    "destination": "public/images/locations/chateau-des-ducs-de-bretagne-nantes.jpg",
+    "queries": [
+      "Chateau des ducs de Bretagne Nantes castle",
+      "Nantes castle courtyard France"
+    ]
+  },
+  {
+    "label": "France · Château des ducs de Bretagne, Nantes (historical)",
+    "destination": "public/images/locations/historical/chateau-des-ducs-de-bretagne-nantes-historical.jpg",
+    "queries": [
+      "Edict of Nantes 1598 Henry IV",
+      "Chateau Nantes 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Canadian National Vimy Memorial (modern)",
+    "destination": "public/images/locations/canadian-national-vimy-memorial.jpg",
+    "queries": [
+      "Canadian Vimy Memorial white pylons France",
+      "Vimy Ridge memorial trenches today"
+    ]
+  },
+  {
+    "label": "France · Canadian National Vimy Memorial (historical)",
+    "destination": "public/images/locations/historical/canadian-national-vimy-memorial-historical.jpg",
+    "queries": [
+      "Battle of Vimy Ridge 1917 Canadians",
+      "Vimy Ridge WWI 1917 photograph"
+    ]
+  },
+  {
+    "label": "France · Notre-Dame-de-Lorette & Ring of Remembrance (modern)",
+    "destination": "public/images/locations/notre-dame-de-lorette-ring-of-remembrance.jpg",
+    "queries": [
+      "Notre-Dame-de-Lorette cemetery Ring of Remembrance",
+      "Anneau de la Memoire Ablain"
+    ]
+  },
+  {
+    "label": "France · Notre-Dame-de-Lorette & Ring of Remembrance (historical)",
+    "destination": "public/images/locations/historical/notre-dame-de-lorette-ring-of-remembrance-historical.jpg",
+    "queries": [
+      "Notre-Dame-de-Lorette 1915 battle Artois",
+      "Lorette cemetery 1920s WWI"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Notre-Dame d'Amiens (modern)",
+    "destination": "public/images/locations/cathedrale-notre-dame-damiens.jpg",
+    "queries": [
+      "Amiens Cathedral Gothic facade France",
+      "Amiens cathedral nave interior light show"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Notre-Dame d'Amiens (historical)",
+    "destination": "public/images/locations/historical/cathedrale-notre-dame-damiens-historical.jpg",
+    "queries": [
+      "Amiens cathedral 19th century photograph",
+      "Amiens cathedral WWI old photo"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Saint-Étienne de Bourges (modern)",
+    "destination": "public/images/locations/cathedrale-saint-etienne-de-bourges.jpg",
+    "queries": [
+      "Bourges Cathedral Gothic portals France",
+      "Bourges cathedral stained glass interior"
+    ]
+  },
+  {
+    "label": "France · Cathédrale Saint-Étienne de Bourges (historical)",
+    "destination": "public/images/locations/historical/cathedrale-saint-etienne-de-bourges-historical.jpg",
+    "queries": [
+      "Bourges cathedral 19th century engraving",
+      "Bourges cathedral old photograph"
+    ]
+  },
+  {
+    "label": "France · Place Stanislas, Nancy (modern)",
+    "destination": "public/images/locations/place-stanislas-nancy.jpg",
+    "queries": [
+      "Place Stanislas Nancy gilded gates square",
+      "Place Stanislas Nancy fountains"
+    ]
+  },
+  {
+    "label": "France · Place Stanislas, Nancy (historical)",
+    "destination": "public/images/locations/historical/place-stanislas-nancy-historical.jpg",
+    "queries": [
+      "Place Stanislas Nancy 19th century engraving",
+      "Place Royale Nancy old photograph"
+    ]
+  },
+  {
+    "label": "France · Abbaye de Fontevraud (modern)",
+    "destination": "public/images/locations/abbaye-de-fontevraud.jpg",
+    "queries": [
+      "Abbaye de Fontevraud Plantagenet tombs",
+      "Fontevraud abbey cloister Loire"
+    ]
+  },
+  {
+    "label": "France · Abbaye de Fontevraud (historical)",
+    "destination": "public/images/locations/historical/abbaye-de-fontevraud-historical.jpg",
+    "queries": [
+      "Fontevraud Plantagenet effigies Eleanor Aquitaine",
+      "Fontevraud abbey 19th century"
+    ]
+  },
+  {
+    "label": "France · Château d'Angers & Apocalypse Tapestry (modern)",
+    "destination": "public/images/locations/chateau-dangers-apocalypse-tapestry.jpg",
+    "queries": [
+      "Chateau d'Angers towers schist France",
+      "Apocalypse Tapestry Angers medieval"
+    ]
+  },
+  {
+    "label": "France · Château d'Angers & Apocalypse Tapestry (historical)",
+    "destination": "public/images/locations/historical/chateau-dangers-apocalypse-tapestry-historical.jpg",
+    "queries": [
+      "Apocalypse Tapestry Angers 14th century detail",
+      "Chateau Angers 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Château de Pau (modern)",
+    "destination": "public/images/locations/chateau-de-pau.jpg",
+    "queries": [
+      "Chateau de Pau Henry IV birthplace Pyrenees",
+      "Pau castle turtle shell cradle"
+    ]
+  },
+  {
+    "label": "France · Château de Pau (historical)",
+    "destination": "public/images/locations/historical/chateau-de-pau-historical.jpg",
+    "queries": [
+      "Henry IV birth Pau turtle shell painting",
+      "Chateau de Pau 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Cité Médiévale de Provins (modern)",
+    "destination": "public/images/locations/cite-medievale-de-provins.jpg",
+    "queries": [
+      "Provins medieval town ramparts Tour Cesar",
+      "Provins walled city France"
+    ]
+  },
+  {
+    "label": "France · Cité Médiévale de Provins (historical)",
+    "destination": "public/images/locations/historical/cite-medievale-de-provins-historical.jpg",
+    "queries": [
+      "Provins Champagne fairs medieval illustration",
+      "Provins 19th century engraving"
+    ]
+  },
+  {
+    "label": "France · Riquewihr (modern)",
+    "destination": "public/images/locations/riquewihr.jpg",
+    "queries": [
+      "Riquewihr Alsace wine village half-timbered",
+      "Riquewihr Dolder tower France"
+    ]
+  },
+  {
+    "label": "France · Riquewihr (historical)",
+    "destination": "public/images/locations/historical/riquewihr-historical.jpg",
+    "queries": [
+      "Riquewihr Alsace old photograph",
+      "Riquewihr village vintage postcard"
+    ]
+  },
+  {
+    "label": "France · Musée d'Orsay (modern)",
+    "destination": "public/images/locations/musee-dorsay.jpg",
+    "queries": [
+      "Musee d'Orsay Paris clock interior",
+      "Orsay museum Impressionist gallery"
+    ]
+  },
+  {
+    "label": "France · Musée d'Orsay (historical)",
+    "destination": "public/images/locations/historical/musee-dorsay-historical.jpg",
+    "queries": [
+      "Gare d'Orsay railway station 1900",
+      "Orsay station Paris historical photograph"
+    ]
+  },
+  {
+    "label": "France · Grotte Chauvet 2 (modern)",
+    "destination": "public/images/locations/grotte-chauvet-2.jpg",
+    "queries": [
+      "Grotte Chauvet 2 replica cave paintings Ardeche",
+      "Chauvet cave lions horses art"
+    ]
+  },
+  {
+    "label": "France · Grotte Chauvet 2 (historical)",
+    "destination": "public/images/locations/historical/grotte-chauvet-2-historical.jpg",
+    "queries": [
+      "Chauvet cave discovery 1994 paintings",
+      "Chauvet cave prehistoric art photograph"
+    ]
+  },
+  {
+    "label": "France · Saint-Émilion (modern)",
+    "destination": "public/images/locations/saint-emilion.jpg",
+    "queries": [
+      "Saint-Emilion monolithic church bell tower",
+      "Saint-Emilion wine village vineyards"
+    ]
+  },
+  {
+    "label": "France · Saint-Émilion (historical)",
+    "destination": "public/images/locations/historical/saint-emilion-historical.jpg",
+    "queries": [
+      "Saint-Emilion 19th century engraving",
+      "Saint-Emilion underground church old photo"
+    ]
+  },
+  {
+    "label": "France · Plateau des Glières (modern)",
+    "destination": "public/images/locations/plateau-des-glieres.jpg",
+    "queries": [
+      "Plateau des Glieres memorial resistance monument",
+      "Glieres plateau Haute-Savoie alps"
+    ]
+  },
+  {
+    "label": "France · Plateau des Glières (historical)",
+    "destination": "public/images/locations/historical/plateau-des-glieres-historical.jpg",
+    "queries": [
+      "Maquis des Glieres resistance 1944",
+      "Glieres plateau WWII resistance photo"
+    ]
+  },
+  {
+    "label": "France · Château de Saumur (modern)",
+    "destination": "public/images/locations/chateau-de-saumur.jpg",
+    "queries": [
+      "Chateau de Saumur white castle Loire",
+      "Saumur castle above river France"
+    ]
+  },
+  {
+    "label": "France · Château de Saumur (historical)",
+    "destination": "public/images/locations/historical/chateau-de-saumur-historical.jpg",
+    "queries": [
+      "Chateau de Saumur Tres Riches Heures September",
+      "Cadets de Saumur 1940 defence"
+    ]
+  },
+  {
+    "label": "France · Pérouges (modern)",
+    "destination": "public/images/locations/perouges.jpg",
+    "queries": [
+      "Perouges medieval village cobbled streets France",
+      "Perouges hilltop walled village"
+    ]
+  },
+  {
+    "label": "France · Pérouges (historical)",
+    "destination": "public/images/locations/historical/perouges-historical.jpg",
+    "queries": [
+      "Perouges village old photograph early 1900s",
+      "Perouges medieval gate vintage"
+    ]
+  },
+  {
+    "label": "France · Cité du Vatican des Ducs — Palais des Ducs de Bourgogne, Dijon (modern)",
+    "destination": "public/images/locations/palais-des-ducs-de-bourgogne-dijon.jpg",
+    "queries": [
+      "Palais des Ducs Dijon Burgundy palace",
+      "Dijon ducal palace tombs museum"
+    ]
+  },
+  {
+    "label": "France · Cité du Vatican des Ducs — Palais des Ducs de Bourgogne, Dijon (historical)",
+    "destination": "public/images/locations/historical/palais-des-ducs-de-bourgogne-dijon-historical.jpg",
+    "queries": [
+      "Dukes of Burgundy tombs pleurants Dijon",
+      "Palais des Ducs Dijon 19th century"
+    ]
+  },
+  {
+    "label": "France · Château de Chenonceau Gallery — Loches Royal City (modern)",
+    "destination": "public/images/locations/loches-royal-city.jpg",
+    "queries": [
+      "Loches royal city keep donjon Touraine",
+      "Loches castle Agnes Sorel tomb"
+    ]
+  },
+  {
+    "label": "France · Château de Chenonceau Gallery — Loches Royal City (historical)",
+    "destination": "public/images/locations/historical/loches-royal-city-historical.jpg",
+    "queries": [
+      "Loches donjon 19th century engraving",
+      "Agnes Sorel tomb Loches historical"
+    ]
+  },
+  {
+    "label": "France · Palais du Tau, Reims (modern)",
+    "destination": "public/images/locations/palais-du-tau-reims.jpg",
+    "queries": [
+      "Palais du Tau Reims coronation hall",
+      "Palais du Tau Reims regalia museum"
+    ]
+  },
+  {
+    "label": "France · Palais du Tau, Reims (historical)",
+    "destination": "public/images/locations/historical/palais-du-tau-reims-historical.jpg",
+    "queries": [
+      "Reims coronation banquet Salle du Tau",
+      "Palais du Tau Reims 1914 fire WWI"
+    ]
+  },
+  {
+    "label": "France · Fort Boyard (modern)",
+    "destination": "public/images/locations/fort-boyard.jpg",
+    "queries": [
+      "Fort Boyard sea fortress Atlantic France",
+      "Fort Boyard aerial ocean fort"
+    ]
+  },
+  {
+    "label": "France · Fort Boyard (historical)",
+    "destination": "public/images/locations/historical/fort-boyard-historical.jpg",
+    "queries": [
+      "Fort Boyard 19th century construction",
+      "Fort Boyard old photograph sea fort"
+    ]
+  },
+  {
+    "label": "France · Pointe de Grave & Bordeaux Port (modern)",
+    "destination": "public/images/locations/bordeaux-port.jpg",
+    "queries": [
+      "Bordeaux Place de la Bourse water mirror",
+      "Bordeaux port Garonne quays France"
+    ]
+  },
+  {
+    "label": "France · Pointe de Grave & Bordeaux Port (historical)",
+    "destination": "public/images/locations/historical/bordeaux-port-historical.jpg",
+    "queries": [
+      "Bordeaux port 18th century engraving",
+      "Bordeaux quays historical photograph"
+    ]
+  },
+  {
+    "label": "France · Verdun — Fort Douaumont (modern)",
+    "destination": "public/images/locations/verdun-fort-douaumont.jpg",
+    "queries": [
+      "Fort Douaumont Verdun today grass covered",
+      "Fort Douaumont interior tunnels Verdun"
+    ]
+  },
+  {
+    "label": "France · Verdun — Fort Douaumont (historical)",
+    "destination": "public/images/locations/historical/verdun-fort-douaumont-historical.jpg",
+    "queries": [
+      "Fort Douaumont 1916 Verdun battle",
+      "Fort Douaumont captured German soldiers 1916"
+    ]
+  },
+  {
     "label": "Italy · Colosseum (modern)",
     "destination": "public/images/locations/colosseum.jpg",
     "queries": [
@@ -2416,6 +4032,598 @@
     ]
   },
   {
+    "label": "Italy · Salerno Landings (Operation Avalanche) (modern)",
+    "destination": "public/images/locations/salerno-landings-operation-avalanche.jpg",
+    "queries": [
+      "Salerno beach Italy today",
+      "Salerno waterfront promenade"
+    ]
+  },
+  {
+    "label": "Italy · Salerno Landings (Operation Avalanche) (historical)",
+    "destination": "public/images/locations/historical/salerno-landings-operation-avalanche-historical.jpg",
+    "queries": [
+      "Salerno landing 1943 photograph",
+      "Operation Avalanche Salerno WWII"
+    ]
+  },
+  {
+    "label": "Italy · Gela (Sicily Landings) (modern)",
+    "destination": "public/images/locations/gela-sicily-landings.jpg",
+    "queries": [
+      "Gela Sicily beach today",
+      "Gela coastline Sicily"
+    ]
+  },
+  {
+    "label": "Italy · Gela (Sicily Landings) (historical)",
+    "destination": "public/images/locations/historical/gela-sicily-landings-historical.jpg",
+    "queries": [
+      "Gela landing 1943 photograph",
+      "Operation Husky Sicily WWII troops"
+    ]
+  },
+  {
+    "label": "Italy · Marzabotto (Monte Sole Massacre) (modern)",
+    "destination": "public/images/locations/marzabotto-monte-sole-massacre.jpg",
+    "queries": [
+      "Monte Sole Marzabotto memorial park",
+      "Marzabotto massacre memorial"
+    ]
+  },
+  {
+    "label": "Italy · Marzabotto (Monte Sole Massacre) (historical)",
+    "destination": "public/images/locations/historical/marzabotto-monte-sole-massacre-historical.jpg",
+    "queries": [
+      "Marzabotto massacre 1944 photograph",
+      "Monte Sole 1944 victims memorial"
+    ]
+  },
+  {
+    "label": "Italy · Salò (Italian Social Republic) (modern)",
+    "destination": "public/images/locations/salo-italian-social-republic.jpg",
+    "queries": [
+      "Salò Lake Garda town",
+      "Salò lakefront Italy"
+    ]
+  },
+  {
+    "label": "Italy · Salò (Italian Social Republic) (historical)",
+    "destination": "public/images/locations/historical/salo-italian-social-republic-historical.jpg",
+    "queries": [
+      "Salò Republic 1944 photograph",
+      "Italian Social Republic Mussolini Salò"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Carignano, Turin (modern)",
+    "destination": "public/images/locations/palazzo-carignano-turin.jpg",
+    "queries": [
+      "Palazzo Carignano Turin facade",
+      "Museo Risorgimento Turin parliament hall"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Carignano, Turin (historical)",
+    "destination": "public/images/locations/historical/palazzo-carignano-turin-historical.jpg",
+    "queries": [
+      "Palazzo Carignano 1861 parliament",
+      "Turin Risorgimento 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Porta Pia, Rome (modern)",
+    "destination": "public/images/locations/porta-pia-rome.jpg",
+    "queries": [
+      "Porta Pia Rome gate today",
+      "Porta Pia monument Rome"
+    ]
+  },
+  {
+    "label": "Italy · Porta Pia, Rome (historical)",
+    "destination": "public/images/locations/historical/porta-pia-rome-historical.jpg",
+    "queries": [
+      "Porta Pia breach 1870 photograph",
+      "Breach of Porta Pia painting 1870"
+    ]
+  },
+  {
+    "label": "Italy · Marsala (Garibaldi's Landing) (modern)",
+    "destination": "public/images/locations/marsala-garibaldis-landing.jpg",
+    "queries": [
+      "Marsala Sicily port today",
+      "Marsala Garibaldi monument"
+    ]
+  },
+  {
+    "label": "Italy · Marsala (Garibaldi's Landing) (historical)",
+    "destination": "public/images/locations/historical/marsala-garibaldis-landing-historical.jpg",
+    "queries": [
+      "Garibaldi landing Marsala 1860 painting",
+      "Garibaldi Thousand Sicily 1860"
+    ]
+  },
+  {
+    "label": "Italy · Il Vittoriano (Altare della Patria) (modern)",
+    "destination": "public/images/locations/il-vittoriano-altare-della-patria.jpg",
+    "queries": [
+      "Vittoriano Rome white monument",
+      "Altare della Patria Piazza Venezia"
+    ]
+  },
+  {
+    "label": "Italy · Il Vittoriano (Altare della Patria) (historical)",
+    "destination": "public/images/locations/historical/il-vittoriano-altare-della-patria-historical.jpg",
+    "queries": [
+      "Vittoriano 1911 inauguration photograph",
+      "Piazza Venezia Mussolini balcony 1930s"
+    ]
+  },
+  {
+    "label": "Italy · Naples Underground (Napoli Sotterranea) (modern)",
+    "destination": "public/images/locations/naples-underground-napoli-sotterranea.jpg",
+    "queries": [
+      "Napoli Sotterranea underground tunnels",
+      "Naples underground aqueduct cistern"
+    ]
+  },
+  {
+    "label": "Italy · Naples Underground (Napoli Sotterranea) (historical)",
+    "destination": "public/images/locations/historical/naples-underground-napoli-sotterranea-historical.jpg",
+    "queries": [
+      "Naples air raid shelter WWII photograph",
+      "Four Days of Naples 1943"
+    ]
+  },
+  {
+    "label": "Italy · Ducal Palace of Urbino (modern)",
+    "destination": "public/images/locations/ducal-palace-of-urbino.jpg",
+    "queries": [
+      "Ducal Palace Urbino towers",
+      "Urbino Studiolo Federico Montefeltro"
+    ]
+  },
+  {
+    "label": "Italy · Ducal Palace of Urbino (historical)",
+    "destination": "public/images/locations/historical/ducal-palace-of-urbino-historical.jpg",
+    "queries": [
+      "Urbino palace 19th century photograph",
+      "Urbino Ducal Palace old engraving"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Ducale, Mantua (modern)",
+    "destination": "public/images/locations/palazzo-ducale-mantua.jpg",
+    "queries": [
+      "Palazzo Ducale Mantua Camera degli Sposi",
+      "Mantegna oculus ceiling Mantua"
+    ]
+  },
+  {
+    "label": "Italy · Palazzo Ducale, Mantua (historical)",
+    "destination": "public/images/locations/historical/palazzo-ducale-mantua-historical.jpg",
+    "queries": [
+      "Palazzo Ducale Mantua old photograph",
+      "Mantua palace 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Scrovegni Chapel, Padua (modern)",
+    "destination": "public/images/locations/scrovegni-chapel-padua.jpg",
+    "queries": [
+      "Scrovegni Chapel Giotto frescoes interior",
+      "Scrovegni Chapel blue ceiling Padua"
+    ]
+  },
+  {
+    "label": "Italy · Scrovegni Chapel, Padua (historical)",
+    "destination": "public/images/locations/historical/scrovegni-chapel-padua-historical.jpg",
+    "queries": [
+      "Scrovegni Chapel 19th century photograph",
+      "Giotto Padua frescoes old print"
+    ]
+  },
+  {
+    "label": "Italy · Two Towers of Bologna (modern)",
+    "destination": "public/images/locations/two-towers-of-bologna.jpg",
+    "queries": [
+      "Two Towers Bologna Asinelli Garisenda",
+      "Bologna towers skyline"
+    ]
+  },
+  {
+    "label": "Italy · Two Towers of Bologna (historical)",
+    "destination": "public/images/locations/historical/two-towers-of-bologna-historical.jpg",
+    "queries": [
+      "Bologna Two Towers 19th century photograph",
+      "Bologna towers vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Castello Estense, Ferrara (modern)",
+    "destination": "public/images/locations/castello-estense-ferrara.jpg",
+    "queries": [
+      "Castello Estense Ferrara moat",
+      "Este Castle Ferrara towers"
+    ]
+  },
+  {
+    "label": "Italy · Castello Estense, Ferrara (historical)",
+    "destination": "public/images/locations/historical/castello-estense-ferrara-historical.jpg",
+    "queries": [
+      "Castello Estense 19th century photograph",
+      "Ferrara castle vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Certosa di Pavia (modern)",
+    "destination": "public/images/locations/certosa-di-pavia.jpg",
+    "queries": [
+      "Certosa di Pavia facade marble",
+      "Certosa di Pavia cloister"
+    ]
+  },
+  {
+    "label": "Italy · Certosa di Pavia (historical)",
+    "destination": "public/images/locations/historical/certosa-di-pavia-historical.jpg",
+    "queries": [
+      "Certosa di Pavia 19th century photograph",
+      "Certosa Pavia vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Valley of the Temples, Agrigento (modern)",
+    "destination": "public/images/locations/valley-of-the-temples-agrigento.jpg",
+    "queries": [
+      "Valley of the Temples Agrigento Concordia",
+      "Agrigento Greek temples ridge"
+    ]
+  },
+  {
+    "label": "Italy · Valley of the Temples, Agrigento (historical)",
+    "destination": "public/images/locations/historical/valley-of-the-temples-agrigento-historical.jpg",
+    "queries": [
+      "Agrigento temples 19th century photograph",
+      "Valley of Temples vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Neapolis Archaeological Park, Syracuse (modern)",
+    "destination": "public/images/locations/neapolis-archaeological-park-syracuse.jpg",
+    "queries": [
+      "Syracuse Greek theatre Neapolis",
+      "Ear of Dionysius Syracuse quarry"
+    ]
+  },
+  {
+    "label": "Italy · Neapolis Archaeological Park, Syracuse (historical)",
+    "destination": "public/images/locations/historical/neapolis-archaeological-park-syracuse-historical.jpg",
+    "queries": [
+      "Syracuse Greek theatre 19th century photograph",
+      "Syracuse Sicily vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Temple of Segesta (modern)",
+    "destination": "public/images/locations/temple-of-segesta.jpg",
+    "queries": [
+      "Temple of Segesta Sicily hilltop",
+      "Segesta Doric temple"
+    ]
+  },
+  {
+    "label": "Italy · Temple of Segesta (historical)",
+    "destination": "public/images/locations/historical/temple-of-segesta-historical.jpg",
+    "queries": [
+      "Segesta temple 19th century photograph",
+      "Segesta Sicily vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Paestum Greek Temples (modern)",
+    "destination": "public/images/locations/paestum-greek-temples.jpg",
+    "queries": [
+      "Paestum Greek temples Doric",
+      "Paestum Tomb of the Diver fresco"
+    ]
+  },
+  {
+    "label": "Italy · Paestum Greek Temples (historical)",
+    "destination": "public/images/locations/historical/paestum-greek-temples-historical.jpg",
+    "queries": [
+      "Paestum temples 19th century photograph",
+      "Paestum vintage engraving Piranesi"
+    ]
+  },
+  {
+    "label": "Italy · Monreale Cathedral (modern)",
+    "destination": "public/images/locations/monreale-cathedral.jpg",
+    "queries": [
+      "Monreale Cathedral golden mosaics interior",
+      "Monreale cloister columns"
+    ]
+  },
+  {
+    "label": "Italy · Monreale Cathedral (historical)",
+    "destination": "public/images/locations/historical/monreale-cathedral-historical.jpg",
+    "queries": [
+      "Monreale Cathedral 19th century photograph",
+      "Monreale Sicily vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Villa Romana del Casale (modern)",
+    "destination": "public/images/locations/villa-romana-del-casale.jpg",
+    "queries": [
+      "Villa Romana del Casale bikini girls mosaic",
+      "Piazza Armerina Roman villa mosaics"
+    ]
+  },
+  {
+    "label": "Italy · Villa Romana del Casale (historical)",
+    "destination": "public/images/locations/historical/villa-romana-del-casale-historical.jpg",
+    "queries": [
+      "Villa Casale excavation old photograph",
+      "Piazza Armerina mosaics 1960s"
+    ]
+  },
+  {
+    "label": "Italy · Reggia di Caserta (modern)",
+    "destination": "public/images/locations/reggia-di-caserta.jpg",
+    "queries": [
+      "Reggia di Caserta grand staircase",
+      "Caserta palace park cascade fountains"
+    ]
+  },
+  {
+    "label": "Italy · Reggia di Caserta (historical)",
+    "destination": "public/images/locations/historical/reggia-di-caserta-historical.jpg",
+    "queries": [
+      "Reggia di Caserta 19th century photograph",
+      "Caserta palace 1945 surrender"
+    ]
+  },
+  {
+    "label": "Italy · Turin Cathedral (Shroud of Turin) (modern)",
+    "destination": "public/images/locations/turin-cathedral-shroud-of-turin.jpg",
+    "queries": [
+      "Turin Cathedral facade",
+      "Shroud of Turin display"
+    ]
+  },
+  {
+    "label": "Italy · Turin Cathedral (Shroud of Turin) (historical)",
+    "destination": "public/images/locations/historical/turin-cathedral-shroud-of-turin-historical.jpg",
+    "queries": [
+      "Shroud of Turin 1898 photograph",
+      "Turin Cathedral 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Mole Antonelliana, Turin (modern)",
+    "destination": "public/images/locations/mole-antonelliana-turin.jpg",
+    "queries": [
+      "Mole Antonelliana Turin tower",
+      "Cinema Museum Turin interior Mole"
+    ]
+  },
+  {
+    "label": "Italy · Mole Antonelliana, Turin (historical)",
+    "destination": "public/images/locations/historical/mole-antonelliana-turin-historical.jpg",
+    "queries": [
+      "Mole Antonelliana 19th century photograph",
+      "Mole Antonelliana 1904 spire collapse"
+    ]
+  },
+  {
+    "label": "Italy · Egyptian Museum, Turin (modern)",
+    "destination": "public/images/locations/egyptian-museum-turin.jpg",
+    "queries": [
+      "Egyptian Museum Turin statue gallery",
+      "Museo Egizio Turin artefacts"
+    ]
+  },
+  {
+    "label": "Italy · Egyptian Museum, Turin (historical)",
+    "destination": "public/images/locations/historical/egyptian-museum-turin-historical.jpg",
+    "queries": [
+      "Egyptian Museum Turin old photograph",
+      "Museo Egizio 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Basilica di Sant'Ambrogio, Milan (modern)",
+    "destination": "public/images/locations/basilica-di-santambrogio-milan.jpg",
+    "queries": [
+      "Basilica Sant'Ambrogio Milan atrium",
+      "Sant'Ambrogio Milan interior golden altar"
+    ]
+  },
+  {
+    "label": "Italy · Basilica di Sant'Ambrogio, Milan (historical)",
+    "destination": "public/images/locations/historical/basilica-di-santambrogio-milan-historical.jpg",
+    "queries": [
+      "Sant'Ambrogio Milan 19th century photograph",
+      "Basilica Sant'Ambrogio old engraving"
+    ]
+  },
+  {
+    "label": "Italy · Camposanto Monumentale, Pisa (modern)",
+    "destination": "public/images/locations/camposanto-monumentale-pisa.jpg",
+    "queries": [
+      "Camposanto Pisa cloister frescoes",
+      "Camposanto Monumentale Pisa interior"
+    ]
+  },
+  {
+    "label": "Italy · Camposanto Monumentale, Pisa (historical)",
+    "destination": "public/images/locations/historical/camposanto-monumentale-pisa-historical.jpg",
+    "queries": [
+      "Camposanto Pisa 1944 bomb damage",
+      "Triumph of Death Pisa fresco old photograph"
+    ]
+  },
+  {
+    "label": "Italy · Old Port of Genoa & Columbus's House (modern)",
+    "destination": "public/images/locations/old-port-of-genoa-columbuss-house.jpg",
+    "queries": [
+      "Old Port Genoa Renzo Piano",
+      "Columbus house Genoa Porta Soprana"
+    ]
+  },
+  {
+    "label": "Italy · Old Port of Genoa & Columbus's House (historical)",
+    "destination": "public/images/locations/historical/old-port-of-genoa-columbuss-house-historical.jpg",
+    "queries": [
+      "Genoa old port 19th century photograph",
+      "Genoa harbour vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Hadrian's Villa, Tivoli (modern)",
+    "destination": "public/images/locations/hadrians-villa-tivoli.jpg",
+    "queries": [
+      "Hadrian's Villa Tivoli Canopus",
+      "Hadrian's Villa Maritime Theatre"
+    ]
+  },
+  {
+    "label": "Italy · Hadrian's Villa, Tivoli (historical)",
+    "destination": "public/images/locations/historical/hadrians-villa-tivoli-historical.jpg",
+    "queries": [
+      "Hadrian's Villa Piranesi engraving",
+      "Villa Adriana 19th century photograph"
+    ]
+  },
+  {
+    "label": "Italy · Villa d'Este, Tivoli (modern)",
+    "destination": "public/images/locations/villa-deste-tivoli.jpg",
+    "queries": [
+      "Villa d'Este Tivoli fountains",
+      "Villa d'Este Hundred Fountains garden"
+    ]
+  },
+  {
+    "label": "Italy · Villa d'Este, Tivoli (historical)",
+    "destination": "public/images/locations/historical/villa-deste-tivoli-historical.jpg",
+    "queries": [
+      "Villa d'Este 19th century photograph",
+      "Villa d'Este Tivoli vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Sassi di Matera (modern)",
+    "destination": "public/images/locations/sassi-di-matera.jpg",
+    "queries": [
+      "Sassi di Matera cave town",
+      "Matera Sassi panorama night"
+    ]
+  },
+  {
+    "label": "Italy · Sassi di Matera (historical)",
+    "destination": "public/images/locations/historical/sassi-di-matera-historical.jpg",
+    "queries": [
+      "Matera Sassi 1950s poverty photograph",
+      "Sassi di Matera vintage photograph"
+    ]
+  },
+  {
+    "label": "Italy · Castel del Monte, Apulia (modern)",
+    "destination": "public/images/locations/castel-del-monte-apulia.jpg",
+    "queries": [
+      "Castel del Monte octagonal castle Apulia",
+      "Castel del Monte aerial"
+    ]
+  },
+  {
+    "label": "Italy · Castel del Monte, Apulia (historical)",
+    "destination": "public/images/locations/historical/castel-del-monte-apulia-historical.jpg",
+    "queries": [
+      "Castel del Monte 19th century photograph",
+      "Castel del Monte old engraving"
+    ]
+  },
+  {
+    "label": "Italy · Walls of Lucca (modern)",
+    "destination": "public/images/locations/walls-of-lucca.jpg",
+    "queries": [
+      "Walls of Lucca tree-lined promenade",
+      "Lucca city walls aerial"
+    ]
+  },
+  {
+    "label": "Italy · Walls of Lucca (historical)",
+    "destination": "public/images/locations/historical/walls-of-lucca-historical.jpg",
+    "queries": [
+      "Lucca walls 19th century photograph",
+      "Lucca ramparts vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Amalfi & the Amalfi Coast (modern)",
+    "destination": "public/images/locations/amalfi-the-amalfi-coast.jpg",
+    "queries": [
+      "Amalfi Coast cliff village",
+      "Amalfi cathedral staircase"
+    ]
+  },
+  {
+    "label": "Italy · Amalfi & the Amalfi Coast (historical)",
+    "destination": "public/images/locations/historical/amalfi-the-amalfi-coast-historical.jpg",
+    "queries": [
+      "Amalfi 19th century photograph",
+      "Amalfi Coast vintage engraving"
+    ]
+  },
+  {
+    "label": "Italy · Basilica di San Clemente, Rome (modern)",
+    "destination": "public/images/locations/basilica-di-san-clemente-rome.jpg",
+    "queries": [
+      "San Clemente Rome apse mosaic",
+      "San Clemente Mithraeum underground"
+    ]
+  },
+  {
+    "label": "Italy · Basilica di San Clemente, Rome (historical)",
+    "destination": "public/images/locations/historical/basilica-di-san-clemente-rome-historical.jpg",
+    "queries": [
+      "San Clemente Rome excavation old photograph",
+      "San Clemente 19th century engraving"
+    ]
+  },
+  {
+    "label": "Italy · Catacombs of San Callisto, Rome (modern)",
+    "destination": "public/images/locations/catacombs-of-san-callisto-rome.jpg",
+    "queries": [
+      "Catacombs of San Callisto tunnels",
+      "Rome catacombs early Christian frescoes"
+    ]
+  },
+  {
+    "label": "Italy · Catacombs of San Callisto, Rome (historical)",
+    "destination": "public/images/locations/historical/catacombs-of-san-callisto-rome-historical.jpg",
+    "queries": [
+      "Rome catacombs 19th century engraving",
+      "San Callisto catacomb old photograph"
+    ]
+  },
+  {
+    "label": "Italy · Trajan's Markets, Rome (modern)",
+    "destination": "public/images/locations/trajans-markets-rome.jpg",
+    "queries": [
+      "Trajan's Markets Rome hemicycle",
+      "Trajan's Markets great hall interior"
+    ]
+  },
+  {
+    "label": "Italy · Trajan's Markets, Rome (historical)",
+    "destination": "public/images/locations/historical/trajans-markets-rome-historical.jpg",
+    "queries": [
+      "Trajan's Markets 19th century photograph",
+      "Trajan's Markets old engraving"
+    ]
+  },
+  {
     "label": "Spain · Alhambra (modern)",
     "destination": "public/images/locations/alhambra.jpg",
     "queries": [
@@ -2928,6 +5136,310 @@
     ]
   },
   {
+    "label": "Spain · Sagrada Família (modern)",
+    "destination": "public/images/locations/sagrada-familia.jpg",
+    "queries": [
+      "Sagrada Familia Barcelona towers",
+      "Sagrada Familia interior columns light"
+    ]
+  },
+  {
+    "label": "Spain · Sagrada Família (historical)",
+    "destination": "public/images/locations/historical/sagrada-familia-historical.jpg",
+    "queries": [
+      "Sagrada Familia construction old photograph Gaudi",
+      "Sagrada Familia 1920s Barcelona"
+    ]
+  },
+  {
+    "label": "Spain · Park Güell (modern)",
+    "destination": "public/images/locations/park-guell.jpg",
+    "queries": [
+      "Park Guell Barcelona mosaic bench",
+      "Park Guell salamander staircase Gaudi"
+    ]
+  },
+  {
+    "label": "Spain · Park Güell (historical)",
+    "destination": "public/images/locations/historical/park-guell-historical.jpg",
+    "queries": [
+      "Park Guell old photograph 1920s",
+      "Park Guell Gaudi construction vintage"
+    ]
+  },
+  {
+    "label": "Spain · Barri Gòtic (Gothic Quarter) (modern)",
+    "destination": "public/images/locations/barri-gotic-gothic-quarter.jpg",
+    "queries": [
+      "Barcelona Gothic Quarter medieval streets",
+      "Barcelona Cathedral cloister geese"
+    ]
+  },
+  {
+    "label": "Spain · Barri Gòtic (Gothic Quarter) (historical)",
+    "destination": "public/images/locations/historical/barri-gotic-gothic-quarter-historical.jpg",
+    "queries": [
+      "Barri Gotic Barcelona old photograph",
+      "Barcelona Gothic Quarter vintage postcard"
+    ]
+  },
+  {
+    "label": "Spain · Montjuïc Castle (modern)",
+    "destination": "public/images/locations/montjuic-castle.jpg",
+    "queries": [
+      "Montjuic Castle Barcelona fortress view",
+      "Castell de Montjuic ramparts port"
+    ]
+  },
+  {
+    "label": "Spain · Montjuïc Castle (historical)",
+    "destination": "public/images/locations/historical/montjuic-castle-historical.jpg",
+    "queries": [
+      "Montjuic Castle old photograph Barcelona",
+      "Lluis Companys execution Montjuic 1940"
+    ]
+  },
+  {
+    "label": "Spain · Montserrat Monastery (modern)",
+    "destination": "public/images/locations/montserrat-monastery.jpg",
+    "queries": [
+      "Montserrat monastery mountain Catalonia",
+      "Montserrat basilica Black Madonna"
+    ]
+  },
+  {
+    "label": "Spain · Montserrat Monastery (historical)",
+    "destination": "public/images/locations/historical/montserrat-monastery-historical.jpg",
+    "queries": [
+      "Montserrat monastery old photograph 19th century",
+      "Montserrat Catalonia vintage engraving"
+    ]
+  },
+  {
+    "label": "Spain · Dalí Theatre-Museum, Figueres (modern)",
+    "destination": "public/images/locations/dali-theatre-museum-figueres.jpg",
+    "queries": [
+      "Dali Theatre Museum Figueres eggs exterior",
+      "Dali museum Figueres Mae West room"
+    ]
+  },
+  {
+    "label": "Spain · Dalí Theatre-Museum, Figueres (historical)",
+    "destination": "public/images/locations/historical/dali-theatre-museum-figueres-historical.jpg",
+    "queries": [
+      "Figueres theatre ruins Civil War",
+      "Salvador Dali Figueres 1974 museum opening"
+    ]
+  },
+  {
+    "label": "Spain · Las Ramblas and the Barcelona May Days Sites (modern)",
+    "destination": "public/images/locations/las-ramblas-barcelona-may-days.jpg",
+    "queries": [
+      "Las Ramblas Barcelona boulevard",
+      "Placa de Catalunya Barcelona telephone building"
+    ]
+  },
+  {
+    "label": "Spain · Las Ramblas and the Barcelona May Days Sites (historical)",
+    "destination": "public/images/locations/historical/las-ramblas-barcelona-may-days-historical.jpg",
+    "queries": [
+      "Barcelona May Days 1937 barricades photograph",
+      "Barcelona 1937 street fighting Civil War"
+    ]
+  },
+  {
+    "label": "Spain · El Greco Museum and House, Toledo (modern)",
+    "destination": "public/images/locations/el-greco-museum-toledo.jpg",
+    "queries": [
+      "El Greco museum Toledo house courtyard",
+      "El Greco Toledo museum paintings"
+    ]
+  },
+  {
+    "label": "Spain · El Greco Museum and House, Toledo (historical)",
+    "destination": "public/images/locations/historical/el-greco-museum-toledo-historical.jpg",
+    "queries": [
+      "El Greco View of Toledo painting",
+      "El Greco Burial Count Orgaz"
+    ]
+  },
+  {
+    "label": "Spain · Plaza Mayor of Valladolid (modern)",
+    "destination": "public/images/locations/plaza-mayor-of-valladolid.jpg",
+    "queries": [
+      "Plaza Mayor Valladolid red arcades",
+      "Valladolid main square Spain"
+    ]
+  },
+  {
+    "label": "Spain · Plaza Mayor of Valladolid (historical)",
+    "destination": "public/images/locations/historical/plaza-mayor-of-valladolid-historical.jpg",
+    "queries": [
+      "Valladolid Plaza Mayor old photograph",
+      "Columbus house Valladolid engraving"
+    ]
+  },
+  {
+    "label": "Spain · Guggenheim Museum Bilbao (modern)",
+    "destination": "public/images/locations/guggenheim-museum-bilbao.jpg",
+    "queries": [
+      "Guggenheim Bilbao titanium exterior",
+      "Guggenheim Bilbao Puppy Koons river"
+    ]
+  },
+  {
+    "label": "Spain · Guggenheim Museum Bilbao (historical)",
+    "destination": "public/images/locations/historical/guggenheim-museum-bilbao-historical.jpg",
+    "queries": [
+      "Bilbao industrial port old photograph",
+      "Bilbao river shipyards 1980s"
+    ]
+  },
+  {
+    "label": "Spain · Aljafería Palace, Zaragoza (modern)",
+    "destination": "public/images/locations/aljaferia-palace-zaragoza.jpg",
+    "queries": [
+      "Aljaferia palace Zaragoza interior arches",
+      "Aljaferia Zaragoza golden hall"
+    ]
+  },
+  {
+    "label": "Spain · Aljafería Palace, Zaragoza (historical)",
+    "destination": "public/images/locations/historical/aljaferia-palace-zaragoza-historical.jpg",
+    "queries": [
+      "Aljaferia Zaragoza old photograph",
+      "Aljaferia palace engraving 19th century"
+    ]
+  },
+  {
+    "label": "Spain · Basilica del Pilar, Zaragoza (modern)",
+    "destination": "public/images/locations/basilica-del-pilar-zaragoza.jpg",
+    "queries": [
+      "Basilica del Pilar Zaragoza domes river",
+      "Basilica Pilar Zaragoza interior"
+    ]
+  },
+  {
+    "label": "Spain · Basilica del Pilar, Zaragoza (historical)",
+    "destination": "public/images/locations/historical/basilica-del-pilar-zaragoza-historical.jpg",
+    "queries": [
+      "Basilica del Pilar Zaragoza old photograph",
+      "Zaragoza Pilar 1936 bombs"
+    ]
+  },
+  {
+    "label": "Spain · Roman Walls of Lugo (modern)",
+    "destination": "public/images/locations/roman-walls-of-lugo.jpg",
+    "queries": [
+      "Roman walls Lugo Galicia complete circuit",
+      "Lugo Roman wall walkway towers"
+    ]
+  },
+  {
+    "label": "Spain · Roman Walls of Lugo (historical)",
+    "destination": "public/images/locations/historical/roman-walls-of-lugo-historical.jpg",
+    "queries": [
+      "Lugo Roman walls old photograph",
+      "Lugo muralla romana engraving"
+    ]
+  },
+  {
+    "label": "Spain · Tower of Hercules, A Coruña (modern)",
+    "destination": "public/images/locations/tower-of-hercules-a-coruna.jpg",
+    "queries": [
+      "Tower of Hercules A Coruna lighthouse",
+      "Torre de Hercules Galicia coast"
+    ]
+  },
+  {
+    "label": "Spain · Tower of Hercules, A Coruña (historical)",
+    "destination": "public/images/locations/historical/tower-of-hercules-a-coruna-historical.jpg",
+    "queries": [
+      "Tower of Hercules old photograph 19th century",
+      "Torre de Hercules engraving"
+    ]
+  },
+  {
+    "label": "Spain · Royal Monastery of Guadalupe (modern)",
+    "destination": "public/images/locations/royal-monastery-of-guadalupe.jpg",
+    "queries": [
+      "Royal Monastery Guadalupe Extremadura",
+      "Guadalupe monastery Spain cloister"
+    ]
+  },
+  {
+    "label": "Spain · Royal Monastery of Guadalupe (historical)",
+    "destination": "public/images/locations/historical/royal-monastery-of-guadalupe-historical.jpg",
+    "queries": [
+      "Guadalupe monastery old photograph",
+      "Guadalupe Extremadura engraving"
+    ]
+  },
+  {
+    "label": "Spain · Trujillo (modern)",
+    "destination": "public/images/locations/trujillo.jpg",
+    "queries": [
+      "Trujillo Plaza Mayor Pizarro statue",
+      "Trujillo Extremadura medieval town"
+    ]
+  },
+  {
+    "label": "Spain · Trujillo (historical)",
+    "destination": "public/images/locations/historical/trujillo-historical.jpg",
+    "queries": [
+      "Trujillo old photograph Extremadura",
+      "Pizarro conquistador engraving"
+    ]
+  },
+  {
+    "label": "Spain · Cáceres Old Town (modern)",
+    "destination": "public/images/locations/caceres-old-town.jpg",
+    "queries": [
+      "Caceres old town medieval towers",
+      "Caceres Plaza Santa Maria Spain"
+    ]
+  },
+  {
+    "label": "Spain · Cáceres Old Town (historical)",
+    "destination": "public/images/locations/historical/caceres-old-town-historical.jpg",
+    "queries": [
+      "Caceres old photograph Extremadura",
+      "Caceres medieval town engraving"
+    ]
+  },
+  {
+    "label": "Spain · Mérida Roman Aqueduct (Los Milagros) (modern)",
+    "destination": "public/images/locations/merida-roman-aqueduct-los-milagros.jpg",
+    "queries": [
+      "Merida Los Milagros aqueduct arches storks",
+      "Acueducto de los Milagros Merida"
+    ]
+  },
+  {
+    "label": "Spain · Mérida Roman Aqueduct (Los Milagros) (historical)",
+    "destination": "public/images/locations/historical/merida-roman-aqueduct-los-milagros-historical.jpg",
+    "queries": [
+      "Merida aqueduct old photograph",
+      "Los Milagros Merida engraving"
+    ]
+  },
+  {
+    "label": "Spain · Segovia Alcázar (modern)",
+    "destination": "public/images/locations/segovia-alcazar.jpg",
+    "queries": [
+      "Segovia Alcazar castle turrets",
+      "Alcazar de Segovia ship prow view"
+    ]
+  },
+  {
+    "label": "Spain · Segovia Alcázar (historical)",
+    "destination": "public/images/locations/historical/segovia-alcazar-historical.jpg",
+    "queries": [
+      "Segovia Alcazar old photograph 19th century",
+      "Segovia Alcazar engraving"
+    ]
+  },
+  {
     "label": "Switzerland · Rütli Meadow (modern)",
     "destination": "public/images/locations/rutli-meadow.jpg",
     "queries": [
@@ -3245,6 +5757,1158 @@
     "queries": [
       "Aventicum Roman ruins engraving",
       "Marcus Aurelius gold bust Avenches"
+    ]
+  },
+  {
+    "label": "Austria · Schönbrunn Palace, Vienna (modern)",
+    "destination": "public/images/locations/schonbrunn-palace-vienna.jpg",
+    "queries": [
+      "Schönbrunn Palace Vienna facade",
+      "Schonbrunn gardens Gloriette Vienna"
+    ]
+  },
+  {
+    "label": "Austria · Schönbrunn Palace, Vienna (historical)",
+    "destination": "public/images/locations/historical/schonbrunn-palace-vienna-historical.jpg",
+    "queries": [
+      "Schönbrunn Palace Maria Theresa era painting",
+      "Schönbrunn Vienna old photograph"
+    ]
+  },
+  {
+    "label": "Austria · Hofburg Palace, Vienna (modern)",
+    "destination": "public/images/locations/hofburg-palace-vienna.jpg",
+    "queries": [
+      "Hofburg Palace Vienna Michaelertor",
+      "Hofburg imperial palace Vienna"
+    ]
+  },
+  {
+    "label": "Austria · Hofburg Palace, Vienna (historical)",
+    "destination": "public/images/locations/historical/hofburg-palace-vienna-historical.jpg",
+    "queries": [
+      "Franz Joseph Hofburg Vienna old photo",
+      "Empress Sisi Hofburg portrait"
+    ]
+  },
+  {
+    "label": "Austria · St. Stephen's Cathedral, Vienna (modern)",
+    "destination": "public/images/locations/st-stephens-cathedral-vienna.jpg",
+    "queries": [
+      "St Stephen's Cathedral Vienna tiled roof",
+      "Stephansdom Vienna spire"
+    ]
+  },
+  {
+    "label": "Austria · St. Stephen's Cathedral, Vienna (historical)",
+    "destination": "public/images/locations/historical/st-stephens-cathedral-vienna-historical.jpg",
+    "queries": [
+      "Stephansdom Vienna 1945 fire damage",
+      "St Stephen's Cathedral Vienna old engraving"
+    ]
+  },
+  {
+    "label": "Austria · Belvedere Palace, Vienna (modern)",
+    "destination": "public/images/locations/belvedere-palace-vienna.jpg",
+    "queries": [
+      "Belvedere Palace Vienna Baroque garden",
+      "Upper Belvedere Vienna"
+    ]
+  },
+  {
+    "label": "Austria · Belvedere Palace, Vienna (historical)",
+    "destination": "public/images/locations/historical/belvedere-palace-vienna-historical.jpg",
+    "queries": [
+      "Austrian State Treaty 1955 balcony Figl",
+      "Belvedere Vienna old photo"
+    ]
+  },
+  {
+    "label": "Austria · Kahlenberg (Siege of Vienna 1683) (modern)",
+    "destination": "public/images/locations/kahlenberg-vienna.jpg",
+    "queries": [
+      "Kahlenberg Vienna viewpoint",
+      "Kahlenberg hill Vienna panorama"
+    ]
+  },
+  {
+    "label": "Austria · Kahlenberg (Siege of Vienna 1683) (historical)",
+    "destination": "public/images/locations/historical/kahlenberg-vienna-historical.jpg",
+    "queries": [
+      "Battle of Vienna 1683 Sobieski painting",
+      "winged hussars Vienna 1683"
+    ]
+  },
+  {
+    "label": "Austria · Heldenplatz, Vienna (modern)",
+    "destination": "public/images/locations/heldenplatz-vienna.jpg",
+    "queries": [
+      "Heldenplatz Vienna Hofburg",
+      "Heldenplatz Vienna statues panorama"
+    ]
+  },
+  {
+    "label": "Austria · Heldenplatz, Vienna (historical)",
+    "destination": "public/images/locations/historical/heldenplatz-vienna-historical.jpg",
+    "queries": [
+      "Hitler Heldenplatz 1938 Anschluss crowd",
+      "Anschluss Vienna 1938 photograph"
+    ]
+  },
+  {
+    "label": "Austria · Sigmund Freud Museum, Vienna (modern)",
+    "destination": "public/images/locations/sigmund-freud-museum-vienna.jpg",
+    "queries": [
+      "Freud Museum Berggasse 19 Vienna",
+      "Sigmund Freud study couch Vienna"
+    ]
+  },
+  {
+    "label": "Austria · Sigmund Freud Museum, Vienna (historical)",
+    "destination": "public/images/locations/historical/sigmund-freud-museum-vienna-historical.jpg",
+    "queries": [
+      "Sigmund Freud Vienna 1930s photograph",
+      "Freud Berggasse 19 old photo"
+    ]
+  },
+  {
+    "label": "Austria · Vienna State Opera (modern)",
+    "destination": "public/images/locations/vienna-state-opera.jpg",
+    "queries": [
+      "Vienna State Opera house facade",
+      "Wiener Staatsoper interior auditorium"
+    ]
+  },
+  {
+    "label": "Austria · Vienna State Opera (historical)",
+    "destination": "public/images/locations/historical/vienna-state-opera-historical.jpg",
+    "queries": [
+      "Vienna State Opera 1945 bomb damage",
+      "Vienna Opera 19th century photograph"
+    ]
+  },
+  {
+    "label": "Austria · Mozart's Birthplace, Salzburg (modern)",
+    "destination": "public/images/locations/mozarts-birthplace-salzburg.jpg",
+    "queries": [
+      "Mozart birthplace Getreidegasse Salzburg yellow",
+      "Mozarts Geburtshaus Salzburg"
+    ]
+  },
+  {
+    "label": "Austria · Mozart's Birthplace, Salzburg (historical)",
+    "destination": "public/images/locations/historical/mozarts-birthplace-salzburg-historical.jpg",
+    "queries": [
+      "young Mozart child prodigy portrait",
+      "Salzburg Getreidegasse old photograph"
+    ]
+  },
+  {
+    "label": "Austria · Hohensalzburg Fortress (modern)",
+    "destination": "public/images/locations/hohensalzburg-fortress.jpg",
+    "queries": [
+      "Hohensalzburg Fortress Salzburg hilltop",
+      "Festung Hohensalzburg city view"
+    ]
+  },
+  {
+    "label": "Austria · Hohensalzburg Fortress (historical)",
+    "destination": "public/images/locations/historical/hohensalzburg-fortress-historical.jpg",
+    "queries": [
+      "Hohensalzburg fortress old engraving",
+      "Salzburg fortress vintage photograph"
+    ]
+  },
+  {
+    "label": "Austria · Mirabell Palace & Gardens, Salzburg (modern)",
+    "destination": "public/images/locations/mirabell-palace-salzburg.jpg",
+    "queries": [
+      "Mirabell Gardens Salzburg fountain fortress",
+      "Schloss Mirabell Salzburg"
+    ]
+  },
+  {
+    "label": "Austria · Mirabell Palace & Gardens, Salzburg (historical)",
+    "destination": "public/images/locations/historical/mirabell-palace-salzburg-historical.jpg",
+    "queries": [
+      "Mirabell Palace Salzburg old engraving",
+      "Sound of Music Do-Re-Mi Mirabell"
+    ]
+  },
+  {
+    "label": "Austria · Mauthausen Concentration Camp (modern)",
+    "destination": "public/images/locations/mauthausen-concentration-camp.jpg",
+    "queries": [
+      "Mauthausen memorial Stairs of Death quarry",
+      "Mauthausen concentration camp gate"
+    ]
+  },
+  {
+    "label": "Austria · Mauthausen Concentration Camp (historical)",
+    "destination": "public/images/locations/historical/mauthausen-concentration-camp-historical.jpg",
+    "queries": [
+      "Mauthausen 1945 liberation photograph",
+      "Mauthausen Stairs of Death prisoners"
+    ]
+  },
+  {
+    "label": "Austria · Braunau am Inn (modern)",
+    "destination": "public/images/locations/braunau-am-inn.jpg",
+    "queries": [
+      "Braunau am Inn old town Austria",
+      "Braunau Salzburger Vorstadt street"
+    ]
+  },
+  {
+    "label": "Austria · Braunau am Inn (historical)",
+    "destination": "public/images/locations/historical/braunau-am-inn-historical.jpg",
+    "queries": [
+      "Braunau am Inn historic town photograph",
+      "Braunau am Inn antifascism memorial stone"
+    ]
+  },
+  {
+    "label": "Austria · Melk Abbey (modern)",
+    "destination": "public/images/locations/melk-abbey.jpg",
+    "queries": [
+      "Melk Abbey Danube Wachau",
+      "Stift Melk Baroque library"
+    ]
+  },
+  {
+    "label": "Austria · Melk Abbey (historical)",
+    "destination": "public/images/locations/historical/melk-abbey-historical.jpg",
+    "queries": [
+      "Melk Abbey old engraving Danube",
+      "Melk Abbey historic photograph"
+    ]
+  },
+  {
+    "label": "Austria · Hallstatt (modern)",
+    "destination": "public/images/locations/hallstatt.jpg",
+    "queries": [
+      "Hallstatt village lake reflection",
+      "Hallstatt Austria church spire mountains"
+    ]
+  },
+  {
+    "label": "Austria · Hallstatt (historical)",
+    "destination": "public/images/locations/historical/hallstatt-historical.jpg",
+    "queries": [
+      "Hallstatt Iron Age cemetery excavation",
+      "Hallstatt village old photograph"
+    ]
+  },
+  {
+    "label": "Austria · Golden Roof, Innsbruck (modern)",
+    "destination": "public/images/locations/golden-roof-innsbruck.jpg",
+    "queries": [
+      "Golden Roof Innsbruck Goldenes Dachl",
+      "Innsbruck old town golden roof balcony"
+    ]
+  },
+  {
+    "label": "Austria · Golden Roof, Innsbruck (historical)",
+    "destination": "public/images/locations/historical/golden-roof-innsbruck-historical.jpg",
+    "queries": [
+      "Goldenes Dachl Innsbruck Maximilian relief",
+      "Innsbruck old town vintage photo"
+    ]
+  },
+  {
+    "label": "Austria · Congress of Vienna (Hofburg) (modern)",
+    "destination": "public/images/locations/congress-of-vienna.jpg",
+    "queries": [
+      "Hofburg Vienna imperial apartments",
+      "Hofburg Vienna congress hall"
+    ]
+  },
+  {
+    "label": "Austria · Congress of Vienna (Hofburg) (historical)",
+    "destination": "public/images/locations/historical/congress-of-vienna-historical.jpg",
+    "queries": [
+      "Congress of Vienna 1815 painting Metternich",
+      "Congress of Vienna delegates engraving"
+    ]
+  },
+  {
+    "label": "Austria · Eagle's Nest area / Salzkammergut lakes (modern)",
+    "destination": "public/images/locations/salzkammergut-lakes.jpg",
+    "queries": [
+      "Salzkammergut lakes Wolfgangsee Austria",
+      "Bad Ischl imperial villa Salzkammergut"
+    ]
+  },
+  {
+    "label": "Austria · Eagle's Nest area / Salzkammergut lakes (historical)",
+    "destination": "public/images/locations/historical/salzkammergut-lakes-historical.jpg",
+    "queries": [
+      "Franz Joseph Bad Ischl old photograph",
+      "Salzkammergut Kaiservilla historic"
+    ]
+  },
+  {
+    "label": "Austria · Graz Old Town & Schlossberg (modern)",
+    "destination": "public/images/locations/graz-schlossberg.jpg",
+    "queries": [
+      "Graz Schlossberg clock tower old town",
+      "Graz old town red roofs Austria"
+    ]
+  },
+  {
+    "label": "Austria · Graz Old Town & Schlossberg (historical)",
+    "destination": "public/images/locations/historical/graz-schlossberg-historical.jpg",
+    "queries": [
+      "Graz Schlossberg fortress old engraving",
+      "Graz old town vintage photograph"
+    ]
+  },
+  {
+    "label": "Austria · Klagenfurt / Wörthersee (modern)",
+    "destination": "public/images/locations/klagenfurt-worthersee.jpg",
+    "queries": [
+      "Klagenfurt Lindwurm dragon fountain",
+      "Wörthersee lake Klagenfurt Austria"
+    ]
+  },
+  {
+    "label": "Austria · Klagenfurt / Wörthersee (historical)",
+    "destination": "public/images/locations/historical/klagenfurt-worthersee-historical.jpg",
+    "queries": [
+      "Klagenfurt Lindwurm old engraving",
+      "Wörthersee historic resort photograph"
+    ]
+  },
+  {
+    "label": "Czechia · Prague Castle (modern)",
+    "destination": "public/images/locations/prague-castle.jpg",
+    "queries": [
+      "Prague Castle skyline Vltava river",
+      "Prague Castle St Vitus spires panorama"
+    ]
+  },
+  {
+    "label": "Czechia · Prague Castle (historical)",
+    "destination": "public/images/locations/historical/prague-castle-historical.jpg",
+    "queries": [
+      "Prague Castle historical photograph 19th century",
+      "Prague Castle Charles IV medieval engraving"
+    ]
+  },
+  {
+    "label": "Czechia · St Vitus Cathedral (modern)",
+    "destination": "public/images/locations/st-vitus-cathedral.jpg",
+    "queries": [
+      "St Vitus Cathedral Prague Gothic facade",
+      "St Vitus Cathedral stained glass Mucha window"
+    ]
+  },
+  {
+    "label": "Czechia · St Vitus Cathedral (historical)",
+    "destination": "public/images/locations/historical/st-vitus-cathedral-historical.jpg",
+    "queries": [
+      "St Vitus Cathedral construction historical photo 1920s",
+      "St Vitus Cathedral medieval Peter Parler engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Charles Bridge (modern)",
+    "destination": "public/images/locations/charles-bridge.jpg",
+    "queries": [
+      "Charles Bridge Prague sunrise statues",
+      "Charles Bridge tower Vltava river view"
+    ]
+  },
+  {
+    "label": "Czechia · Charles Bridge (historical)",
+    "destination": "public/images/locations/historical/charles-bridge-historical.jpg",
+    "queries": [
+      "Charles Bridge Prague historical photograph 19th century",
+      "Charles Bridge Prague old engraving statues"
+    ]
+  },
+  {
+    "label": "Czechia · Old Town Square (modern)",
+    "destination": "public/images/locations/old-town-square.jpg",
+    "queries": [
+      "Old Town Square Prague Tyn Church aerial",
+      "Old Town Square Prague crowds astronomical clock"
+    ]
+  },
+  {
+    "label": "Czechia · Old Town Square (historical)",
+    "destination": "public/images/locations/historical/old-town-square-historical.jpg",
+    "queries": [
+      "Old Town Square Prague historical photograph 1900",
+      "Old Town Square Prague execution 1621 engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Prague Astronomical Clock (Orloj) (modern)",
+    "destination": "public/images/locations/prague-astronomical-clock-orloj.jpg",
+    "queries": [
+      "Prague Astronomical Clock Orloj close up dial",
+      "Prague Orloj apostles procession crowd"
+    ]
+  },
+  {
+    "label": "Czechia · Prague Astronomical Clock (Orloj) (historical)",
+    "destination": "public/images/locations/historical/prague-astronomical-clock-orloj-historical.jpg",
+    "queries": [
+      "Prague Astronomical Clock historical photograph 1900",
+      "Prague Orloj medieval astrolabe engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Old Town Hall (modern)",
+    "destination": "public/images/locations/old-town-hall.jpg",
+    "queries": [
+      "Old Town Hall Prague tower rooftop view",
+      "Old Town Hall Prague Gothic facade square"
+    ]
+  },
+  {
+    "label": "Czechia · Old Town Hall (historical)",
+    "destination": "public/images/locations/historical/old-town-hall-historical.jpg",
+    "queries": [
+      "Old Town Hall Prague ruins 1945 uprising photograph",
+      "Old Town Hall Prague historical east wing engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Wenceslas Square (modern)",
+    "destination": "public/images/locations/wenceslas-square.jpg",
+    "queries": [
+      "Wenceslas Square Prague boulevard National Museum",
+      "Wenceslas Square St Wenceslas statue aerial"
+    ]
+  },
+  {
+    "label": "Czechia · Wenceslas Square (historical)",
+    "destination": "public/images/locations/historical/wenceslas-square-historical.jpg",
+    "queries": [
+      "Wenceslas Square Prague 1968 Soviet tanks photograph",
+      "Wenceslas Square 1989 Velvet Revolution crowd photo"
+    ]
+  },
+  {
+    "label": "Czechia · Josefov Jewish Quarter (modern)",
+    "destination": "public/images/locations/josefov-jewish-quarter.jpg",
+    "queries": [
+      "Josefov Jewish Quarter Prague synagogue street",
+      "Josefov Prague Jewish Museum buildings"
+    ]
+  },
+  {
+    "label": "Czechia · Josefov Jewish Quarter (historical)",
+    "destination": "public/images/locations/historical/josefov-jewish-quarter-historical.jpg",
+    "queries": [
+      "Josefov Prague ghetto historical photograph 1900",
+      "Prague Jewish quarter old synagogue engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Old-New Synagogue (modern)",
+    "destination": "public/images/locations/old-new-synagogue.jpg",
+    "queries": [
+      "Old-New Synagogue Prague Gothic exterior",
+      "Staronova synagoga Prague brick gable"
+    ]
+  },
+  {
+    "label": "Czechia · Old-New Synagogue (historical)",
+    "destination": "public/images/locations/historical/old-new-synagogue-historical.jpg",
+    "queries": [
+      "Old-New Synagogue Prague historical photograph",
+      "Prague Old-New Synagogue Golem legend engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Old Jewish Cemetery (modern)",
+    "destination": "public/images/locations/old-jewish-cemetery.jpg",
+    "queries": [
+      "Old Jewish Cemetery Prague leaning gravestones",
+      "Old Jewish Cemetery Prague crowded tombstones autumn"
+    ]
+  },
+  {
+    "label": "Czechia · Old Jewish Cemetery (historical)",
+    "destination": "public/images/locations/historical/old-jewish-cemetery-historical.jpg",
+    "queries": [
+      "Old Jewish Cemetery Prague historical photograph 1900",
+      "Prague Jewish cemetery old engraving graves"
+    ]
+  },
+  {
+    "label": "Czechia · Vyšehrad (modern)",
+    "destination": "public/images/locations/vysehrad.jpg",
+    "queries": [
+      "Vysehrad Prague Peter Paul church spires",
+      "Vysehrad fortress Vltava river cliff view"
+    ]
+  },
+  {
+    "label": "Czechia · Vyšehrad (historical)",
+    "destination": "public/images/locations/historical/vysehrad-historical.jpg",
+    "queries": [
+      "Vysehrad Prague historical photograph 19th century",
+      "Vysehrad Libuse legend romantic painting"
+    ]
+  },
+  {
+    "label": "Czechia · Strahov Monastery Library (modern)",
+    "destination": "public/images/locations/strahov-monastery-library.jpg",
+    "queries": [
+      "Strahov Monastery Philosophical Hall library Prague",
+      "Strahov Library Theological Hall globes frescoes"
+    ]
+  },
+  {
+    "label": "Czechia · Strahov Monastery Library (historical)",
+    "destination": "public/images/locations/historical/strahov-monastery-library-historical.jpg",
+    "queries": [
+      "Strahov Monastery library historical photograph",
+      "Strahov Prague baroque library old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Klementinum (modern)",
+    "destination": "public/images/locations/klementinum.jpg",
+    "queries": [
+      "Klementinum Baroque Library Hall Prague",
+      "Klementinum Astronomical Tower Prague view"
+    ]
+  },
+  {
+    "label": "Czechia · Klementinum (historical)",
+    "destination": "public/images/locations/historical/klementinum-historical.jpg",
+    "queries": [
+      "Klementinum Prague historical photograph library",
+      "Klementinum Jesuit college old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Powder Tower (modern)",
+    "destination": "public/images/locations/powder-tower.jpg",
+    "queries": [
+      "Powder Tower Prague Gothic gate",
+      "Powder Tower Prague night Municipal House"
+    ]
+  },
+  {
+    "label": "Czechia · Powder Tower (historical)",
+    "destination": "public/images/locations/historical/powder-tower-historical.jpg",
+    "queries": [
+      "Powder Tower Prague historical photograph 19th century",
+      "Prague Powder Tower old engraving city gate"
+    ]
+  },
+  {
+    "label": "Czechia · Municipal House (modern)",
+    "destination": "public/images/locations/municipal-house.jpg",
+    "queries": [
+      "Municipal House Prague Art Nouveau facade",
+      "Obecni dum Prague Smetana Hall interior"
+    ]
+  },
+  {
+    "label": "Czechia · Municipal House (historical)",
+    "destination": "public/images/locations/historical/municipal-house-historical.jpg",
+    "queries": [
+      "Municipal House Prague 1918 independence declaration photograph",
+      "Obecni dum Prague historical photograph 1912"
+    ]
+  },
+  {
+    "label": "Czechia · Lennon Wall (modern)",
+    "destination": "public/images/locations/lennon-wall.jpg",
+    "queries": [
+      "Lennon Wall Prague colourful graffiti",
+      "Lennon Wall Prague peace messages visitors"
+    ]
+  },
+  {
+    "label": "Czechia · Lennon Wall (historical)",
+    "destination": "public/images/locations/historical/lennon-wall-historical.jpg",
+    "queries": [
+      "Lennon Wall Prague 1980s communist era photograph",
+      "Prague Lennon Wall historical graffiti black and white"
+    ]
+  },
+  {
+    "label": "Czechia · Dancing House (modern)",
+    "destination": "public/images/locations/dancing-house.jpg",
+    "queries": [
+      "Dancing House Prague Gehry facade river",
+      "Dancing House Prague Fred Ginger towers"
+    ]
+  },
+  {
+    "label": "Czechia · Dancing House (historical)",
+    "destination": "public/images/locations/historical/dancing-house-historical.jpg",
+    "queries": [
+      "Dancing House Prague construction 1990s photograph",
+      "Prague riverfront 1945 bomb damage historical photo"
+    ]
+  },
+  {
+    "label": "Czechia · Petřín Tower (modern)",
+    "destination": "public/images/locations/petrin-tower.jpg",
+    "queries": [
+      "Petrin Tower Prague hilltop lookout",
+      "Petrin Tower Prague funicular view city"
+    ]
+  },
+  {
+    "label": "Czechia · Petřín Tower (historical)",
+    "destination": "public/images/locations/historical/petrin-tower-historical.jpg",
+    "queries": [
+      "Petrin Tower Prague 1891 exhibition historical photograph",
+      "Petrin lookout tower Prague old postcard"
+    ]
+  },
+  {
+    "label": "Czechia · National Theatre (modern)",
+    "destination": "public/images/locations/national-theatre.jpg",
+    "queries": [
+      "National Theatre Prague golden roof Vltava",
+      "National Theatre Prague auditorium interior"
+    ]
+  },
+  {
+    "label": "Czechia · National Theatre (historical)",
+    "destination": "public/images/locations/historical/national-theatre-historical.jpg",
+    "queries": [
+      "National Theatre Prague 1881 historical photograph",
+      "Prague National Theatre fire 1881 engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Old Royal Palace (modern)",
+    "destination": "public/images/locations/old-royal-palace.jpg",
+    "queries": [
+      "Old Royal Palace Prague Vladislav Hall vaults",
+      "Prague Castle Old Royal Palace interior"
+    ]
+  },
+  {
+    "label": "Czechia · Old Royal Palace (historical)",
+    "destination": "public/images/locations/historical/old-royal-palace-historical.jpg",
+    "queries": [
+      "Defenestration of Prague 1618 historical engraving",
+      "Old Royal Palace Prague historical photograph"
+    ]
+  },
+  {
+    "label": "Czechia · Nový Svět (modern)",
+    "destination": "public/images/locations/novy-svet.jpg",
+    "queries": [
+      "Novy Svet Prague cobbled lane cottages",
+      "Novy Svet Prague pastel houses U Raka"
+    ]
+  },
+  {
+    "label": "Czechia · Nový Svět (historical)",
+    "destination": "public/images/locations/historical/novy-svet-historical.jpg",
+    "queries": [
+      "Novy Svet Prague historical photograph old street",
+      "Prague Novy Svet Tycho Brahe era engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Loreta (modern)",
+    "destination": "public/images/locations/loreta.jpg",
+    "queries": [
+      "Loreta Prague baroque facade bell tower",
+      "Loreta Prague Santa Casa cloister"
+    ]
+  },
+  {
+    "label": "Czechia · Loreta (historical)",
+    "destination": "public/images/locations/historical/loreta-historical.jpg",
+    "queries": [
+      "Loreta Prague historical photograph 19th century",
+      "Prague Loreto shrine old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Lidice (modern)",
+    "destination": "public/images/locations/lidice.jpg",
+    "queries": [
+      "Lidice memorial children statue Czechia",
+      "Lidice memorial rose garden valley"
+    ]
+  },
+  {
+    "label": "Czechia · Lidice (historical)",
+    "destination": "public/images/locations/historical/lidice-historical.jpg",
+    "queries": [
+      "Lidice village destruction 1942 historical photograph",
+      "Lidice massacre 1942 Nazi reprisal photo"
+    ]
+  },
+  {
+    "label": "Czechia · Terezín (Theresienstadt) (modern)",
+    "destination": "public/images/locations/terezin-theresienstadt.jpg",
+    "queries": [
+      "Terezin memorial fortress Czechia",
+      "Terezin Small Fortress gate Arbeit macht frei"
+    ]
+  },
+  {
+    "label": "Czechia · Terezín (Theresienstadt) (historical)",
+    "destination": "public/images/locations/historical/terezin-theresienstadt-historical.jpg",
+    "queries": [
+      "Theresienstadt ghetto 1944 historical photograph",
+      "Terezin concentration camp Red Cross propaganda photo"
+    ]
+  },
+  {
+    "label": "Czechia · Church of Sts Cyril and Methodius (modern)",
+    "destination": "public/images/locations/church-of-sts-cyril-and-methodius.jpg",
+    "queries": [
+      "Church Sts Cyril Methodius Prague crypt memorial",
+      "Cyril Methodius church Prague bullet marks window"
+    ]
+  },
+  {
+    "label": "Czechia · Church of Sts Cyril and Methodius (historical)",
+    "destination": "public/images/locations/historical/church-of-sts-cyril-and-methodius-historical.jpg",
+    "queries": [
+      "Operation Anthropoid crypt siege 1942 historical photograph",
+      "Heydrich assassins church Prague 1942 photo"
+    ]
+  },
+  {
+    "label": "Czechia · Ležáky (modern)",
+    "destination": "public/images/locations/lezaky.jpg",
+    "queries": [
+      "Lezaky memorial stone crosses meadow Czechia",
+      "Lezaky memorial site nine crosses valley"
+    ]
+  },
+  {
+    "label": "Czechia · Ležáky (historical)",
+    "destination": "public/images/locations/historical/lezaky-historical.jpg",
+    "queries": [
+      "Lezaky village 1942 destruction historical photograph",
+      "Lezaky hamlet before 1942 old photo"
+    ]
+  },
+  {
+    "label": "Czechia · Sedlec Ossuary (modern)",
+    "destination": "public/images/locations/sedlec-ossuary.jpg",
+    "queries": [
+      "Sedlec Ossuary bone chandelier Kutna Hora",
+      "Sedlec Ossuary bone church interior skulls"
+    ]
+  },
+  {
+    "label": "Czechia · Sedlec Ossuary (historical)",
+    "destination": "public/images/locations/historical/sedlec-ossuary-historical.jpg",
+    "queries": [
+      "Sedlec Ossuary historical photograph 19th century",
+      "Kutna Hora bone church old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · St Barbara's Church (modern)",
+    "destination": "public/images/locations/st-barbaras-church.jpg",
+    "queries": [
+      "St Barbara Church Kutna Hora Gothic spires",
+      "St Barbara Cathedral Kutna Hora flying buttresses"
+    ]
+  },
+  {
+    "label": "Czechia · St Barbara's Church (historical)",
+    "destination": "public/images/locations/historical/st-barbaras-church-historical.jpg",
+    "queries": [
+      "St Barbara Church Kutna Hora historical photograph",
+      "Kutna Hora cathedral old engraving 19th century"
+    ]
+  },
+  {
+    "label": "Czechia · Karlštejn Castle (modern)",
+    "destination": "public/images/locations/karlstejn-castle.jpg",
+    "queries": [
+      "Karlstejn Castle Czechia hilltop Gothic",
+      "Karlstejn Castle forest valley view"
+    ]
+  },
+  {
+    "label": "Czechia · Karlštejn Castle (historical)",
+    "destination": "public/images/locations/historical/karlstejn-castle-historical.jpg",
+    "queries": [
+      "Karlstejn Castle historical photograph 19th century",
+      "Karlstejn Charles IV medieval castle engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Český Krumlov (modern)",
+    "destination": "public/images/locations/cesky-krumlov.jpg",
+    "queries": [
+      "Cesky Krumlov aerial Vltava castle tower",
+      "Cesky Krumlov old town red rooftops"
+    ]
+  },
+  {
+    "label": "Czechia · Český Krumlov (historical)",
+    "destination": "public/images/locations/historical/cesky-krumlov-historical.jpg",
+    "queries": [
+      "Cesky Krumlov historical photograph 19th century",
+      "Cesky Krumlov Rozmberk castle old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Konopiště Castle (modern)",
+    "destination": "public/images/locations/konopiste-castle.jpg",
+    "queries": [
+      "Konopiste Castle Czechia exterior park",
+      "Konopiste Castle rose garden facade"
+    ]
+  },
+  {
+    "label": "Czechia · Konopiště Castle (historical)",
+    "destination": "public/images/locations/historical/konopiste-castle-historical.jpg",
+    "queries": [
+      "Franz Ferdinand Konopiste historical photograph",
+      "Archduke Franz Ferdinand family Konopiste 1914 photo"
+    ]
+  },
+  {
+    "label": "Czechia · Špilberk Castle (modern)",
+    "destination": "public/images/locations/spilberk-castle.jpg",
+    "queries": [
+      "Spilberk Castle Brno hilltop fortress",
+      "Spilberk Castle Brno ramparts view"
+    ]
+  },
+  {
+    "label": "Czechia · Špilberk Castle (historical)",
+    "destination": "public/images/locations/historical/spilberk-castle-historical.jpg",
+    "queries": [
+      "Spilberk Castle Brno historical photograph prison",
+      "Spilberk fortress Brno old engraving 19th century"
+    ]
+  },
+  {
+    "label": "Czechia · Villa Tugendhat (modern)",
+    "destination": "public/images/locations/villa-tugendhat.jpg",
+    "queries": [
+      "Villa Tugendhat Brno modernist glass interior",
+      "Villa Tugendhat Brno onyx wall living room"
+    ]
+  },
+  {
+    "label": "Czechia · Villa Tugendhat (historical)",
+    "destination": "public/images/locations/historical/villa-tugendhat-historical.jpg",
+    "queries": [
+      "Villa Tugendhat Brno historical photograph 1930",
+      "Villa Tugendhat Mies van der Rohe original photo"
+    ]
+  },
+  {
+    "label": "Czechia · Cathedral of Sts Peter and Paul, Brno (modern)",
+    "destination": "public/images/locations/cathedral-of-sts-peter-and-paul-brno.jpg",
+    "queries": [
+      "Brno Cathedral Petrov twin spires hill",
+      "Cathedral Sts Peter Paul Brno interior"
+    ]
+  },
+  {
+    "label": "Czechia · Cathedral of Sts Peter and Paul, Brno (historical)",
+    "destination": "public/images/locations/historical/cathedral-of-sts-peter-and-paul-brno-historical.jpg",
+    "queries": [
+      "Brno Petrov cathedral historical photograph 1900",
+      "Brno cathedral old engraving Swedish siege"
+    ]
+  },
+  {
+    "label": "Czechia · Karlovy Vary (modern)",
+    "destination": "public/images/locations/karlovy-vary.jpg",
+    "queries": [
+      "Karlovy Vary colonnade spa town Czechia",
+      "Karlovy Vary Vridlo geyser pastel houses"
+    ]
+  },
+  {
+    "label": "Czechia · Karlovy Vary (historical)",
+    "destination": "public/images/locations/historical/karlovy-vary-historical.jpg",
+    "queries": [
+      "Karlovy Vary historical photograph 19th century spa",
+      "Karlsbad old engraving colonnade guests"
+    ]
+  },
+  {
+    "label": "Czechia · Holy Trinity Column, Olomouc (modern)",
+    "destination": "public/images/locations/holy-trinity-column-olomouc.jpg",
+    "queries": [
+      "Holy Trinity Column Olomouc baroque square",
+      "Olomouc Trinity Column golden statue detail"
+    ]
+  },
+  {
+    "label": "Czechia · Holy Trinity Column, Olomouc (historical)",
+    "destination": "public/images/locations/historical/holy-trinity-column-olomouc-historical.jpg",
+    "queries": [
+      "Holy Trinity Column Olomouc historical photograph",
+      "Olomouc plague column old engraving 18th century"
+    ]
+  },
+  {
+    "label": "Czechia · Kroměříž Archbishop's Palace and Gardens (modern)",
+    "destination": "public/images/locations/kromeriz-archbishops-palace-and-gardens.jpg",
+    "queries": [
+      "Kromeriz Flower Garden colonnade aerial",
+      "Kromeriz Archbishops Palace baroque tower"
+    ]
+  },
+  {
+    "label": "Czechia · Kroměříž Archbishop's Palace and Gardens (historical)",
+    "destination": "public/images/locations/historical/kromeriz-archbishops-palace-and-gardens-historical.jpg",
+    "queries": [
+      "Kromeriz palace historical photograph 19th century",
+      "Kromeriz flower garden old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Hluboká Castle (modern)",
+    "destination": "public/images/locations/hluboka-castle.jpg",
+    "queries": [
+      "Hluboka Castle white neo-Gothic Czechia",
+      "Hluboka Castle facade gardens aerial"
+    ]
+  },
+  {
+    "label": "Czechia · Hluboká Castle (historical)",
+    "destination": "public/images/locations/historical/hluboka-castle-historical.jpg",
+    "queries": [
+      "Hluboka Castle historical photograph 19th century",
+      "Hluboka Schwarzenberg castle old engraving"
+    ]
+  },
+  {
+    "label": "Czechia · Telč (modern)",
+    "destination": "public/images/locations/telc.jpg",
+    "queries": [
+      "Telc square arcaded pastel houses Czechia",
+      "Telc Renaissance town gables aerial"
+    ]
+  },
+  {
+    "label": "Czechia · Telč (historical)",
+    "destination": "public/images/locations/historical/telc-historical.jpg",
+    "queries": [
+      "Telc historical photograph 19th century square",
+      "Telc old engraving Renaissance houses"
+    ]
+  },
+  {
+    "label": "Czechia · Pardubice Castle (modern)",
+    "destination": "public/images/locations/pardubice-castle.jpg",
+    "queries": [
+      "Pardubice Castle Renaissance ramparts Czechia",
+      "Pardubice Green Gate square town"
+    ]
+  },
+  {
+    "label": "Czechia · Pardubice Castle (historical)",
+    "destination": "public/images/locations/historical/pardubice-castle-historical.jpg",
+    "queries": [
+      "Pardubice Castle historical photograph 19th century",
+      "Velka pardubicka steeplechase historical photo"
+    ]
+  },
+  {
+    "label": "Czechia · Slavkov (Austerlitz) Battlefield (modern)",
+    "destination": "public/images/locations/slavkov-austerlitz-battlefield.jpg",
+    "queries": [
+      "Cairn of Peace Austerlitz memorial Prace",
+      "Austerlitz battlefield Pratzen heights Moravia"
+    ]
+  },
+  {
+    "label": "Czechia · Slavkov (Austerlitz) Battlefield (historical)",
+    "destination": "public/images/locations/historical/slavkov-austerlitz-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Austerlitz 1805 painting Napoleon",
+      "Battle of the Three Emperors 1805 historical engraving"
+    ]
+  },
+  {
+    "label": "Poland · Auschwitz-Birkenau (modern)",
+    "destination": "public/images/locations/auschwitz-birkenau.jpg",
+    "queries": [
+      "Auschwitz Birkenau gate railway",
+      "Auschwitz Birkenau watchtower entrance"
+    ]
+  },
+  {
+    "label": "Poland · Auschwitz-Birkenau (historical)",
+    "destination": "public/images/locations/historical/auschwitz-birkenau-historical.jpg",
+    "queries": [
+      "Auschwitz liberation 1945 photograph",
+      "Auschwitz Birkenau historical photo prisoners"
+    ]
+  },
+  {
+    "label": "Poland · Wawel Royal Castle (modern)",
+    "destination": "public/images/locations/wawel-royal-castle.jpg",
+    "queries": [
+      "Wawel Royal Castle Kraków Vistula",
+      "Wawel Castle courtyard arcades"
+    ]
+  },
+  {
+    "label": "Poland · Wawel Royal Castle (historical)",
+    "destination": "public/images/locations/historical/wawel-royal-castle-historical.jpg",
+    "queries": [
+      "Wawel Castle historical photograph",
+      "Wawel Kraków old photo 19th century"
+    ]
+  },
+  {
+    "label": "Poland · Kraków Main Market Square (modern)",
+    "destination": "public/images/locations/krakow-main-market-square.jpg",
+    "queries": [
+      "Kraków Main Market Square Cloth Hall",
+      "Rynek Główny Kraków St Mary's Basilica"
+    ]
+  },
+  {
+    "label": "Poland · Kraków Main Market Square (historical)",
+    "destination": "public/images/locations/historical/krakow-main-market-square-historical.jpg",
+    "queries": [
+      "Kraków market square historical photograph",
+      "Rynek Główny Kraków old photo"
+    ]
+  },
+  {
+    "label": "Poland · Westerplatte (modern)",
+    "destination": "public/images/locations/westerplatte.jpg",
+    "queries": [
+      "Westerplatte monument Gdańsk",
+      "Westerplatte memorial ruins"
+    ]
+  },
+  {
+    "label": "Poland · Westerplatte (historical)",
+    "destination": "public/images/locations/historical/westerplatte-historical.jpg",
+    "queries": [
+      "Schleswig-Holstein Westerplatte 1939",
+      "Westerplatte 1939 battle historical photo"
+    ]
+  },
+  {
+    "label": "Poland · Warsaw Uprising Museum (modern)",
+    "destination": "public/images/locations/warsaw-uprising-museum.jpg",
+    "queries": [
+      "Warsaw Uprising Museum interior",
+      "Warsaw Uprising Museum exhibition"
+    ]
+  },
+  {
+    "label": "Poland · Warsaw Uprising Museum (historical)",
+    "destination": "public/images/locations/historical/warsaw-uprising-museum-historical.jpg",
+    "queries": [
+      "Warsaw Uprising 1944 insurgents photograph",
+      "Warsaw Uprising 1944 barricade historical photo"
+    ]
+  },
+  {
+    "label": "Poland · Warsaw Old Town Market Square (modern)",
+    "destination": "public/images/locations/warsaw-old-town-market-square.jpg",
+    "queries": [
+      "Warsaw Old Town Market Square colourful houses",
+      "Warsaw Old Town Mermaid statue"
+    ]
+  },
+  {
+    "label": "Poland · Warsaw Old Town Market Square (historical)",
+    "destination": "public/images/locations/historical/warsaw-old-town-market-square-historical.jpg",
+    "queries": [
+      "Warsaw Old Town ruins 1945",
+      "Warsaw Old Town reconstruction historical photo"
+    ]
+  },
+  {
+    "label": "Poland · Malbork Castle (modern)",
+    "destination": "public/images/locations/malbork-castle.jpg",
+    "queries": [
+      "Malbork Castle brick fortress river",
+      "Malbork Castle Teutonic aerial"
+    ]
+  },
+  {
+    "label": "Poland · Malbork Castle (historical)",
+    "destination": "public/images/locations/historical/malbork-castle-historical.jpg",
+    "queries": [
+      "Malbork Marienburg historical photograph",
+      "Malbork Castle old engraving"
+    ]
+  },
+  {
+    "label": "Poland · European Solidarity Centre (modern)",
+    "destination": "public/images/locations/european-solidarity-centre.jpg",
+    "queries": [
+      "European Solidarity Centre Gdańsk building",
+      "Gdańsk shipyard gate Solidarity monument"
+    ]
+  },
+  {
+    "label": "Poland · European Solidarity Centre (historical)",
+    "destination": "public/images/locations/historical/european-solidarity-centre-historical.jpg",
+    "queries": [
+      "Lech Wałęsa Gdańsk shipyard 1980",
+      "Solidarity strike 1980 historical photo"
+    ]
+  },
+  {
+    "label": "Poland · Wieliczka Salt Mine (modern)",
+    "destination": "public/images/locations/wieliczka-salt-mine.jpg",
+    "queries": [
+      "Wieliczka Salt Mine Chapel of St Kinga",
+      "Wieliczka salt mine underground chandelier"
+    ]
+  },
+  {
+    "label": "Poland · Wieliczka Salt Mine (historical)",
+    "destination": "public/images/locations/historical/wieliczka-salt-mine-historical.jpg",
+    "queries": [
+      "Wieliczka salt mine historical photograph",
+      "Wieliczka salt mine miners old photo"
+    ]
+  },
+  {
+    "label": "Poland · Jasna Góra Monastery (modern)",
+    "destination": "public/images/locations/jasna-gora-monastery.jpg",
+    "queries": [
+      "Jasna Góra Monastery Częstochowa",
+      "Black Madonna of Częstochowa icon"
+    ]
+  },
+  {
+    "label": "Poland · Jasna Góra Monastery (historical)",
+    "destination": "public/images/locations/historical/jasna-gora-monastery-historical.jpg",
+    "queries": [
+      "Jasna Góra siege 1655 painting",
+      "Jasna Góra monastery historical photograph"
+    ]
+  },
+  {
+    "label": "Poland · Grunwald Battlefield (modern)",
+    "destination": "public/images/locations/grunwald-battlefield.jpg",
+    "queries": [
+      "Grunwald battlefield monument Poland",
+      "Grunwald 1410 reenactment"
+    ]
+  },
+  {
+    "label": "Poland · Grunwald Battlefield (historical)",
+    "destination": "public/images/locations/historical/grunwald-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Grunwald Matejko painting",
+      "Grunwald 1410 battle historical illustration"
     ]
   }
 ]
