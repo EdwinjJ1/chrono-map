@@ -6910,5 +6910,181 @@
       "Battle of Grunwald Matejko painting",
       "Grunwald 1410 battle historical illustration"
     ]
+  },
+  {
+    "label": "Hungary · Hungarian Parliament Building (modern)",
+    "destination": "public/images/locations/hungarian-parliament-building.jpg",
+    "queries": [
+      "Hungarian Parliament Building Danube night",
+      "Országház Budapest facade"
+    ]
+  },
+  {
+    "label": "Hungary · Hungarian Parliament Building (historical)",
+    "destination": "public/images/locations/historical/hungarian-parliament-building-historical.jpg",
+    "queries": [
+      "Hungarian Parliament construction historical photo",
+      "Budapest Parliament old photograph"
+    ]
+  },
+  {
+    "label": "Hungary · Buda Castle (modern)",
+    "destination": "public/images/locations/buda-castle.jpg",
+    "queries": [
+      "Buda Castle Budapest Danube view",
+      "Buda Castle palace hill"
+    ]
+  },
+  {
+    "label": "Hungary · Buda Castle (historical)",
+    "destination": "public/images/locations/historical/buda-castle-historical.jpg",
+    "queries": [
+      "Buda Castle siege 1945 ruins",
+      "Buda Castle historical photograph"
+    ]
+  },
+  {
+    "label": "Hungary · Fisherman's Bastion (modern)",
+    "destination": "public/images/locations/fishermans-bastion.jpg",
+    "queries": [
+      "Fisherman's Bastion Budapest turrets",
+      "Halászbástya Budapest terrace view"
+    ]
+  },
+  {
+    "label": "Hungary · Fisherman's Bastion (historical)",
+    "destination": "public/images/locations/historical/fishermans-bastion-historical.jpg",
+    "queries": [
+      "Fisherman's Bastion historical photograph",
+      "Halászbástya old photo Budapest"
+    ]
+  },
+  {
+    "label": "Hungary · Shoes on the Danube Bank (modern)",
+    "destination": "public/images/locations/shoes-on-the-danube-bank.jpg",
+    "queries": [
+      "Shoes on the Danube Bank memorial Budapest",
+      "iron shoes Danube Holocaust memorial"
+    ]
+  },
+  {
+    "label": "Hungary · Shoes on the Danube Bank (historical)",
+    "destination": "public/images/locations/historical/shoes-on-the-danube-bank-historical.jpg",
+    "queries": [
+      "Arrow Cross Budapest 1944 historical photo",
+      "Budapest ghetto 1944 historical photograph"
+    ]
+  },
+  {
+    "label": "Hungary · House of Terror Museum (modern)",
+    "destination": "public/images/locations/house-of-terror-museum.jpg",
+    "queries": [
+      "House of Terror Museum Budapest facade",
+      "Terror Háza Andrássy Budapest"
+    ]
+  },
+  {
+    "label": "Hungary · House of Terror Museum (historical)",
+    "destination": "public/images/locations/historical/house-of-terror-museum-historical.jpg",
+    "queries": [
+      "Andrássy út 60 Budapest historical photo",
+      "Arrow Cross ÁVH Budapest historical photograph"
+    ]
+  },
+  {
+    "label": "Hungary · Heroes' Square (modern)",
+    "destination": "public/images/locations/heroes-square.jpg",
+    "queries": [
+      "Heroes' Square Budapest Millennium Monument",
+      "Hősök tere Budapest colonnade"
+    ]
+  },
+  {
+    "label": "Hungary · Heroes' Square (historical)",
+    "destination": "public/images/locations/historical/heroes-square-historical.jpg",
+    "queries": [
+      "Heroes Square Budapest historical photograph",
+      "Hősök tere 1896 old photo"
+    ]
+  },
+  {
+    "label": "Hungary · Dohány Street Synagogue (modern)",
+    "destination": "public/images/locations/dohany-street-synagogue.jpg",
+    "queries": [
+      "Dohány Street Synagogue Budapest towers",
+      "Great Synagogue Budapest interior"
+    ]
+  },
+  {
+    "label": "Hungary · Dohány Street Synagogue (historical)",
+    "destination": "public/images/locations/historical/dohany-street-synagogue-historical.jpg",
+    "queries": [
+      "Dohány synagogue Budapest historical photograph",
+      "Budapest ghetto synagogue 1945 photo"
+    ]
+  },
+  {
+    "label": "Hungary · Széchenyi Chain Bridge (modern)",
+    "destination": "public/images/locations/szechenyi-chain-bridge.jpg",
+    "queries": [
+      "Széchenyi Chain Bridge Budapest night",
+      "Chain Bridge Budapest lions Danube"
+    ]
+  },
+  {
+    "label": "Hungary · Széchenyi Chain Bridge (historical)",
+    "destination": "public/images/locations/historical/szechenyi-chain-bridge-historical.jpg",
+    "queries": [
+      "Chain Bridge Budapest 1945 destroyed",
+      "Széchenyi Chain Bridge historical photograph"
+    ]
+  },
+  {
+    "label": "Hungary · Eger Castle (modern)",
+    "destination": "public/images/locations/eger-castle.jpg",
+    "queries": [
+      "Eger Castle Hungary hilltop",
+      "Eger Castle walls town view"
+    ]
+  },
+  {
+    "label": "Hungary · Eger Castle (historical)",
+    "destination": "public/images/locations/historical/eger-castle-historical.jpg",
+    "queries": [
+      "Siege of Eger 1552 painting",
+      "Eger Castle historical illustration"
+    ]
+  },
+  {
+    "label": "Hungary · Esztergom Basilica (modern)",
+    "destination": "public/images/locations/esztergom-basilica.jpg",
+    "queries": [
+      "Esztergom Basilica Danube dome",
+      "Esztergom Basilica Hungary exterior"
+    ]
+  },
+  {
+    "label": "Hungary · Esztergom Basilica (historical)",
+    "destination": "public/images/locations/historical/esztergom-basilica-historical.jpg",
+    "queries": [
+      "Esztergom Basilica historical photograph",
+      "Esztergom Basilica old engraving"
+    ]
+  },
+  {
+    "label": "Hungary · Mohács Battlefield (modern)",
+    "destination": "public/images/locations/mohacs-battlefield.jpg",
+    "queries": [
+      "Mohács memorial park wooden markers",
+      "Mohács battlefield memorial Hungary"
+    ]
+  },
+  {
+    "label": "Hungary · Mohács Battlefield (historical)",
+    "destination": "public/images/locations/historical/mohacs-battlefield-historical.jpg",
+    "queries": [
+      "Battle of Mohács 1526 painting",
+      "Battle of Mohács Suleiman historical illustration"
+    ]
   }
 ]
